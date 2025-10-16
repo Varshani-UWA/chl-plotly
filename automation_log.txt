@@ -1,0 +1,16 @@
+================================================ 
+Task started at: Thu 16/10/2025 13:50:04.32 
+Directory: C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time 
+================================================ 
+ 
+Checking Python... 
+Python 3.13.5
+Python found successfully 
+Running Python script... 
+ 
+================================================ 
+SUCCESS: Task completed at: Thu 16/10/2025 13:55:18.75 
+Exit Code: 0 
+================================================ 
+ 
+ 
