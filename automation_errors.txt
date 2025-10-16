@@ -522,3 +522,50 @@ C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_ch
 2025-10-16 14:24:31,713  INFO: Temporary directory at: C:\Users\23755118\AppData\Local\Temp\tmp55jlxgr_
 2025-10-16 14:24:32,304  INFO: Conforming 1 to file:///C:/Users/23755118/AppData/Local/Temp/tmpso_dbw5e/index.html
 2025-10-16 14:24:32,304  INFO: Waiting on all navigates
+2025-10-16 14:24:34,135  INFO: All navigates done, putting them all in queue.
+2025-10-16 14:24:34,137  INFO: Getting tab from queue (has 1)
+2025-10-16 14:24:34,137  INFO: Got 9482
+2025-10-16 14:24:34,137  INFO: Processing October_2025_Chlorophyll_Trend.png
+2025-10-16 14:24:34,137  INFO: Sending big command for October_2025_Chlorophyll_Trend.png.
+2025-10-16 14:24:34,248  INFO: Sent big command for October_2025_Chlorophyll_Trend.png.
+2025-10-16 14:24:34,249  INFO: Reloading tab 9482 before return.
+2025-10-16 14:24:34,369  INFO: Putting tab 9482 back (queue size: 0).
+2025-10-16 14:24:34,369  INFO: Waiting for all cleanups to finish.
+2025-10-16 14:24:34,369  INFO: Exiting Kaleido
+2025-10-16 14:24:34,370  INFO: TemporaryDirectory.cleanup() worked.
+2025-10-16 14:24:34,370  INFO: shutil.rmtree worked.
+2025-10-16 14:24:34,370  INFO: Cancelling tasks.
+2025-10-16 14:24:34,370  INFO: Exiting Kaleido/Choreo
+2025-10-16 14:24:34,370  INFO: Closing browser.
+2025-10-16 14:24:34,373  INFO: TemporaryDirectory.cleanup() worked.
+2025-10-16 14:24:34,373  INFO: shutil.rmtree worked.
+2025-10-16 14:24:34,374  INFO: Cancelling tasks.
+2025-10-16 14:24:34,374  INFO: Exiting Kaleido/Choreo
+2025-10-16 14:24:34,374  INFO: Closing browser.
+2025-10-16 14:24:34,553  INFO: TemporaryDirectory.cleanup() worked.
+2025-10-16 14:24:34,554  INFO: shutil.rmtree worked.
+2025-10-16 14:24:34,557  INFO: Monthly plot saved: C:/Users/23755118/OneDrive - UWA/Documents/PhD_Varshani/CODING/chl_time\plots\chl_month_2025-10.html
+2025-10-16 14:24:34,577  INFO: TemporaryDirectory.cleanup() worked.
+2025-10-16 14:24:34,577  INFO: shutil.rmtree worked.
+2025-10-16 14:24:34,635  INFO: Full interactive plot saved: C:/Users/23755118/OneDrive - UWA/Documents/PhD_Varshani/CODING/chl_time\plots\chlorophyll_timeseries_interactive.html
+2025-10-16 14:24:34,636  INFO: Attempting to commit and push changes to Git...
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:70: DeprecationWarning:
+
+datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+
+2025-10-16 14:24:35,850  INFO: Git commit successful: Auto-update chlorophyll data: 2025-10-15
+2025-10-16 14:24:35,933  INFO: Current branch: main
+2025-10-16 14:24:37,876  INFO: Git push successful to main
+2025-10-16 14:24:37,876  INFO: Git commit and push completed successfully
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:561: DeprecationWarning:
+
+datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:565: DeprecationWarning:
+
+datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+
+2025-10-16 14:24:37,879  INFO: Cleanup done. Removed 0 files older than 30 days.
+2025-10-16 14:24:37,880  INFO: === Pipeline finished ===
+2025-10-16 14:24:49,663  INFO: TemporaryDirectory.cleanup() worked.
+2025-10-16 14:24:49,663  INFO: shutil.rmtree worked.

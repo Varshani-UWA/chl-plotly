@@ -475,7 +475,7 @@ def generate_plots(csv_path, out_dir):
             ))
 
         # Add LOESS if enough points
-        if len(df) >= 10 and df["chlor_a"].nunique() > 1:
+        if len(df) >= 4 and df["chlor_a"].nunique() > 1:
             try:
                 from statsmodels.nonparametric.smoothers_lowess import lowess
                 x_numeric = (df["date"] - df["date"].min()).dt.total_seconds()
