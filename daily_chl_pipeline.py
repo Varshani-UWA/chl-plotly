@@ -413,7 +413,7 @@ def generate_plots(csv_path, out_dir):
                 df_month["date"] = pd.to_datetime(df_month["date"])
                 x_numeric = (df_month["date"] - df_month["date"].min()).dt.total_seconds()
                 lowess_res = lowess(df_month["chlor_a"], x_numeric, frac=0.3)
-                xs = df_month["date"].min() + pd.to_timedelta(lowess_res[:,0], unit='s')        
+                xs = df_month["date"].min() + pd.to_timedelta(lowess_res[:,0], unit='d')        
                 ys = lowess_res[:,1]
                 fig_month.add_trace(go.Scatter(
                     x=xs, y=ys, 
