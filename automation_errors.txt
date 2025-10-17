@@ -1758,3 +1758,120 @@ C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_ch
 2025-10-17 08:50:04,245  INFO: Exiting Kaleido/Choreo
 2025-10-17 08:50:04,245  INFO: Closing browser.
 2025-10-17 08:50:04,249  INFO: TemporaryDirectory.cleanup() worked.
+2025-10-17 08:50:04,250  INFO: shutil.rmtree worked.
+2025-10-17 08:50:04,251  INFO: Cancelling tasks.
+2025-10-17 08:50:04,251  INFO: Exiting Kaleido/Choreo
+2025-10-17 08:50:04,252  INFO: Closing browser.
+2025-10-17 08:50:04,900  INFO: TemporaryDirectory.cleanup() worked.
+2025-10-17 08:50:04,901  INFO: shutil.rmtree worked.
+2025-10-17 08:50:04,932  INFO: 5-day plot saved: C:/Users/23755118/OneDrive - UWA/Documents/PhD_Varshani/CODING/chl_time\plots\chl_5day_2025-10-14.html
+2025-10-17 08:50:04,954  INFO: TemporaryDirectory.cleanup() worked.
+2025-10-17 08:50:04,954  INFO: shutil.rmtree worked.
+2025-10-17 08:50:05,126  INFO: Chromium init'ed with kwargs {}
+2025-10-17 08:50:05,127  INFO: Found chromium path: C:\Program Files\Google\Chrome\Application\chrome.exe
+2025-10-17 08:50:05,128  INFO: Temp directory created: C:\Users\23755118\AppData\Local\Temp\tmp74jr_khl.
+2025-10-17 08:50:05,131  INFO: Opening browser.
+2025-10-17 08:50:05,134  INFO: Temp directory created: C:\Users\23755118\AppData\Local\Temp\tmpsth94ekt.
+2025-10-17 08:50:05,134  INFO: Temporary directory at: C:\Users\23755118\AppData\Local\Temp\tmpsth94ekt
+2025-10-17 08:50:06,172  INFO: Conforming 1 to file:///C:/Users/23755118/AppData/Local/Temp/tmp74jr_khl/index.html
+2025-10-17 08:50:06,173  INFO: Waiting on all navigates
+2025-10-17 08:50:08,406  INFO: All navigates done, putting them all in queue.
+2025-10-17 08:50:08,408  INFO: Getting tab from queue (has 1)
+2025-10-17 08:50:08,408  INFO: Got 92E7
+2025-10-17 08:50:08,408  INFO: Processing October_2025_Chlorophyll_Trend.png
+2025-10-17 08:50:08,409  INFO: Sending big command for October_2025_Chlorophyll_Trend.png.
+2025-10-17 08:50:08,656  INFO: Sent big command for October_2025_Chlorophyll_Trend.png.
+2025-10-17 08:50:08,657  INFO: Reloading tab 92E7 before return.
+2025-10-17 08:50:08,905  INFO: Putting tab 92E7 back (queue size: 0).
+2025-10-17 08:50:08,906  INFO: Waiting for all cleanups to finish.
+2025-10-17 08:50:08,906  INFO: Exiting Kaleido
+2025-10-17 08:50:08,907  INFO: TemporaryDirectory.cleanup() worked.
+2025-10-17 08:50:08,908  INFO: shutil.rmtree worked.
+2025-10-17 08:50:08,908  INFO: Cancelling tasks.
+2025-10-17 08:50:08,908  INFO: Exiting Kaleido/Choreo
+2025-10-17 08:50:08,908  INFO: Closing browser.
+2025-10-17 08:50:08,911  INFO: TemporaryDirectory.cleanup() worked.
+2025-10-17 08:50:08,912  INFO: shutil.rmtree worked.
+2025-10-17 08:50:08,912  INFO: Cancelling tasks.
+2025-10-17 08:50:08,912  INFO: Exiting Kaleido/Choreo
+2025-10-17 08:50:08,912  INFO: Closing browser.
+2025-10-17 08:50:09,179  INFO: TemporaryDirectory.cleanup() worked.
+2025-10-17 08:50:09,180  INFO: shutil.rmtree worked.
+2025-10-17 08:50:09,184  INFO: Monthly plot saved: C:/Users/23755118/OneDrive - UWA/Documents/PhD_Varshani/CODING/chl_time\plots\chl_month_2025-10.html
+2025-10-17 08:50:09,202  INFO: TemporaryDirectory.cleanup() worked.
+2025-10-17 08:50:09,203  INFO: shutil.rmtree worked.
+2025-10-17 08:50:09,267  INFO: Full interactive plot saved: C:/Users/23755118/OneDrive - UWA/Documents/PhD_Varshani/CODING/chl_time\plots\chlorophyll_timeseries_interactive.html
+2025-10-17 08:50:09,268  INFO: Attempting to commit and push changes to Git...
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:70: DeprecationWarning:
+
+datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+
+2025-10-17 08:50:11,096  INFO: Git commit successful: Auto-update chlorophyll data: 2025-10-16
+2025-10-17 08:50:11,204  INFO: Current branch: main
+2025-10-17 08:50:13,632  INFO: Git push successful to main
+2025-10-17 08:50:13,632  INFO: Git commit and push completed successfully
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:562: DeprecationWarning:
+
+datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:566: DeprecationWarning:
+
+datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+
+2025-10-17 08:50:13,635  INFO: Cleanup done. Removed 0 files older than 30 days.
+2025-10-17 08:50:13,635  INFO: === Pipeline finished ===
+2025-10-17 10:31:07,023  INFO: === Starting daily chlorophyll pipeline ===
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:70: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  ref = datetime.utcnow()
+2025-10-17 10:31:07,031  INFO: Daily mode: Searching for data for 2025-10-16
+2025-10-17 10:31:07,031  INFO: Logging in to Earthdata via earthaccess...
+2025-10-17 10:31:08,338  INFO: You're now authenticated with NASA Earthdata Login
+2025-10-17 10:31:13,303  INFO: Earthdata login OK.
+2025-10-17 10:31:13,304  INFO: Searching OLCIS3A_L2_EFR_OC_NRT for 2025-10-16 in bbox (115.4, -32.65, 115.8, -31.7) ...
+2025-10-17 10:31:14,195  INFO: Granules found: 0
+2025-10-17 10:31:14,968  INFO: No results for OLCIS3A_L2_EFR_OC_NRT on 2025-10-16
+2025-10-17 10:31:14,969  INFO: Searching OLCIS3B_L2_EFR_OC_NRT for 2025-10-16 in bbox (115.4, -32.65, 115.8, -31.7) ...
+2025-10-17 10:31:15,716  INFO: Granules found: 0
+2025-10-17 10:31:16,465  INFO: No results for OLCIS3B_L2_EFR_OC_NRT on 2025-10-16
+2025-10-17 10:31:16,466  INFO: No files downloaded for yesterday. Exiting (no update).
+2025-10-17 10:31:18,410  INFO: Chromium init'ed with kwargs {}
+2025-10-17 10:31:18,411  INFO: Found chromium path: C:\Program Files\Google\Chrome\Application\chrome.exe
+2025-10-17 10:31:18,413  INFO: Temp directory created: C:\Users\23755118\AppData\Local\Temp\tmp4i5y_64_.
+2025-10-17 10:31:18,414  INFO: Opening browser.
+2025-10-17 10:31:18,416  INFO: Temp directory created: C:\Users\23755118\AppData\Local\Temp\tmpkm1ehn_r.
+2025-10-17 10:31:18,416  INFO: Temporary directory at: C:\Users\23755118\AppData\Local\Temp\tmpkm1ehn_r
+2025-10-17 10:31:19,954  INFO: Conforming 1 to file:///C:/Users/23755118/AppData/Local/Temp/tmp4i5y_64_/index.html
+2025-10-17 10:31:19,954  INFO: Waiting on all navigates
+2025-10-17 10:31:21,626  INFO: All navigates done, putting them all in queue.
+2025-10-17 10:31:21,628  INFO: Getting tab from queue (has 1)
+2025-10-17 10:31:21,628  INFO: Got E3A5
+2025-10-17 10:31:21,629  INFO: Processing 5_Day_Chlorophyll_Trend_as_of_2025_10_14.png
+2025-10-17 10:31:21,629  INFO: Sending big command for 5_Day_Chlorophyll_Trend_as_of_2025_10_14.png.
+2025-10-17 10:31:21,719  INFO: Sent big command for 5_Day_Chlorophyll_Trend_as_of_2025_10_14.png.
+2025-10-17 10:31:21,720  INFO: Reloading tab E3A5 before return.
+2025-10-17 10:31:21,849  INFO: Putting tab E3A5 back (queue size: 0).
+2025-10-17 10:31:21,850  INFO: Waiting for all cleanups to finish.
+2025-10-17 10:31:21,850  INFO: Exiting Kaleido
+2025-10-17 10:31:21,851  INFO: TemporaryDirectory.cleanup() worked.
+2025-10-17 10:31:21,851  INFO: shutil.rmtree worked.
+2025-10-17 10:31:21,852  INFO: Cancelling tasks.
+2025-10-17 10:31:21,852  INFO: Exiting Kaleido/Choreo
+2025-10-17 10:31:21,852  INFO: Closing browser.
+2025-10-17 10:31:21,855  INFO: TemporaryDirectory.cleanup() worked.
+2025-10-17 10:31:21,856  INFO: shutil.rmtree worked.
+2025-10-17 10:31:21,857  INFO: Cancelling tasks.
+2025-10-17 10:31:21,857  INFO: Exiting Kaleido/Choreo
+2025-10-17 10:31:21,857  INFO: Closing browser.
+2025-10-17 10:31:22,011  INFO: TemporaryDirectory.cleanup() worked.
+2025-10-17 10:31:22,011  INFO: shutil.rmtree worked.
+2025-10-17 10:31:22,029  INFO: 5-day plot saved: C:/Users/23755118/OneDrive - UWA/Documents/PhD_Varshani/CODING/chl_time\plots\chl_5day_2025-10-14.html
+2025-10-17 10:31:22,038  INFO: TemporaryDirectory.cleanup() worked.
+2025-10-17 10:31:22,039  INFO: shutil.rmtree worked.
+2025-10-17 10:31:22,113  INFO: Chromium init'ed with kwargs {}
+2025-10-17 10:31:22,113  INFO: Found chromium path: C:\Program Files\Google\Chrome\Application\chrome.exe
+2025-10-17 10:31:22,114  INFO: Temp directory created: C:\Users\23755118\AppData\Local\Temp\tmpp82v58i7.
+2025-10-17 10:31:22,114  INFO: Opening browser.
+2025-10-17 10:31:22,115  INFO: Temp directory created: C:\Users\23755118\AppData\Local\Temp\tmpuwzmaw2b.
+2025-10-17 10:31:22,115  INFO: Temporary directory at: C:\Users\23755118\AppData\Local\Temp\tmpuwzmaw2b
+2025-10-17 10:31:22,659  INFO: Conforming 1 to file:///C:/Users/23755118/AppData/Local/Temp/tmpp82v58i7/index.html
+2025-10-17 10:31:22,660  INFO: Waiting on all navigates
