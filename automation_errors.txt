@@ -2128,3 +2128,17 @@ C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_ch
 
 datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
 
+2025-10-17 15:40:54,881  INFO: Git commit successful: Auto-update chlorophyll data: 2025-10-16
+2025-10-17 15:40:54,959  INFO: Current branch: main
+2025-10-17 15:40:57,051  INFO: Git push successful to main
+2025-10-17 15:40:57,052  INFO: Git commit and push completed successfully
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:562: DeprecationWarning:
+
+datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:566: DeprecationWarning:
+
+datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+
+2025-10-17 15:40:57,056  INFO: Cleanup done. Removed 0 files older than 30 days.
+2025-10-17 15:40:57,056  INFO: === Pipeline finished ===

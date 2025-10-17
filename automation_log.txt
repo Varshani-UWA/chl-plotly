@@ -168,3 +168,10 @@ Checking Python...
 Python 3.13.5
 Python found successfully 
 Running Python script... 
+ 
+================================================ 
+SUCCESS: Task completed at: Fri 17/10/2025 15:40:57.66 
+Exit Code: 0 
+================================================ 
+ 
+ 
