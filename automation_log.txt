@@ -103,3 +103,36 @@ Checking Python...
 Python 3.13.5
 Python found successfully 
 Running Python script... 
+ 
+================================================ 
+SUCCESS: Task completed at: Thu 16/10/2025 15:14:46.56 
+Exit Code: 0 
+================================================ 
+ 
+ 
+================================================ 
+Task started at: Fri 17/10/2025  8:27:39.51 
+Directory: C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time 
+================================================ 
+ 
+Checking Python... 
+Python 3.13.5
+Python found successfully 
+Running Python script... 
+ 
+================================================ 
+FAILURE: Task FAILED at: Fri 17/10/2025  8:28:16.97 
+Exit Code: 1 
+Check C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\automation_errors.txt for error details 
+================================================ 
+ 
+ 
+================================================ 
+Task started at: Fri 17/10/2025  8:49:40.96 
+Directory: C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time 
+================================================ 
+ 
+Checking Python... 
+Python 3.13.5
+Python found successfully 
+Running Python script... 
