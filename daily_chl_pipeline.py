@@ -47,7 +47,7 @@ BULK_END_DATE = "2025-10-16"    # Today (October 16, 2025)
 
 # Google Drive upload config (optional)
 ENABLE_DRIVE_UPLOAD = False
-DRIVE_FOLDER_ID = "1VVtBvjgFK5d8R1ri0uMC_EUB_jy_oWUJ"  # change if using upload
+DRIVE_FOLDER_ID = "***"  # change if using upload
 
 # Git automation config
 ENABLE_GIT_PUSH = True  # Set to True to enable automatic git commits
