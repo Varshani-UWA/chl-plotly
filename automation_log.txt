@@ -175,3 +175,12 @@ Exit Code: 0
 ================================================ 
  
  
+================================================ 
+Task started at: Mon 20/10/2025  9:17:43.59 
+Directory: C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time 
+================================================ 
+ 
+Checking Python... 
+Python 3.13.5
+Python found successfully 
+Running Python script... 
