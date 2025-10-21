@@ -2,5 +2,5 @@ date,status,available,granule_count,last_checked
 2025-10-17,filled,True,1,2025-10-21
 2025-10-18,filled,True,1,2025-10-21
 2025-10-19,filled,True,2,2025-10-21
-2025-10-20,filled,True,28,2025-10-21
+2025-10-20,filled,True,32,2025-10-21
 2025-10-21,unavailable,False,0,2025-10-21
