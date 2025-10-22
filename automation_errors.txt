@@ -3303,3 +3303,92 @@ C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_ch
 
 datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
 
+2025-10-21 14:28:24,315  INFO: Git commit successful: Auto-update chlorophyll data: 2025-10-20
+2025-10-21 14:28:24,413  INFO: Current branch: main
+2025-10-21 14:28:26,683  INFO: Git push successful to main
+2025-10-21 14:28:26,683  INFO: Git commit and push completed successfully
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:655: DeprecationWarning:
+
+datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:662: DeprecationWarning:
+
+datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+
+2025-10-21 14:28:26,685  INFO: Cleanup done. Removed 0 files (excluding .nc)
+2025-10-21 14:28:26,685  INFO: === Pipeline finished ===
+2025-10-22 08:50:39,306  INFO: === Starting daily chlorophyll pipeline ===
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:56: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  ref = datetime.utcnow()
+2025-10-22 08:50:39,325  INFO: Daily mode: Searching for data for 2025-10-21
+2025-10-22 08:50:39,326  INFO: Logging in to Earthdata via earthaccess...
+2025-10-22 08:50:40,716  INFO: You're now authenticated with NASA Earthdata Login
+2025-10-22 08:50:45,638  INFO: Earthdata login OK.
+2025-10-22 08:50:45,638  INFO: Searching OLCIS3A_L2_EFR_OC_NRT for 2025-10-21...
+2025-10-22 08:50:46,898  INFO: Granules found: 0
+2025-10-22 08:50:47,694  INFO: No results for OLCIS3A_L2_EFR_OC_NRT
+2025-10-22 08:50:47,694  INFO: Searching OLCIS3B_L2_EFR_OC_NRT for 2025-10-21...
+2025-10-22 08:50:48,491  INFO: Granules found: 0
+2025-10-22 08:50:49,269  INFO: No results for OLCIS3B_L2_EFR_OC_NRT
+2025-10-22 08:50:49,269  INFO: No files downloaded for yesterday. Checking availability...
+2025-10-22 08:50:49,269  INFO: Logging in to Earthdata via earthaccess...
+2025-10-22 08:50:53,899  INFO: Earthdata login OK.
+2025-10-22 08:50:54,801  INFO: Granules found: 0
+2025-10-22 08:50:55,568  INFO:   OLCIS3A_L2_EFR_OC_NRT: 0 granules found for 2025-10-21
+2025-10-22 08:50:56,330  INFO: Granules found: 0
+2025-10-22 08:50:57,058  INFO:   OLCIS3B_L2_EFR_OC_NRT: 0 granules found for 2025-10-21
+2025-10-22 08:50:57,058  INFO: No satellite data available for 2025-10-21
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:141: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  gap_df.loc[mask, 'last_checked'] = datetime.utcnow()
+2025-10-22 08:50:57,084  INFO: 
+============================================================
+2025-10-22 08:50:57,085  INFO: STARTING GAP DETECTION
+2025-10-22 08:50:57,085  INFO: ============================================================
+2025-10-22 08:50:57,085  INFO: === Starting gap detection and filling ===
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:113: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  end_date = pd.to_datetime(end_date_str) if end_date_str else datetime.utcnow()
+2025-10-22 08:50:57,091  INFO: Found 2 missing days in timeseries
+2025-10-22 08:50:57,106  INFO: 
+--- Checking gap for 2025-10-21 ---
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:180: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  (gap_report['last_checked'] > datetime.utcnow() - timedelta(hours=24))
+2025-10-22 08:50:57,108  INFO:   Skipping 2025-10-21 - checked recently, no data
+2025-10-22 08:50:57,108  INFO: 
+--- Checking gap for 2025-10-22 ---
+2025-10-22 08:50:57,109  INFO: Logging in to Earthdata via earthaccess...
+2025-10-22 08:50:59,636  INFO: Earthdata login OK.
+2025-10-22 08:51:00,394  INFO: Granules found: 0
+2025-10-22 08:51:01,147  INFO:   OLCIS3A_L2_EFR_OC_NRT: 0 granules found for 2025-10-22
+2025-10-22 08:51:01,918  INFO: Granules found: 0
+2025-10-22 08:51:02,693  INFO:   OLCIS3B_L2_EFR_OC_NRT: 0 granules found for 2025-10-22
+2025-10-22 08:51:02,693  INFO:   No data available for 2025-10-22
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:148: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  'last_checked': [datetime.utcnow()]
+2025-10-22 08:51:04,702  INFO: 
+=== Gap filling complete: 0 filled, 1 checked ===
+2025-10-22 08:51:04,702  INFO: Gap detection complete: 0 gaps filled
+2025-10-22 08:51:04,717  INFO: 
+============================================================
+2025-10-22 08:51:04,717  INFO: GAP SUMMARY REPORT
+2025-10-22 08:51:04,717  INFO: ============================================================
+2025-10-22 08:51:04,717  INFO: 
+Gap Status Distribution:
+2025-10-22 08:51:04,718  INFO:   filled: 4
+2025-10-22 08:51:04,718  INFO:   unavailable: 2
+2025-10-22 08:51:04,718  INFO: 
+Unfilled gaps: 2
+2025-10-22 08:51:04,718  INFO:   Date range: 2025-10-21 to 2025-10-22
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:811: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  recent = gap_df[gap_df['last_checked'] > datetime.utcnow() - timedelta(hours=24)]
+2025-10-22 08:51:04,719  INFO: 
+Gaps checked in last 24 hours: 2
+2025-10-22 08:51:04,719  INFO: ============================================================
+
+2025-10-22 08:51:06,490  INFO: Chromium init'ed with kwargs {}
+2025-10-22 08:51:06,491  INFO: Found chromium path: C:\Program Files\Google\Chrome\Application\chrome.exe
+2025-10-22 08:51:06,493  INFO: Temp directory created: C:\Users\23755118\AppData\Local\Temp\tmp0ie2pz16.
+2025-10-22 08:51:06,494  INFO: Opening browser.
+2025-10-22 08:51:06,496  INFO: Temp directory created: C:\Users\23755118\AppData\Local\Temp\tmp7nckz8at.
+2025-10-22 08:51:06,496  INFO: Temporary directory at: C:\Users\23755118\AppData\Local\Temp\tmp7nckz8at
+2025-10-22 08:51:08,201  INFO: Conforming 1 to file:///C:/Users/23755118/AppData/Local/Temp/tmp0ie2pz16/index.html
+2025-10-22 08:51:08,201  INFO: Waiting on all navigates
