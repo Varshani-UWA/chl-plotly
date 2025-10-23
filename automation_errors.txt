@@ -3603,3 +3603,78 @@ C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_ch
 
 datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
 
+2025-10-22 10:22:24,858  INFO: Full plot saved: C:/Users/23755118/OneDrive - UWA/Documents/PhD_Varshani/CODING/chl_time\plots\chlorophyll_timeseries_interactive.html
+2025-10-22 10:22:24,858  INFO: Attempting to commit and push changes to Git...
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:56: DeprecationWarning:
+
+datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+
+2025-10-22 10:22:26,272  INFO: Git commit successful: Auto-update chlorophyll data: 2025-10-21
+2025-10-22 10:22:26,351  INFO: Current branch: main
+2025-10-22 10:22:28,225  INFO: Git push successful to main
+2025-10-22 10:22:28,225  INFO: Git commit and push completed successfully
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:745: DeprecationWarning:
+
+datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:752: DeprecationWarning:
+
+datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+
+2025-10-22 10:22:28,227  INFO: Cleanup done. Removed 0 files (excluding .nc)
+2025-10-22 10:22:28,227  INFO: === Pipeline finished ===
+2025-10-23 08:43:17,406  INFO: === Starting daily chlorophyll pipeline ===
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:56: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  ref = datetime.utcnow()
+2025-10-23 08:43:17,433  INFO: Daily mode: Searching for data for 2025-10-22
+2025-10-23 08:43:17,433  INFO: Logging in to Earthdata via earthaccess...
+2025-10-23 08:43:18,865  INFO: You're now authenticated with NASA Earthdata Login
+2025-10-23 08:43:23,836  INFO: Earthdata login OK.
+2025-10-23 08:43:23,837  INFO: Searching OLCIS3A_L2_EFR_OC_NRT for 2025-10-22...
+2025-10-23 08:43:25,041  INFO: Granules found: 0
+2025-10-23 08:43:25,882  INFO: No results for OLCIS3A_L2_EFR_OC_NRT
+2025-10-23 08:43:25,883  INFO: Searching OLCIS3B_L2_EFR_OC_NRT for 2025-10-22...
+2025-10-23 08:43:26,640  INFO: Granules found: 0
+2025-10-23 08:43:27,420  INFO: No results for OLCIS3B_L2_EFR_OC_NRT
+2025-10-23 08:43:27,421  INFO: No files downloaded for yesterday. Checking availability...
+2025-10-23 08:43:27,421  INFO: Logging in to Earthdata via earthaccess...
+2025-10-23 08:43:29,879  INFO: Earthdata login OK.
+2025-10-23 08:43:30,758  INFO: Granules found: 0
+2025-10-23 08:43:31,520  INFO:   OLCIS3A_L2_EFR_OC_NRT: 0 granules found for 2025-10-22
+2025-10-23 08:43:32,257  INFO: Granules found: 0
+2025-10-23 08:43:32,965  INFO:   OLCIS3B_L2_EFR_OC_NRT: 0 granules found for 2025-10-22
+2025-10-23 08:43:32,965  INFO: No satellite data available for 2025-10-22
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:141: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  gap_df.loc[mask, 'last_checked'] = datetime.utcnow()
+2025-10-23 08:43:33,011  INFO: 
+============================================================
+2025-10-23 08:43:33,011  INFO: STARTING GAP DETECTION
+2025-10-23 08:43:33,011  INFO: ============================================================
+2025-10-23 08:43:33,011  INFO: === Starting gap detection and filling ===
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:113: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  end_date = pd.to_datetime(end_date_str) if end_date_str else datetime.utcnow()
+2025-10-23 08:43:33,019  INFO: Found 3 missing days in timeseries
+2025-10-23 08:43:33,042  INFO: 
+--- Checking gap for 2025-10-21 ---
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:180: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  (gap_report['last_checked'] > datetime.utcnow() - timedelta(hours=24))
+2025-10-23 08:43:33,044  INFO: Logging in to Earthdata via earthaccess...
+2025-10-23 08:43:35,653  INFO: Earthdata login OK.
+2025-10-23 08:43:36,391  INFO: Granules found: 0
+2025-10-23 08:43:37,182  INFO:   OLCIS3A_L2_EFR_OC_NRT: 0 granules found for 2025-10-21
+2025-10-23 08:43:37,924  INFO: Granules found: 1
+2025-10-23 08:43:38,692  INFO:   OLCIS3B_L2_EFR_OC_NRT: 1 granules found for 2025-10-21
+2025-10-23 08:43:38,692  INFO:   Data available for 2025-10-21! Downloading...
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:141: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  gap_df.loc[mask, 'last_checked'] = datetime.utcnow()
+2025-10-23 08:43:38,704  INFO: Logging in to Earthdata via earthaccess...
+2025-10-23 08:43:41,221  INFO: Earthdata login OK.
+2025-10-23 08:43:41,221  INFO: Searching OLCIS3A_L2_EFR_OC_NRT for 2025-10-21...
+2025-10-23 08:43:41,966  INFO: Granules found: 0
+2025-10-23 08:43:42,861  INFO: No results for OLCIS3A_L2_EFR_OC_NRT
+2025-10-23 08:43:42,861  INFO: Searching OLCIS3B_L2_EFR_OC_NRT for 2025-10-21...
+2025-10-23 08:43:43,617  INFO: Granules found: 1
+2025-10-23 08:43:44,505  INFO: Found 1 items. Downloading...
+2025-10-23 08:43:44,510  INFO:  Getting 1 granules, approx download size: 0.14 GB
+QUEUEING TASKS | :   0%|          | 0/1 [00:00<?, ?it/s]QUEUEING TASKS | : 100%|##########| 1/1 [00:00<00:00, 381.68it/s]
+PROCESSING TASKS | :   0%|          | 0/1 [00:00<?, ?it/s]
