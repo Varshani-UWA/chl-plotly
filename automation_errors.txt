@@ -4889,3 +4889,537 @@ C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_ch
 2025-10-25 09:09:20,116  INFO: Logging in to Earthdata via earthaccess...
 2025-10-25 09:09:22,631  INFO: Earthdata login OK.
 2025-10-25 09:09:23,377  INFO: Granules found: 0
+2025-10-25 09:09:24,124  INFO:   OLCIS3A_L2_EFR_OC_NRT: 0 granules found for 2025-10-25
+2025-10-25 09:09:24,857  INFO: Granules found: 0
+2025-10-25 09:09:25,620  INFO:   OLCIS3B_L2_EFR_OC_NRT: 0 granules found for 2025-10-25
+2025-10-25 09:09:25,621  INFO:   No data available for 2025-10-25
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:148: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  'last_checked': [datetime.utcnow()]
+2025-10-25 09:09:27,638  INFO: 
+=== Gap filling complete: 0 filled, 1 checked ===
+2025-10-25 09:09:27,638  INFO: Gap detection complete: 0 gaps filled
+2025-10-25 09:09:27,676  INFO: 
+============================================================
+2025-10-25 09:09:27,676  INFO: GAP SUMMARY REPORT
+2025-10-25 09:09:27,676  INFO: ============================================================
+2025-10-25 09:09:27,680  INFO: 
+Gap Status Distribution:
+2025-10-25 09:09:27,681  INFO:   filled: 7
+2025-10-25 09:09:27,681  INFO:   unavailable: 2
+2025-10-25 09:09:27,685  INFO: 
+Unfilled gaps: 2
+2025-10-25 09:09:27,686  INFO:   Date range: 2025-10-24 to 2025-10-25
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:901: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  recent = gap_df[gap_df['last_checked'] > datetime.utcnow() - timedelta(hours=24)]
+2025-10-25 09:09:27,688  INFO: 
+Gaps checked in last 24 hours: 2
+2025-10-25 09:09:27,688  INFO: ============================================================
+
+2025-10-25 09:09:31,646  INFO: Chromium init'ed with kwargs {}
+2025-10-25 09:09:31,648  INFO: Found chromium path: C:\Program Files\Google\Chrome\Application\chrome.exe
+2025-10-25 09:09:31,654  INFO: Temp directory created: C:\Users\23755118\AppData\Local\Temp\tmpb931_b4k.
+2025-10-25 09:09:31,657  INFO: Opening browser.
+2025-10-25 09:09:31,663  INFO: Temp directory created: C:\Users\23755118\AppData\Local\Temp\tmpi2xn9jc8.
+2025-10-25 09:09:31,663  INFO: Temporary directory at: C:\Users\23755118\AppData\Local\Temp\tmpi2xn9jc8
+2025-10-25 09:09:33,512  INFO: Conforming 1 to file:///C:/Users/23755118/AppData/Local/Temp/tmpb931_b4k/index.html
+2025-10-25 09:09:33,512  INFO: Waiting on all navigates
+2025-10-25 09:09:37,150  INFO: All navigates done, putting them all in queue.
+2025-10-25 09:09:37,153  INFO: Getting tab from queue (has 1)
+2025-10-25 09:09:37,153  INFO: Got C1A9
+2025-10-25 09:09:37,153  INFO: Processing 5_Day_Chlorophyll_Trend_as_of_2025_10_23.png
+2025-10-25 09:09:37,153  INFO: Sending big command for 5_Day_Chlorophyll_Trend_as_of_2025_10_23.png.
+2025-10-25 09:09:37,376  INFO: Sent big command for 5_Day_Chlorophyll_Trend_as_of_2025_10_23.png.
+2025-10-25 09:09:37,377  INFO: Reloading tab C1A9 before return.
+2025-10-25 09:09:37,629  INFO: Putting tab C1A9 back (queue size: 0).
+2025-10-25 09:09:37,629  INFO: Waiting for all cleanups to finish.
+2025-10-25 09:09:37,629  INFO: Exiting Kaleido
+2025-10-25 09:09:37,631  INFO: TemporaryDirectory.cleanup() worked.
+2025-10-25 09:09:37,631  INFO: shutil.rmtree worked.
+2025-10-25 09:09:37,631  INFO: Cancelling tasks.
+2025-10-25 09:09:37,632  INFO: Exiting Kaleido/Choreo
+2025-10-25 09:09:37,632  INFO: Closing browser.
+2025-10-25 09:09:37,644  INFO: TemporaryDirectory.cleanup() worked.
+2025-10-25 09:09:37,644  INFO: shutil.rmtree worked.
+2025-10-25 09:09:37,644  INFO: Cancelling tasks.
+2025-10-25 09:09:37,644  INFO: Exiting Kaleido/Choreo
+2025-10-25 09:09:37,645  INFO: Closing browser.
+2025-10-25 09:09:38,474  INFO: TemporaryDirectory.cleanup() worked.
+2025-10-25 09:09:38,474  INFO: shutil.rmtree worked.
+2025-10-25 09:09:38,509  INFO: 5-day plot saved: C:/Users/23755118/OneDrive - UWA/Documents/PhD_Varshani/CODING/chl_time\plots\chl_5day_2025-10-23.html
+2025-10-25 09:09:38,516  INFO: TemporaryDirectory.cleanup() worked.
+2025-10-25 09:09:38,516  INFO: shutil.rmtree worked.
+2025-10-25 09:09:38,723  INFO: Chromium init'ed with kwargs {}
+2025-10-25 09:09:38,724  INFO: Found chromium path: C:\Program Files\Google\Chrome\Application\chrome.exe
+2025-10-25 09:09:38,725  INFO: Temp directory created: C:\Users\23755118\AppData\Local\Temp\tmp2bi8a8p4.
+2025-10-25 09:09:38,728  INFO: Opening browser.
+2025-10-25 09:09:38,731  INFO: Temp directory created: C:\Users\23755118\AppData\Local\Temp\tmpcejz4k07.
+2025-10-25 09:09:38,731  INFO: Temporary directory at: C:\Users\23755118\AppData\Local\Temp\tmpcejz4k07
+2025-10-25 09:09:39,961  INFO: Conforming 1 to file:///C:/Users/23755118/AppData/Local/Temp/tmp2bi8a8p4/index.html
+2025-10-25 09:09:39,962  INFO: Waiting on all navigates
+2025-10-25 09:09:43,060  INFO: All navigates done, putting them all in queue.
+2025-10-25 09:09:43,063  INFO: Getting tab from queue (has 1)
+2025-10-25 09:09:43,063  INFO: Got D92F
+2025-10-25 09:09:43,064  INFO: Processing October_2025_Chlorophyll_Trend.png
+2025-10-25 09:09:43,064  INFO: Sending big command for October_2025_Chlorophyll_Trend.png.
+2025-10-25 09:09:43,360  INFO: Sent big command for October_2025_Chlorophyll_Trend.png.
+2025-10-25 09:09:43,361  INFO: Reloading tab D92F before return.
+2025-10-25 09:09:43,610  INFO: Putting tab D92F back (queue size: 0).
+2025-10-25 09:09:43,610  INFO: Waiting for all cleanups to finish.
+2025-10-25 09:09:43,610  INFO: Exiting Kaleido
+2025-10-25 09:09:43,612  INFO: TemporaryDirectory.cleanup() worked.
+2025-10-25 09:09:43,612  INFO: shutil.rmtree worked.
+2025-10-25 09:09:43,613  INFO: Cancelling tasks.
+2025-10-25 09:09:43,613  INFO: Exiting Kaleido/Choreo
+2025-10-25 09:09:43,613  INFO: Closing browser.
+2025-10-25 09:09:43,616  INFO: TemporaryDirectory.cleanup() worked.
+2025-10-25 09:09:43,617  INFO: shutil.rmtree worked.
+2025-10-25 09:09:43,617  INFO: Cancelling tasks.
+2025-10-25 09:09:43,617  INFO: Exiting Kaleido/Choreo
+2025-10-25 09:09:43,618  INFO: Closing browser.
+2025-10-25 09:09:45,411  INFO: TemporaryDirectory.cleanup() worked.
+2025-10-25 09:09:45,412  INFO: shutil.rmtree worked.
+2025-10-25 09:09:45,442  INFO: Monthly plot saved: C:/Users/23755118/OneDrive - UWA/Documents/PhD_Varshani/CODING/chl_time\plots\chl_month_2025-10.html
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:689: DeprecationWarning:
+
+datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+
+2025-10-25 09:09:45,489  INFO: TemporaryDirectory.cleanup() worked.
+2025-10-25 09:09:45,490  INFO: shutil.rmtree worked.
+2025-10-25 09:09:45,733  INFO: Full plot saved: C:/Users/23755118/OneDrive - UWA/Documents/PhD_Varshani/CODING/chl_time\plots\chlorophyll_timeseries_interactive.html
+2025-10-25 09:09:45,734  INFO: Attempting to commit and push changes to Git...
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:56: DeprecationWarning:
+
+datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+
+2025-10-25 09:09:51,644  INFO: Git commit successful: Auto-update chlorophyll data: 2025-10-24
+2025-10-25 09:09:52,300  INFO: Current branch: main
+2025-10-25 09:09:55,236  INFO: Git push successful to main
+2025-10-25 09:09:55,236  INFO: Git commit and push completed successfully
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:745: DeprecationWarning:
+
+datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:752: DeprecationWarning:
+
+datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+
+2025-10-25 09:09:55,242  INFO: Cleanup done. Removed 0 files (excluding .nc)
+2025-10-25 09:09:55,242  INFO: === Pipeline finished ===
+2025-10-26 09:44:56,577  INFO: === Starting daily chlorophyll pipeline ===
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:56: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  ref = datetime.utcnow()
+2025-10-26 09:44:56,602  INFO: Daily mode: Searching for data for 2025-10-25
+2025-10-26 09:44:56,602  INFO: Logging in to Earthdata via earthaccess...
+2025-10-26 09:44:58,086  INFO: You're now authenticated with NASA Earthdata Login
+2025-10-26 09:45:03,043  INFO: Earthdata login OK.
+2025-10-26 09:45:03,043  INFO: Searching OLCIS3A_L2_EFR_OC_NRT for 2025-10-25...
+2025-10-26 09:45:04,227  INFO: Granules found: 0
+2025-10-26 09:45:04,978  INFO: No results for OLCIS3A_L2_EFR_OC_NRT
+2025-10-26 09:45:04,978  INFO: Searching OLCIS3B_L2_EFR_OC_NRT for 2025-10-25...
+2025-10-26 09:45:05,731  INFO: Granules found: 0
+2025-10-26 09:45:06,476  INFO: No results for OLCIS3B_L2_EFR_OC_NRT
+2025-10-26 09:45:06,476  INFO: No files downloaded for yesterday. Checking availability...
+2025-10-26 09:45:06,476  INFO: Logging in to Earthdata via earthaccess...
+2025-10-26 09:45:08,933  INFO: Earthdata login OK.
+2025-10-26 09:45:09,698  INFO: Granules found: 0
+2025-10-26 09:45:10,452  INFO:   OLCIS3A_L2_EFR_OC_NRT: 0 granules found for 2025-10-25
+2025-10-26 09:45:11,198  INFO: Granules found: 0
+2025-10-26 09:45:11,902  INFO:   OLCIS3B_L2_EFR_OC_NRT: 0 granules found for 2025-10-25
+2025-10-26 09:45:11,902  INFO: No satellite data available for 2025-10-25
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:141: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  gap_df.loc[mask, 'last_checked'] = datetime.utcnow()
+2025-10-26 09:45:11,944  INFO: 
+============================================================
+2025-10-26 09:45:11,945  INFO: STARTING GAP DETECTION
+2025-10-26 09:45:11,945  INFO: ============================================================
+2025-10-26 09:45:11,945  INFO: === Starting gap detection and filling ===
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:113: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  end_date = pd.to_datetime(end_date_str) if end_date_str else datetime.utcnow()
+2025-10-26 09:45:11,957  INFO: Found 3 missing days in timeseries
+2025-10-26 09:45:11,985  INFO: 
+--- Checking gap for 2025-10-24 ---
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:180: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  (gap_report['last_checked'] > datetime.utcnow() - timedelta(hours=24))
+2025-10-26 09:45:11,987  INFO: Logging in to Earthdata via earthaccess...
+2025-10-26 09:45:14,436  INFO: Earthdata login OK.
+2025-10-26 09:45:15,201  INFO: Granules found: 2
+2025-10-26 09:45:15,974  INFO:   OLCIS3A_L2_EFR_OC_NRT: 2 granules found for 2025-10-24
+2025-10-26 09:45:16,717  INFO: Granules found: 0
+2025-10-26 09:45:17,463  INFO:   OLCIS3B_L2_EFR_OC_NRT: 0 granules found for 2025-10-24
+2025-10-26 09:45:17,463  INFO:   Data available for 2025-10-24! Downloading...
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:141: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  gap_df.loc[mask, 'last_checked'] = datetime.utcnow()
+2025-10-26 09:45:17,483  INFO: Logging in to Earthdata via earthaccess...
+2025-10-26 09:45:20,016  INFO: Earthdata login OK.
+2025-10-26 09:45:20,016  INFO: Searching OLCIS3A_L2_EFR_OC_NRT for 2025-10-24...
+2025-10-26 09:45:20,786  INFO: Granules found: 2
+2025-10-26 09:45:21,569  INFO: Found 2 items. Downloading...
+2025-10-26 09:45:21,573  INFO:  Getting 2 granules, approx download size: 0.21 GB
+QUEUEING TASKS | :   0%|          | 0/2 [00:00<?, ?it/s]QUEUEING TASKS | : 100%|##########| 2/2 [00:00<00:00, 87.52it/s]
+PROCESSING TASKS | :   0%|          | 0/2 [00:00<?, ?it/s]PROCESSING TASKS | :  50%|#####     | 1/2 [00:13<00:13, 13.31s/it]PROCESSING TASKS | : 100%|##########| 2/2 [00:18<00:00,  8.62s/it]PROCESSING TASKS | : 100%|##########| 2/2 [00:18<00:00,  9.32s/it]
+COLLECTING RESULTS | :   0%|          | 0/2 [00:00<?, ?it/s]COLLECTING RESULTS | : 100%|##########| 2/2 [00:00<00:00, 15917.66it/s]
+2025-10-26 09:45:41,350  INFO: Searching OLCIS3B_L2_EFR_OC_NRT for 2025-10-24...
+2025-10-26 09:45:42,119  INFO: Granules found: 0
+2025-10-26 09:45:42,844  INFO: No results for OLCIS3B_L2_EFR_OC_NRT
+2025-10-26 09:45:42,845  INFO:   Downloaded 38 files
+Warning 3: Cannot find gdalvrt.xsd (GDAL_DATA is not defined)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:420: FutureWarning: In a future version, xarray will not decode timedelta values based on the presence of a timedelta-like units attribute by default. Instead it will rely on the presence of a timedelta64 dtype attribute, which is now xarray's default way of encoding timedelta64 values. To continue decoding timedeltas based on the presence of a timedelta-like units attribute, users will need to explicitly opt-in by passing True or CFTimedeltaCoder(decode_via_units=True) to decode_timedelta. To silence this warning, set decode_timedelta to True, False, or a 'CFTimedeltaCoder' instance.
+  datatree = xr.open_datatree(fpath)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:316: RuntimeWarning: Mean of empty slice
+  chl_mean_3x3 = np.nanmean(region_3x3)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:331: RuntimeWarning: Mean of empty slice
+  chl_mean_4x4 = np.nanmean(region_4x4)
+2025-10-26 09:45:55,879  WARNING: Both 3x3 and 4x4 extraction returned NaN
+2025-10-26 09:45:55,907  WARNING: Processed S3A_OLCI_EFRNT.20251001T012055.L2.OC.NRT.nc -> 2025-10-01, chl=NaN (no valid data in 3x3 or 4x4)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:420: FutureWarning: In a future version, xarray will not decode timedelta values based on the presence of a timedelta-like units attribute by default. Instead it will rely on the presence of a timedelta64 dtype attribute, which is now xarray's default way of encoding timedelta64 values. To continue decoding timedeltas based on the presence of a timedelta-like units attribute, users will need to explicitly opt-in by passing True or CFTimedeltaCoder(decode_via_units=True) to decode_timedelta. To silence this warning, set decode_timedelta to True, False, or a 'CFTimedeltaCoder' instance.
+  datatree = xr.open_datatree(fpath)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:316: RuntimeWarning: Mean of empty slice
+  chl_mean_3x3 = np.nanmean(region_3x3)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:331: RuntimeWarning: Mean of empty slice
+  chl_mean_4x4 = np.nanmean(region_4x4)
+2025-10-26 09:46:01,492  WARNING: Both 3x3 and 4x4 extraction returned NaN
+2025-10-26 09:46:01,694  WARNING: Processed S3A_OLCI_EFRNT.20251001T012355.L2.OC.NRT.nc -> 2025-10-01, chl=NaN (no valid data in 3x3 or 4x4)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:420: FutureWarning: In a future version, xarray will not decode timedelta values based on the presence of a timedelta-like units attribute by default. Instead it will rely on the presence of a timedelta64 dtype attribute, which is now xarray's default way of encoding timedelta64 values. To continue decoding timedeltas based on the presence of a timedelta-like units attribute, users will need to explicitly opt-in by passing True or CFTimedeltaCoder(decode_via_units=True) to decode_timedelta. To silence this warning, set decode_timedelta to True, False, or a 'CFTimedeltaCoder' instance.
+  datatree = xr.open_datatree(fpath)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:316: RuntimeWarning: Mean of empty slice
+  chl_mean_3x3 = np.nanmean(region_3x3)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:331: RuntimeWarning: Mean of empty slice
+  chl_mean_4x4 = np.nanmean(region_4x4)
+2025-10-26 09:46:06,324  WARNING: Both 3x3 and 4x4 extraction returned NaN
+2025-10-26 09:46:06,345  WARNING: Processed S3A_OLCI_EFRNT.20251003T020933.L2.OC.NRT.nc -> 2025-10-03, chl=NaN (no valid data in 3x3 or 4x4)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:420: FutureWarning: In a future version, xarray will not decode timedelta values based on the presence of a timedelta-like units attribute by default. Instead it will rely on the presence of a timedelta64 dtype attribute, which is now xarray's default way of encoding timedelta64 values. To continue decoding timedeltas based on the presence of a timedelta-like units attribute, users will need to explicitly opt-in by passing True or CFTimedeltaCoder(decode_via_units=True) to decode_timedelta. To silence this warning, set decode_timedelta to True, False, or a 'CFTimedeltaCoder' instance.
+  datatree = xr.open_datatree(fpath)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:316: RuntimeWarning: Mean of empty slice
+  chl_mean_3x3 = np.nanmean(region_3x3)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:331: RuntimeWarning: Mean of empty slice
+  chl_mean_4x4 = np.nanmean(region_4x4)
+2025-10-26 09:46:11,211  WARNING: Both 3x3 and 4x4 extraction returned NaN
+2025-10-26 09:46:11,235  WARNING: Processed S3A_OLCI_EFRNT.20251004T014322.L2.OC.NRT.nc -> 2025-10-04, chl=NaN (no valid data in 3x3 or 4x4)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:420: FutureWarning: In a future version, xarray will not decode timedelta values based on the presence of a timedelta-like units attribute by default. Instead it will rely on the presence of a timedelta64 dtype attribute, which is now xarray's default way of encoding timedelta64 values. To continue decoding timedeltas based on the presence of a timedelta-like units attribute, users will need to explicitly opt-in by passing True or CFTimedeltaCoder(decode_via_units=True) to decode_timedelta. To silence this warning, set decode_timedelta to True, False, or a 'CFTimedeltaCoder' instance.
+  datatree = xr.open_datatree(fpath)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:316: RuntimeWarning: Mean of empty slice
+  chl_mean_3x3 = np.nanmean(region_3x3)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:331: RuntimeWarning: Mean of empty slice
+  chl_mean_4x4 = np.nanmean(region_4x4)
+2025-10-26 09:46:14,989  WARNING: Both 3x3 and 4x4 extraction returned NaN
+2025-10-26 09:46:15,013  WARNING: Processed S3A_OLCI_EFRNT.20251005T011711.L2.OC.NRT.nc -> 2025-10-05, chl=NaN (no valid data in 3x3 or 4x4)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:420: FutureWarning: In a future version, xarray will not decode timedelta values based on the presence of a timedelta-like units attribute by default. Instead it will rely on the presence of a timedelta64 dtype attribute, which is now xarray's default way of encoding timedelta64 values. To continue decoding timedeltas based on the presence of a timedelta-like units attribute, users will need to explicitly opt-in by passing True or CFTimedeltaCoder(decode_via_units=True) to decode_timedelta. To silence this warning, set decode_timedelta to True, False, or a 'CFTimedeltaCoder' instance.
+  datatree = xr.open_datatree(fpath)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:316: RuntimeWarning: Mean of empty slice
+  chl_mean_3x3 = np.nanmean(region_3x3)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:331: RuntimeWarning: Mean of empty slice
+  chl_mean_4x4 = np.nanmean(region_4x4)
+2025-10-26 09:46:19,769  WARNING: Both 3x3 and 4x4 extraction returned NaN
+2025-10-26 09:46:19,789  WARNING: Processed S3A_OLCI_EFRNT.20251005T012011.L2.OC.NRT.nc -> 2025-10-05, chl=NaN (no valid data in 3x3 or 4x4)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:420: FutureWarning: In a future version, xarray will not decode timedelta values based on the presence of a timedelta-like units attribute by default. Instead it will rely on the presence of a timedelta64 dtype attribute, which is now xarray's default way of encoding timedelta64 values. To continue decoding timedeltas based on the presence of a timedelta-like units attribute, users will need to explicitly opt-in by passing True or CFTimedeltaCoder(decode_via_units=True) to decode_timedelta. To silence this warning, set decode_timedelta to True, False, or a 'CFTimedeltaCoder' instance.
+  datatree = xr.open_datatree(fpath)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:316: RuntimeWarning: Mean of empty slice
+  chl_mean_3x3 = np.nanmean(region_3x3)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:331: RuntimeWarning: Mean of empty slice
+  chl_mean_4x4 = np.nanmean(region_4x4)
+2025-10-26 09:46:22,626  WARNING: Both 3x3 and 4x4 extraction returned NaN
+2025-10-26 09:46:22,644  WARNING: Processed S3A_OLCI_EFRNT.20251007T020548.L2.OC.NRT.nc -> 2025-10-07, chl=NaN (no valid data in 3x3 or 4x4)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:420: FutureWarning: In a future version, xarray will not decode timedelta values based on the presence of a timedelta-like units attribute by default. Instead it will rely on the presence of a timedelta64 dtype attribute, which is now xarray's default way of encoding timedelta64 values. To continue decoding timedeltas based on the presence of a timedelta-like units attribute, users will need to explicitly opt-in by passing True or CFTimedeltaCoder(decode_via_units=True) to decode_timedelta. To silence this warning, set decode_timedelta to True, False, or a 'CFTimedeltaCoder' instance.
+  datatree = xr.open_datatree(fpath)
+2025-10-26 09:46:25,776  INFO: Processed S3A_OLCI_EFRNT.20251008T013937.L2.OC.NRT.nc -> 2025-10-08, chl=6.8696
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:420: FutureWarning: In a future version, xarray will not decode timedelta values based on the presence of a timedelta-like units attribute by default. Instead it will rely on the presence of a timedelta64 dtype attribute, which is now xarray's default way of encoding timedelta64 values. To continue decoding timedeltas based on the presence of a timedelta-like units attribute, users will need to explicitly opt-in by passing True or CFTimedeltaCoder(decode_via_units=True) to decode_timedelta. To silence this warning, set decode_timedelta to True, False, or a 'CFTimedeltaCoder' instance.
+  datatree = xr.open_datatree(fpath)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:316: RuntimeWarning: Mean of empty slice
+  chl_mean_3x3 = np.nanmean(region_3x3)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:331: RuntimeWarning: Mean of empty slice
+  chl_mean_4x4 = np.nanmean(region_4x4)
+2025-10-26 09:46:29,069  WARNING: Both 3x3 and 4x4 extraction returned NaN
+2025-10-26 09:46:29,093  WARNING: Processed S3A_OLCI_EFRNT.20251009T011626.L2.OC.NRT.nc -> 2025-10-09, chl=NaN (no valid data in 3x3 or 4x4)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:420: FutureWarning: In a future version, xarray will not decode timedelta values based on the presence of a timedelta-like units attribute by default. Instead it will rely on the presence of a timedelta64 dtype attribute, which is now xarray's default way of encoding timedelta64 values. To continue decoding timedeltas based on the presence of a timedelta-like units attribute, users will need to explicitly opt-in by passing True or CFTimedeltaCoder(decode_via_units=True) to decode_timedelta. To silence this warning, set decode_timedelta to True, False, or a 'CFTimedeltaCoder' instance.
+  datatree = xr.open_datatree(fpath)
+2025-10-26 09:46:32,341  INFO: Processed S3A_OLCI_EFRNT.20251011T020203.L2.OC.NRT.nc -> 2025-10-11, chl=4.5012
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:420: FutureWarning: In a future version, xarray will not decode timedelta values based on the presence of a timedelta-like units attribute by default. Instead it will rely on the presence of a timedelta64 dtype attribute, which is now xarray's default way of encoding timedelta64 values. To continue decoding timedeltas based on the presence of a timedelta-like units attribute, users will need to explicitly opt-in by passing True or CFTimedeltaCoder(decode_via_units=True) to decode_timedelta. To silence this warning, set decode_timedelta to True, False, or a 'CFTimedeltaCoder' instance.
+  datatree = xr.open_datatree(fpath)
+2025-10-26 09:46:35,540  INFO: Processed S3A_OLCI_EFRNT.20251012T013553.L2.OC.NRT.nc -> 2025-10-12, chl=2.9988
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:420: FutureWarning: In a future version, xarray will not decode timedelta values based on the presence of a timedelta-like units attribute by default. Instead it will rely on the presence of a timedelta64 dtype attribute, which is now xarray's default way of encoding timedelta64 values. To continue decoding timedeltas based on the presence of a timedelta-like units attribute, users will need to explicitly opt-in by passing True or CFTimedeltaCoder(decode_via_units=True) to decode_timedelta. To silence this warning, set decode_timedelta to True, False, or a 'CFTimedeltaCoder' instance.
+  datatree = xr.open_datatree(fpath)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:316: RuntimeWarning: Mean of empty slice
+  chl_mean_3x3 = np.nanmean(region_3x3)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:331: RuntimeWarning: Mean of empty slice
+  chl_mean_4x4 = np.nanmean(region_4x4)
+2025-10-26 09:46:38,785  WARNING: Both 3x3 and 4x4 extraction returned NaN
+2025-10-26 09:46:38,804  WARNING: Processed S3A_OLCI_EFRNT.20251013T011242.L2.OC.NRT.nc -> 2025-10-13, chl=NaN (no valid data in 3x3 or 4x4)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:420: FutureWarning: In a future version, xarray will not decode timedelta values based on the presence of a timedelta-like units attribute by default. Instead it will rely on the presence of a timedelta64 dtype attribute, which is now xarray's default way of encoding timedelta64 values. To continue decoding timedeltas based on the presence of a timedelta-like units attribute, users will need to explicitly opt-in by passing True or CFTimedeltaCoder(decode_via_units=True) to decode_timedelta. To silence this warning, set decode_timedelta to True, False, or a 'CFTimedeltaCoder' instance.
+  datatree = xr.open_datatree(fpath)
+2025-10-26 09:46:41,749  INFO: Processed S3A_OLCI_EFRNT.20251015T015820.L2.OC.NRT.nc -> 2025-10-15, chl=4.4136
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:420: FutureWarning: In a future version, xarray will not decode timedelta values based on the presence of a timedelta-like units attribute by default. Instead it will rely on the presence of a timedelta64 dtype attribute, which is now xarray's default way of encoding timedelta64 values. To continue decoding timedeltas based on the presence of a timedelta-like units attribute, users will need to explicitly opt-in by passing True or CFTimedeltaCoder(decode_via_units=True) to decode_timedelta. To silence this warning, set decode_timedelta to True, False, or a 'CFTimedeltaCoder' instance.
+  datatree = xr.open_datatree(fpath)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:316: RuntimeWarning: Mean of empty slice
+  chl_mean_3x3 = np.nanmean(region_3x3)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:331: RuntimeWarning: Mean of empty slice
+  chl_mean_4x4 = np.nanmean(region_4x4)
+2025-10-26 09:46:44,774  WARNING: Both 3x3 and 4x4 extraction returned NaN
+2025-10-26 09:46:44,802  WARNING: Processed S3A_OLCI_EFRNT.20251016T013209.L2.OC.NRT.nc -> 2025-10-16, chl=NaN (no valid data in 3x3 or 4x4)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:420: FutureWarning: In a future version, xarray will not decode timedelta values based on the presence of a timedelta-like units attribute by default. Instead it will rely on the presence of a timedelta64 dtype attribute, which is now xarray's default way of encoding timedelta64 values. To continue decoding timedeltas based on the presence of a timedelta-like units attribute, users will need to explicitly opt-in by passing True or CFTimedeltaCoder(decode_via_units=True) to decode_timedelta. To silence this warning, set decode_timedelta to True, False, or a 'CFTimedeltaCoder' instance.
+  datatree = xr.open_datatree(fpath)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:316: RuntimeWarning: Mean of empty slice
+  chl_mean_3x3 = np.nanmean(region_3x3)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:331: RuntimeWarning: Mean of empty slice
+  chl_mean_4x4 = np.nanmean(region_4x4)
+2025-10-26 09:46:47,371  WARNING: Both 3x3 and 4x4 extraction returned NaN
+2025-10-26 09:46:47,387  WARNING: Processed S3A_OLCI_EFRNT.20251019T015436.L2.OC.NRT.nc -> 2025-10-19, chl=NaN (no valid data in 3x3 or 4x4)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:420: FutureWarning: In a future version, xarray will not decode timedelta values based on the presence of a timedelta-like units attribute by default. Instead it will rely on the presence of a timedelta64 dtype attribute, which is now xarray's default way of encoding timedelta64 values. To continue decoding timedeltas based on the presence of a timedelta-like units attribute, users will need to explicitly opt-in by passing True or CFTimedeltaCoder(decode_via_units=True) to decode_timedelta. To silence this warning, set decode_timedelta to True, False, or a 'CFTimedeltaCoder' instance.
+  datatree = xr.open_datatree(fpath)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:316: RuntimeWarning: Mean of empty slice
+  chl_mean_3x3 = np.nanmean(region_3x3)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:331: RuntimeWarning: Mean of empty slice
+  chl_mean_4x4 = np.nanmean(region_4x4)
+2025-10-26 09:46:49,604  WARNING: Both 3x3 and 4x4 extraction returned NaN
+2025-10-26 09:46:49,621  WARNING: Processed S3A_OLCI_EFRNT.20251020T012825.L2.OC.NRT.nc -> 2025-10-20, chl=NaN (no valid data in 3x3 or 4x4)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:420: FutureWarning: In a future version, xarray will not decode timedelta values based on the presence of a timedelta-like units attribute by default. Instead it will rely on the presence of a timedelta64 dtype attribute, which is now xarray's default way of encoding timedelta64 values. To continue decoding timedeltas based on the presence of a timedelta-like units attribute, users will need to explicitly opt-in by passing True or CFTimedeltaCoder(decode_via_units=True) to decode_timedelta. To silence this warning, set decode_timedelta to True, False, or a 'CFTimedeltaCoder' instance.
+  datatree = xr.open_datatree(fpath)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:316: RuntimeWarning: Mean of empty slice
+  chl_mean_3x3 = np.nanmean(region_3x3)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:331: RuntimeWarning: Mean of empty slice
+  chl_mean_4x4 = np.nanmean(region_4x4)
+2025-10-26 09:46:52,640  WARNING: Both 3x3 and 4x4 extraction returned NaN
+2025-10-26 09:46:52,671  WARNING: Processed S3A_OLCI_EFRNT.20251020T013125.L2.OC.NRT.nc -> 2025-10-20, chl=NaN (no valid data in 3x3 or 4x4)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:420: FutureWarning: In a future version, xarray will not decode timedelta values based on the presence of a timedelta-like units attribute by default. Instead it will rely on the presence of a timedelta64 dtype attribute, which is now xarray's default way of encoding timedelta64 values. To continue decoding timedeltas based on the presence of a timedelta-like units attribute, users will need to explicitly opt-in by passing True or CFTimedeltaCoder(decode_via_units=True) to decode_timedelta. To silence this warning, set decode_timedelta to True, False, or a 'CFTimedeltaCoder' instance.
+  datatree = xr.open_datatree(fpath)
+2025-10-26 09:46:55,572  INFO: Processed S3A_OLCI_EFRNT.20251023T015051.L2.OC.NRT.nc -> 2025-10-23, chl=5.4566
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:420: FutureWarning: In a future version, xarray will not decode timedelta values based on the presence of a timedelta-like units attribute by default. Instead it will rely on the presence of a timedelta64 dtype attribute, which is now xarray's default way of encoding timedelta64 values. To continue decoding timedeltas based on the presence of a timedelta-like units attribute, users will need to explicitly opt-in by passing True or CFTimedeltaCoder(decode_via_units=True) to decode_timedelta. To silence this warning, set decode_timedelta to True, False, or a 'CFTimedeltaCoder' instance.
+  datatree = xr.open_datatree(fpath)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:316: RuntimeWarning: Mean of empty slice
+  chl_mean_3x3 = np.nanmean(region_3x3)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:331: RuntimeWarning: Mean of empty slice
+  chl_mean_4x4 = np.nanmean(region_4x4)
+2025-10-26 09:46:58,467  WARNING: Both 3x3 and 4x4 extraction returned NaN
+2025-10-26 09:46:58,486  WARNING: Processed S3A_OLCI_EFRNT.20251024T012440.L2.OC.NRT.nc -> 2025-10-24, chl=NaN (no valid data in 3x3 or 4x4)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:420: FutureWarning: In a future version, xarray will not decode timedelta values based on the presence of a timedelta-like units attribute by default. Instead it will rely on the presence of a timedelta64 dtype attribute, which is now xarray's default way of encoding timedelta64 values. To continue decoding timedeltas based on the presence of a timedelta-like units attribute, users will need to explicitly opt-in by passing True or CFTimedeltaCoder(decode_via_units=True) to decode_timedelta. To silence this warning, set decode_timedelta to True, False, or a 'CFTimedeltaCoder' instance.
+  datatree = xr.open_datatree(fpath)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:316: RuntimeWarning: Mean of empty slice
+  chl_mean_3x3 = np.nanmean(region_3x3)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:331: RuntimeWarning: Mean of empty slice
+  chl_mean_4x4 = np.nanmean(region_4x4)
+2025-10-26 09:47:00,957  WARNING: Both 3x3 and 4x4 extraction returned NaN
+2025-10-26 09:47:00,979  WARNING: Processed S3A_OLCI_EFRNT.20251024T012740.L2.OC.NRT.nc -> 2025-10-24, chl=NaN (no valid data in 3x3 or 4x4)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:420: FutureWarning: In a future version, xarray will not decode timedelta values based on the presence of a timedelta-like units attribute by default. Instead it will rely on the presence of a timedelta64 dtype attribute, which is now xarray's default way of encoding timedelta64 values. To continue decoding timedeltas based on the presence of a timedelta-like units attribute, users will need to explicitly opt-in by passing True or CFTimedeltaCoder(decode_via_units=True) to decode_timedelta. To silence this warning, set decode_timedelta to True, False, or a 'CFTimedeltaCoder' instance.
+  datatree = xr.open_datatree(fpath)
+2025-10-26 09:47:03,927  INFO: Processed S3B_OLCI_EFRNT.20251002T015701.L2.OC.NRT.nc -> 2025-10-02, chl=7.7205
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:420: FutureWarning: In a future version, xarray will not decode timedelta values based on the presence of a timedelta-like units attribute by default. Instead it will rely on the presence of a timedelta64 dtype attribute, which is now xarray's default way of encoding timedelta64 values. To continue decoding timedeltas based on the presence of a timedelta-like units attribute, users will need to explicitly opt-in by passing True or CFTimedeltaCoder(decode_via_units=True) to decode_timedelta. To silence this warning, set decode_timedelta to True, False, or a 'CFTimedeltaCoder' instance.
+  datatree = xr.open_datatree(fpath)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:316: RuntimeWarning: Mean of empty slice
+  chl_mean_3x3 = np.nanmean(region_3x3)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:331: RuntimeWarning: Mean of empty slice
+  chl_mean_4x4 = np.nanmean(region_4x4)
+2025-10-26 09:47:06,620  WARNING: Both 3x3 and 4x4 extraction returned NaN
+2025-10-26 09:47:06,638  WARNING: Processed S3B_OLCI_EFRNT.20251003T013049.L2.OC.NRT.nc -> 2025-10-03, chl=NaN (no valid data in 3x3 or 4x4)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:420: FutureWarning: In a future version, xarray will not decode timedelta values based on the presence of a timedelta-like units attribute by default. Instead it will rely on the presence of a timedelta64 dtype attribute, which is now xarray's default way of encoding timedelta64 values. To continue decoding timedeltas based on the presence of a timedelta-like units attribute, users will need to explicitly opt-in by passing True or CFTimedeltaCoder(decode_via_units=True) to decode_timedelta. To silence this warning, set decode_timedelta to True, False, or a 'CFTimedeltaCoder' instance.
+  datatree = xr.open_datatree(fpath)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:316: RuntimeWarning: Mean of empty slice
+  chl_mean_3x3 = np.nanmean(region_3x3)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:331: RuntimeWarning: Mean of empty slice
+  chl_mean_4x4 = np.nanmean(region_4x4)
+2025-10-26 09:47:08,823  WARNING: Both 3x3 and 4x4 extraction returned NaN
+2025-10-26 09:47:08,846  WARNING: Processed S3B_OLCI_EFRNT.20251003T013349.L2.OC.NRT.nc -> 2025-10-03, chl=NaN (no valid data in 3x3 or 4x4)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:420: FutureWarning: In a future version, xarray will not decode timedelta values based on the presence of a timedelta-like units attribute by default. Instead it will rely on the presence of a timedelta64 dtype attribute, which is now xarray's default way of encoding timedelta64 values. To continue decoding timedeltas based on the presence of a timedelta-like units attribute, users will need to explicitly opt-in by passing True or CFTimedeltaCoder(decode_via_units=True) to decode_timedelta. To silence this warning, set decode_timedelta to True, False, or a 'CFTimedeltaCoder' instance.
+  datatree = xr.open_datatree(fpath)
+2025-10-26 09:47:11,130  INFO: Processed S3B_OLCI_EFRNT.20251006T015314.L2.OC.NRT.nc -> 2025-10-06, chl=9.0715
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:420: FutureWarning: In a future version, xarray will not decode timedelta values based on the presence of a timedelta-like units attribute by default. Instead it will rely on the presence of a timedelta64 dtype attribute, which is now xarray's default way of encoding timedelta64 values. To continue decoding timedeltas based on the presence of a timedelta-like units attribute, users will need to explicitly opt-in by passing True or CFTimedeltaCoder(decode_via_units=True) to decode_timedelta. To silence this warning, set decode_timedelta to True, False, or a 'CFTimedeltaCoder' instance.
+  datatree = xr.open_datatree(fpath)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:316: RuntimeWarning: Mean of empty slice
+  chl_mean_3x3 = np.nanmean(region_3x3)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:331: RuntimeWarning: Mean of empty slice
+  chl_mean_4x4 = np.nanmean(region_4x4)
+2025-10-26 09:47:13,138  WARNING: Both 3x3 and 4x4 extraction returned NaN
+2025-10-26 09:47:13,155  WARNING: Processed S3B_OLCI_EFRNT.20251007T012704.L2.OC.NRT.nc -> 2025-10-07, chl=NaN (no valid data in 3x3 or 4x4)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:420: FutureWarning: In a future version, xarray will not decode timedelta values based on the presence of a timedelta-like units attribute by default. Instead it will rely on the presence of a timedelta64 dtype attribute, which is now xarray's default way of encoding timedelta64 values. To continue decoding timedeltas based on the presence of a timedelta-like units attribute, users will need to explicitly opt-in by passing True or CFTimedeltaCoder(decode_via_units=True) to decode_timedelta. To silence this warning, set decode_timedelta to True, False, or a 'CFTimedeltaCoder' instance.
+  datatree = xr.open_datatree(fpath)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:316: RuntimeWarning: Mean of empty slice
+  chl_mean_3x3 = np.nanmean(region_3x3)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:331: RuntimeWarning: Mean of empty slice
+  chl_mean_4x4 = np.nanmean(region_4x4)
+2025-10-26 09:47:15,206  WARNING: Both 3x3 and 4x4 extraction returned NaN
+2025-10-26 09:47:15,221  WARNING: Processed S3B_OLCI_EFRNT.20251007T013004.L2.OC.NRT.nc -> 2025-10-07, chl=NaN (no valid data in 3x3 or 4x4)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:420: FutureWarning: In a future version, xarray will not decode timedelta values based on the presence of a timedelta-like units attribute by default. Instead it will rely on the presence of a timedelta64 dtype attribute, which is now xarray's default way of encoding timedelta64 values. To continue decoding timedeltas based on the presence of a timedelta-like units attribute, users will need to explicitly opt-in by passing True or CFTimedeltaCoder(decode_via_units=True) to decode_timedelta. To silence this warning, set decode_timedelta to True, False, or a 'CFTimedeltaCoder' instance.
+  datatree = xr.open_datatree(fpath)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:316: RuntimeWarning: Mean of empty slice
+  chl_mean_3x3 = np.nanmean(region_3x3)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:331: RuntimeWarning: Mean of empty slice
+  chl_mean_4x4 = np.nanmean(region_4x4)
+2025-10-26 09:47:17,209  WARNING: Both 3x3 and 4x4 extraction returned NaN
+2025-10-26 09:47:17,224  WARNING: Processed S3B_OLCI_EFRNT.20251010T014931.L2.OC.NRT.nc -> 2025-10-10, chl=NaN (no valid data in 3x3 or 4x4)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:420: FutureWarning: In a future version, xarray will not decode timedelta values based on the presence of a timedelta-like units attribute by default. Instead it will rely on the presence of a timedelta64 dtype attribute, which is now xarray's default way of encoding timedelta64 values. To continue decoding timedeltas based on the presence of a timedelta-like units attribute, users will need to explicitly opt-in by passing True or CFTimedeltaCoder(decode_via_units=True) to decode_timedelta. To silence this warning, set decode_timedelta to True, False, or a 'CFTimedeltaCoder' instance.
+  datatree = xr.open_datatree(fpath)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:316: RuntimeWarning: Mean of empty slice
+  chl_mean_3x3 = np.nanmean(region_3x3)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:331: RuntimeWarning: Mean of empty slice
+  chl_mean_4x4 = np.nanmean(region_4x4)
+2025-10-26 09:47:19,133  WARNING: Both 3x3 and 4x4 extraction returned NaN
+2025-10-26 09:47:19,150  WARNING: Processed S3B_OLCI_EFRNT.20251011T012320.L2.OC.NRT.nc -> 2025-10-11, chl=NaN (no valid data in 3x3 or 4x4)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:420: FutureWarning: In a future version, xarray will not decode timedelta values based on the presence of a timedelta-like units attribute by default. Instead it will rely on the presence of a timedelta64 dtype attribute, which is now xarray's default way of encoding timedelta64 values. To continue decoding timedeltas based on the presence of a timedelta-like units attribute, users will need to explicitly opt-in by passing True or CFTimedeltaCoder(decode_via_units=True) to decode_timedelta. To silence this warning, set decode_timedelta to True, False, or a 'CFTimedeltaCoder' instance.
+  datatree = xr.open_datatree(fpath)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:316: RuntimeWarning: Mean of empty slice
+  chl_mean_3x3 = np.nanmean(region_3x3)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:331: RuntimeWarning: Mean of empty slice
+  chl_mean_4x4 = np.nanmean(region_4x4)
+2025-10-26 09:47:21,241  WARNING: Both 3x3 and 4x4 extraction returned NaN
+2025-10-26 09:47:21,255  WARNING: Processed S3B_OLCI_EFRNT.20251011T012620.L2.OC.NRT.nc -> 2025-10-11, chl=NaN (no valid data in 3x3 or 4x4)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:420: FutureWarning: In a future version, xarray will not decode timedelta values based on the presence of a timedelta-like units attribute by default. Instead it will rely on the presence of a timedelta64 dtype attribute, which is now xarray's default way of encoding timedelta64 values. To continue decoding timedeltas based on the presence of a timedelta-like units attribute, users will need to explicitly opt-in by passing True or CFTimedeltaCoder(decode_via_units=True) to decode_timedelta. To silence this warning, set decode_timedelta to True, False, or a 'CFTimedeltaCoder' instance.
+  datatree = xr.open_datatree(fpath)
+2025-10-26 09:47:23,355  INFO: Processed S3B_OLCI_EFRNT.20251014T014548.L2.OC.NRT.nc -> 2025-10-14, chl=3.5476
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:420: FutureWarning: In a future version, xarray will not decode timedelta values based on the presence of a timedelta-like units attribute by default. Instead it will rely on the presence of a timedelta64 dtype attribute, which is now xarray's default way of encoding timedelta64 values. To continue decoding timedeltas based on the presence of a timedelta-like units attribute, users will need to explicitly opt-in by passing True or CFTimedeltaCoder(decode_via_units=True) to decode_timedelta. To silence this warning, set decode_timedelta to True, False, or a 'CFTimedeltaCoder' instance.
+  datatree = xr.open_datatree(fpath)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:316: RuntimeWarning: Mean of empty slice
+  chl_mean_3x3 = np.nanmean(region_3x3)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:331: RuntimeWarning: Mean of empty slice
+  chl_mean_4x4 = np.nanmean(region_4x4)
+2025-10-26 09:47:25,412  WARNING: Both 3x3 and 4x4 extraction returned NaN
+2025-10-26 09:47:25,432  WARNING: Processed S3B_OLCI_EFRNT.20251015T011937.L2.OC.NRT.nc -> 2025-10-15, chl=NaN (no valid data in 3x3 or 4x4)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:420: FutureWarning: In a future version, xarray will not decode timedelta values based on the presence of a timedelta-like units attribute by default. Instead it will rely on the presence of a timedelta64 dtype attribute, which is now xarray's default way of encoding timedelta64 values. To continue decoding timedeltas based on the presence of a timedelta-like units attribute, users will need to explicitly opt-in by passing True or CFTimedeltaCoder(decode_via_units=True) to decode_timedelta. To silence this warning, set decode_timedelta to True, False, or a 'CFTimedeltaCoder' instance.
+  datatree = xr.open_datatree(fpath)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:316: RuntimeWarning: Mean of empty slice
+  chl_mean_3x3 = np.nanmean(region_3x3)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:331: RuntimeWarning: Mean of empty slice
+  chl_mean_4x4 = np.nanmean(region_4x4)
+2025-10-26 09:47:27,440  WARNING: Both 3x3 and 4x4 extraction returned NaN
+2025-10-26 09:47:27,458  WARNING: Processed S3B_OLCI_EFRNT.20251015T012237.L2.OC.NRT.nc -> 2025-10-15, chl=NaN (no valid data in 3x3 or 4x4)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:420: FutureWarning: In a future version, xarray will not decode timedelta values based on the presence of a timedelta-like units attribute by default. Instead it will rely on the presence of a timedelta64 dtype attribute, which is now xarray's default way of encoding timedelta64 values. To continue decoding timedeltas based on the presence of a timedelta-like units attribute, users will need to explicitly opt-in by passing True or CFTimedeltaCoder(decode_via_units=True) to decode_timedelta. To silence this warning, set decode_timedelta to True, False, or a 'CFTimedeltaCoder' instance.
+  datatree = xr.open_datatree(fpath)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:316: RuntimeWarning: Mean of empty slice
+  chl_mean_3x3 = np.nanmean(region_3x3)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:331: RuntimeWarning: Mean of empty slice
+  chl_mean_4x4 = np.nanmean(region_4x4)
+2025-10-26 09:47:29,545  WARNING: Both 3x3 and 4x4 extraction returned NaN
+2025-10-26 09:47:29,563  WARNING: Processed S3B_OLCI_EFRNT.20251017T020814.L2.OC.NRT.nc -> 2025-10-17, chl=NaN (no valid data in 3x3 or 4x4)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:420: FutureWarning: In a future version, xarray will not decode timedelta values based on the presence of a timedelta-like units attribute by default. Instead it will rely on the presence of a timedelta64 dtype attribute, which is now xarray's default way of encoding timedelta64 values. To continue decoding timedeltas based on the presence of a timedelta-like units attribute, users will need to explicitly opt-in by passing True or CFTimedeltaCoder(decode_via_units=True) to decode_timedelta. To silence this warning, set decode_timedelta to True, False, or a 'CFTimedeltaCoder' instance.
+  datatree = xr.open_datatree(fpath)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:316: RuntimeWarning: Mean of empty slice
+  chl_mean_3x3 = np.nanmean(region_3x3)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:331: RuntimeWarning: Mean of empty slice
+  chl_mean_4x4 = np.nanmean(region_4x4)
+2025-10-26 09:47:31,526  WARNING: Both 3x3 and 4x4 extraction returned NaN
+2025-10-26 09:47:31,544  WARNING: Processed S3B_OLCI_EFRNT.20251018T014203.L2.OC.NRT.nc -> 2025-10-18, chl=NaN (no valid data in 3x3 or 4x4)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:420: FutureWarning: In a future version, xarray will not decode timedelta values based on the presence of a timedelta-like units attribute by default. Instead it will rely on the presence of a timedelta64 dtype attribute, which is now xarray's default way of encoding timedelta64 values. To continue decoding timedeltas based on the presence of a timedelta-like units attribute, users will need to explicitly opt-in by passing True or CFTimedeltaCoder(decode_via_units=True) to decode_timedelta. To silence this warning, set decode_timedelta to True, False, or a 'CFTimedeltaCoder' instance.
+  datatree = xr.open_datatree(fpath)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:316: RuntimeWarning: Mean of empty slice
+  chl_mean_3x3 = np.nanmean(region_3x3)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:331: RuntimeWarning: Mean of empty slice
+  chl_mean_4x4 = np.nanmean(region_4x4)
+2025-10-26 09:47:33,920  WARNING: Both 3x3 and 4x4 extraction returned NaN
+2025-10-26 09:47:33,942  WARNING: Processed S3B_OLCI_EFRNT.20251019T011852.L2.OC.NRT.nc -> 2025-10-19, chl=NaN (no valid data in 3x3 or 4x4)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:420: FutureWarning: In a future version, xarray will not decode timedelta values based on the presence of a timedelta-like units attribute by default. Instead it will rely on the presence of a timedelta64 dtype attribute, which is now xarray's default way of encoding timedelta64 values. To continue decoding timedeltas based on the presence of a timedelta-like units attribute, users will need to explicitly opt-in by passing True or CFTimedeltaCoder(decode_via_units=True) to decode_timedelta. To silence this warning, set decode_timedelta to True, False, or a 'CFTimedeltaCoder' instance.
+  datatree = xr.open_datatree(fpath)
+2025-10-26 09:47:36,223  INFO: Processed S3B_OLCI_EFRNT.20251021T020430.L2.OC.NRT.nc -> 2025-10-21, chl=4.0366
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:420: FutureWarning: In a future version, xarray will not decode timedelta values based on the presence of a timedelta-like units attribute by default. Instead it will rely on the presence of a timedelta64 dtype attribute, which is now xarray's default way of encoding timedelta64 values. To continue decoding timedeltas based on the presence of a timedelta-like units attribute, users will need to explicitly opt-in by passing True or CFTimedeltaCoder(decode_via_units=True) to decode_timedelta. To silence this warning, set decode_timedelta to True, False, or a 'CFTimedeltaCoder' instance.
+  datatree = xr.open_datatree(fpath)
+2025-10-26 09:47:38,066  INFO: Processed S3B_OLCI_EFRNT.20251022T013820.L2.OC.NRT.nc -> 2025-10-22, chl=3.7152
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:420: FutureWarning: In a future version, xarray will not decode timedelta values based on the presence of a timedelta-like units attribute by default. Instead it will rely on the presence of a timedelta64 dtype attribute, which is now xarray's default way of encoding timedelta64 values. To continue decoding timedeltas based on the presence of a timedelta-like units attribute, users will need to explicitly opt-in by passing True or CFTimedeltaCoder(decode_via_units=True) to decode_timedelta. To silence this warning, set decode_timedelta to True, False, or a 'CFTimedeltaCoder' instance.
+  datatree = xr.open_datatree(fpath)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:316: RuntimeWarning: Mean of empty slice
+  chl_mean_3x3 = np.nanmean(region_3x3)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:331: RuntimeWarning: Mean of empty slice
+  chl_mean_4x4 = np.nanmean(region_4x4)
+2025-10-26 09:47:39,782  WARNING: Both 3x3 and 4x4 extraction returned NaN
+2025-10-26 09:47:39,797  WARNING: Processed S3B_OLCI_EFRNT.20251023T011509.L2.OC.NRT.nc -> 2025-10-23, chl=NaN (no valid data in 3x3 or 4x4)
+2025-10-26 09:47:39,810  INFO: Extracted 10 valid records from 38 files
+2025-10-26 09:47:39,839  INFO: Existing CSV has 23 records
+2025-10-26 09:47:39,842  INFO: After merge: 23 total records
+2025-10-26 09:47:39,846  INFO: \u2713 CSV saved: C:/Users/23755118/OneDrive - UWA/Documents/PhD_Varshani/CODING/chl_time\chl_timeseries.csv (23 rows)
+2025-10-26 09:47:39,851  INFO: \u2713 CSV verified: 23 rows on disk
+2025-10-26 09:47:39,868  WARNING:   \u2717 No data extracted for 2025-10-24
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:141: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  gap_df.loc[mask, 'last_checked'] = datetime.utcnow()
+2025-10-26 09:47:41,890  INFO: 
+--- Checking gap for 2025-10-25 ---
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:180: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  (gap_report['last_checked'] > datetime.utcnow() - timedelta(hours=24))
+2025-10-26 09:47:41,893  INFO:   Skipping 2025-10-25 - checked recently, no data
+2025-10-26 09:47:41,893  INFO: 
+--- Checking gap for 2025-10-26 ---
+2025-10-26 09:47:41,894  INFO: Logging in to Earthdata via earthaccess...
+2025-10-26 09:47:44,429  INFO: Earthdata login OK.
+2025-10-26 09:47:45,277  INFO: Granules found: 0
+2025-10-26 09:47:46,019  INFO:   OLCIS3A_L2_EFR_OC_NRT: 0 granules found for 2025-10-26
+2025-10-26 09:47:46,740  INFO: Granules found: 0
+2025-10-26 09:47:47,443  INFO:   OLCIS3B_L2_EFR_OC_NRT: 0 granules found for 2025-10-26
+2025-10-26 09:47:47,443  INFO:   No data available for 2025-10-26
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:148: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  'last_checked': [datetime.utcnow()]
+2025-10-26 09:47:49,464  INFO: 
+=== Gap filling complete: 0 filled, 2 checked ===
+2025-10-26 09:47:49,464  INFO: Gap detection complete: 0 gaps filled
+2025-10-26 09:47:49,487  INFO: 
+============================================================
+2025-10-26 09:47:49,487  INFO: GAP SUMMARY REPORT
+2025-10-26 09:47:49,487  INFO: ============================================================
+2025-10-26 09:47:49,490  INFO: 
+Gap Status Distribution:
+2025-10-26 09:47:49,490  INFO:   filled: 7
+2025-10-26 09:47:49,490  INFO:   unavailable: 2
+2025-10-26 09:47:49,490  INFO:   no_extraction: 1
+2025-10-26 09:47:49,492  INFO: 
+Unfilled gaps: 2
+2025-10-26 09:47:49,493  INFO:   Date range: 2025-10-25 to 2025-10-26
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:901: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  recent = gap_df[gap_df['last_checked'] > datetime.utcnow() - timedelta(hours=24)]
+2025-10-26 09:47:49,494  INFO: 
+Gaps checked in last 24 hours: 3
+2025-10-26 09:47:49,494  INFO: ============================================================
+
+2025-10-26 09:47:52,198  INFO: Chromium init'ed with kwargs {}
+2025-10-26 09:47:52,199  INFO: Found chromium path: C:\Program Files\Google\Chrome\Application\chrome.exe
+2025-10-26 09:47:52,203  INFO: Temp directory created: C:\Users\23755118\AppData\Local\Temp\tmpfpwwizdo.
+2025-10-26 09:47:52,206  INFO: Opening browser.
+2025-10-26 09:47:52,208  INFO: Temp directory created: C:\Users\23755118\AppData\Local\Temp\tmpi99ojbov.
+2025-10-26 09:47:52,208  INFO: Temporary directory at: C:\Users\23755118\AppData\Local\Temp\tmpi99ojbov
+2025-10-26 09:47:54,200  INFO: Conforming 1 to file:///C:/Users/23755118/AppData/Local/Temp/tmpfpwwizdo/index.html
+2025-10-26 09:47:54,200  INFO: Waiting on all navigates
+2025-10-26 09:47:56,748  INFO: All navigates done, putting them all in queue.
+2025-10-26 09:47:56,751  INFO: Getting tab from queue (has 1)
+2025-10-26 09:47:56,751  INFO: Got A940
+2025-10-26 09:47:56,752  INFO: Processing 5_Day_Chlorophyll_Trend_as_of_2025_10_23.png
+2025-10-26 09:47:56,752  INFO: Sending big command for 5_Day_Chlorophyll_Trend_as_of_2025_10_23.png.
+2025-10-26 09:47:56,954  INFO: Sent big command for 5_Day_Chlorophyll_Trend_as_of_2025_10_23.png.
+2025-10-26 09:47:56,955  INFO: Reloading tab A940 before return.
+2025-10-26 09:47:57,156  INFO: Putting tab A940 back (queue size: 0).
+2025-10-26 09:47:57,156  INFO: Waiting for all cleanups to finish.
+2025-10-26 09:47:57,157  INFO: Exiting Kaleido
+2025-10-26 09:47:57,158  INFO: TemporaryDirectory.cleanup() worked.
+2025-10-26 09:47:57,158  INFO: shutil.rmtree worked.
+2025-10-26 09:47:57,158  INFO: Cancelling tasks.
+2025-10-26 09:47:57,159  INFO: Exiting Kaleido/Choreo
+2025-10-26 09:47:57,159  INFO: Closing browser.
+2025-10-26 09:47:57,162  INFO: TemporaryDirectory.cleanup() worked.
+2025-10-26 09:47:57,163  INFO: shutil.rmtree worked.
+2025-10-26 09:47:57,163  INFO: Cancelling tasks.
+2025-10-26 09:47:57,163  INFO: Exiting Kaleido/Choreo
+2025-10-26 09:47:57,163  INFO: Closing browser.
+2025-10-26 09:47:57,553  INFO: TemporaryDirectory.cleanup() worked.
+2025-10-26 09:47:57,554  INFO: shutil.rmtree worked.
+2025-10-26 09:47:57,576  INFO: 5-day plot saved: C:/Users/23755118/OneDrive - UWA/Documents/PhD_Varshani/CODING/chl_time\plots\chl_5day_2025-10-23.html
+2025-10-26 09:47:57,585  INFO: TemporaryDirectory.cleanup() worked.
+2025-10-26 09:47:57,585  INFO: shutil.rmtree worked.
+2025-10-26 09:47:57,717  INFO: Chromium init'ed with kwargs {}
+2025-10-26 09:47:57,718  INFO: Found chromium path: C:\Program Files\Google\Chrome\Application\chrome.exe
+2025-10-26 09:47:57,719  INFO: Temp directory created: C:\Users\23755118\AppData\Local\Temp\tmp2pzdur3c.
+2025-10-26 09:47:57,720  INFO: Opening browser.
+2025-10-26 09:47:57,722  INFO: Temp directory created: C:\Users\23755118\AppData\Local\Temp\tmpvu98wrnw.
+2025-10-26 09:47:57,723  INFO: Temporary directory at: C:\Users\23755118\AppData\Local\Temp\tmpvu98wrnw
+2025-10-26 09:47:58,585  INFO: Conforming 1 to file:///C:/Users/23755118/AppData/Local/Temp/tmp2pzdur3c/index.html
+2025-10-26 09:47:58,585  INFO: Waiting on all navigates
+2025-10-26 09:48:28,847  INFO: All navigates done, putting them all in queue.
+2025-10-26 09:48:28,849  INFO: Getting tab from queue (has 1)
+2025-10-26 09:48:28,849  INFO: Got 23ED
+2025-10-26 09:48:28,849  INFO: Processing October_2025_Chlorophyll_Trend.png
+2025-10-26 09:48:28,849  INFO: Sending big command for October_2025_Chlorophyll_Trend.png.
+2025-10-26 09:48:29,003  INFO: Sent big command for October_2025_Chlorophyll_Trend.png.
+2025-10-26 09:48:29,004  INFO: Reloading tab 23ED before return.
+2025-10-26 09:48:58,983  INFO: Putting tab 23ED back (queue size: 0).
+2025-10-26 09:48:58,984  INFO: Waiting for all cleanups to finish.
+2025-10-26 09:48:58,984  INFO: Exiting Kaleido
+2025-10-26 09:48:58,985  INFO: TemporaryDirectory.cleanup() worked.
+2025-10-26 09:48:58,986  INFO: shutil.rmtree worked.
+2025-10-26 09:48:58,987  INFO: Cancelling tasks.
+2025-10-26 09:48:58,987  INFO: Exiting Kaleido/Choreo
+2025-10-26 09:48:58,987  INFO: Closing browser.
+2025-10-26 09:48:58,992  INFO: TemporaryDirectory.cleanup() worked.
+2025-10-26 09:48:58,992  INFO: shutil.rmtree worked.
+2025-10-26 09:48:58,992  INFO: Cancelling tasks.
+2025-10-26 09:48:58,993  INFO: Exiting Kaleido/Choreo
+2025-10-26 09:48:58,993  INFO: Closing browser.
