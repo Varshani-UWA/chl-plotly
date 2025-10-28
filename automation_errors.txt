@@ -7483,3 +7483,69 @@ Gaps checked in last 24 hours: 4
 2025-10-27 14:12:25,084  INFO: Temporary directory at: C:\Users\23755118\AppData\Local\Temp\tmprkuywts0
 2025-10-27 14:12:26,527  INFO: Conforming 1 to file:///C:/Users/23755118/AppData/Local/Temp/tmpy23t1doe/index.html
 2025-10-27 14:12:26,528  INFO: Waiting on all navigates
+2025-10-27 14:12:30,415  INFO: All navigates done, putting them all in queue.
+2025-10-27 14:12:30,422  INFO: Getting tab from queue (has 1)
+2025-10-27 14:12:30,423  INFO: Got 557E
+2025-10-27 14:12:30,424  INFO: Processing October_2025_Chlorophyll_Trend.png
+2025-10-27 14:12:30,424  INFO: Sending big command for October_2025_Chlorophyll_Trend.png.
+2025-10-27 14:12:30,823  INFO: Sent big command for October_2025_Chlorophyll_Trend.png.
+2025-10-27 14:12:30,824  INFO: Reloading tab 557E before return.
+2025-10-27 14:12:31,195  INFO: Putting tab 557E back (queue size: 0).
+2025-10-27 14:12:31,195  INFO: Waiting for all cleanups to finish.
+2025-10-27 14:12:31,195  INFO: Exiting Kaleido
+2025-10-27 14:12:31,197  INFO: TemporaryDirectory.cleanup() worked.
+2025-10-27 14:12:31,198  INFO: shutil.rmtree worked.
+2025-10-27 14:12:31,199  INFO: Cancelling tasks.
+2025-10-27 14:12:31,199  INFO: Exiting Kaleido/Choreo
+2025-10-27 14:12:31,199  INFO: Closing browser.
+2025-10-27 14:12:31,204  INFO: TemporaryDirectory.cleanup() worked.
+2025-10-27 14:12:31,205  INFO: shutil.rmtree worked.
+2025-10-27 14:12:31,205  INFO: Cancelling tasks.
+2025-10-27 14:12:31,205  INFO: Exiting Kaleido/Choreo
+2025-10-27 14:12:31,205  INFO: Closing browser.
+2025-10-27 14:12:31,736  INFO: TemporaryDirectory.cleanup() worked.
+2025-10-27 14:12:31,736  INFO: shutil.rmtree worked.
+2025-10-27 14:12:31,775  INFO: Monthly plot saved: C:/Users/23755118/OneDrive - UWA/Documents/PhD_Varshani/CODING/chl_time\plots\chl_month_2025-10.html
+2025-10-27 14:12:31,804  INFO: TemporaryDirectory.cleanup() worked.
+2025-10-27 14:12:31,805  INFO: shutil.rmtree worked.
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:689: DeprecationWarning:
+
+datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+
+2025-10-27 14:12:32,050  INFO: Full plot saved: C:/Users/23755118/OneDrive - UWA/Documents/PhD_Varshani/CODING/chl_time\plots\chlorophyll_timeseries_interactive.html
+2025-10-27 14:12:32,053  INFO: Attempting to commit and push changes to Git...
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:56: DeprecationWarning:
+
+datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+
+2025-10-27 14:12:35,249  INFO: Git commit successful: Auto-update chlorophyll data: 2025-10-26
+2025-10-27 14:12:35,407  INFO: Current branch: main
+2025-10-27 14:12:37,777  INFO: Git push successful to main
+2025-10-27 14:12:37,777  INFO: Git commit and push completed successfully
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:745: DeprecationWarning:
+
+datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:752: DeprecationWarning:
+
+datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+
+2025-10-27 14:12:37,782  INFO: Cleanup done. Removed 0 files (excluding .nc)
+2025-10-27 14:12:37,782  INFO: === Pipeline finished ===
+2025-10-28 09:28:32,913  INFO: === Starting daily chlorophyll pipeline ===
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:56: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  ref = datetime.utcnow()
+2025-10-28 09:28:32,961  INFO: Daily mode: Searching for data for 2025-10-27
+2025-10-28 09:28:32,963  INFO: Logging in to Earthdata via earthaccess...
+2025-10-28 09:28:34,322  INFO: You're now authenticated with NASA Earthdata Login
+2025-10-28 09:28:39,278  INFO: Earthdata login OK.
+2025-10-28 09:28:39,279  INFO: Searching OLCIS3A_L2_EFR_OC_NRT for 2025-10-27...
+2025-10-28 09:28:40,145  INFO: Granules found: 0
+2025-10-28 09:28:40,963  INFO: No results for OLCIS3A_L2_EFR_OC_NRT
+2025-10-28 09:28:40,964  INFO: Searching OLCIS3B_L2_EFR_OC_NRT for 2025-10-27...
+2025-10-28 09:28:41,732  INFO: Granules found: 0
+2025-10-28 09:28:42,487  INFO: No results for OLCIS3B_L2_EFR_OC_NRT
+2025-10-28 09:28:42,487  INFO: No files downloaded for yesterday. Checking availability...
+2025-10-28 09:28:42,488  INFO: Logging in to Earthdata via earthaccess...
+2025-10-28 09:28:44,993  INFO: Earthdata login OK.
+2025-10-28 09:28:45,765  INFO: Granules found: 0
