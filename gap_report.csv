@@ -11,3 +11,4 @@ date,status,available,granule_count,last_checked
 2025-10-26,unavailable,False,0,2025-10-29
 2025-10-27,filled,True,1,2025-10-29
 2025-10-28,unavailable,False,0,2025-10-29
+2025-10-29,unavailable,False,0,2025-10-29
