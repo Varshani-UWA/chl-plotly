@@ -440,3 +440,19 @@ Checking Python...
 Python 3.13.5
 Python found successfully 
 Running Python script... 
+ 
+================================================ 
+SUCCESS: Task completed at: Thu 30/10/2025 14:52:45.23 
+Exit Code: 0 
+================================================ 
+ 
+ 
+================================================ 
+Task started at: Fri 31/10/2025  9:14:40.79 
+Directory: C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time 
+================================================ 
+ 
+Checking Python... 
+Python 3.13.5
+Python found successfully 
+Running Python script... 
