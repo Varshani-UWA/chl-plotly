@@ -456,3 +456,197 @@ Checking Python...
 Python 3.13.5
 Python found successfully 
 Running Python script... 
+ 
+================================================ 
+SUCCESS: Task completed at: Fri 31/10/2025  9:20:27.68 
+Exit Code: 0 
+================================================ 
+ 
+ 
+================================================ 
+Task started at: Fri 31/10/2025 13:56:08.73 
+Directory: C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time 
+================================================ 
+ 
+Checking Python... 
+Python 3.13.5
+Python found successfully 
+Running Python script... 
+ 
+================================================ 
+SUCCESS: Task completed at: Fri 31/10/2025 13:56:14.86 
+Exit Code: 0 
+================================================ 
+ 
+ 
+================================================ 
+Task started at: Fri 31/10/2025 13:57:06.59 
+Directory: C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time 
+================================================ 
+ 
+Checking Python... 
+Python 3.13.5
+Python found successfully 
+Running Python script... 
+ 
+================================================ 
+SUCCESS: Task completed at: Fri 31/10/2025 13:57:11.25 
+Exit Code: 0 
+================================================ 
+ 
+ 
+================================================ 
+Task started at: Fri 31/10/2025 13:57:54.90 
+Directory: C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time 
+================================================ 
+ 
+Checking Python... 
+Python 3.13.5
+Python found successfully 
+Running Python script... 
+ 
+================================================ 
+SUCCESS: Task completed at: Fri 31/10/2025 13:57:59.97 
+Exit Code: 0 
+================================================ 
+ 
+ 
+================================================ 
+Task started at: Fri 31/10/2025 14:00:30.45 
+Directory: C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time 
+================================================ 
+ 
+Checking Python... 
+Python 3.13.5
+Python found successfully 
+Running Python script... 
+ 
+================================================ 
+SUCCESS: Task completed at: Fri 31/10/2025 14:00:34.94 
+Exit Code: 0 
+================================================ 
+ 
+ 
+================================================ 
+Task started at: Fri 31/10/2025 14:02:12.87 
+Directory: C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time 
+================================================ 
+ 
+Checking Python... 
+Python 3.13.5
+Python found successfully 
+Running Python script... 
+ 
+================================================ 
+SUCCESS: Task completed at: Fri 31/10/2025 14:02:18.58 
+Exit Code: 0 
+================================================ 
+ 
+ 
+================================================ 
+Task started at: Fri 31/10/2025 14:11:39.75 
+Directory: C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time 
+================================================ 
+ 
+Checking Python... 
+Python 3.13.5
+Python found successfully 
+Running Python script... 
+ 
+================================================ 
+SUCCESS: Task completed at: Fri 31/10/2025 14:11:49.28 
+Exit Code: 0 
+================================================ 
+ 
+ 
+================================================ 
+DUAL-LOCATION PIPELINE (PSDP + Mullaloo) 
+Task started at: Fri 31/10/2025 14:17:53.48 
+Directory: C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time 
+================================================ 
+ 
+Checking Python... 
+Python 3.13.5
+Python found successfully 
+Verifying required packages... 
+All packages OK
+Checking for data files... 
+PSDP data file will be created on first run 
+Mullaloo data file will be created on first run 
+ 
+Running dual-location pipeline... 
+================================================ 
+ 
+================================================ 
+SUCCESS: Task completed at: Fri 31/10/2025 14:18:01.70 
+Exit Code: 0 
+ 
+Data Files Status: 
+ 
+Generated Plots: 
+  - Full interactive timeseries 
+================================================ 
+ 
+ 
+================================================ 
+DUAL-LOCATION PIPELINE (PSDP + Mullaloo) 
+Task started at: Fri 31/10/2025 14:30:26.73 
+Directory: C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time 
+================================================ 
+ 
+Checking Python... 
+Python 3.13.5
+Python found successfully 
+Verifying required packages... 
+All packages OK
+Checking for data files... 
+PSDP data file will be created on first run 
+Mullaloo data file will be created on first run 
+ 
+Running dual-location pipeline... 
+================================================ 
+ 
+================================================ 
+SUCCESS: Task completed at: Fri 31/10/2025 14:30:36.51 
+Exit Code: 0 
+ 
+Data Files Status: 
+ 
+Generated Plots: 
+  - Full interactive timeseries 
+================================================ 
+ 
+ 
+================================================ 
+DUAL-LOCATION PIPELINE (PSDP + Mullaloo) 
+Task started at: Fri 31/10/2025 14:43:19.46 
+Directory: C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time 
+================================================ 
+ 
+Checking Python... 
+Python 3.13.5
+Python found successfully 
+Verifying required packages... 
+All packages OK
+Checking for data files... 
+Found PSDP data file 
+Found Mullaloo data file 
+ 
+Running dual-location pipeline... 
+================================================ 
+ 
+================================================ 
+SUCCESS: Task completed at: Fri 31/10/2025 14:43:27.33 
+Exit Code: 0 
+ 
+Data Files Status: 
+  PSDP: 404 bytes, modified 31/10/2025 02:41 PM 
+  Mullaloo: 536 bytes, modified 31/10/2025 02:43 PM 
+ 
+Generated Plots: 
+  - 5-day comparison plot 
+  - Monthly comparison plot 
+  - Full interactive timeseries 
+================================================ 
+ 
+ 
