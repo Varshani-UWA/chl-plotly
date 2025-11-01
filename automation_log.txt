@@ -650,3 +650,211 @@ Generated Plots:
 ================================================ 
  
  
+================================================ 
+Task started at: Sat 01/11/2025  9:49:06.75 
+Directory: C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time 
+================================================ 
+ 
+Checking Python... 
+Python 3.13.5
+Python found successfully 
+Running Python script... 
+ 
+================================================ 
+SUCCESS: Task completed at: Sat 01/11/2025  9:49:19.65 
+Exit Code: 0 
+================================================ 
+ 
+ 
+================================================ 
+DUAL-LOCATION PIPELINE (PSDP + Mullaloo) 
+Task started at: Sat 01/11/2025  9:57:20.76 
+Directory: C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time 
+================================================ 
+ 
+Checking Python... 
+Python 3.13.5
+Python found successfully 
+Verifying required packages... 
+All packages OK
+Checking for data files... 
+Found PSDP data file 
+Found Mullaloo data file 
+ 
+Running dual-location pipeline... 
+================================================ 
+ 
+================================================ 
+FAILURE: Task FAILED at: Sat 01/11/2025  9:57:31.66 
+Exit Code: 1 
+Check C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\automation_errors.txt for error details 
+================================================ 
+ 
+ 
+================================================ 
+DUAL-LOCATION PIPELINE (PSDP + Mullaloo) 
+Task started at: Sat 01/11/2025  9:58:59.02 
+Directory: C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time 
+================================================ 
+ 
+Checking Python... 
+Python 3.13.5
+Python found successfully 
+Verifying required packages... 
+All packages OK
+Checking for data files... 
+Found PSDP data file 
+Found Mullaloo data file 
+ 
+Running dual-location pipeline... 
+================================================ 
+ 
+================================================ 
+FAILURE: Task FAILED at: Sat 01/11/2025 10:03:42.46 
+Exit Code: 1 
+Check C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\automation_errors.txt for error details 
+================================================ 
+ 
+ 
+================================================ 
+DUAL-LOCATION PIPELINE (PSDP + Mullaloo) 
+Task started at: Sat 01/11/2025 10:14:51.22 
+Directory: C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time 
+================================================ 
+ 
+Checking Python... 
+Python 3.13.5
+Python found successfully 
+Verifying required packages... 
+All packages OK
+Checking for data files... 
+Found PSDP data file 
+Found Mullaloo data file 
+ 
+Running dual-location pipeline... 
+================================================ 
+ 
+================================================ 
+FAILURE: Task FAILED at: Sat 01/11/2025 10:14:59.17 
+Exit Code: 1 
+Check C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\automation_errors.txt for error details 
+================================================ 
+ 
+ 
+================================================ 
+DUAL-LOCATION PIPELINE (PSDP + Mullaloo) 
+Task started at: Sat 01/11/2025 10:27:28.96 
+Directory: C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time 
+================================================ 
+ 
+Checking Python... 
+Python 3.13.5
+Python found successfully 
+Verifying required packages... 
+All packages OK
+Checking for data files... 
+Found PSDP data file 
+Found Mullaloo data file 
+ 
+Running dual-location pipeline... 
+================================================ 
+ 
+================================================ 
+FAILURE: Task FAILED at: Sat 01/11/2025 10:27:36.66 
+Exit Code: 1 
+Check C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\automation_errors.txt for error details 
+================================================ 
+ 
+ 
+================================================ 
+DUAL-LOCATION PIPELINE (PSDP + Mullaloo) 
+Task started at: Sat 01/11/2025 10:33:17.85 
+Directory: C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time 
+================================================ 
+ 
+Checking Python... 
+Python 3.13.5
+Python found successfully 
+Verifying required packages... 
+All packages OK
+Checking for data files... 
+Found PSDP data file 
+Found Mullaloo data file 
+ 
+Running dual-location pipeline... 
+================================================ 
+ 
+================================================ 
+FAILURE: Task FAILED at: Sat 01/11/2025 10:33:25.33 
+Exit Code: 1 
+Check C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\automation_errors.txt for error details 
+================================================ 
+ 
+ 
+================================================ 
+DUAL-LOCATION PIPELINE (PSDP + Mullaloo) 
+Task started at: Sat 01/11/2025 10:35:34.17 
+Directory: C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time 
+================================================ 
+ 
+Checking Python... 
+Python 3.13.5
+Python found successfully 
+Verifying required packages... 
+All packages OK
+Checking for data files... 
+Found PSDP data file 
+Found Mullaloo data file 
+ 
+Running dual-location pipeline... 
+================================================ 
+ 
+================================================ 
+FAILURE: Task FAILED at: Sat 01/11/2025 10:38:20.65 
+Exit Code: 1 
+Check C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\automation_errors.txt for error details 
+================================================ 
+ 
+ 
+================================================ 
+DUAL-LOCATION PIPELINE (PSDP + Mullaloo) 
+Task started at: Sat 01/11/2025 10:42:41.83 
+Directory: C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time 
+================================================ 
+ 
+Checking Python... 
+Python 3.13.5
+Python found successfully 
+Verifying required packages... 
+All packages OK
+Checking for data files... 
+Found PSDP data file 
+Found Mullaloo data file 
+ 
+Running dual-location pipeline... 
+================================================ 
+ 
+================================================ 
+FAILURE: Task FAILED at: Sat 01/11/2025 10:42:50.39 
+Exit Code: 1 
+Check C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\automation_errors.txt for error details 
+================================================ 
+ 
+ 
+================================================ 
+DUAL-LOCATION PIPELINE (PSDP + Mullaloo) 
+Task started at: Sat 01/11/2025 10:49:03.77 
+Directory: C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time 
+================================================ 
+ 
+Checking Python... 
+Python 3.13.5
+Python found successfully 
+Verifying required packages... 
+All packages OK
+Checking for data files... 
+Found PSDP data file 
+Found Mullaloo data file 
+ 
+Running dual-location pipeline... 
+================================================ 
