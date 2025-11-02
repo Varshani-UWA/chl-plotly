@@ -20759,3 +20759,52 @@ Gaps checked in last 24 hours: 4
 ============================================================
 2025-11-02 18:00:33,677  INFO: GIT COMMIT AND PUSH
 2025-11-02 18:00:33,677  INFO: ============================================================
+2025-11-02 18:00:35,781  INFO: Git commit successful: Auto-update chlorophyll data: 2025-11-01
+2025-11-02 18:00:35,871  INFO: Current branch: main
+2025-11-02 18:00:38,152  INFO: \u2713 Git push successful to main
+2025-11-02 18:00:38,152  INFO: \u2713 Git commit and push completed successfully
+2025-11-02 18:00:38,156  INFO: Cleanup done. Removed 0 files (excluding .nc)
+2025-11-02 18:00:38,156  INFO: 
+============================================================
+2025-11-02 18:00:38,157  INFO: === PIPELINE FINISHED SUCCESSFULLY ===
+2025-11-02 18:00:38,157  INFO: ============================================================
+2025-11-02 18:52:48,450  INFO: === Starting dual-location chlorophyll pipeline ===
+2025-11-02 18:52:48,451  INFO: Location 1: PSDP (-32.20085, 115.77047)
+2025-11-02 18:52:48,451  INFO: Location 2: Mullaloo (-31.782, 115.721)
+2025-11-02 18:52:48,500  WARNING: ============================================================
+2025-11-02 18:52:48,501  WARNING: WARNING: INITIAL_BULK_DOWNLOAD is still True!
+2025-11-02 18:52:48,501  WARNING: Data already exists but bulk download mode is enabled.
+2025-11-02 18:52:48,501  WARNING: Set INITIAL_BULK_DOWNLOAD = False to enable daily updates
+2025-11-02 18:52:48,501  WARNING: Skipping download to prevent duplicate processing
+2025-11-02 18:52:48,501  WARNING: ============================================================
+2025-11-02 18:52:48,502  INFO: 
+============================================================
+2025-11-02 18:52:48,502  INFO: STARTING GAP DETECTION
+2025-11-02 18:52:48,502  INFO: ============================================================
+2025-11-02 18:52:48,502  INFO: === Starting gap detection and filling ===
+2025-11-02 18:52:48,516  INFO: No missing days found
+2025-11-02 18:52:48,517  INFO: No gaps to fill
+2025-11-02 18:52:48,517  INFO: Gap detection complete: 0 gaps filled
+2025-11-02 18:52:48,538  INFO: 
+============================================================
+2025-11-02 18:52:48,539  INFO: GAP SUMMARY REPORT
+2025-11-02 18:52:48,539  INFO: ============================================================
+2025-11-02 18:52:48,540  INFO: 
+Gap Status Distribution:
+2025-11-02 18:52:48,541  INFO:   filled: 10
+2025-11-02 18:52:48,541  INFO:   no_extraction: 9
+2025-11-02 18:52:48,541  INFO:   unavailable: 3
+2025-11-02 18:52:48,542  INFO: 
+Unfilled gaps: 3
+2025-11-02 18:52:48,543  INFO:   Date range: 2025-10-31 to 2025-11-02
+2025-11-02 18:52:48,545  INFO: 
+Gaps checked in last 24 hours: 4
+2025-11-02 18:52:48,546  INFO: ============================================================
+
+2025-11-02 18:52:48,546  INFO: 
+============================================================
+2025-11-02 18:52:48,546  INFO: GENERATING PLOTS
+2025-11-02 18:52:48,546  INFO: ============================================================
+2025-11-02 18:52:48,560  INFO: Loaded PSDP data: 1326 records
+2025-11-02 18:52:48,571  INFO: Loaded Mullaloo data: 1525 records
+2025-11-02 18:52:50,328  INFO: 5-day comparison plot saved: C:/Users/23755118/OneDrive - UWA/Documents/PhD_Varshani/CODING/chl_time\plots\chl_5day_comparison_2025-10-30.html
