@@ -20808,3 +20808,60 @@ Gaps checked in last 24 hours: 4
 2025-11-02 18:52:48,560  INFO: Loaded PSDP data: 1326 records
 2025-11-02 18:52:48,571  INFO: Loaded Mullaloo data: 1525 records
 2025-11-02 18:52:50,328  INFO: 5-day comparison plot saved: C:/Users/23755118/OneDrive - UWA/Documents/PhD_Varshani/CODING/chl_time\plots\chl_5day_comparison_2025-10-30.html
+2025-11-02 18:52:50,487  INFO: Monthly comparison plot saved: C:/Users/23755118/OneDrive - UWA/Documents/PhD_Varshani/CODING/chl_time\plots\chl_month_comparison_2025-10.html
+2025-11-02 18:52:53,947  INFO: Full interactive plot saved: C:/Users/23755118/OneDrive - UWA/Documents/PhD_Varshani/CODING/chl_time\plots\chlorophyll_timeseries_interactive.html
+2025-11-02 18:52:53,948  INFO: Generated 3 plot files
+2025-11-02 18:52:53,948  INFO:   5day_html: C:/Users/23755118/OneDrive - UWA/Documents/PhD_Varshani/CODING/chl_time\plots\chl_5day_comparison_2025-10-30.html
+2025-11-02 18:52:53,949  INFO:   month_html: C:/Users/23755118/OneDrive - UWA/Documents/PhD_Varshani/CODING/chl_time\plots\chl_month_comparison_2025-10.html
+2025-11-02 18:52:53,949  INFO:   full_interactive: C:/Users/23755118/OneDrive - UWA/Documents/PhD_Varshani/CODING/chl_time\plots\chlorophyll_timeseries_interactive.html
+2025-11-02 18:52:53,949  INFO: 
+============================================================
+2025-11-02 18:52:53,949  INFO: GIT COMMIT AND PUSH
+2025-11-02 18:52:53,949  INFO: ============================================================
+2025-11-02 18:52:56,121  INFO: Git commit successful: Auto-update chlorophyll data: 2025-11-01
+2025-11-02 18:52:56,259  INFO: Current branch: main
+2025-11-02 18:52:58,728  INFO: \u2713 Git push successful to main
+2025-11-02 18:52:58,728  INFO: \u2713 Git commit and push completed successfully
+2025-11-02 18:52:58,735  INFO: Cleanup done. Removed 0 files (excluding .nc)
+2025-11-02 18:52:58,735  INFO: 
+============================================================
+2025-11-02 18:52:58,735  INFO: === PIPELINE FINISHED SUCCESSFULLY ===
+2025-11-02 18:52:58,735  INFO: ============================================================
+2025-11-02 19:09:56,400  INFO: === Starting dual-location chlorophyll pipeline ===
+2025-11-02 19:09:56,401  INFO: Location 1: PSDP (-32.20085, 115.77047)
+2025-11-02 19:09:56,401  INFO: Location 2: Mullaloo (-31.782, 115.721)
+2025-11-02 19:09:56,441  WARNING: ============================================================
+2025-11-02 19:09:56,442  WARNING: WARNING: INITIAL_BULK_DOWNLOAD is still True!
+2025-11-02 19:09:56,442  WARNING: Data already exists but bulk download mode is enabled.
+2025-11-02 19:09:56,442  WARNING: Set INITIAL_BULK_DOWNLOAD = False to enable daily updates
+2025-11-02 19:09:56,442  WARNING: Skipping download to prevent duplicate processing
+2025-11-02 19:09:56,443  WARNING: ============================================================
+2025-11-02 19:09:56,443  INFO: 
+============================================================
+2025-11-02 19:09:56,443  INFO: STARTING GAP DETECTION
+2025-11-02 19:09:56,443  INFO: ============================================================
+2025-11-02 19:09:56,443  INFO: === Starting gap detection and filling ===
+2025-11-02 19:09:56,454  INFO: No missing days found
+2025-11-02 19:09:56,454  INFO: No gaps to fill
+2025-11-02 19:09:56,454  INFO: Gap detection complete: 0 gaps filled
+2025-11-02 19:09:56,473  INFO: 
+============================================================
+2025-11-02 19:09:56,473  INFO: GAP SUMMARY REPORT
+2025-11-02 19:09:56,473  INFO: ============================================================
+2025-11-02 19:09:56,474  INFO: 
+Gap Status Distribution:
+2025-11-02 19:09:56,474  INFO:   filled: 10
+2025-11-02 19:09:56,474  INFO:   no_extraction: 9
+2025-11-02 19:09:56,475  INFO:   unavailable: 3
+2025-11-02 19:09:56,475  INFO: 
+Unfilled gaps: 3
+2025-11-02 19:09:56,476  INFO:   Date range: 2025-10-31 to 2025-11-02
+2025-11-02 19:09:56,478  INFO: 
+Gaps checked in last 24 hours: 4
+2025-11-02 19:09:56,479  INFO: ============================================================
+
+2025-11-02 19:09:56,479  INFO: 
+============================================================
+2025-11-02 19:09:56,479  INFO: GENERATING INTERACTIVE MAP WITH TIME SERIES
+2025-11-02 19:09:56,479  INFO: ============================================================
+2025-11-02 19:09:57,813  INFO: \u2713 Interactive map + time series saved to: C:/Users/23755118/OneDrive - UWA/Documents/PhD_Varshani/CODING/chl_time\plots\chlorophyll_map_interactive.html
