@@ -1,5 +1,5 @@
 date,status,available,granule_count,last_checked
-2025-10-01,no_extraction,True,2,2025-11-01 02:51:38.206357+00:00
+2025-10-01,no_extraction,True,2,2025-11-02 01:30:42.372587+00:00
 2025-10-03,no_extraction,True,3,2025-11-01 02:54:01.052315+00:00
 2025-10-04,no_extraction,True,1,2025-11-01 02:56:16.363046+00:00
 2025-10-05,no_extraction,True,2,2025-11-01 02:58:29.426959+00:00
@@ -17,5 +17,7 @@ date,status,available,granule_count,last_checked
 2025-10-27,filled,True,1,2025-10-29 00:00:00
 2025-10-28,filled,True,2,2025-10-30 00:00:00
 2025-10-29,filled,True,44,2025-10-30 00:00:00
-2025-10-30,unavailable,False,0,2025-10-31 00:00:00
+2025-10-30,no_extraction,True,3,2025-11-02 01:35:00.612752+00:00
 2025-10-31,unavailable,False,0,2025-11-01 02:03:42.039301+00:00
+2025-11-01,unavailable,False,0,2025-11-02 01:35:08.233257+00:00
+2025-11-02,unavailable,False,0,2025-11-02 01:35:15.681007+00:00
