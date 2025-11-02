@@ -20865,3 +20865,84 @@ Gaps checked in last 24 hours: 4
 2025-11-02 19:09:56,479  INFO: GENERATING INTERACTIVE MAP WITH TIME SERIES
 2025-11-02 19:09:56,479  INFO: ============================================================
 2025-11-02 19:09:57,813  INFO: \u2713 Interactive map + time series saved to: C:/Users/23755118/OneDrive - UWA/Documents/PhD_Varshani/CODING/chl_time\plots\chlorophyll_map_interactive.html
+2025-11-02 19:09:57,814  INFO: 
+============================================================
+2025-11-02 19:09:57,814  INFO: GENERATING COMPARISON PLOTS
+2025-11-02 19:09:57,814  INFO: ============================================================
+2025-11-02 19:09:57,825  INFO: Loaded PSDP data: 1326 records
+2025-11-02 19:09:57,835  INFO: Loaded Mullaloo data: 1525 records
+2025-11-02 19:09:57,983  INFO: 5-day comparison plot saved: C:/Users/23755118/OneDrive - UWA/Documents/PhD_Varshani/CODING/chl_time\plots\chl_5day_comparison_2025-10-30.html
+2025-11-02 19:09:58,093  INFO: Monthly comparison plot saved: C:/Users/23755118/OneDrive - UWA/Documents/PhD_Varshani/CODING/chl_time\plots\chl_month_comparison_2025-10.html
+2025-11-02 19:10:00,222  INFO: Full interactive plot saved: C:/Users/23755118/OneDrive - UWA/Documents/PhD_Varshani/CODING/chl_time\plots\chlorophyll_timeseries_interactive.html
+2025-11-02 19:10:00,223  INFO: Generated 3 plot files
+2025-11-02 19:10:00,223  INFO:   5day_html: C:/Users/23755118/OneDrive - UWA/Documents/PhD_Varshani/CODING/chl_time\plots\chl_5day_comparison_2025-10-30.html
+2025-11-02 19:10:00,223  INFO:   month_html: C:/Users/23755118/OneDrive - UWA/Documents/PhD_Varshani/CODING/chl_time\plots\chl_month_comparison_2025-10.html
+2025-11-02 19:10:00,223  INFO:   full_interactive: C:/Users/23755118/OneDrive - UWA/Documents/PhD_Varshani/CODING/chl_time\plots\chlorophyll_timeseries_interactive.html
+2025-11-02 19:10:00,223  INFO: 
+============================================================
+2025-11-02 19:10:00,223  INFO: GIT COMMIT AND PUSH
+2025-11-02 19:10:00,223  INFO: ============================================================
+2025-11-02 19:10:02,118  INFO: Git commit successful: Auto-update chlorophyll data: 2025-11-01
+2025-11-02 19:10:02,223  INFO: Current branch: main
+2025-11-02 19:10:04,799  INFO: \u2713 Git push successful to main
+2025-11-02 19:10:04,799  INFO: \u2713 Git commit and push completed successfully
+2025-11-02 19:10:04,804  INFO: Cleanup done. Removed 0 files (excluding .nc)
+2025-11-02 19:10:04,804  INFO: 
+============================================================
+2025-11-02 19:10:04,804  INFO: === PIPELINE FINISHED SUCCESSFULLY ===
+2025-11-02 19:10:04,804  INFO: ============================================================
+2025-11-02 19:20:17,004  INFO: === Starting dual-location chlorophyll pipeline ===
+2025-11-02 19:20:17,005  INFO: Location 1: PSDP (-32.20085, 115.77047)
+2025-11-02 19:20:17,005  INFO: Location 2: Mullaloo (-31.782, 115.721)
+2025-11-02 19:20:17,025  WARNING: ============================================================
+2025-11-02 19:20:17,026  WARNING: WARNING: INITIAL_BULK_DOWNLOAD is still True!
+2025-11-02 19:20:17,026  WARNING: Data already exists but bulk download mode is enabled.
+2025-11-02 19:20:17,027  WARNING: Set INITIAL_BULK_DOWNLOAD = False to enable daily updates
+2025-11-02 19:20:17,027  WARNING: Skipping download to prevent duplicate processing
+2025-11-02 19:20:17,027  WARNING: ============================================================
+2025-11-02 19:20:17,027  INFO: 
+============================================================
+2025-11-02 19:20:17,028  INFO: STARTING GAP DETECTION
+2025-11-02 19:20:17,028  INFO: ============================================================
+2025-11-02 19:20:17,028  INFO: === Starting gap detection and filling ===
+2025-11-02 19:20:17,042  INFO: No missing days found
+2025-11-02 19:20:17,043  INFO: No gaps to fill
+2025-11-02 19:20:17,044  INFO: Gap detection complete: 0 gaps filled
+2025-11-02 19:20:17,053  INFO: 
+============================================================
+2025-11-02 19:20:17,054  INFO: GAP SUMMARY REPORT
+2025-11-02 19:20:17,054  INFO: ============================================================
+2025-11-02 19:20:17,055  INFO: 
+Gap Status Distribution:
+2025-11-02 19:20:17,056  INFO:   filled: 10
+2025-11-02 19:20:17,056  INFO:   no_extraction: 9
+2025-11-02 19:20:17,057  INFO:   unavailable: 3
+2025-11-02 19:20:17,058  INFO: 
+Unfilled gaps: 3
+2025-11-02 19:20:17,059  INFO:   Date range: 2025-10-31 to 2025-11-02
+2025-11-02 19:20:17,063  INFO: 
+Gaps checked in last 24 hours: 4
+2025-11-02 19:20:17,063  INFO: ============================================================
+
+2025-11-02 19:20:17,064  INFO: 
+============================================================
+2025-11-02 19:20:17,064  INFO: GENERATING INTERACTIVE LEAFLET MAP WITH LOLLIPOP PLOTS
+2025-11-02 19:20:17,064  INFO: ============================================================
+2025-11-02 19:20:17,360  INFO: \u2713 Interactive Leaflet map with lollipop plots saved to: C:/Users/23755118/OneDrive - UWA/Documents/PhD_Varshani/CODING/chl_time\plots\chlorophyll_map_interactive.html
+2025-11-02 19:20:17,361  INFO: 
+============================================================
+2025-11-02 19:20:17,361  INFO: GENERATING COMPARISON PLOTS
+2025-11-02 19:20:17,361  INFO: ============================================================
+2025-11-02 19:20:17,375  INFO: Loaded PSDP data: 1326 records
+2025-11-02 19:20:17,388  INFO: Loaded Mullaloo data: 1525 records
+2025-11-02 19:20:18,162  INFO: 5-day comparison plot saved: C:/Users/23755118/OneDrive - UWA/Documents/PhD_Varshani/CODING/chl_time\plots\chl_5day_comparison_2025-10-30.html
+2025-11-02 19:20:18,269  INFO: Monthly comparison plot saved: C:/Users/23755118/OneDrive - UWA/Documents/PhD_Varshani/CODING/chl_time\plots\chl_month_comparison_2025-10.html
+2025-11-02 19:20:20,431  INFO: Full interactive plot saved: C:/Users/23755118/OneDrive - UWA/Documents/PhD_Varshani/CODING/chl_time\plots\chlorophyll_timeseries_interactive.html
+2025-11-02 19:20:20,431  INFO: Generated 3 plot files
+2025-11-02 19:20:20,431  INFO:   5day_html: C:/Users/23755118/OneDrive - UWA/Documents/PhD_Varshani/CODING/chl_time\plots\chl_5day_comparison_2025-10-30.html
+2025-11-02 19:20:20,431  INFO:   month_html: C:/Users/23755118/OneDrive - UWA/Documents/PhD_Varshani/CODING/chl_time\plots\chl_month_comparison_2025-10.html
+2025-11-02 19:20:20,431  INFO:   full_interactive: C:/Users/23755118/OneDrive - UWA/Documents/PhD_Varshani/CODING/chl_time\plots\chlorophyll_timeseries_interactive.html
+2025-11-02 19:20:20,431  INFO: 
+============================================================
+2025-11-02 19:20:20,432  INFO: GIT COMMIT AND PUSH
+2025-11-02 19:20:20,432  INFO: ============================================================
