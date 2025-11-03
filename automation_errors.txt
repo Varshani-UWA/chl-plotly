@@ -20946,3 +20946,26 @@ Gaps checked in last 24 hours: 4
 ============================================================
 2025-11-02 19:20:20,432  INFO: GIT COMMIT AND PUSH
 2025-11-02 19:20:20,432  INFO: ============================================================
+2025-11-02 19:20:21,975  INFO: Git commit successful: Auto-update chlorophyll data: 2025-11-01
+2025-11-02 19:20:22,055  INFO: Current branch: main
+2025-11-02 19:20:24,685  INFO: \u2713 Git push successful to main
+2025-11-02 19:20:24,686  INFO: \u2713 Git commit and push completed successfully
+2025-11-02 19:20:24,692  INFO: Cleanup done. Removed 0 files (excluding .nc)
+2025-11-02 19:20:24,692  INFO: 
+============================================================
+2025-11-02 19:20:24,693  INFO: === PIPELINE FINISHED SUCCESSFULLY ===
+2025-11-02 19:20:24,693  INFO: ============================================================
+2025-11-03 08:52:18,442  INFO: === Starting dual-location chlorophyll pipeline ===
+2025-11-03 08:52:18,445  INFO: Location 1: PSDP (-32.20085, 115.77047)
+2025-11-03 08:52:18,446  INFO: Location 2: Mullaloo (-31.782, 115.721)
+2025-11-03 08:52:18,544  WARNING: ============================================================
+2025-11-03 08:52:18,545  WARNING: WARNING: INITIAL_BULK_DOWNLOAD is still True!
+2025-11-03 08:52:18,545  WARNING: Data already exists but bulk download mode is enabled.
+2025-11-03 08:52:18,546  WARNING: Set INITIAL_BULK_DOWNLOAD = False to enable daily updates
+2025-11-03 08:52:18,546  WARNING: Skipping download to prevent duplicate processing
+2025-11-03 08:52:18,547  WARNING: ============================================================
+2025-11-03 08:52:18,547  INFO: 
+============================================================
+2025-11-03 08:52:18,548  INFO: STARTING GAP DETECTION
+2025-11-03 08:52:18,549  INFO: ============================================================
+2025-11-03 08:52:18,549  INFO: === Starting gap detection and filling ===
