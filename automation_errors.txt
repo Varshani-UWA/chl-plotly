@@ -24262,3 +24262,774 @@ AttributeError: module 'folium' has no attribute 'element'. Did you mean: 'Eleme
 ============================================================
 2025-11-03 14:57:50,746  INFO: GIT COMMIT AND PUSH
 2025-11-03 14:57:50,746  INFO: ============================================================
+2025-11-03 14:57:52,324  INFO: Git commit successful: Auto-update chlorophyll data: 2025-11-02
+2025-11-03 14:57:52,410  INFO: Current branch: main
+2025-11-03 14:57:54,805  INFO: \u2713 Git push successful to main
+2025-11-03 14:57:54,805  INFO: \u2713 Git commit and push completed successfully
+2025-11-03 14:57:54,808  INFO: Cleanup done. Removed 0 files (excluding .nc)
+2025-11-03 14:57:54,808  INFO: 
+============================================================
+2025-11-03 14:57:54,808  INFO: === PIPELINE FINISHED SUCCESSFULLY ===
+2025-11-03 14:57:54,808  INFO: ============================================================
+2025-11-03 15:05:55,715  INFO: === Starting dual-location chlorophyll pipeline ===
+2025-11-03 15:05:55,716  INFO: Location 1: PSDP (-32.20085, 115.77047)
+2025-11-03 15:05:55,716  INFO: Location 2: Mullaloo (-31.782, 115.721)
+2025-11-03 15:05:55,766  INFO: Daily mode: Searching for data for 2025-11-02
+2025-11-03 15:05:55,767  INFO: Logging in to Earthdata via earthaccess...
+2025-11-03 15:05:57,042  INFO: You're now authenticated with NASA Earthdata Login
+2025-11-03 15:06:02,016  INFO: Earthdata login OK.
+2025-11-03 15:06:02,017  INFO: Searching OLCIS3A_L2_EFR_OC_NRT for 2025-11-02...
+2025-11-03 15:06:02,865  INFO: Granules found: 0
+2025-11-03 15:06:03,608  INFO: No results for OLCIS3A_L2_EFR_OC_NRT
+2025-11-03 15:06:03,608  INFO: Searching OLCIS3B_L2_EFR_OC_NRT for 2025-11-02...
+2025-11-03 15:06:04,353  INFO: Granules found: 1
+2025-11-03 15:06:05,083  INFO: Found 1 items. Downloading...
+2025-11-03 15:06:05,084  INFO:  Getting 1 granules, approx download size: 0.15 GB
+QUEUEING TASKS | :   0%|          | 0/1 [00:00<?, ?it/s]QUEUEING TASKS | : 100%|##########| 1/1 [00:00<00:00, 2265.97it/s]2025-11-03 15:06:05,091  INFO: File S3B_OLCI_EFRNT.20251102T015319.L2.OC.NRT.nc already downloaded
+
+PROCESSING TASKS | :   0%|          | 0/1 [00:00<?, ?it/s]PROCESSING TASKS | : 100%|##########| 1/1 [00:00<00:00, 14614.30it/s]
+COLLECTING RESULTS | :   0%|          | 0/1 [00:00<?, ?it/s]COLLECTING RESULTS | : 100%|##########| 1/1 [00:00<00:00, 32263.88it/s]
+2025-11-03 15:06:06,094  INFO: Processing files for both locations...
+2025-11-03 15:06:06,094  INFO: PSDP - Starting to process 48 files...
+2025-11-03 15:06:06,094  INFO: PSDP - Processing file 1/48: S3A_OLCI_EFRNT.20251001T012055.L2.OC.NRT.nc
+Warning 3: Cannot find gdalvrt.xsd (GDAL_DATA is not defined)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:447: FutureWarning: In a future version, xarray will not decode timedelta values based on the presence of a timedelta-like units attribute by default. Instead it will rely on the presence of a timedelta64 dtype attribute, which is now xarray's default way of encoding timedelta64 values. To continue decoding timedeltas based on the presence of a timedelta-like units attribute, users will need to explicitly opt-in by passing True or CFTimedeltaCoder(decode_via_units=True) to decode_timedelta. To silence this warning, set decode_timedelta to True, False, or a 'CFTimedeltaCoder' instance.
+  datatree = xr.open_datatree(fpath)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:349: RuntimeWarning: Mean of empty slice
+  chl_mean_3x3 = np.nanmean(region_3x3)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:362: RuntimeWarning: Mean of empty slice
+  chl_mean_4x4 = np.nanmean(region_4x4)
+2025-11-03 15:06:10,763  WARNING: Both 3x3 and 4x4 extraction returned NaN
+2025-11-03 15:06:10,780  WARNING: PSDP - Processed S3A_OLCI_EFRNT.20251001T012055.L2.OC.NRT.nc -> 2025-10-01, chl=NaN
+2025-11-03 15:06:10,781  INFO: PSDP - Processing file 2/48: S3A_OLCI_EFRNT.20251001T012355.L2.OC.NRT.nc
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:447: FutureWarning: In a future version, xarray will not decode timedelta values based on the presence of a timedelta-like units attribute by default. Instead it will rely on the presence of a timedelta64 dtype attribute, which is now xarray's default way of encoding timedelta64 values. To continue decoding timedeltas based on the presence of a timedelta-like units attribute, users will need to explicitly opt-in by passing True or CFTimedeltaCoder(decode_via_units=True) to decode_timedelta. To silence this warning, set decode_timedelta to True, False, or a 'CFTimedeltaCoder' instance.
+  datatree = xr.open_datatree(fpath)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:349: RuntimeWarning: Mean of empty slice
+  chl_mean_3x3 = np.nanmean(region_3x3)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:362: RuntimeWarning: Mean of empty slice
+  chl_mean_4x4 = np.nanmean(region_4x4)
+2025-11-03 15:06:13,025  WARNING: Both 3x3 and 4x4 extraction returned NaN
+2025-11-03 15:06:13,039  WARNING: PSDP - Processed S3A_OLCI_EFRNT.20251001T012355.L2.OC.NRT.nc -> 2025-10-01, chl=NaN
+2025-11-03 15:06:13,039  INFO: PSDP - Processing file 3/48: S3A_OLCI_EFRNT.20251003T020933.L2.OC.NRT.nc
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:447: FutureWarning: In a future version, xarray will not decode timedelta values based on the presence of a timedelta-like units attribute by default. Instead it will rely on the presence of a timedelta64 dtype attribute, which is now xarray's default way of encoding timedelta64 values. To continue decoding timedeltas based on the presence of a timedelta-like units attribute, users will need to explicitly opt-in by passing True or CFTimedeltaCoder(decode_via_units=True) to decode_timedelta. To silence this warning, set decode_timedelta to True, False, or a 'CFTimedeltaCoder' instance.
+  datatree = xr.open_datatree(fpath)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:349: RuntimeWarning: Mean of empty slice
+  chl_mean_3x3 = np.nanmean(region_3x3)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:362: RuntimeWarning: Mean of empty slice
+  chl_mean_4x4 = np.nanmean(region_4x4)
+2025-11-03 15:06:15,112  WARNING: Both 3x3 and 4x4 extraction returned NaN
+2025-11-03 15:06:15,127  WARNING: PSDP - Processed S3A_OLCI_EFRNT.20251003T020933.L2.OC.NRT.nc -> 2025-10-03, chl=NaN
+2025-11-03 15:06:15,127  INFO: PSDP - Processing file 4/48: S3A_OLCI_EFRNT.20251004T014322.L2.OC.NRT.nc
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:447: FutureWarning: In a future version, xarray will not decode timedelta values based on the presence of a timedelta-like units attribute by default. Instead it will rely on the presence of a timedelta64 dtype attribute, which is now xarray's default way of encoding timedelta64 values. To continue decoding timedeltas based on the presence of a timedelta-like units attribute, users will need to explicitly opt-in by passing True or CFTimedeltaCoder(decode_via_units=True) to decode_timedelta. To silence this warning, set decode_timedelta to True, False, or a 'CFTimedeltaCoder' instance.
+  datatree = xr.open_datatree(fpath)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:349: RuntimeWarning: Mean of empty slice
+  chl_mean_3x3 = np.nanmean(region_3x3)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:362: RuntimeWarning: Mean of empty slice
+  chl_mean_4x4 = np.nanmean(region_4x4)
+2025-11-03 15:06:16,974  WARNING: Both 3x3 and 4x4 extraction returned NaN
+2025-11-03 15:06:16,987  WARNING: PSDP - Processed S3A_OLCI_EFRNT.20251004T014322.L2.OC.NRT.nc -> 2025-10-04, chl=NaN
+2025-11-03 15:06:16,987  INFO: PSDP - Processing file 5/48: S3A_OLCI_EFRNT.20251005T011711.L2.OC.NRT.nc
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:447: FutureWarning: In a future version, xarray will not decode timedelta values based on the presence of a timedelta-like units attribute by default. Instead it will rely on the presence of a timedelta64 dtype attribute, which is now xarray's default way of encoding timedelta64 values. To continue decoding timedeltas based on the presence of a timedelta-like units attribute, users will need to explicitly opt-in by passing True or CFTimedeltaCoder(decode_via_units=True) to decode_timedelta. To silence this warning, set decode_timedelta to True, False, or a 'CFTimedeltaCoder' instance.
+  datatree = xr.open_datatree(fpath)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:349: RuntimeWarning: Mean of empty slice
+  chl_mean_3x3 = np.nanmean(region_3x3)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:362: RuntimeWarning: Mean of empty slice
+  chl_mean_4x4 = np.nanmean(region_4x4)
+2025-11-03 15:06:18,985  WARNING: Both 3x3 and 4x4 extraction returned NaN
+2025-11-03 15:06:18,996  WARNING: PSDP - Processed S3A_OLCI_EFRNT.20251005T011711.L2.OC.NRT.nc -> 2025-10-05, chl=NaN
+2025-11-03 15:06:18,997  INFO: PSDP - Processing file 6/48: S3A_OLCI_EFRNT.20251005T012011.L2.OC.NRT.nc
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:447: FutureWarning: In a future version, xarray will not decode timedelta values based on the presence of a timedelta-like units attribute by default. Instead it will rely on the presence of a timedelta64 dtype attribute, which is now xarray's default way of encoding timedelta64 values. To continue decoding timedeltas based on the presence of a timedelta-like units attribute, users will need to explicitly opt-in by passing True or CFTimedeltaCoder(decode_via_units=True) to decode_timedelta. To silence this warning, set decode_timedelta to True, False, or a 'CFTimedeltaCoder' instance.
+  datatree = xr.open_datatree(fpath)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:349: RuntimeWarning: Mean of empty slice
+  chl_mean_3x3 = np.nanmean(region_3x3)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:362: RuntimeWarning: Mean of empty slice
+  chl_mean_4x4 = np.nanmean(region_4x4)
+2025-11-03 15:06:20,940  WARNING: Both 3x3 and 4x4 extraction returned NaN
+2025-11-03 15:06:20,953  WARNING: PSDP - Processed S3A_OLCI_EFRNT.20251005T012011.L2.OC.NRT.nc -> 2025-10-05, chl=NaN
+2025-11-03 15:06:20,953  INFO: PSDP - Processing file 7/48: S3A_OLCI_EFRNT.20251007T020548.L2.OC.NRT.nc
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:447: FutureWarning: In a future version, xarray will not decode timedelta values based on the presence of a timedelta-like units attribute by default. Instead it will rely on the presence of a timedelta64 dtype attribute, which is now xarray's default way of encoding timedelta64 values. To continue decoding timedeltas based on the presence of a timedelta-like units attribute, users will need to explicitly opt-in by passing True or CFTimedeltaCoder(decode_via_units=True) to decode_timedelta. To silence this warning, set decode_timedelta to True, False, or a 'CFTimedeltaCoder' instance.
+  datatree = xr.open_datatree(fpath)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:349: RuntimeWarning: Mean of empty slice
+  chl_mean_3x3 = np.nanmean(region_3x3)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:362: RuntimeWarning: Mean of empty slice
+  chl_mean_4x4 = np.nanmean(region_4x4)
+2025-11-03 15:06:22,851  WARNING: Both 3x3 and 4x4 extraction returned NaN
+2025-11-03 15:06:22,867  WARNING: PSDP - Processed S3A_OLCI_EFRNT.20251007T020548.L2.OC.NRT.nc -> 2025-10-07, chl=NaN
+2025-11-03 15:06:22,867  INFO: PSDP - Processing file 8/48: S3A_OLCI_EFRNT.20251008T013937.L2.OC.NRT.nc
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:447: FutureWarning: In a future version, xarray will not decode timedelta values based on the presence of a timedelta-like units attribute by default. Instead it will rely on the presence of a timedelta64 dtype attribute, which is now xarray's default way of encoding timedelta64 values. To continue decoding timedeltas based on the presence of a timedelta-like units attribute, users will need to explicitly opt-in by passing True or CFTimedeltaCoder(decode_via_units=True) to decode_timedelta. To silence this warning, set decode_timedelta to True, False, or a 'CFTimedeltaCoder' instance.
+  datatree = xr.open_datatree(fpath)
+2025-11-03 15:06:24,779  INFO: PSDP - Processed S3A_OLCI_EFRNT.20251008T013937.L2.OC.NRT.nc -> 2025-10-08, chl=6.8696
+2025-11-03 15:06:24,779  INFO: PSDP - Processing file 9/48: S3A_OLCI_EFRNT.20251009T011626.L2.OC.NRT.nc
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:447: FutureWarning: In a future version, xarray will not decode timedelta values based on the presence of a timedelta-like units attribute by default. Instead it will rely on the presence of a timedelta64 dtype attribute, which is now xarray's default way of encoding timedelta64 values. To continue decoding timedeltas based on the presence of a timedelta-like units attribute, users will need to explicitly opt-in by passing True or CFTimedeltaCoder(decode_via_units=True) to decode_timedelta. To silence this warning, set decode_timedelta to True, False, or a 'CFTimedeltaCoder' instance.
+  datatree = xr.open_datatree(fpath)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:349: RuntimeWarning: Mean of empty slice
+  chl_mean_3x3 = np.nanmean(region_3x3)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:362: RuntimeWarning: Mean of empty slice
+  chl_mean_4x4 = np.nanmean(region_4x4)
+2025-11-03 15:06:26,675  WARNING: Both 3x3 and 4x4 extraction returned NaN
+2025-11-03 15:06:26,691  WARNING: PSDP - Processed S3A_OLCI_EFRNT.20251009T011626.L2.OC.NRT.nc -> 2025-10-09, chl=NaN
+2025-11-03 15:06:26,691  INFO: PSDP - Processing file 10/48: S3A_OLCI_EFRNT.20251011T020203.L2.OC.NRT.nc
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:447: FutureWarning: In a future version, xarray will not decode timedelta values based on the presence of a timedelta-like units attribute by default. Instead it will rely on the presence of a timedelta64 dtype attribute, which is now xarray's default way of encoding timedelta64 values. To continue decoding timedeltas based on the presence of a timedelta-like units attribute, users will need to explicitly opt-in by passing True or CFTimedeltaCoder(decode_via_units=True) to decode_timedelta. To silence this warning, set decode_timedelta to True, False, or a 'CFTimedeltaCoder' instance.
+  datatree = xr.open_datatree(fpath)
+2025-11-03 15:06:28,711  INFO: PSDP - Processed S3A_OLCI_EFRNT.20251011T020203.L2.OC.NRT.nc -> 2025-10-11, chl=4.5012
+2025-11-03 15:06:28,712  INFO: PSDP - Processing file 11/48: S3A_OLCI_EFRNT.20251012T013553.L2.OC.NRT.nc
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:447: FutureWarning: In a future version, xarray will not decode timedelta values based on the presence of a timedelta-like units attribute by default. Instead it will rely on the presence of a timedelta64 dtype attribute, which is now xarray's default way of encoding timedelta64 values. To continue decoding timedeltas based on the presence of a timedelta-like units attribute, users will need to explicitly opt-in by passing True or CFTimedeltaCoder(decode_via_units=True) to decode_timedelta. To silence this warning, set decode_timedelta to True, False, or a 'CFTimedeltaCoder' instance.
+  datatree = xr.open_datatree(fpath)
+2025-11-03 15:06:30,639  INFO: PSDP - Processed S3A_OLCI_EFRNT.20251012T013553.L2.OC.NRT.nc -> 2025-10-12, chl=2.9988
+2025-11-03 15:06:30,640  INFO: PSDP - Processing file 12/48: S3A_OLCI_EFRNT.20251013T011242.L2.OC.NRT.nc
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:447: FutureWarning: In a future version, xarray will not decode timedelta values based on the presence of a timedelta-like units attribute by default. Instead it will rely on the presence of a timedelta64 dtype attribute, which is now xarray's default way of encoding timedelta64 values. To continue decoding timedeltas based on the presence of a timedelta-like units attribute, users will need to explicitly opt-in by passing True or CFTimedeltaCoder(decode_via_units=True) to decode_timedelta. To silence this warning, set decode_timedelta to True, False, or a 'CFTimedeltaCoder' instance.
+  datatree = xr.open_datatree(fpath)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:349: RuntimeWarning: Mean of empty slice
+  chl_mean_3x3 = np.nanmean(region_3x3)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:362: RuntimeWarning: Mean of empty slice
+  chl_mean_4x4 = np.nanmean(region_4x4)
+2025-11-03 15:06:32,642  WARNING: Both 3x3 and 4x4 extraction returned NaN
+2025-11-03 15:06:32,655  WARNING: PSDP - Processed S3A_OLCI_EFRNT.20251013T011242.L2.OC.NRT.nc -> 2025-10-13, chl=NaN
+2025-11-03 15:06:32,655  INFO: PSDP - Processing file 13/48: S3A_OLCI_EFRNT.20251015T015820.L2.OC.NRT.nc
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:447: FutureWarning: In a future version, xarray will not decode timedelta values based on the presence of a timedelta-like units attribute by default. Instead it will rely on the presence of a timedelta64 dtype attribute, which is now xarray's default way of encoding timedelta64 values. To continue decoding timedeltas based on the presence of a timedelta-like units attribute, users will need to explicitly opt-in by passing True or CFTimedeltaCoder(decode_via_units=True) to decode_timedelta. To silence this warning, set decode_timedelta to True, False, or a 'CFTimedeltaCoder' instance.
+  datatree = xr.open_datatree(fpath)
+2025-11-03 15:06:34,337  INFO: PSDP - Processed S3A_OLCI_EFRNT.20251015T015820.L2.OC.NRT.nc -> 2025-10-15, chl=4.4136
+2025-11-03 15:06:34,337  INFO: PSDP - Processing file 14/48: S3A_OLCI_EFRNT.20251016T013209.L2.OC.NRT.nc
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:447: FutureWarning: In a future version, xarray will not decode timedelta values based on the presence of a timedelta-like units attribute by default. Instead it will rely on the presence of a timedelta64 dtype attribute, which is now xarray's default way of encoding timedelta64 values. To continue decoding timedeltas based on the presence of a timedelta-like units attribute, users will need to explicitly opt-in by passing True or CFTimedeltaCoder(decode_via_units=True) to decode_timedelta. To silence this warning, set decode_timedelta to True, False, or a 'CFTimedeltaCoder' instance.
+  datatree = xr.open_datatree(fpath)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:349: RuntimeWarning: Mean of empty slice
+  chl_mean_3x3 = np.nanmean(region_3x3)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:362: RuntimeWarning: Mean of empty slice
+  chl_mean_4x4 = np.nanmean(region_4x4)
+2025-11-03 15:06:35,906  WARNING: Both 3x3 and 4x4 extraction returned NaN
+2025-11-03 15:06:35,917  WARNING: PSDP - Processed S3A_OLCI_EFRNT.20251016T013209.L2.OC.NRT.nc -> 2025-10-16, chl=NaN
+2025-11-03 15:06:35,918  INFO: PSDP - Processing file 15/48: S3A_OLCI_EFRNT.20251019T015436.L2.OC.NRT.nc
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:447: FutureWarning: In a future version, xarray will not decode timedelta values based on the presence of a timedelta-like units attribute by default. Instead it will rely on the presence of a timedelta64 dtype attribute, which is now xarray's default way of encoding timedelta64 values. To continue decoding timedeltas based on the presence of a timedelta-like units attribute, users will need to explicitly opt-in by passing True or CFTimedeltaCoder(decode_via_units=True) to decode_timedelta. To silence this warning, set decode_timedelta to True, False, or a 'CFTimedeltaCoder' instance.
+  datatree = xr.open_datatree(fpath)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:349: RuntimeWarning: Mean of empty slice
+  chl_mean_3x3 = np.nanmean(region_3x3)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:362: RuntimeWarning: Mean of empty slice
+  chl_mean_4x4 = np.nanmean(region_4x4)
+2025-11-03 15:06:37,568  WARNING: Both 3x3 and 4x4 extraction returned NaN
+2025-11-03 15:06:37,581  WARNING: PSDP - Processed S3A_OLCI_EFRNT.20251019T015436.L2.OC.NRT.nc -> 2025-10-19, chl=NaN
+2025-11-03 15:06:37,582  INFO: PSDP - Processing file 16/48: S3A_OLCI_EFRNT.20251020T012825.L2.OC.NRT.nc
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:447: FutureWarning: In a future version, xarray will not decode timedelta values based on the presence of a timedelta-like units attribute by default. Instead it will rely on the presence of a timedelta64 dtype attribute, which is now xarray's default way of encoding timedelta64 values. To continue decoding timedeltas based on the presence of a timedelta-like units attribute, users will need to explicitly opt-in by passing True or CFTimedeltaCoder(decode_via_units=True) to decode_timedelta. To silence this warning, set decode_timedelta to True, False, or a 'CFTimedeltaCoder' instance.
+  datatree = xr.open_datatree(fpath)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:349: RuntimeWarning: Mean of empty slice
+  chl_mean_3x3 = np.nanmean(region_3x3)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:362: RuntimeWarning: Mean of empty slice
+  chl_mean_4x4 = np.nanmean(region_4x4)
+2025-11-03 15:06:39,292  WARNING: Both 3x3 and 4x4 extraction returned NaN
+2025-11-03 15:06:39,306  WARNING: PSDP - Processed S3A_OLCI_EFRNT.20251020T012825.L2.OC.NRT.nc -> 2025-10-20, chl=NaN
+2025-11-03 15:06:39,306  INFO: PSDP - Processing file 17/48: S3A_OLCI_EFRNT.20251020T013125.L2.OC.NRT.nc
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:447: FutureWarning: In a future version, xarray will not decode timedelta values based on the presence of a timedelta-like units attribute by default. Instead it will rely on the presence of a timedelta64 dtype attribute, which is now xarray's default way of encoding timedelta64 values. To continue decoding timedeltas based on the presence of a timedelta-like units attribute, users will need to explicitly opt-in by passing True or CFTimedeltaCoder(decode_via_units=True) to decode_timedelta. To silence this warning, set decode_timedelta to True, False, or a 'CFTimedeltaCoder' instance.
+  datatree = xr.open_datatree(fpath)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:349: RuntimeWarning: Mean of empty slice
+  chl_mean_3x3 = np.nanmean(region_3x3)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:362: RuntimeWarning: Mean of empty slice
+  chl_mean_4x4 = np.nanmean(region_4x4)
+2025-11-03 15:06:41,151  WARNING: Both 3x3 and 4x4 extraction returned NaN
+2025-11-03 15:06:41,161  WARNING: PSDP - Processed S3A_OLCI_EFRNT.20251020T013125.L2.OC.NRT.nc -> 2025-10-20, chl=NaN
+2025-11-03 15:06:41,161  INFO: PSDP - Processing file 18/48: S3A_OLCI_EFRNT.20251023T015051.L2.OC.NRT.nc
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:447: FutureWarning: In a future version, xarray will not decode timedelta values based on the presence of a timedelta-like units attribute by default. Instead it will rely on the presence of a timedelta64 dtype attribute, which is now xarray's default way of encoding timedelta64 values. To continue decoding timedeltas based on the presence of a timedelta-like units attribute, users will need to explicitly opt-in by passing True or CFTimedeltaCoder(decode_via_units=True) to decode_timedelta. To silence this warning, set decode_timedelta to True, False, or a 'CFTimedeltaCoder' instance.
+  datatree = xr.open_datatree(fpath)
+2025-11-03 15:06:42,791  INFO: PSDP - Processed S3A_OLCI_EFRNT.20251023T015051.L2.OC.NRT.nc -> 2025-10-23, chl=5.4566
+2025-11-03 15:06:42,791  INFO: PSDP - Processing file 19/48: S3A_OLCI_EFRNT.20251024T012440.L2.OC.NRT.nc
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:447: FutureWarning: In a future version, xarray will not decode timedelta values based on the presence of a timedelta-like units attribute by default. Instead it will rely on the presence of a timedelta64 dtype attribute, which is now xarray's default way of encoding timedelta64 values. To continue decoding timedeltas based on the presence of a timedelta-like units attribute, users will need to explicitly opt-in by passing True or CFTimedeltaCoder(decode_via_units=True) to decode_timedelta. To silence this warning, set decode_timedelta to True, False, or a 'CFTimedeltaCoder' instance.
+  datatree = xr.open_datatree(fpath)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:349: RuntimeWarning: Mean of empty slice
+  chl_mean_3x3 = np.nanmean(region_3x3)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:362: RuntimeWarning: Mean of empty slice
+  chl_mean_4x4 = np.nanmean(region_4x4)
+2025-11-03 15:06:44,298  WARNING: Both 3x3 and 4x4 extraction returned NaN
+2025-11-03 15:06:44,308  WARNING: PSDP - Processed S3A_OLCI_EFRNT.20251024T012440.L2.OC.NRT.nc -> 2025-10-24, chl=NaN
+2025-11-03 15:06:44,308  INFO: PSDP - Processing file 20/48: S3A_OLCI_EFRNT.20251024T012740.L2.OC.NRT.nc
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:447: FutureWarning: In a future version, xarray will not decode timedelta values based on the presence of a timedelta-like units attribute by default. Instead it will rely on the presence of a timedelta64 dtype attribute, which is now xarray's default way of encoding timedelta64 values. To continue decoding timedeltas based on the presence of a timedelta-like units attribute, users will need to explicitly opt-in by passing True or CFTimedeltaCoder(decode_via_units=True) to decode_timedelta. To silence this warning, set decode_timedelta to True, False, or a 'CFTimedeltaCoder' instance.
+  datatree = xr.open_datatree(fpath)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:349: RuntimeWarning: Mean of empty slice
+  chl_mean_3x3 = np.nanmean(region_3x3)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:362: RuntimeWarning: Mean of empty slice
+  chl_mean_4x4 = np.nanmean(region_4x4)
+2025-11-03 15:06:45,901  WARNING: Both 3x3 and 4x4 extraction returned NaN
+2025-11-03 15:06:45,912  WARNING: PSDP - Processed S3A_OLCI_EFRNT.20251024T012740.L2.OC.NRT.nc -> 2025-10-24, chl=NaN
+2025-11-03 15:06:45,912  INFO: PSDP - Processing file 21/48: S3A_OLCI_EFRNT.20251027T014707.L2.OC.NRT.nc
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:447: FutureWarning: In a future version, xarray will not decode timedelta values based on the presence of a timedelta-like units attribute by default. Instead it will rely on the presence of a timedelta64 dtype attribute, which is now xarray's default way of encoding timedelta64 values. To continue decoding timedeltas based on the presence of a timedelta-like units attribute, users will need to explicitly opt-in by passing True or CFTimedeltaCoder(decode_via_units=True) to decode_timedelta. To silence this warning, set decode_timedelta to True, False, or a 'CFTimedeltaCoder' instance.
+  datatree = xr.open_datatree(fpath)
+2025-11-03 15:06:47,602  INFO: PSDP - Processed S3A_OLCI_EFRNT.20251027T014707.L2.OC.NRT.nc -> 2025-10-27, chl=5.7195
+2025-11-03 15:06:47,602  INFO: PSDP - Processing file 22/48: S3A_OLCI_EFRNT.20251028T012056.L2.OC.NRT.nc
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:447: FutureWarning: In a future version, xarray will not decode timedelta values based on the presence of a timedelta-like units attribute by default. Instead it will rely on the presence of a timedelta64 dtype attribute, which is now xarray's default way of encoding timedelta64 values. To continue decoding timedeltas based on the presence of a timedelta-like units attribute, users will need to explicitly opt-in by passing True or CFTimedeltaCoder(decode_via_units=True) to decode_timedelta. To silence this warning, set decode_timedelta to True, False, or a 'CFTimedeltaCoder' instance.
+  datatree = xr.open_datatree(fpath)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:349: RuntimeWarning: Mean of empty slice
+  chl_mean_3x3 = np.nanmean(region_3x3)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:362: RuntimeWarning: Mean of empty slice
+  chl_mean_4x4 = np.nanmean(region_4x4)
+2025-11-03 15:06:49,114  WARNING: Both 3x3 and 4x4 extraction returned NaN
+2025-11-03 15:06:49,124  WARNING: PSDP - Processed S3A_OLCI_EFRNT.20251028T012056.L2.OC.NRT.nc -> 2025-10-28, chl=NaN
+2025-11-03 15:06:49,124  INFO: PSDP - Processing file 23/48: S3A_OLCI_EFRNT.20251028T012356.L2.OC.NRT.nc
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:447: FutureWarning: In a future version, xarray will not decode timedelta values based on the presence of a timedelta-like units attribute by default. Instead it will rely on the presence of a timedelta64 dtype attribute, which is now xarray's default way of encoding timedelta64 values. To continue decoding timedeltas based on the presence of a timedelta-like units attribute, users will need to explicitly opt-in by passing True or CFTimedeltaCoder(decode_via_units=True) to decode_timedelta. To silence this warning, set decode_timedelta to True, False, or a 'CFTimedeltaCoder' instance.
+  datatree = xr.open_datatree(fpath)
+2025-11-03 15:06:50,751  INFO: PSDP - Processed S3A_OLCI_EFRNT.20251028T012356.L2.OC.NRT.nc -> 2025-10-28, chl=5.0550
+2025-11-03 15:06:50,751  INFO: PSDP - Processing file 24/48: S3A_OLCI_EFRNT.20251030T020934.L2.OC.NRT.nc
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:447: FutureWarning: In a future version, xarray will not decode timedelta values based on the presence of a timedelta-like units attribute by default. Instead it will rely on the presence of a timedelta64 dtype attribute, which is now xarray's default way of encoding timedelta64 values. To continue decoding timedeltas based on the presence of a timedelta-like units attribute, users will need to explicitly opt-in by passing True or CFTimedeltaCoder(decode_via_units=True) to decode_timedelta. To silence this warning, set decode_timedelta to True, False, or a 'CFTimedeltaCoder' instance.
+  datatree = xr.open_datatree(fpath)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:349: RuntimeWarning: Mean of empty slice
+  chl_mean_3x3 = np.nanmean(region_3x3)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:362: RuntimeWarning: Mean of empty slice
+  chl_mean_4x4 = np.nanmean(region_4x4)
+2025-11-03 15:06:52,381  WARNING: Both 3x3 and 4x4 extraction returned NaN
+2025-11-03 15:06:52,393  WARNING: PSDP - Processed S3A_OLCI_EFRNT.20251030T020934.L2.OC.NRT.nc -> 2025-10-30, chl=NaN
+2025-11-03 15:06:52,394  INFO: PSDP - Processing file 25/48: S3B_OLCI_EFRNT.20251002T015701.L2.OC.NRT.nc
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:447: FutureWarning: In a future version, xarray will not decode timedelta values based on the presence of a timedelta-like units attribute by default. Instead it will rely on the presence of a timedelta64 dtype attribute, which is now xarray's default way of encoding timedelta64 values. To continue decoding timedeltas based on the presence of a timedelta-like units attribute, users will need to explicitly opt-in by passing True or CFTimedeltaCoder(decode_via_units=True) to decode_timedelta. To silence this warning, set decode_timedelta to True, False, or a 'CFTimedeltaCoder' instance.
+  datatree = xr.open_datatree(fpath)
+2025-11-03 15:06:54,010  INFO: PSDP - Processed S3B_OLCI_EFRNT.20251002T015701.L2.OC.NRT.nc -> 2025-10-02, chl=7.7205
+2025-11-03 15:06:54,010  INFO: PSDP - Processing file 26/48: S3B_OLCI_EFRNT.20251003T013049.L2.OC.NRT.nc
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:447: FutureWarning: In a future version, xarray will not decode timedelta values based on the presence of a timedelta-like units attribute by default. Instead it will rely on the presence of a timedelta64 dtype attribute, which is now xarray's default way of encoding timedelta64 values. To continue decoding timedeltas based on the presence of a timedelta-like units attribute, users will need to explicitly opt-in by passing True or CFTimedeltaCoder(decode_via_units=True) to decode_timedelta. To silence this warning, set decode_timedelta to True, False, or a 'CFTimedeltaCoder' instance.
+  datatree = xr.open_datatree(fpath)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:349: RuntimeWarning: Mean of empty slice
+  chl_mean_3x3 = np.nanmean(region_3x3)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:362: RuntimeWarning: Mean of empty slice
+  chl_mean_4x4 = np.nanmean(region_4x4)
+2025-11-03 15:06:55,531  WARNING: Both 3x3 and 4x4 extraction returned NaN
+2025-11-03 15:06:55,542  WARNING: PSDP - Processed S3B_OLCI_EFRNT.20251003T013049.L2.OC.NRT.nc -> 2025-10-03, chl=NaN
+2025-11-03 15:06:55,542  INFO: PSDP - Processing file 27/48: S3B_OLCI_EFRNT.20251003T013349.L2.OC.NRT.nc
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:447: FutureWarning: In a future version, xarray will not decode timedelta values based on the presence of a timedelta-like units attribute by default. Instead it will rely on the presence of a timedelta64 dtype attribute, which is now xarray's default way of encoding timedelta64 values. To continue decoding timedeltas based on the presence of a timedelta-like units attribute, users will need to explicitly opt-in by passing True or CFTimedeltaCoder(decode_via_units=True) to decode_timedelta. To silence this warning, set decode_timedelta to True, False, or a 'CFTimedeltaCoder' instance.
+  datatree = xr.open_datatree(fpath)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:349: RuntimeWarning: Mean of empty slice
+  chl_mean_3x3 = np.nanmean(region_3x3)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:362: RuntimeWarning: Mean of empty slice
+  chl_mean_4x4 = np.nanmean(region_4x4)
+2025-11-03 15:06:57,103  WARNING: Both 3x3 and 4x4 extraction returned NaN
+2025-11-03 15:06:57,112  WARNING: PSDP - Processed S3B_OLCI_EFRNT.20251003T013349.L2.OC.NRT.nc -> 2025-10-03, chl=NaN
+2025-11-03 15:06:57,113  INFO: PSDP - Processing file 28/48: S3B_OLCI_EFRNT.20251006T015314.L2.OC.NRT.nc
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:447: FutureWarning: In a future version, xarray will not decode timedelta values based on the presence of a timedelta-like units attribute by default. Instead it will rely on the presence of a timedelta64 dtype attribute, which is now xarray's default way of encoding timedelta64 values. To continue decoding timedeltas based on the presence of a timedelta-like units attribute, users will need to explicitly opt-in by passing True or CFTimedeltaCoder(decode_via_units=True) to decode_timedelta. To silence this warning, set decode_timedelta to True, False, or a 'CFTimedeltaCoder' instance.
+  datatree = xr.open_datatree(fpath)
+2025-11-03 15:06:58,683  INFO: PSDP - Processed S3B_OLCI_EFRNT.20251006T015314.L2.OC.NRT.nc -> 2025-10-06, chl=9.0715
+2025-11-03 15:06:58,683  INFO: PSDP - Processing file 29/48: S3B_OLCI_EFRNT.20251007T012704.L2.OC.NRT.nc
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:447: FutureWarning: In a future version, xarray will not decode timedelta values based on the presence of a timedelta-like units attribute by default. Instead it will rely on the presence of a timedelta64 dtype attribute, which is now xarray's default way of encoding timedelta64 values. To continue decoding timedeltas based on the presence of a timedelta-like units attribute, users will need to explicitly opt-in by passing True or CFTimedeltaCoder(decode_via_units=True) to decode_timedelta. To silence this warning, set decode_timedelta to True, False, or a 'CFTimedeltaCoder' instance.
+  datatree = xr.open_datatree(fpath)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:349: RuntimeWarning: Mean of empty slice
+  chl_mean_3x3 = np.nanmean(region_3x3)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:362: RuntimeWarning: Mean of empty slice
+  chl_mean_4x4 = np.nanmean(region_4x4)
+2025-11-03 15:07:00,179  WARNING: Both 3x3 and 4x4 extraction returned NaN
+2025-11-03 15:07:00,190  WARNING: PSDP - Processed S3B_OLCI_EFRNT.20251007T012704.L2.OC.NRT.nc -> 2025-10-07, chl=NaN
+2025-11-03 15:07:00,190  INFO: PSDP - Processing file 30/48: S3B_OLCI_EFRNT.20251007T013004.L2.OC.NRT.nc
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:447: FutureWarning: In a future version, xarray will not decode timedelta values based on the presence of a timedelta-like units attribute by default. Instead it will rely on the presence of a timedelta64 dtype attribute, which is now xarray's default way of encoding timedelta64 values. To continue decoding timedeltas based on the presence of a timedelta-like units attribute, users will need to explicitly opt-in by passing True or CFTimedeltaCoder(decode_via_units=True) to decode_timedelta. To silence this warning, set decode_timedelta to True, False, or a 'CFTimedeltaCoder' instance.
+  datatree = xr.open_datatree(fpath)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:349: RuntimeWarning: Mean of empty slice
+  chl_mean_3x3 = np.nanmean(region_3x3)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:362: RuntimeWarning: Mean of empty slice
+  chl_mean_4x4 = np.nanmean(region_4x4)
+2025-11-03 15:07:01,767  WARNING: Both 3x3 and 4x4 extraction returned NaN
+2025-11-03 15:07:01,777  WARNING: PSDP - Processed S3B_OLCI_EFRNT.20251007T013004.L2.OC.NRT.nc -> 2025-10-07, chl=NaN
+2025-11-03 15:07:01,777  INFO: PSDP - Processing file 31/48: S3B_OLCI_EFRNT.20251010T014931.L2.OC.NRT.nc
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:447: FutureWarning: In a future version, xarray will not decode timedelta values based on the presence of a timedelta-like units attribute by default. Instead it will rely on the presence of a timedelta64 dtype attribute, which is now xarray's default way of encoding timedelta64 values. To continue decoding timedeltas based on the presence of a timedelta-like units attribute, users will need to explicitly opt-in by passing True or CFTimedeltaCoder(decode_via_units=True) to decode_timedelta. To silence this warning, set decode_timedelta to True, False, or a 'CFTimedeltaCoder' instance.
+  datatree = xr.open_datatree(fpath)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:349: RuntimeWarning: Mean of empty slice
+  chl_mean_3x3 = np.nanmean(region_3x3)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:362: RuntimeWarning: Mean of empty slice
+  chl_mean_4x4 = np.nanmean(region_4x4)
+2025-11-03 15:07:03,330  WARNING: Both 3x3 and 4x4 extraction returned NaN
+2025-11-03 15:07:03,341  WARNING: PSDP - Processed S3B_OLCI_EFRNT.20251010T014931.L2.OC.NRT.nc -> 2025-10-10, chl=NaN
+2025-11-03 15:07:03,341  INFO: PSDP - Processing file 32/48: S3B_OLCI_EFRNT.20251011T012320.L2.OC.NRT.nc
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:447: FutureWarning: In a future version, xarray will not decode timedelta values based on the presence of a timedelta-like units attribute by default. Instead it will rely on the presence of a timedelta64 dtype attribute, which is now xarray's default way of encoding timedelta64 values. To continue decoding timedeltas based on the presence of a timedelta-like units attribute, users will need to explicitly opt-in by passing True or CFTimedeltaCoder(decode_via_units=True) to decode_timedelta. To silence this warning, set decode_timedelta to True, False, or a 'CFTimedeltaCoder' instance.
+  datatree = xr.open_datatree(fpath)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:349: RuntimeWarning: Mean of empty slice
+  chl_mean_3x3 = np.nanmean(region_3x3)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:362: RuntimeWarning: Mean of empty slice
+  chl_mean_4x4 = np.nanmean(region_4x4)
+2025-11-03 15:07:04,965  WARNING: Both 3x3 and 4x4 extraction returned NaN
+2025-11-03 15:07:04,975  WARNING: PSDP - Processed S3B_OLCI_EFRNT.20251011T012320.L2.OC.NRT.nc -> 2025-10-11, chl=NaN
+2025-11-03 15:07:04,975  INFO: PSDP - Processing file 33/48: S3B_OLCI_EFRNT.20251011T012620.L2.OC.NRT.nc
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:447: FutureWarning: In a future version, xarray will not decode timedelta values based on the presence of a timedelta-like units attribute by default. Instead it will rely on the presence of a timedelta64 dtype attribute, which is now xarray's default way of encoding timedelta64 values. To continue decoding timedeltas based on the presence of a timedelta-like units attribute, users will need to explicitly opt-in by passing True or CFTimedeltaCoder(decode_via_units=True) to decode_timedelta. To silence this warning, set decode_timedelta to True, False, or a 'CFTimedeltaCoder' instance.
+  datatree = xr.open_datatree(fpath)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:349: RuntimeWarning: Mean of empty slice
+  chl_mean_3x3 = np.nanmean(region_3x3)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:362: RuntimeWarning: Mean of empty slice
+  chl_mean_4x4 = np.nanmean(region_4x4)
+2025-11-03 15:07:06,853  WARNING: Both 3x3 and 4x4 extraction returned NaN
+2025-11-03 15:07:06,864  WARNING: PSDP - Processed S3B_OLCI_EFRNT.20251011T012620.L2.OC.NRT.nc -> 2025-10-11, chl=NaN
+2025-11-03 15:07:06,864  INFO: PSDP - Processing file 34/48: S3B_OLCI_EFRNT.20251014T014548.L2.OC.NRT.nc
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:447: FutureWarning: In a future version, xarray will not decode timedelta values based on the presence of a timedelta-like units attribute by default. Instead it will rely on the presence of a timedelta64 dtype attribute, which is now xarray's default way of encoding timedelta64 values. To continue decoding timedeltas based on the presence of a timedelta-like units attribute, users will need to explicitly opt-in by passing True or CFTimedeltaCoder(decode_via_units=True) to decode_timedelta. To silence this warning, set decode_timedelta to True, False, or a 'CFTimedeltaCoder' instance.
+  datatree = xr.open_datatree(fpath)
+2025-11-03 15:07:09,110  INFO: PSDP - Processed S3B_OLCI_EFRNT.20251014T014548.L2.OC.NRT.nc -> 2025-10-14, chl=3.5476
+2025-11-03 15:07:09,110  INFO: PSDP - Processing file 35/48: S3B_OLCI_EFRNT.20251015T011937.L2.OC.NRT.nc
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:447: FutureWarning: In a future version, xarray will not decode timedelta values based on the presence of a timedelta-like units attribute by default. Instead it will rely on the presence of a timedelta64 dtype attribute, which is now xarray's default way of encoding timedelta64 values. To continue decoding timedeltas based on the presence of a timedelta-like units attribute, users will need to explicitly opt-in by passing True or CFTimedeltaCoder(decode_via_units=True) to decode_timedelta. To silence this warning, set decode_timedelta to True, False, or a 'CFTimedeltaCoder' instance.
+  datatree = xr.open_datatree(fpath)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:349: RuntimeWarning: Mean of empty slice
+  chl_mean_3x3 = np.nanmean(region_3x3)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:362: RuntimeWarning: Mean of empty slice
+  chl_mean_4x4 = np.nanmean(region_4x4)
+2025-11-03 15:07:11,194  WARNING: Both 3x3 and 4x4 extraction returned NaN
+2025-11-03 15:07:11,210  WARNING: PSDP - Processed S3B_OLCI_EFRNT.20251015T011937.L2.OC.NRT.nc -> 2025-10-15, chl=NaN
+2025-11-03 15:07:11,210  INFO: PSDP - Processing file 36/48: S3B_OLCI_EFRNT.20251015T012237.L2.OC.NRT.nc
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:447: FutureWarning: In a future version, xarray will not decode timedelta values based on the presence of a timedelta-like units attribute by default. Instead it will rely on the presence of a timedelta64 dtype attribute, which is now xarray's default way of encoding timedelta64 values. To continue decoding timedeltas based on the presence of a timedelta-like units attribute, users will need to explicitly opt-in by passing True or CFTimedeltaCoder(decode_via_units=True) to decode_timedelta. To silence this warning, set decode_timedelta to True, False, or a 'CFTimedeltaCoder' instance.
+  datatree = xr.open_datatree(fpath)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:349: RuntimeWarning: Mean of empty slice
+  chl_mean_3x3 = np.nanmean(region_3x3)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:362: RuntimeWarning: Mean of empty slice
+  chl_mean_4x4 = np.nanmean(region_4x4)
+2025-11-03 15:07:13,103  WARNING: Both 3x3 and 4x4 extraction returned NaN
+2025-11-03 15:07:13,114  WARNING: PSDP - Processed S3B_OLCI_EFRNT.20251015T012237.L2.OC.NRT.nc -> 2025-10-15, chl=NaN
+2025-11-03 15:07:13,114  INFO: PSDP - Processing file 37/48: S3B_OLCI_EFRNT.20251017T020814.L2.OC.NRT.nc
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:447: FutureWarning: In a future version, xarray will not decode timedelta values based on the presence of a timedelta-like units attribute by default. Instead it will rely on the presence of a timedelta64 dtype attribute, which is now xarray's default way of encoding timedelta64 values. To continue decoding timedeltas based on the presence of a timedelta-like units attribute, users will need to explicitly opt-in by passing True or CFTimedeltaCoder(decode_via_units=True) to decode_timedelta. To silence this warning, set decode_timedelta to True, False, or a 'CFTimedeltaCoder' instance.
+  datatree = xr.open_datatree(fpath)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:349: RuntimeWarning: Mean of empty slice
+  chl_mean_3x3 = np.nanmean(region_3x3)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:362: RuntimeWarning: Mean of empty slice
+  chl_mean_4x4 = np.nanmean(region_4x4)
+2025-11-03 15:07:15,056  WARNING: Both 3x3 and 4x4 extraction returned NaN
+2025-11-03 15:07:15,068  WARNING: PSDP - Processed S3B_OLCI_EFRNT.20251017T020814.L2.OC.NRT.nc -> 2025-10-17, chl=NaN
+2025-11-03 15:07:15,068  INFO: PSDP - Processing file 38/48: S3B_OLCI_EFRNT.20251018T014203.L2.OC.NRT.nc
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:447: FutureWarning: In a future version, xarray will not decode timedelta values based on the presence of a timedelta-like units attribute by default. Instead it will rely on the presence of a timedelta64 dtype attribute, which is now xarray's default way of encoding timedelta64 values. To continue decoding timedeltas based on the presence of a timedelta-like units attribute, users will need to explicitly opt-in by passing True or CFTimedeltaCoder(decode_via_units=True) to decode_timedelta. To silence this warning, set decode_timedelta to True, False, or a 'CFTimedeltaCoder' instance.
+  datatree = xr.open_datatree(fpath)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:349: RuntimeWarning: Mean of empty slice
+  chl_mean_3x3 = np.nanmean(region_3x3)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:362: RuntimeWarning: Mean of empty slice
+  chl_mean_4x4 = np.nanmean(region_4x4)
+2025-11-03 15:07:16,821  WARNING: Both 3x3 and 4x4 extraction returned NaN
+2025-11-03 15:07:16,833  WARNING: PSDP - Processed S3B_OLCI_EFRNT.20251018T014203.L2.OC.NRT.nc -> 2025-10-18, chl=NaN
+2025-11-03 15:07:16,833  INFO: PSDP - Processing file 39/48: S3B_OLCI_EFRNT.20251019T011852.L2.OC.NRT.nc
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:447: FutureWarning: In a future version, xarray will not decode timedelta values based on the presence of a timedelta-like units attribute by default. Instead it will rely on the presence of a timedelta64 dtype attribute, which is now xarray's default way of encoding timedelta64 values. To continue decoding timedeltas based on the presence of a timedelta-like units attribute, users will need to explicitly opt-in by passing True or CFTimedeltaCoder(decode_via_units=True) to decode_timedelta. To silence this warning, set decode_timedelta to True, False, or a 'CFTimedeltaCoder' instance.
+  datatree = xr.open_datatree(fpath)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:349: RuntimeWarning: Mean of empty slice
+  chl_mean_3x3 = np.nanmean(region_3x3)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:362: RuntimeWarning: Mean of empty slice
+  chl_mean_4x4 = np.nanmean(region_4x4)
+2025-11-03 15:07:18,717  WARNING: Both 3x3 and 4x4 extraction returned NaN
+2025-11-03 15:07:18,731  WARNING: PSDP - Processed S3B_OLCI_EFRNT.20251019T011852.L2.OC.NRT.nc -> 2025-10-19, chl=NaN
+2025-11-03 15:07:18,731  INFO: PSDP - Processing file 40/48: S3B_OLCI_EFRNT.20251021T020430.L2.OC.NRT.nc
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:447: FutureWarning: In a future version, xarray will not decode timedelta values based on the presence of a timedelta-like units attribute by default. Instead it will rely on the presence of a timedelta64 dtype attribute, which is now xarray's default way of encoding timedelta64 values. To continue decoding timedeltas based on the presence of a timedelta-like units attribute, users will need to explicitly opt-in by passing True or CFTimedeltaCoder(decode_via_units=True) to decode_timedelta. To silence this warning, set decode_timedelta to True, False, or a 'CFTimedeltaCoder' instance.
+  datatree = xr.open_datatree(fpath)
+2025-11-03 15:07:20,589  INFO: PSDP - Processed S3B_OLCI_EFRNT.20251021T020430.L2.OC.NRT.nc -> 2025-10-21, chl=4.0366
+2025-11-03 15:07:20,589  INFO: PSDP - Processing file 41/48: S3B_OLCI_EFRNT.20251022T013820.L2.OC.NRT.nc
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:447: FutureWarning: In a future version, xarray will not decode timedelta values based on the presence of a timedelta-like units attribute by default. Instead it will rely on the presence of a timedelta64 dtype attribute, which is now xarray's default way of encoding timedelta64 values. To continue decoding timedeltas based on the presence of a timedelta-like units attribute, users will need to explicitly opt-in by passing True or CFTimedeltaCoder(decode_via_units=True) to decode_timedelta. To silence this warning, set decode_timedelta to True, False, or a 'CFTimedeltaCoder' instance.
+  datatree = xr.open_datatree(fpath)
+2025-11-03 15:07:22,416  INFO: PSDP - Processed S3B_OLCI_EFRNT.20251022T013820.L2.OC.NRT.nc -> 2025-10-22, chl=3.7152
+2025-11-03 15:07:22,416  INFO: PSDP - Processing file 42/48: S3B_OLCI_EFRNT.20251023T011509.L2.OC.NRT.nc
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:447: FutureWarning: In a future version, xarray will not decode timedelta values based on the presence of a timedelta-like units attribute by default. Instead it will rely on the presence of a timedelta64 dtype attribute, which is now xarray's default way of encoding timedelta64 values. To continue decoding timedeltas based on the presence of a timedelta-like units attribute, users will need to explicitly opt-in by passing True or CFTimedeltaCoder(decode_via_units=True) to decode_timedelta. To silence this warning, set decode_timedelta to True, False, or a 'CFTimedeltaCoder' instance.
+  datatree = xr.open_datatree(fpath)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:349: RuntimeWarning: Mean of empty slice
+  chl_mean_3x3 = np.nanmean(region_3x3)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:362: RuntimeWarning: Mean of empty slice
+  chl_mean_4x4 = np.nanmean(region_4x4)
+2025-11-03 15:07:24,158  WARNING: Both 3x3 and 4x4 extraction returned NaN
+2025-11-03 15:07:24,171  WARNING: PSDP - Processed S3B_OLCI_EFRNT.20251023T011509.L2.OC.NRT.nc -> 2025-10-23, chl=NaN
+2025-11-03 15:07:24,172  INFO: PSDP - Processing file 43/48: S3B_OLCI_EFRNT.20251025T020047.L2.OC.NRT.nc
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:447: FutureWarning: In a future version, xarray will not decode timedelta values based on the presence of a timedelta-like units attribute by default. Instead it will rely on the presence of a timedelta64 dtype attribute, which is now xarray's default way of encoding timedelta64 values. To continue decoding timedeltas based on the presence of a timedelta-like units attribute, users will need to explicitly opt-in by passing True or CFTimedeltaCoder(decode_via_units=True) to decode_timedelta. To silence this warning, set decode_timedelta to True, False, or a 'CFTimedeltaCoder' instance.
+  datatree = xr.open_datatree(fpath)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:349: RuntimeWarning: Mean of empty slice
+  chl_mean_3x3 = np.nanmean(region_3x3)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:362: RuntimeWarning: Mean of empty slice
+  chl_mean_4x4 = np.nanmean(region_4x4)
+2025-11-03 15:07:25,916  WARNING: Both 3x3 and 4x4 extraction returned NaN
+2025-11-03 15:07:25,929  WARNING: PSDP - Processed S3B_OLCI_EFRNT.20251025T020047.L2.OC.NRT.nc -> 2025-10-25, chl=NaN
+2025-11-03 15:07:25,929  INFO: PSDP - Processing file 44/48: S3B_OLCI_EFRNT.20251026T013437.L2.OC.NRT.nc
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:447: FutureWarning: In a future version, xarray will not decode timedelta values based on the presence of a timedelta-like units attribute by default. Instead it will rely on the presence of a timedelta64 dtype attribute, which is now xarray's default way of encoding timedelta64 values. To continue decoding timedeltas based on the presence of a timedelta-like units attribute, users will need to explicitly opt-in by passing True or CFTimedeltaCoder(decode_via_units=True) to decode_timedelta. To silence this warning, set decode_timedelta to True, False, or a 'CFTimedeltaCoder' instance.
+  datatree = xr.open_datatree(fpath)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:349: RuntimeWarning: Mean of empty slice
+  chl_mean_3x3 = np.nanmean(region_3x3)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:362: RuntimeWarning: Mean of empty slice
+  chl_mean_4x4 = np.nanmean(region_4x4)
+2025-11-03 15:07:27,855  WARNING: Both 3x3 and 4x4 extraction returned NaN
+2025-11-03 15:07:27,870  WARNING: PSDP - Processed S3B_OLCI_EFRNT.20251026T013437.L2.OC.NRT.nc -> 2025-10-26, chl=NaN
+2025-11-03 15:07:27,870  INFO: PSDP - Processing file 45/48: S3B_OLCI_EFRNT.20251029T015704.L2.OC.NRT.nc
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:447: FutureWarning: In a future version, xarray will not decode timedelta values based on the presence of a timedelta-like units attribute by default. Instead it will rely on the presence of a timedelta64 dtype attribute, which is now xarray's default way of encoding timedelta64 values. To continue decoding timedeltas based on the presence of a timedelta-like units attribute, users will need to explicitly opt-in by passing True or CFTimedeltaCoder(decode_via_units=True) to decode_timedelta. To silence this warning, set decode_timedelta to True, False, or a 'CFTimedeltaCoder' instance.
+  datatree = xr.open_datatree(fpath)
+2025-11-03 15:07:29,704  INFO: PSDP - Processed S3B_OLCI_EFRNT.20251029T015704.L2.OC.NRT.nc -> 2025-10-29, chl=3.3591
+2025-11-03 15:07:29,704  INFO: PSDP - Processing file 46/48: S3B_OLCI_EFRNT.20251030T013053.L2.OC.NRT.nc
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:447: FutureWarning: In a future version, xarray will not decode timedelta values based on the presence of a timedelta-like units attribute by default. Instead it will rely on the presence of a timedelta64 dtype attribute, which is now xarray's default way of encoding timedelta64 values. To continue decoding timedeltas based on the presence of a timedelta-like units attribute, users will need to explicitly opt-in by passing True or CFTimedeltaCoder(decode_via_units=True) to decode_timedelta. To silence this warning, set decode_timedelta to True, False, or a 'CFTimedeltaCoder' instance.
+  datatree = xr.open_datatree(fpath)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:349: RuntimeWarning: Mean of empty slice
+  chl_mean_3x3 = np.nanmean(region_3x3)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:362: RuntimeWarning: Mean of empty slice
+  chl_mean_4x4 = np.nanmean(region_4x4)
+2025-11-03 15:07:31,615  WARNING: Both 3x3 and 4x4 extraction returned NaN
+2025-11-03 15:07:31,629  WARNING: PSDP - Processed S3B_OLCI_EFRNT.20251030T013053.L2.OC.NRT.nc -> 2025-10-30, chl=NaN
+2025-11-03 15:07:31,630  INFO: PSDP - Processing file 47/48: S3B_OLCI_EFRNT.20251030T013353.L2.OC.NRT.nc
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:447: FutureWarning: In a future version, xarray will not decode timedelta values based on the presence of a timedelta-like units attribute by default. Instead it will rely on the presence of a timedelta64 dtype attribute, which is now xarray's default way of encoding timedelta64 values. To continue decoding timedeltas based on the presence of a timedelta-like units attribute, users will need to explicitly opt-in by passing True or CFTimedeltaCoder(decode_via_units=True) to decode_timedelta. To silence this warning, set decode_timedelta to True, False, or a 'CFTimedeltaCoder' instance.
+  datatree = xr.open_datatree(fpath)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:349: RuntimeWarning: Mean of empty slice
+  chl_mean_3x3 = np.nanmean(region_3x3)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:362: RuntimeWarning: Mean of empty slice
+  chl_mean_4x4 = np.nanmean(region_4x4)
+2025-11-03 15:07:33,429  WARNING: Both 3x3 and 4x4 extraction returned NaN
+2025-11-03 15:07:33,439  WARNING: PSDP - Processed S3B_OLCI_EFRNT.20251030T013353.L2.OC.NRT.nc -> 2025-10-30, chl=NaN
+2025-11-03 15:07:33,439  INFO: PSDP - Processing file 48/48: S3B_OLCI_EFRNT.20251102T015319.L2.OC.NRT.nc
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:447: FutureWarning: In a future version, xarray will not decode timedelta values based on the presence of a timedelta-like units attribute by default. Instead it will rely on the presence of a timedelta64 dtype attribute, which is now xarray's default way of encoding timedelta64 values. To continue decoding timedeltas based on the presence of a timedelta-like units attribute, users will need to explicitly opt-in by passing True or CFTimedeltaCoder(decode_via_units=True) to decode_timedelta. To silence this warning, set decode_timedelta to True, False, or a 'CFTimedeltaCoder' instance.
+  datatree = xr.open_datatree(fpath)
+2025-11-03 15:07:35,307  INFO: PSDP - Processed S3B_OLCI_EFRNT.20251102T015319.L2.OC.NRT.nc -> 2025-11-02, chl=7.3044
+2025-11-03 15:07:35,333  INFO: PSDP - Extracted 14 valid records from 48 files
+2025-11-03 15:07:35,349  INFO: PSDP - Existing CSV has 2863 records
+2025-11-03 15:07:35,352  INFO: PSDP - After merge: 2863 total records
+2025-11-03 15:07:35,367  INFO: \u2713 PSDP - CSV saved: C:/Users/23755118/OneDrive - UWA/Documents/PhD_Varshani/CODING/chl_time\chl_timeseries_psdp.csv (2863 rows)
+2025-11-03 15:07:35,387  INFO: \u2713 PSDP - CSV verified: 2863 rows on disk
+2025-11-03 15:07:35,405  INFO: Mullaloo - Starting to process 48 files...
+2025-11-03 15:07:35,405  INFO: Mullaloo - Processing file 1/48: S3A_OLCI_EFRNT.20251001T012055.L2.OC.NRT.nc
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:447: FutureWarning: In a future version, xarray will not decode timedelta values based on the presence of a timedelta-like units attribute by default. Instead it will rely on the presence of a timedelta64 dtype attribute, which is now xarray's default way of encoding timedelta64 values. To continue decoding timedeltas based on the presence of a timedelta-like units attribute, users will need to explicitly opt-in by passing True or CFTimedeltaCoder(decode_via_units=True) to decode_timedelta. To silence this warning, set decode_timedelta to True, False, or a 'CFTimedeltaCoder' instance.
+  datatree = xr.open_datatree(fpath)
+2025-11-03 15:07:37,348  INFO: Mullaloo - Processed S3A_OLCI_EFRNT.20251001T012055.L2.OC.NRT.nc -> 2025-10-01, chl=2.0696
+2025-11-03 15:07:37,348  INFO: Mullaloo - Processing file 2/48: S3A_OLCI_EFRNT.20251001T012355.L2.OC.NRT.nc
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:447: FutureWarning: In a future version, xarray will not decode timedelta values based on the presence of a timedelta-like units attribute by default. Instead it will rely on the presence of a timedelta64 dtype attribute, which is now xarray's default way of encoding timedelta64 values. To continue decoding timedeltas based on the presence of a timedelta-like units attribute, users will need to explicitly opt-in by passing True or CFTimedeltaCoder(decode_via_units=True) to decode_timedelta. To silence this warning, set decode_timedelta to True, False, or a 'CFTimedeltaCoder' instance.
+  datatree = xr.open_datatree(fpath)
+2025-11-03 15:07:39,388  INFO: Mullaloo - Processed S3A_OLCI_EFRNT.20251001T012355.L2.OC.NRT.nc -> 2025-10-01, chl=4.8251
+2025-11-03 15:07:39,389  INFO: Mullaloo - Processing file 3/48: S3A_OLCI_EFRNT.20251003T020933.L2.OC.NRT.nc
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:447: FutureWarning: In a future version, xarray will not decode timedelta values based on the presence of a timedelta-like units attribute by default. Instead it will rely on the presence of a timedelta64 dtype attribute, which is now xarray's default way of encoding timedelta64 values. To continue decoding timedeltas based on the presence of a timedelta-like units attribute, users will need to explicitly opt-in by passing True or CFTimedeltaCoder(decode_via_units=True) to decode_timedelta. To silence this warning, set decode_timedelta to True, False, or a 'CFTimedeltaCoder' instance.
+  datatree = xr.open_datatree(fpath)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:349: RuntimeWarning: Mean of empty slice
+  chl_mean_3x3 = np.nanmean(region_3x3)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:362: RuntimeWarning: Mean of empty slice
+  chl_mean_4x4 = np.nanmean(region_4x4)
+2025-11-03 15:07:41,471  WARNING: Both 3x3 and 4x4 extraction returned NaN
+2025-11-03 15:07:41,488  WARNING: Mullaloo - Processed S3A_OLCI_EFRNT.20251003T020933.L2.OC.NRT.nc -> 2025-10-03, chl=NaN
+2025-11-03 15:07:41,488  INFO: Mullaloo - Processing file 4/48: S3A_OLCI_EFRNT.20251004T014322.L2.OC.NRT.nc
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:447: FutureWarning: In a future version, xarray will not decode timedelta values based on the presence of a timedelta-like units attribute by default. Instead it will rely on the presence of a timedelta64 dtype attribute, which is now xarray's default way of encoding timedelta64 values. To continue decoding timedeltas based on the presence of a timedelta-like units attribute, users will need to explicitly opt-in by passing True or CFTimedeltaCoder(decode_via_units=True) to decode_timedelta. To silence this warning, set decode_timedelta to True, False, or a 'CFTimedeltaCoder' instance.
+  datatree = xr.open_datatree(fpath)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:349: RuntimeWarning: Mean of empty slice
+  chl_mean_3x3 = np.nanmean(region_3x3)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:362: RuntimeWarning: Mean of empty slice
+  chl_mean_4x4 = np.nanmean(region_4x4)
+2025-11-03 15:07:43,355  WARNING: Both 3x3 and 4x4 extraction returned NaN
+2025-11-03 15:07:43,369  WARNING: Mullaloo - Processed S3A_OLCI_EFRNT.20251004T014322.L2.OC.NRT.nc -> 2025-10-04, chl=NaN
+2025-11-03 15:07:43,369  INFO: Mullaloo - Processing file 5/48: S3A_OLCI_EFRNT.20251005T011711.L2.OC.NRT.nc
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:447: FutureWarning: In a future version, xarray will not decode timedelta values based on the presence of a timedelta-like units attribute by default. Instead it will rely on the presence of a timedelta64 dtype attribute, which is now xarray's default way of encoding timedelta64 values. To continue decoding timedeltas based on the presence of a timedelta-like units attribute, users will need to explicitly opt-in by passing True or CFTimedeltaCoder(decode_via_units=True) to decode_timedelta. To silence this warning, set decode_timedelta to True, False, or a 'CFTimedeltaCoder' instance.
+  datatree = xr.open_datatree(fpath)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:349: RuntimeWarning: Mean of empty slice
+  chl_mean_3x3 = np.nanmean(region_3x3)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:362: RuntimeWarning: Mean of empty slice
+  chl_mean_4x4 = np.nanmean(region_4x4)
+2025-11-03 15:07:45,099  WARNING: Both 3x3 and 4x4 extraction returned NaN
+2025-11-03 15:07:45,111  WARNING: Mullaloo - Processed S3A_OLCI_EFRNT.20251005T011711.L2.OC.NRT.nc -> 2025-10-05, chl=NaN
+2025-11-03 15:07:45,111  INFO: Mullaloo - Processing file 6/48: S3A_OLCI_EFRNT.20251005T012011.L2.OC.NRT.nc
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:447: FutureWarning: In a future version, xarray will not decode timedelta values based on the presence of a timedelta-like units attribute by default. Instead it will rely on the presence of a timedelta64 dtype attribute, which is now xarray's default way of encoding timedelta64 values. To continue decoding timedeltas based on the presence of a timedelta-like units attribute, users will need to explicitly opt-in by passing True or CFTimedeltaCoder(decode_via_units=True) to decode_timedelta. To silence this warning, set decode_timedelta to True, False, or a 'CFTimedeltaCoder' instance.
+  datatree = xr.open_datatree(fpath)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:349: RuntimeWarning: Mean of empty slice
+  chl_mean_3x3 = np.nanmean(region_3x3)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:362: RuntimeWarning: Mean of empty slice
+  chl_mean_4x4 = np.nanmean(region_4x4)
+2025-11-03 15:07:46,975  WARNING: Both 3x3 and 4x4 extraction returned NaN
+2025-11-03 15:07:46,987  WARNING: Mullaloo - Processed S3A_OLCI_EFRNT.20251005T012011.L2.OC.NRT.nc -> 2025-10-05, chl=NaN
+2025-11-03 15:07:46,987  INFO: Mullaloo - Processing file 7/48: S3A_OLCI_EFRNT.20251007T020548.L2.OC.NRT.nc
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:447: FutureWarning: In a future version, xarray will not decode timedelta values based on the presence of a timedelta-like units attribute by default. Instead it will rely on the presence of a timedelta64 dtype attribute, which is now xarray's default way of encoding timedelta64 values. To continue decoding timedeltas based on the presence of a timedelta-like units attribute, users will need to explicitly opt-in by passing True or CFTimedeltaCoder(decode_via_units=True) to decode_timedelta. To silence this warning, set decode_timedelta to True, False, or a 'CFTimedeltaCoder' instance.
+  datatree = xr.open_datatree(fpath)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:349: RuntimeWarning: Mean of empty slice
+  chl_mean_3x3 = np.nanmean(region_3x3)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:362: RuntimeWarning: Mean of empty slice
+  chl_mean_4x4 = np.nanmean(region_4x4)
+2025-11-03 15:07:48,690  WARNING: Both 3x3 and 4x4 extraction returned NaN
+2025-11-03 15:07:48,702  WARNING: Mullaloo - Processed S3A_OLCI_EFRNT.20251007T020548.L2.OC.NRT.nc -> 2025-10-07, chl=NaN
+2025-11-03 15:07:48,703  INFO: Mullaloo - Processing file 8/48: S3A_OLCI_EFRNT.20251008T013937.L2.OC.NRT.nc
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:447: FutureWarning: In a future version, xarray will not decode timedelta values based on the presence of a timedelta-like units attribute by default. Instead it will rely on the presence of a timedelta64 dtype attribute, which is now xarray's default way of encoding timedelta64 values. To continue decoding timedeltas based on the presence of a timedelta-like units attribute, users will need to explicitly opt-in by passing True or CFTimedeltaCoder(decode_via_units=True) to decode_timedelta. To silence this warning, set decode_timedelta to True, False, or a 'CFTimedeltaCoder' instance.
+  datatree = xr.open_datatree(fpath)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:349: RuntimeWarning: Mean of empty slice
+  chl_mean_3x3 = np.nanmean(region_3x3)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:362: RuntimeWarning: Mean of empty slice
+  chl_mean_4x4 = np.nanmean(region_4x4)
+2025-11-03 15:07:50,386  WARNING: Both 3x3 and 4x4 extraction returned NaN
+2025-11-03 15:07:50,399  WARNING: Mullaloo - Processed S3A_OLCI_EFRNT.20251008T013937.L2.OC.NRT.nc -> 2025-10-08, chl=NaN
+2025-11-03 15:07:50,399  INFO: Mullaloo - Processing file 9/48: S3A_OLCI_EFRNT.20251009T011626.L2.OC.NRT.nc
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:447: FutureWarning: In a future version, xarray will not decode timedelta values based on the presence of a timedelta-like units attribute by default. Instead it will rely on the presence of a timedelta64 dtype attribute, which is now xarray's default way of encoding timedelta64 values. To continue decoding timedeltas based on the presence of a timedelta-like units attribute, users will need to explicitly opt-in by passing True or CFTimedeltaCoder(decode_via_units=True) to decode_timedelta. To silence this warning, set decode_timedelta to True, False, or a 'CFTimedeltaCoder' instance.
+  datatree = xr.open_datatree(fpath)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:349: RuntimeWarning: Mean of empty slice
+  chl_mean_3x3 = np.nanmean(region_3x3)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:362: RuntimeWarning: Mean of empty slice
+  chl_mean_4x4 = np.nanmean(region_4x4)
+2025-11-03 15:07:52,108  WARNING: Both 3x3 and 4x4 extraction returned NaN
+2025-11-03 15:07:52,120  WARNING: Mullaloo - Processed S3A_OLCI_EFRNT.20251009T011626.L2.OC.NRT.nc -> 2025-10-09, chl=NaN
+2025-11-03 15:07:52,120  INFO: Mullaloo - Processing file 10/48: S3A_OLCI_EFRNT.20251011T020203.L2.OC.NRT.nc
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:447: FutureWarning: In a future version, xarray will not decode timedelta values based on the presence of a timedelta-like units attribute by default. Instead it will rely on the presence of a timedelta64 dtype attribute, which is now xarray's default way of encoding timedelta64 values. To continue decoding timedeltas based on the presence of a timedelta-like units attribute, users will need to explicitly opt-in by passing True or CFTimedeltaCoder(decode_via_units=True) to decode_timedelta. To silence this warning, set decode_timedelta to True, False, or a 'CFTimedeltaCoder' instance.
+  datatree = xr.open_datatree(fpath)
+2025-11-03 15:07:53,879  INFO: Mullaloo - Processed S3A_OLCI_EFRNT.20251011T020203.L2.OC.NRT.nc -> 2025-10-11, chl=2.2828
+2025-11-03 15:07:53,879  INFO: Mullaloo - Processing file 11/48: S3A_OLCI_EFRNT.20251012T013553.L2.OC.NRT.nc
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:447: FutureWarning: In a future version, xarray will not decode timedelta values based on the presence of a timedelta-like units attribute by default. Instead it will rely on the presence of a timedelta64 dtype attribute, which is now xarray's default way of encoding timedelta64 values. To continue decoding timedeltas based on the presence of a timedelta-like units attribute, users will need to explicitly opt-in by passing True or CFTimedeltaCoder(decode_via_units=True) to decode_timedelta. To silence this warning, set decode_timedelta to True, False, or a 'CFTimedeltaCoder' instance.
+  datatree = xr.open_datatree(fpath)
+2025-11-03 15:07:55,606  INFO: Mullaloo - Processed S3A_OLCI_EFRNT.20251012T013553.L2.OC.NRT.nc -> 2025-10-12, chl=2.3328
+2025-11-03 15:07:55,606  INFO: Mullaloo - Processing file 12/48: S3A_OLCI_EFRNT.20251013T011242.L2.OC.NRT.nc
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:447: FutureWarning: In a future version, xarray will not decode timedelta values based on the presence of a timedelta-like units attribute by default. Instead it will rely on the presence of a timedelta64 dtype attribute, which is now xarray's default way of encoding timedelta64 values. To continue decoding timedeltas based on the presence of a timedelta-like units attribute, users will need to explicitly opt-in by passing True or CFTimedeltaCoder(decode_via_units=True) to decode_timedelta. To silence this warning, set decode_timedelta to True, False, or a 'CFTimedeltaCoder' instance.
+  datatree = xr.open_datatree(fpath)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:349: RuntimeWarning: Mean of empty slice
+  chl_mean_3x3 = np.nanmean(region_3x3)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:362: RuntimeWarning: Mean of empty slice
+  chl_mean_4x4 = np.nanmean(region_4x4)
+2025-11-03 15:07:57,409  WARNING: Both 3x3 and 4x4 extraction returned NaN
+2025-11-03 15:07:57,422  WARNING: Mullaloo - Processed S3A_OLCI_EFRNT.20251013T011242.L2.OC.NRT.nc -> 2025-10-13, chl=NaN
+2025-11-03 15:07:57,422  INFO: Mullaloo - Processing file 13/48: S3A_OLCI_EFRNT.20251015T015820.L2.OC.NRT.nc
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:447: FutureWarning: In a future version, xarray will not decode timedelta values based on the presence of a timedelta-like units attribute by default. Instead it will rely on the presence of a timedelta64 dtype attribute, which is now xarray's default way of encoding timedelta64 values. To continue decoding timedeltas based on the presence of a timedelta-like units attribute, users will need to explicitly opt-in by passing True or CFTimedeltaCoder(decode_via_units=True) to decode_timedelta. To silence this warning, set decode_timedelta to True, False, or a 'CFTimedeltaCoder' instance.
+  datatree = xr.open_datatree(fpath)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:349: RuntimeWarning: Mean of empty slice
+  chl_mean_3x3 = np.nanmean(region_3x3)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:362: RuntimeWarning: Mean of empty slice
+  chl_mean_4x4 = np.nanmean(region_4x4)
+2025-11-03 15:07:59,192  WARNING: Both 3x3 and 4x4 extraction returned NaN
+2025-11-03 15:07:59,206  WARNING: Mullaloo - Processed S3A_OLCI_EFRNT.20251015T015820.L2.OC.NRT.nc -> 2025-10-15, chl=NaN
+2025-11-03 15:07:59,206  INFO: Mullaloo - Processing file 14/48: S3A_OLCI_EFRNT.20251016T013209.L2.OC.NRT.nc
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:447: FutureWarning: In a future version, xarray will not decode timedelta values based on the presence of a timedelta-like units attribute by default. Instead it will rely on the presence of a timedelta64 dtype attribute, which is now xarray's default way of encoding timedelta64 values. To continue decoding timedeltas based on the presence of a timedelta-like units attribute, users will need to explicitly opt-in by passing True or CFTimedeltaCoder(decode_via_units=True) to decode_timedelta. To silence this warning, set decode_timedelta to True, False, or a 'CFTimedeltaCoder' instance.
+  datatree = xr.open_datatree(fpath)
+2025-11-03 15:08:01,068  INFO: Mullaloo - Processed S3A_OLCI_EFRNT.20251016T013209.L2.OC.NRT.nc -> 2025-10-16, chl=1.6915
+2025-11-03 15:08:01,069  INFO: Mullaloo - Processing file 15/48: S3A_OLCI_EFRNT.20251019T015436.L2.OC.NRT.nc
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:447: FutureWarning: In a future version, xarray will not decode timedelta values based on the presence of a timedelta-like units attribute by default. Instead it will rely on the presence of a timedelta64 dtype attribute, which is now xarray's default way of encoding timedelta64 values. To continue decoding timedeltas based on the presence of a timedelta-like units attribute, users will need to explicitly opt-in by passing True or CFTimedeltaCoder(decode_via_units=True) to decode_timedelta. To silence this warning, set decode_timedelta to True, False, or a 'CFTimedeltaCoder' instance.
+  datatree = xr.open_datatree(fpath)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:349: RuntimeWarning: Mean of empty slice
+  chl_mean_3x3 = np.nanmean(region_3x3)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:362: RuntimeWarning: Mean of empty slice
+  chl_mean_4x4 = np.nanmean(region_4x4)
+2025-11-03 15:08:02,959  WARNING: Both 3x3 and 4x4 extraction returned NaN
+2025-11-03 15:08:02,970  WARNING: Mullaloo - Processed S3A_OLCI_EFRNT.20251019T015436.L2.OC.NRT.nc -> 2025-10-19, chl=NaN
+2025-11-03 15:08:02,970  INFO: Mullaloo - Processing file 16/48: S3A_OLCI_EFRNT.20251020T012825.L2.OC.NRT.nc
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:447: FutureWarning: In a future version, xarray will not decode timedelta values based on the presence of a timedelta-like units attribute by default. Instead it will rely on the presence of a timedelta64 dtype attribute, which is now xarray's default way of encoding timedelta64 values. To continue decoding timedeltas based on the presence of a timedelta-like units attribute, users will need to explicitly opt-in by passing True or CFTimedeltaCoder(decode_via_units=True) to decode_timedelta. To silence this warning, set decode_timedelta to True, False, or a 'CFTimedeltaCoder' instance.
+  datatree = xr.open_datatree(fpath)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:349: RuntimeWarning: Mean of empty slice
+  chl_mean_3x3 = np.nanmean(region_3x3)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:362: RuntimeWarning: Mean of empty slice
+  chl_mean_4x4 = np.nanmean(region_4x4)
+2025-11-03 15:08:04,957  WARNING: Both 3x3 and 4x4 extraction returned NaN
+2025-11-03 15:08:04,970  WARNING: Mullaloo - Processed S3A_OLCI_EFRNT.20251020T012825.L2.OC.NRT.nc -> 2025-10-20, chl=NaN
+2025-11-03 15:08:04,970  INFO: Mullaloo - Processing file 17/48: S3A_OLCI_EFRNT.20251020T013125.L2.OC.NRT.nc
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:447: FutureWarning: In a future version, xarray will not decode timedelta values based on the presence of a timedelta-like units attribute by default. Instead it will rely on the presence of a timedelta64 dtype attribute, which is now xarray's default way of encoding timedelta64 values. To continue decoding timedeltas based on the presence of a timedelta-like units attribute, users will need to explicitly opt-in by passing True or CFTimedeltaCoder(decode_via_units=True) to decode_timedelta. To silence this warning, set decode_timedelta to True, False, or a 'CFTimedeltaCoder' instance.
+  datatree = xr.open_datatree(fpath)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:349: RuntimeWarning: Mean of empty slice
+  chl_mean_3x3 = np.nanmean(region_3x3)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:362: RuntimeWarning: Mean of empty slice
+  chl_mean_4x4 = np.nanmean(region_4x4)
+2025-11-03 15:08:07,001  WARNING: Both 3x3 and 4x4 extraction returned NaN
+2025-11-03 15:08:07,012  WARNING: Mullaloo - Processed S3A_OLCI_EFRNT.20251020T013125.L2.OC.NRT.nc -> 2025-10-20, chl=NaN
+2025-11-03 15:08:07,012  INFO: Mullaloo - Processing file 18/48: S3A_OLCI_EFRNT.20251023T015051.L2.OC.NRT.nc
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:447: FutureWarning: In a future version, xarray will not decode timedelta values based on the presence of a timedelta-like units attribute by default. Instead it will rely on the presence of a timedelta64 dtype attribute, which is now xarray's default way of encoding timedelta64 values. To continue decoding timedeltas based on the presence of a timedelta-like units attribute, users will need to explicitly opt-in by passing True or CFTimedeltaCoder(decode_via_units=True) to decode_timedelta. To silence this warning, set decode_timedelta to True, False, or a 'CFTimedeltaCoder' instance.
+  datatree = xr.open_datatree(fpath)
+2025-11-03 15:08:08,833  INFO: Mullaloo - Processed S3A_OLCI_EFRNT.20251023T015051.L2.OC.NRT.nc -> 2025-10-23, chl=1.9172
+2025-11-03 15:08:08,834  INFO: Mullaloo - Processing file 19/48: S3A_OLCI_EFRNT.20251024T012440.L2.OC.NRT.nc
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:447: FutureWarning: In a future version, xarray will not decode timedelta values based on the presence of a timedelta-like units attribute by default. Instead it will rely on the presence of a timedelta64 dtype attribute, which is now xarray's default way of encoding timedelta64 values. To continue decoding timedeltas based on the presence of a timedelta-like units attribute, users will need to explicitly opt-in by passing True or CFTimedeltaCoder(decode_via_units=True) to decode_timedelta. To silence this warning, set decode_timedelta to True, False, or a 'CFTimedeltaCoder' instance.
+  datatree = xr.open_datatree(fpath)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:349: RuntimeWarning: Mean of empty slice
+  chl_mean_3x3 = np.nanmean(region_3x3)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:362: RuntimeWarning: Mean of empty slice
+  chl_mean_4x4 = np.nanmean(region_4x4)
+2025-11-03 15:08:10,639  WARNING: Both 3x3 and 4x4 extraction returned NaN
+2025-11-03 15:08:10,655  WARNING: Mullaloo - Processed S3A_OLCI_EFRNT.20251024T012440.L2.OC.NRT.nc -> 2025-10-24, chl=NaN
+2025-11-03 15:08:10,656  INFO: Mullaloo - Processing file 20/48: S3A_OLCI_EFRNT.20251024T012740.L2.OC.NRT.nc
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:447: FutureWarning: In a future version, xarray will not decode timedelta values based on the presence of a timedelta-like units attribute by default. Instead it will rely on the presence of a timedelta64 dtype attribute, which is now xarray's default way of encoding timedelta64 values. To continue decoding timedeltas based on the presence of a timedelta-like units attribute, users will need to explicitly opt-in by passing True or CFTimedeltaCoder(decode_via_units=True) to decode_timedelta. To silence this warning, set decode_timedelta to True, False, or a 'CFTimedeltaCoder' instance.
+  datatree = xr.open_datatree(fpath)
+2025-11-03 15:08:12,762  INFO: Mullaloo - Processed S3A_OLCI_EFRNT.20251024T012740.L2.OC.NRT.nc -> 2025-10-24, chl=0.1951
+2025-11-03 15:08:12,762  INFO: Mullaloo - Processing file 21/48: S3A_OLCI_EFRNT.20251027T014707.L2.OC.NRT.nc
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:447: FutureWarning: In a future version, xarray will not decode timedelta values based on the presence of a timedelta-like units attribute by default. Instead it will rely on the presence of a timedelta64 dtype attribute, which is now xarray's default way of encoding timedelta64 values. To continue decoding timedeltas based on the presence of a timedelta-like units attribute, users will need to explicitly opt-in by passing True or CFTimedeltaCoder(decode_via_units=True) to decode_timedelta. To silence this warning, set decode_timedelta to True, False, or a 'CFTimedeltaCoder' instance.
+  datatree = xr.open_datatree(fpath)
+2025-11-03 15:08:14,692  INFO: Mullaloo - Processed S3A_OLCI_EFRNT.20251027T014707.L2.OC.NRT.nc -> 2025-10-27, chl=1.7327
+2025-11-03 15:08:14,693  INFO: Mullaloo - Processing file 22/48: S3A_OLCI_EFRNT.20251028T012056.L2.OC.NRT.nc
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:447: FutureWarning: In a future version, xarray will not decode timedelta values based on the presence of a timedelta-like units attribute by default. Instead it will rely on the presence of a timedelta64 dtype attribute, which is now xarray's default way of encoding timedelta64 values. To continue decoding timedeltas based on the presence of a timedelta-like units attribute, users will need to explicitly opt-in by passing True or CFTimedeltaCoder(decode_via_units=True) to decode_timedelta. To silence this warning, set decode_timedelta to True, False, or a 'CFTimedeltaCoder' instance.
+  datatree = xr.open_datatree(fpath)
+2025-11-03 15:08:16,820  INFO: Mullaloo - Processed S3A_OLCI_EFRNT.20251028T012056.L2.OC.NRT.nc -> 2025-10-28, chl=1.6768
+2025-11-03 15:08:16,821  INFO: Mullaloo - Processing file 23/48: S3A_OLCI_EFRNT.20251028T012356.L2.OC.NRT.nc
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:447: FutureWarning: In a future version, xarray will not decode timedelta values based on the presence of a timedelta-like units attribute by default. Instead it will rely on the presence of a timedelta64 dtype attribute, which is now xarray's default way of encoding timedelta64 values. To continue decoding timedeltas based on the presence of a timedelta-like units attribute, users will need to explicitly opt-in by passing True or CFTimedeltaCoder(decode_via_units=True) to decode_timedelta. To silence this warning, set decode_timedelta to True, False, or a 'CFTimedeltaCoder' instance.
+  datatree = xr.open_datatree(fpath)
+2025-11-03 15:08:18,979  INFO: Mullaloo - Processed S3A_OLCI_EFRNT.20251028T012356.L2.OC.NRT.nc -> 2025-10-28, chl=0.9482
+2025-11-03 15:08:18,981  INFO: Mullaloo - Processing file 24/48: S3A_OLCI_EFRNT.20251030T020934.L2.OC.NRT.nc
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:447: FutureWarning: In a future version, xarray will not decode timedelta values based on the presence of a timedelta-like units attribute by default. Instead it will rely on the presence of a timedelta64 dtype attribute, which is now xarray's default way of encoding timedelta64 values. To continue decoding timedeltas based on the presence of a timedelta-like units attribute, users will need to explicitly opt-in by passing True or CFTimedeltaCoder(decode_via_units=True) to decode_timedelta. To silence this warning, set decode_timedelta to True, False, or a 'CFTimedeltaCoder' instance.
+  datatree = xr.open_datatree(fpath)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:349: RuntimeWarning: Mean of empty slice
+  chl_mean_3x3 = np.nanmean(region_3x3)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:362: RuntimeWarning: Mean of empty slice
+  chl_mean_4x4 = np.nanmean(region_4x4)
+2025-11-03 15:08:20,932  WARNING: Both 3x3 and 4x4 extraction returned NaN
+2025-11-03 15:08:20,947  WARNING: Mullaloo - Processed S3A_OLCI_EFRNT.20251030T020934.L2.OC.NRT.nc -> 2025-10-30, chl=NaN
+2025-11-03 15:08:20,947  INFO: Mullaloo - Processing file 25/48: S3B_OLCI_EFRNT.20251002T015701.L2.OC.NRT.nc
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:447: FutureWarning: In a future version, xarray will not decode timedelta values based on the presence of a timedelta-like units attribute by default. Instead it will rely on the presence of a timedelta64 dtype attribute, which is now xarray's default way of encoding timedelta64 values. To continue decoding timedeltas based on the presence of a timedelta-like units attribute, users will need to explicitly opt-in by passing True or CFTimedeltaCoder(decode_via_units=True) to decode_timedelta. To silence this warning, set decode_timedelta to True, False, or a 'CFTimedeltaCoder' instance.
+  datatree = xr.open_datatree(fpath)
+2025-11-03 15:08:22,934  INFO: Mullaloo - Processed S3B_OLCI_EFRNT.20251002T015701.L2.OC.NRT.nc -> 2025-10-02, chl=1.9204
+2025-11-03 15:08:22,934  INFO: Mullaloo - Processing file 26/48: S3B_OLCI_EFRNT.20251003T013049.L2.OC.NRT.nc
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:447: FutureWarning: In a future version, xarray will not decode timedelta values based on the presence of a timedelta-like units attribute by default. Instead it will rely on the presence of a timedelta64 dtype attribute, which is now xarray's default way of encoding timedelta64 values. To continue decoding timedeltas based on the presence of a timedelta-like units attribute, users will need to explicitly opt-in by passing True or CFTimedeltaCoder(decode_via_units=True) to decode_timedelta. To silence this warning, set decode_timedelta to True, False, or a 'CFTimedeltaCoder' instance.
+  datatree = xr.open_datatree(fpath)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:349: RuntimeWarning: Mean of empty slice
+  chl_mean_3x3 = np.nanmean(region_3x3)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:362: RuntimeWarning: Mean of empty slice
+  chl_mean_4x4 = np.nanmean(region_4x4)
+2025-11-03 15:08:24,725  WARNING: Both 3x3 and 4x4 extraction returned NaN
+2025-11-03 15:08:24,737  WARNING: Mullaloo - Processed S3B_OLCI_EFRNT.20251003T013049.L2.OC.NRT.nc -> 2025-10-03, chl=NaN
+2025-11-03 15:08:24,737  INFO: Mullaloo - Processing file 27/48: S3B_OLCI_EFRNT.20251003T013349.L2.OC.NRT.nc
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:447: FutureWarning: In a future version, xarray will not decode timedelta values based on the presence of a timedelta-like units attribute by default. Instead it will rely on the presence of a timedelta64 dtype attribute, which is now xarray's default way of encoding timedelta64 values. To continue decoding timedeltas based on the presence of a timedelta-like units attribute, users will need to explicitly opt-in by passing True or CFTimedeltaCoder(decode_via_units=True) to decode_timedelta. To silence this warning, set decode_timedelta to True, False, or a 'CFTimedeltaCoder' instance.
+  datatree = xr.open_datatree(fpath)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:349: RuntimeWarning: Mean of empty slice
+  chl_mean_3x3 = np.nanmean(region_3x3)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:362: RuntimeWarning: Mean of empty slice
+  chl_mean_4x4 = np.nanmean(region_4x4)
+2025-11-03 15:08:27,032  WARNING: Both 3x3 and 4x4 extraction returned NaN
+2025-11-03 15:08:27,048  WARNING: Mullaloo - Processed S3B_OLCI_EFRNT.20251003T013349.L2.OC.NRT.nc -> 2025-10-03, chl=NaN
+2025-11-03 15:08:27,048  INFO: Mullaloo - Processing file 28/48: S3B_OLCI_EFRNT.20251006T015314.L2.OC.NRT.nc
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:447: FutureWarning: In a future version, xarray will not decode timedelta values based on the presence of a timedelta-like units attribute by default. Instead it will rely on the presence of a timedelta64 dtype attribute, which is now xarray's default way of encoding timedelta64 values. To continue decoding timedeltas based on the presence of a timedelta-like units attribute, users will need to explicitly opt-in by passing True or CFTimedeltaCoder(decode_via_units=True) to decode_timedelta. To silence this warning, set decode_timedelta to True, False, or a 'CFTimedeltaCoder' instance.
+  datatree = xr.open_datatree(fpath)
+2025-11-03 15:08:29,127  INFO: Mullaloo - Processed S3B_OLCI_EFRNT.20251006T015314.L2.OC.NRT.nc -> 2025-10-06, chl=2.0927
+2025-11-03 15:08:29,127  INFO: Mullaloo - Processing file 29/48: S3B_OLCI_EFRNT.20251007T012704.L2.OC.NRT.nc
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:447: FutureWarning: In a future version, xarray will not decode timedelta values based on the presence of a timedelta-like units attribute by default. Instead it will rely on the presence of a timedelta64 dtype attribute, which is now xarray's default way of encoding timedelta64 values. To continue decoding timedeltas based on the presence of a timedelta-like units attribute, users will need to explicitly opt-in by passing True or CFTimedeltaCoder(decode_via_units=True) to decode_timedelta. To silence this warning, set decode_timedelta to True, False, or a 'CFTimedeltaCoder' instance.
+  datatree = xr.open_datatree(fpath)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:349: RuntimeWarning: Mean of empty slice
+  chl_mean_3x3 = np.nanmean(region_3x3)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:362: RuntimeWarning: Mean of empty slice
+  chl_mean_4x4 = np.nanmean(region_4x4)
+2025-11-03 15:08:30,926  WARNING: Both 3x3 and 4x4 extraction returned NaN
+2025-11-03 15:08:30,941  WARNING: Mullaloo - Processed S3B_OLCI_EFRNT.20251007T012704.L2.OC.NRT.nc -> 2025-10-07, chl=NaN
+2025-11-03 15:08:30,941  INFO: Mullaloo - Processing file 30/48: S3B_OLCI_EFRNT.20251007T013004.L2.OC.NRT.nc
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:447: FutureWarning: In a future version, xarray will not decode timedelta values based on the presence of a timedelta-like units attribute by default. Instead it will rely on the presence of a timedelta64 dtype attribute, which is now xarray's default way of encoding timedelta64 values. To continue decoding timedeltas based on the presence of a timedelta-like units attribute, users will need to explicitly opt-in by passing True or CFTimedeltaCoder(decode_via_units=True) to decode_timedelta. To silence this warning, set decode_timedelta to True, False, or a 'CFTimedeltaCoder' instance.
+  datatree = xr.open_datatree(fpath)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:349: RuntimeWarning: Mean of empty slice
+  chl_mean_3x3 = np.nanmean(region_3x3)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:362: RuntimeWarning: Mean of empty slice
+  chl_mean_4x4 = np.nanmean(region_4x4)
+2025-11-03 15:08:33,016  WARNING: Both 3x3 and 4x4 extraction returned NaN
+2025-11-03 15:08:33,029  WARNING: Mullaloo - Processed S3B_OLCI_EFRNT.20251007T013004.L2.OC.NRT.nc -> 2025-10-07, chl=NaN
+2025-11-03 15:08:33,029  INFO: Mullaloo - Processing file 31/48: S3B_OLCI_EFRNT.20251010T014931.L2.OC.NRT.nc
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:447: FutureWarning: In a future version, xarray will not decode timedelta values based on the presence of a timedelta-like units attribute by default. Instead it will rely on the presence of a timedelta64 dtype attribute, which is now xarray's default way of encoding timedelta64 values. To continue decoding timedeltas based on the presence of a timedelta-like units attribute, users will need to explicitly opt-in by passing True or CFTimedeltaCoder(decode_via_units=True) to decode_timedelta. To silence this warning, set decode_timedelta to True, False, or a 'CFTimedeltaCoder' instance.
+  datatree = xr.open_datatree(fpath)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:349: RuntimeWarning: Mean of empty slice
+  chl_mean_3x3 = np.nanmean(region_3x3)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:362: RuntimeWarning: Mean of empty slice
+  chl_mean_4x4 = np.nanmean(region_4x4)
+2025-11-03 15:08:35,110  WARNING: Both 3x3 and 4x4 extraction returned NaN
+2025-11-03 15:08:35,124  WARNING: Mullaloo - Processed S3B_OLCI_EFRNT.20251010T014931.L2.OC.NRT.nc -> 2025-10-10, chl=NaN
+2025-11-03 15:08:35,124  INFO: Mullaloo - Processing file 32/48: S3B_OLCI_EFRNT.20251011T012320.L2.OC.NRT.nc
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:447: FutureWarning: In a future version, xarray will not decode timedelta values based on the presence of a timedelta-like units attribute by default. Instead it will rely on the presence of a timedelta64 dtype attribute, which is now xarray's default way of encoding timedelta64 values. To continue decoding timedeltas based on the presence of a timedelta-like units attribute, users will need to explicitly opt-in by passing True or CFTimedeltaCoder(decode_via_units=True) to decode_timedelta. To silence this warning, set decode_timedelta to True, False, or a 'CFTimedeltaCoder' instance.
+  datatree = xr.open_datatree(fpath)
+2025-11-03 15:08:36,982  INFO: Mullaloo - Processed S3B_OLCI_EFRNT.20251011T012320.L2.OC.NRT.nc -> 2025-10-11, chl=1.8910
+2025-11-03 15:08:36,982  INFO: Mullaloo - Processing file 33/48: S3B_OLCI_EFRNT.20251011T012620.L2.OC.NRT.nc
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:447: FutureWarning: In a future version, xarray will not decode timedelta values based on the presence of a timedelta-like units attribute by default. Instead it will rely on the presence of a timedelta64 dtype attribute, which is now xarray's default way of encoding timedelta64 values. To continue decoding timedeltas based on the presence of a timedelta-like units attribute, users will need to explicitly opt-in by passing True or CFTimedeltaCoder(decode_via_units=True) to decode_timedelta. To silence this warning, set decode_timedelta to True, False, or a 'CFTimedeltaCoder' instance.
+  datatree = xr.open_datatree(fpath)
+2025-11-03 15:08:38,999  INFO: Mullaloo - Processed S3B_OLCI_EFRNT.20251011T012620.L2.OC.NRT.nc -> 2025-10-11, chl=1.5401
+2025-11-03 15:08:39,000  INFO: Mullaloo - Processing file 34/48: S3B_OLCI_EFRNT.20251014T014548.L2.OC.NRT.nc
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:447: FutureWarning: In a future version, xarray will not decode timedelta values based on the presence of a timedelta-like units attribute by default. Instead it will rely on the presence of a timedelta64 dtype attribute, which is now xarray's default way of encoding timedelta64 values. To continue decoding timedeltas based on the presence of a timedelta-like units attribute, users will need to explicitly opt-in by passing True or CFTimedeltaCoder(decode_via_units=True) to decode_timedelta. To silence this warning, set decode_timedelta to True, False, or a 'CFTimedeltaCoder' instance.
+  datatree = xr.open_datatree(fpath)
+2025-11-03 15:08:40,892  INFO: Mullaloo - Processed S3B_OLCI_EFRNT.20251014T014548.L2.OC.NRT.nc -> 2025-10-14, chl=2.4178
+2025-11-03 15:08:40,893  INFO: Mullaloo - Processing file 35/48: S3B_OLCI_EFRNT.20251015T011937.L2.OC.NRT.nc
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:447: FutureWarning: In a future version, xarray will not decode timedelta values based on the presence of a timedelta-like units attribute by default. Instead it will rely on the presence of a timedelta64 dtype attribute, which is now xarray's default way of encoding timedelta64 values. To continue decoding timedeltas based on the presence of a timedelta-like units attribute, users will need to explicitly opt-in by passing True or CFTimedeltaCoder(decode_via_units=True) to decode_timedelta. To silence this warning, set decode_timedelta to True, False, or a 'CFTimedeltaCoder' instance.
+  datatree = xr.open_datatree(fpath)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:349: RuntimeWarning: Mean of empty slice
+  chl_mean_3x3 = np.nanmean(region_3x3)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:362: RuntimeWarning: Mean of empty slice
+  chl_mean_4x4 = np.nanmean(region_4x4)
+2025-11-03 15:08:42,831  WARNING: Both 3x3 and 4x4 extraction returned NaN
+2025-11-03 15:08:42,845  WARNING: Mullaloo - Processed S3B_OLCI_EFRNT.20251015T011937.L2.OC.NRT.nc -> 2025-10-15, chl=NaN
+2025-11-03 15:08:42,846  INFO: Mullaloo - Processing file 36/48: S3B_OLCI_EFRNT.20251015T012237.L2.OC.NRT.nc
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:447: FutureWarning: In a future version, xarray will not decode timedelta values based on the presence of a timedelta-like units attribute by default. Instead it will rely on the presence of a timedelta64 dtype attribute, which is now xarray's default way of encoding timedelta64 values. To continue decoding timedeltas based on the presence of a timedelta-like units attribute, users will need to explicitly opt-in by passing True or CFTimedeltaCoder(decode_via_units=True) to decode_timedelta. To silence this warning, set decode_timedelta to True, False, or a 'CFTimedeltaCoder' instance.
+  datatree = xr.open_datatree(fpath)
+2025-11-03 15:08:44,977  INFO: Mullaloo - Processed S3B_OLCI_EFRNT.20251015T012237.L2.OC.NRT.nc -> 2025-10-15, chl=0.8461
+2025-11-03 15:08:44,978  INFO: Mullaloo - Processing file 37/48: S3B_OLCI_EFRNT.20251017T020814.L2.OC.NRT.nc
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:447: FutureWarning: In a future version, xarray will not decode timedelta values based on the presence of a timedelta-like units attribute by default. Instead it will rely on the presence of a timedelta64 dtype attribute, which is now xarray's default way of encoding timedelta64 values. To continue decoding timedeltas based on the presence of a timedelta-like units attribute, users will need to explicitly opt-in by passing True or CFTimedeltaCoder(decode_via_units=True) to decode_timedelta. To silence this warning, set decode_timedelta to True, False, or a 'CFTimedeltaCoder' instance.
+  datatree = xr.open_datatree(fpath)
+2025-11-03 15:08:46,908  INFO: Mullaloo - Processed S3B_OLCI_EFRNT.20251017T020814.L2.OC.NRT.nc -> 2025-10-17, chl=2.2663
+2025-11-03 15:08:46,909  INFO: Mullaloo - Processing file 38/48: S3B_OLCI_EFRNT.20251018T014203.L2.OC.NRT.nc
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:447: FutureWarning: In a future version, xarray will not decode timedelta values based on the presence of a timedelta-like units attribute by default. Instead it will rely on the presence of a timedelta64 dtype attribute, which is now xarray's default way of encoding timedelta64 values. To continue decoding timedeltas based on the presence of a timedelta-like units attribute, users will need to explicitly opt-in by passing True or CFTimedeltaCoder(decode_via_units=True) to decode_timedelta. To silence this warning, set decode_timedelta to True, False, or a 'CFTimedeltaCoder' instance.
+  datatree = xr.open_datatree(fpath)
+2025-11-03 15:08:48,827  INFO: Mullaloo - Processed S3B_OLCI_EFRNT.20251018T014203.L2.OC.NRT.nc -> 2025-10-18, chl=1.6568
+2025-11-03 15:08:48,827  INFO: Mullaloo - Processing file 39/48: S3B_OLCI_EFRNT.20251019T011852.L2.OC.NRT.nc
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:447: FutureWarning: In a future version, xarray will not decode timedelta values based on the presence of a timedelta-like units attribute by default. Instead it will rely on the presence of a timedelta64 dtype attribute, which is now xarray's default way of encoding timedelta64 values. To continue decoding timedeltas based on the presence of a timedelta-like units attribute, users will need to explicitly opt-in by passing True or CFTimedeltaCoder(decode_via_units=True) to decode_timedelta. To silence this warning, set decode_timedelta to True, False, or a 'CFTimedeltaCoder' instance.
+  datatree = xr.open_datatree(fpath)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:349: RuntimeWarning: Mean of empty slice
+  chl_mean_3x3 = np.nanmean(region_3x3)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:362: RuntimeWarning: Mean of empty slice
+  chl_mean_4x4 = np.nanmean(region_4x4)
+2025-11-03 15:08:50,964  WARNING: Both 3x3 and 4x4 extraction returned NaN
+2025-11-03 15:08:50,974  WARNING: Mullaloo - Processed S3B_OLCI_EFRNT.20251019T011852.L2.OC.NRT.nc -> 2025-10-19, chl=NaN
+2025-11-03 15:08:50,975  INFO: Mullaloo - Processing file 40/48: S3B_OLCI_EFRNT.20251021T020430.L2.OC.NRT.nc
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:447: FutureWarning: In a future version, xarray will not decode timedelta values based on the presence of a timedelta-like units attribute by default. Instead it will rely on the presence of a timedelta64 dtype attribute, which is now xarray's default way of encoding timedelta64 values. To continue decoding timedeltas based on the presence of a timedelta-like units attribute, users will need to explicitly opt-in by passing True or CFTimedeltaCoder(decode_via_units=True) to decode_timedelta. To silence this warning, set decode_timedelta to True, False, or a 'CFTimedeltaCoder' instance.
+  datatree = xr.open_datatree(fpath)
+2025-11-03 15:08:52,807  INFO: Mullaloo - Processed S3B_OLCI_EFRNT.20251021T020430.L2.OC.NRT.nc -> 2025-10-21, chl=2.3359
+2025-11-03 15:08:52,807  INFO: Mullaloo - Processing file 41/48: S3B_OLCI_EFRNT.20251022T013820.L2.OC.NRT.nc
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:447: FutureWarning: In a future version, xarray will not decode timedelta values based on the presence of a timedelta-like units attribute by default. Instead it will rely on the presence of a timedelta64 dtype attribute, which is now xarray's default way of encoding timedelta64 values. To continue decoding timedeltas based on the presence of a timedelta-like units attribute, users will need to explicitly opt-in by passing True or CFTimedeltaCoder(decode_via_units=True) to decode_timedelta. To silence this warning, set decode_timedelta to True, False, or a 'CFTimedeltaCoder' instance.
+  datatree = xr.open_datatree(fpath)
+2025-11-03 15:08:54,377  INFO: Mullaloo - Processed S3B_OLCI_EFRNT.20251022T013820.L2.OC.NRT.nc -> 2025-10-22, chl=1.8467
+2025-11-03 15:08:54,377  INFO: Mullaloo - Processing file 42/48: S3B_OLCI_EFRNT.20251023T011509.L2.OC.NRT.nc
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:447: FutureWarning: In a future version, xarray will not decode timedelta values based on the presence of a timedelta-like units attribute by default. Instead it will rely on the presence of a timedelta64 dtype attribute, which is now xarray's default way of encoding timedelta64 values. To continue decoding timedeltas based on the presence of a timedelta-like units attribute, users will need to explicitly opt-in by passing True or CFTimedeltaCoder(decode_via_units=True) to decode_timedelta. To silence this warning, set decode_timedelta to True, False, or a 'CFTimedeltaCoder' instance.
+  datatree = xr.open_datatree(fpath)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:349: RuntimeWarning: Mean of empty slice
+  chl_mean_3x3 = np.nanmean(region_3x3)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:362: RuntimeWarning: Mean of empty slice
+  chl_mean_4x4 = np.nanmean(region_4x4)
+2025-11-03 15:08:56,041  WARNING: Both 3x3 and 4x4 extraction returned NaN
+2025-11-03 15:08:56,051  WARNING: Mullaloo - Processed S3B_OLCI_EFRNT.20251023T011509.L2.OC.NRT.nc -> 2025-10-23, chl=NaN
+2025-11-03 15:08:56,051  INFO: Mullaloo - Processing file 43/48: S3B_OLCI_EFRNT.20251025T020047.L2.OC.NRT.nc
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:447: FutureWarning: In a future version, xarray will not decode timedelta values based on the presence of a timedelta-like units attribute by default. Instead it will rely on the presence of a timedelta64 dtype attribute, which is now xarray's default way of encoding timedelta64 values. To continue decoding timedeltas based on the presence of a timedelta-like units attribute, users will need to explicitly opt-in by passing True or CFTimedeltaCoder(decode_via_units=True) to decode_timedelta. To silence this warning, set decode_timedelta to True, False, or a 'CFTimedeltaCoder' instance.
+  datatree = xr.open_datatree(fpath)
+2025-11-03 15:08:58,003  INFO: Mullaloo - Processed S3B_OLCI_EFRNT.20251025T020047.L2.OC.NRT.nc -> 2025-10-25, chl=1.8149
+2025-11-03 15:08:58,003  INFO: Mullaloo - Processing file 44/48: S3B_OLCI_EFRNT.20251026T013437.L2.OC.NRT.nc
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:447: FutureWarning: In a future version, xarray will not decode timedelta values based on the presence of a timedelta-like units attribute by default. Instead it will rely on the presence of a timedelta64 dtype attribute, which is now xarray's default way of encoding timedelta64 values. To continue decoding timedeltas based on the presence of a timedelta-like units attribute, users will need to explicitly opt-in by passing True or CFTimedeltaCoder(decode_via_units=True) to decode_timedelta. To silence this warning, set decode_timedelta to True, False, or a 'CFTimedeltaCoder' instance.
+  datatree = xr.open_datatree(fpath)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:349: RuntimeWarning: Mean of empty slice
+  chl_mean_3x3 = np.nanmean(region_3x3)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:362: RuntimeWarning: Mean of empty slice
+  chl_mean_4x4 = np.nanmean(region_4x4)
+2025-11-03 15:08:59,749  WARNING: Both 3x3 and 4x4 extraction returned NaN
+2025-11-03 15:08:59,759  WARNING: Mullaloo - Processed S3B_OLCI_EFRNT.20251026T013437.L2.OC.NRT.nc -> 2025-10-26, chl=NaN
+2025-11-03 15:08:59,759  INFO: Mullaloo - Processing file 45/48: S3B_OLCI_EFRNT.20251029T015704.L2.OC.NRT.nc
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:447: FutureWarning: In a future version, xarray will not decode timedelta values based on the presence of a timedelta-like units attribute by default. Instead it will rely on the presence of a timedelta64 dtype attribute, which is now xarray's default way of encoding timedelta64 values. To continue decoding timedeltas based on the presence of a timedelta-like units attribute, users will need to explicitly opt-in by passing True or CFTimedeltaCoder(decode_via_units=True) to decode_timedelta. To silence this warning, set decode_timedelta to True, False, or a 'CFTimedeltaCoder' instance.
+  datatree = xr.open_datatree(fpath)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:349: RuntimeWarning: Mean of empty slice
+  chl_mean_3x3 = np.nanmean(region_3x3)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:362: RuntimeWarning: Mean of empty slice
+  chl_mean_4x4 = np.nanmean(region_4x4)
+2025-11-03 15:09:01,736  WARNING: Both 3x3 and 4x4 extraction returned NaN
+2025-11-03 15:09:01,749  WARNING: Mullaloo - Processed S3B_OLCI_EFRNT.20251029T015704.L2.OC.NRT.nc -> 2025-10-29, chl=NaN
+2025-11-03 15:09:01,749  INFO: Mullaloo - Processing file 46/48: S3B_OLCI_EFRNT.20251030T013053.L2.OC.NRT.nc
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:447: FutureWarning: In a future version, xarray will not decode timedelta values based on the presence of a timedelta-like units attribute by default. Instead it will rely on the presence of a timedelta64 dtype attribute, which is now xarray's default way of encoding timedelta64 values. To continue decoding timedeltas based on the presence of a timedelta-like units attribute, users will need to explicitly opt-in by passing True or CFTimedeltaCoder(decode_via_units=True) to decode_timedelta. To silence this warning, set decode_timedelta to True, False, or a 'CFTimedeltaCoder' instance.
+  datatree = xr.open_datatree(fpath)
+2025-11-03 15:09:03,406  INFO: Mullaloo - Processed S3B_OLCI_EFRNT.20251030T013053.L2.OC.NRT.nc -> 2025-10-30, chl=1.9813
+2025-11-03 15:09:03,406  INFO: Mullaloo - Processing file 47/48: S3B_OLCI_EFRNT.20251030T013353.L2.OC.NRT.nc
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:447: FutureWarning: In a future version, xarray will not decode timedelta values based on the presence of a timedelta-like units attribute by default. Instead it will rely on the presence of a timedelta64 dtype attribute, which is now xarray's default way of encoding timedelta64 values. To continue decoding timedeltas based on the presence of a timedelta-like units attribute, users will need to explicitly opt-in by passing True or CFTimedeltaCoder(decode_via_units=True) to decode_timedelta. To silence this warning, set decode_timedelta to True, False, or a 'CFTimedeltaCoder' instance.
+  datatree = xr.open_datatree(fpath)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:349: RuntimeWarning: Mean of empty slice
+  chl_mean_3x3 = np.nanmean(region_3x3)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:362: RuntimeWarning: Mean of empty slice
+  chl_mean_4x4 = np.nanmean(region_4x4)
+2025-11-03 15:09:05,239  WARNING: Both 3x3 and 4x4 extraction returned NaN
+2025-11-03 15:09:05,248  WARNING: Mullaloo - Processed S3B_OLCI_EFRNT.20251030T013353.L2.OC.NRT.nc -> 2025-10-30, chl=NaN
+2025-11-03 15:09:05,249  INFO: Mullaloo - Processing file 48/48: S3B_OLCI_EFRNT.20251102T015319.L2.OC.NRT.nc
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:447: FutureWarning: In a future version, xarray will not decode timedelta values based on the presence of a timedelta-like units attribute by default. Instead it will rely on the presence of a timedelta64 dtype attribute, which is now xarray's default way of encoding timedelta64 values. To continue decoding timedeltas based on the presence of a timedelta-like units attribute, users will need to explicitly opt-in by passing True or CFTimedeltaCoder(decode_via_units=True) to decode_timedelta. To silence this warning, set decode_timedelta to True, False, or a 'CFTimedeltaCoder' instance.
+  datatree = xr.open_datatree(fpath)
+2025-11-03 15:09:06,910  INFO: Mullaloo - Processed S3B_OLCI_EFRNT.20251102T015319.L2.OC.NRT.nc -> 2025-11-02, chl=2.6043
+2025-11-03 15:09:06,913  INFO: Mullaloo - Extracted 19 valid records from 48 files
+2025-11-03 15:09:06,921  INFO: Mullaloo - Existing CSV has 2863 records
+2025-11-03 15:09:06,923  INFO: Mullaloo - After merge: 2863 total records
+2025-11-03 15:09:06,932  INFO: \u2713 Mullaloo - CSV saved: C:/Users/23755118/OneDrive - UWA/Documents/PhD_Varshani/CODING/chl_time\chl_timeseries_mullaloo.csv (2863 rows)
+2025-11-03 15:09:06,957  INFO: \u2713 Mullaloo - CSV verified: 2863 rows on disk
+2025-11-03 15:09:06,974  INFO: \u2713 PSDP: 2863 records, Mullaloo: 2863 records
+2025-11-03 15:09:06,993  INFO: 
+============================================================
+2025-11-03 15:09:06,994  INFO: STARTING GAP DETECTION
+2025-11-03 15:09:06,994  INFO: ============================================================
+2025-11-03 15:09:06,994  INFO: === Starting gap detection and filling ===
+2025-11-03 15:09:07,011  INFO: Found 1 missing days in timeseries
+2025-11-03 15:09:07,030  INFO: 
+--- Checking gap for 2025-11-03 ---
+2025-11-03 15:09:07,035  INFO:   Skipping 2025-11-03 - checked recently, no data
+2025-11-03 15:09:07,035  INFO: 
+=== Gap filling complete: 0 filled, 0 checked ===
+2025-11-03 15:09:07,036  INFO: Gap detection complete: 0 gaps filled
+2025-11-03 15:09:07,039  INFO: 
+============================================================
+2025-11-03 15:09:07,039  INFO: GAP SUMMARY REPORT
+2025-11-03 15:09:07,039  INFO: ============================================================
+2025-11-03 15:09:07,042  INFO: 
+Gap Status Distribution:
+2025-11-03 15:09:07,042  INFO:   filled: 11
+2025-11-03 15:09:07,042  INFO:   no_extraction: 9
+2025-11-03 15:09:07,042  INFO:   unavailable: 3
+2025-11-03 15:09:07,044  INFO: 
+Unfilled gaps: 3
+2025-11-03 15:09:07,045  INFO:   Date range: 2025-10-31 to 2025-11-03
+2025-11-03 15:09:07,047  INFO: 
+Gaps checked in last 24 hours: 2
+2025-11-03 15:09:07,047  INFO: ============================================================
+
+2025-11-03 15:09:07,047  INFO: 
+============================================================
+2025-11-03 15:09:07,047  INFO: GENERATING INTERACTIVE LEAFLET MAP WITH LOLLIPOP PLOTS
+2025-11-03 15:09:07,047  INFO: ============================================================
+2025-11-03 15:09:07,632  INFO: \u2713 Interactive Leaflet map with lollipop plots saved to: C:/Users/23755118/OneDrive - UWA/Documents/PhD_Varshani/CODING/chl_time\plots\chlorophyll_map_interactive.html
+2025-11-03 15:09:07,632  INFO: 
+============================================================
+2025-11-03 15:09:07,632  INFO: GENERATING COMPARISON PLOTS
+2025-11-03 15:09:07,632  INFO: ============================================================
+2025-11-03 15:09:07,647  INFO: Loaded PSDP data: 1316 records
+2025-11-03 15:09:07,659  INFO: Loaded Mullaloo data: 1525 records
+2025-11-03 15:09:09,327  INFO: 5-day comparison plot saved: C:/Users/23755118/OneDrive - UWA/Documents/PhD_Varshani/CODING/chl_time\plots\chl_5day_comparison_2025-11-02.html
+2025-11-03 15:09:09,431  INFO: Monthly comparison plot saved: C:/Users/23755118/OneDrive - UWA/Documents/PhD_Varshani/CODING/chl_time\plots\chl_month_comparison_2025-11.html
+2025-11-03 15:09:12,043  INFO: Full interactive plot saved: C:/Users/23755118/OneDrive - UWA/Documents/PhD_Varshani/CODING/chl_time\plots\chlorophyll_timeseries_interactive.html
+2025-11-03 15:09:12,044  INFO: Generated 3 plot files
+2025-11-03 15:09:12,044  INFO:   5day_html: C:/Users/23755118/OneDrive - UWA/Documents/PhD_Varshani/CODING/chl_time\plots\chl_5day_comparison_2025-11-02.html
+2025-11-03 15:09:12,044  INFO:   month_html: C:/Users/23755118/OneDrive - UWA/Documents/PhD_Varshani/CODING/chl_time\plots\chl_month_comparison_2025-11.html
+2025-11-03 15:09:12,044  INFO:   full_interactive: C:/Users/23755118/OneDrive - UWA/Documents/PhD_Varshani/CODING/chl_time\plots\chlorophyll_timeseries_interactive.html
+2025-11-03 15:09:12,044  INFO: 
+============================================================
+2025-11-03 15:09:12,044  INFO: GIT COMMIT AND PUSH
+2025-11-03 15:09:12,044  INFO: ============================================================
