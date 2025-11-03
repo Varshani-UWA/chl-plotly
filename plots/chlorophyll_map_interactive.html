@@ -17,7 +17,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_e4723a9b8c7aa92b37d6c0ab7fda116d {
+                #map_e210cf3ce33f3847ef8d1f8394adffcd {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -54,7 +54,7 @@
 <body>
     
     
-            <div id="plot-container" style="width:100%; padding:20px; background:white; margin-top:10px;">
+            <div id="plot-container" style="width:80%; max-width:1000px; padding:20px; background:white; margin-top:10px;">
                 <div style="text-align:center; margin-bottom:20px;">
                     <button onclick="showPlot('psdp')" id="btn-psdp" 
                             style="padding:10px 20px; margin:5px; background:#90EE90; border:2px solid #228B22; 
@@ -67,7 +67,7 @@
                         Mullaloo Location
                     </button>
                 </div>
-                <div id="plotly-chart" style="width:100%; height:600px;"></div>
+                <div id="plotly-chart" style="width:100%; height:400px;"></div>
             </div>
             
             <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
@@ -101,14 +101,14 @@
             </script>
             
     
-            <div class="folium-map" id="map_e4723a9b8c7aa92b37d6c0ab7fda116d" ></div>
+            <div class="folium-map" id="map_e210cf3ce33f3847ef8d1f8394adffcd" ></div>
         
 </body>
 <script>
     
     
-            var map_e4723a9b8c7aa92b37d6c0ab7fda116d = L.map(
-                "map_e4723a9b8c7aa92b37d6c0ab7fda116d",
+            var map_e210cf3ce33f3847ef8d1f8394adffcd = L.map(
+                "map_e210cf3ce33f3847ef8d1f8394adffcd",
                 {
                     center: [-31.991425, 115.745735],
                     crs: L.CRS.EPSG3857,
@@ -125,7 +125,7 @@
 
         
     
-            var tile_layer_3bb2b59070b794bf3b235c41de790bad = L.tileLayer(
+            var tile_layer_892d1bd29c8649cc08880a62194fc0cc = L.tileLayer(
                 "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
                 {
   "minZoom": 0,
@@ -142,17 +142,17 @@
             );
         
     
-            tile_layer_3bb2b59070b794bf3b235c41de790bad.addTo(map_e4723a9b8c7aa92b37d6c0ab7fda116d);
+            tile_layer_892d1bd29c8649cc08880a62194fc0cc.addTo(map_e210cf3ce33f3847ef8d1f8394adffcd);
         
     
-            var marker_b397f56ec1fa7c05f208cd5dce588da9 = L.marker(
+            var marker_b5fb1d4bfdde7af048fd51e022012ea2 = L.marker(
                 [-32.20085, 115.77047],
                 {
 }
-            ).addTo(map_e4723a9b8c7aa92b37d6c0ab7fda116d);
+            ).addTo(map_e210cf3ce33f3847ef8d1f8394adffcd);
         
     
-            var icon_a8d22cf665e9fe154c7c34f200d06a8d = L.AwesomeMarkers.icon(
+            var icon_1ce02658918b6f8b705c486ef1396f9e = L.AwesomeMarkers.icon(
                 {
   "markerColor": "green",
   "iconColor": "white",
@@ -163,24 +163,24 @@
             );
         
     
-        var popup_dae5c37707bf754551e2ec44baaacec2 = L.popup({
+        var popup_4df623b2300fca569de6dde8cb683192 = L.popup({
   "maxWidth": "100%",
 });
 
         
             
-                var html_81b6b972bfba64cbfd29a3af3b7d2414 = $(`<div id="html_81b6b972bfba64cbfd29a3af3b7d2414" style="width: 100.0%; height: 100.0%;"><b>PSDP</b><br>Lat: -32.2009<br>Lon: 115.7705<br>Click to view timeseries</div>`)[0];
-                popup_dae5c37707bf754551e2ec44baaacec2.setContent(html_81b6b972bfba64cbfd29a3af3b7d2414);
+                var html_bb2bd72f26b195884d275d2c9a98a123 = $(`<div id="html_bb2bd72f26b195884d275d2c9a98a123" style="width: 100.0%; height: 100.0%;"><b>PSDP</b><br>Lat: -32.2009<br>Lon: 115.7705<br>Click to view timeseries</div>`)[0];
+                popup_4df623b2300fca569de6dde8cb683192.setContent(html_bb2bd72f26b195884d275d2c9a98a123);
             
         
 
-        marker_b397f56ec1fa7c05f208cd5dce588da9.bindPopup(popup_dae5c37707bf754551e2ec44baaacec2)
+        marker_b5fb1d4bfdde7af048fd51e022012ea2.bindPopup(popup_4df623b2300fca569de6dde8cb683192)
         ;
 
         
     
     
-            marker_b397f56ec1fa7c05f208cd5dce588da9.bindTooltip(
+            marker_b5fb1d4bfdde7af048fd51e022012ea2.bindTooltip(
                 `<div>
                      PSDP - Click to view data
                  </div>`,
@@ -190,17 +190,17 @@
             );
         
     
-                marker_b397f56ec1fa7c05f208cd5dce588da9.setIcon(icon_a8d22cf665e9fe154c7c34f200d06a8d);
+                marker_b5fb1d4bfdde7af048fd51e022012ea2.setIcon(icon_1ce02658918b6f8b705c486ef1396f9e);
             
     
-            var marker_1328b5fba20bb012a4e1affac3ee01dc = L.marker(
+            var marker_3d757521910d34dcff8a56bd8d6b681c = L.marker(
                 [-31.782, 115.721],
                 {
 }
-            ).addTo(map_e4723a9b8c7aa92b37d6c0ab7fda116d);
+            ).addTo(map_e210cf3ce33f3847ef8d1f8394adffcd);
         
     
-            var icon_cce54008338768836e1c206992d75e2e = L.AwesomeMarkers.icon(
+            var icon_6ee8810fc108d45e6a2dec803a62cc2e = L.AwesomeMarkers.icon(
                 {
   "markerColor": "blue",
   "iconColor": "white",
@@ -211,24 +211,24 @@
             );
         
     
-        var popup_23b265c418422e78c2db3a1bd7cc3c96 = L.popup({
+        var popup_25fcd093b4ee0436f7d442a97d5af0a8 = L.popup({
   "maxWidth": "100%",
 });
 
         
             
-                var html_50026f967c0b565b0706b3ab5dea8e75 = $(`<div id="html_50026f967c0b565b0706b3ab5dea8e75" style="width: 100.0%; height: 100.0%;"><b>Mullaloo</b><br>Lat: -31.7820<br>Lon: 115.7210<br>Click to view timeseries</div>`)[0];
-                popup_23b265c418422e78c2db3a1bd7cc3c96.setContent(html_50026f967c0b565b0706b3ab5dea8e75);
+                var html_36a4ac3c0d0e25184c5e4d287f5b4145 = $(`<div id="html_36a4ac3c0d0e25184c5e4d287f5b4145" style="width: 100.0%; height: 100.0%;"><b>Mullaloo</b><br>Lat: -31.7820<br>Lon: 115.7210<br>Click to view timeseries</div>`)[0];
+                popup_25fcd093b4ee0436f7d442a97d5af0a8.setContent(html_36a4ac3c0d0e25184c5e4d287f5b4145);
             
         
 
-        marker_1328b5fba20bb012a4e1affac3ee01dc.bindPopup(popup_23b265c418422e78c2db3a1bd7cc3c96)
+        marker_3d757521910d34dcff8a56bd8d6b681c.bindPopup(popup_25fcd093b4ee0436f7d442a97d5af0a8)
         ;
 
         
     
     
-            marker_1328b5fba20bb012a4e1affac3ee01dc.bindTooltip(
+            marker_3d757521910d34dcff8a56bd8d6b681c.bindTooltip(
                 `<div>
                      Mullaloo - Click to view data
                  </div>`,
@@ -238,7 +238,7 @@
             );
         
     
-                marker_1328b5fba20bb012a4e1affac3ee01dc.setIcon(icon_cce54008338768836e1c206992d75e2e);
+                marker_3d757521910d34dcff8a56bd8d6b681c.setIcon(icon_6ee8810fc108d45e6a2dec803a62cc2e);
             
 </script>
 </html>
