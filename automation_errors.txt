@@ -20969,3 +20969,64 @@ Gaps checked in last 24 hours: 4
 2025-11-03 08:52:18,548  INFO: STARTING GAP DETECTION
 2025-11-03 08:52:18,549  INFO: ============================================================
 2025-11-03 08:52:18,549  INFO: === Starting gap detection and filling ===
+2025-11-03 08:52:18,580  INFO: Found 1 missing days in timeseries
+2025-11-03 08:52:18,634  INFO: 
+--- Checking gap for 2025-11-03 ---
+2025-11-03 08:52:18,644  INFO: Logging in to Earthdata via earthaccess...
+2025-11-03 08:52:20,570  INFO: You're now authenticated with NASA Earthdata Login
+2025-11-03 08:52:25,627  INFO: Earthdata login OK.
+2025-11-03 08:52:26,503  INFO: Granules found: 0
+2025-11-03 08:52:27,347  INFO:   OLCIS3A_L2_EFR_OC_NRT: 0 granules found for 2025-11-03
+2025-11-03 08:52:28,101  INFO: Granules found: 0
+2025-11-03 08:52:28,837  INFO:   OLCIS3B_L2_EFR_OC_NRT: 0 granules found for 2025-11-03
+2025-11-03 08:52:28,837  INFO:   No data available for 2025-11-03
+2025-11-03 08:52:30,867  INFO: 
+=== Gap filling complete: 0 filled, 1 checked ===
+2025-11-03 08:52:30,867  INFO: Gap detection complete: 0 gaps filled
+2025-11-03 08:52:30,892  INFO: 
+============================================================
+2025-11-03 08:52:30,892  INFO: GAP SUMMARY REPORT
+2025-11-03 08:52:30,892  INFO: ============================================================
+2025-11-03 08:52:30,897  INFO: 
+Gap Status Distribution:
+2025-11-03 08:52:30,897  INFO:   filled: 10
+2025-11-03 08:52:30,897  INFO:   no_extraction: 9
+2025-11-03 08:52:30,897  INFO:   unavailable: 4
+2025-11-03 08:52:30,902  INFO: 
+Unfilled gaps: 4
+2025-11-03 08:52:30,903  INFO:   Date range: 2025-10-31 to 2025-11-03
+2025-11-03 08:52:30,908  INFO: 
+Gaps checked in last 24 hours: 5
+2025-11-03 08:52:30,908  INFO: ============================================================
+
+2025-11-03 08:52:30,909  INFO: 
+============================================================
+2025-11-03 08:52:30,909  INFO: GENERATING INTERACTIVE LEAFLET MAP WITH LOLLIPOP PLOTS
+2025-11-03 08:52:30,909  INFO: ============================================================
+2025-11-03 08:52:31,525  INFO: \u2713 Interactive Leaflet map with lollipop plots saved to: C:/Users/23755118/OneDrive - UWA/Documents/PhD_Varshani/CODING/chl_time\plots\chlorophyll_map_interactive.html
+2025-11-03 08:52:31,526  INFO: 
+============================================================
+2025-11-03 08:52:31,526  INFO: GENERATING COMPARISON PLOTS
+2025-11-03 08:52:31,526  INFO: ============================================================
+2025-11-03 08:52:31,540  INFO: Loaded PSDP data: 1326 records
+2025-11-03 08:52:31,553  INFO: Loaded Mullaloo data: 1525 records
+2025-11-03 08:52:33,714  INFO: 5-day comparison plot saved: C:/Users/23755118/OneDrive - UWA/Documents/PhD_Varshani/CODING/chl_time\plots\chl_5day_comparison_2025-10-30.html
+2025-11-03 08:52:33,987  INFO: Monthly comparison plot saved: C:/Users/23755118/OneDrive - UWA/Documents/PhD_Varshani/CODING/chl_time\plots\chl_month_comparison_2025-10.html
+2025-11-03 08:52:39,426  INFO: Full interactive plot saved: C:/Users/23755118/OneDrive - UWA/Documents/PhD_Varshani/CODING/chl_time\plots\chlorophyll_timeseries_interactive.html
+2025-11-03 08:52:39,426  INFO: Generated 3 plot files
+2025-11-03 08:52:39,426  INFO:   5day_html: C:/Users/23755118/OneDrive - UWA/Documents/PhD_Varshani/CODING/chl_time\plots\chl_5day_comparison_2025-10-30.html
+2025-11-03 08:52:39,427  INFO:   month_html: C:/Users/23755118/OneDrive - UWA/Documents/PhD_Varshani/CODING/chl_time\plots\chl_month_comparison_2025-10.html
+2025-11-03 08:52:39,427  INFO:   full_interactive: C:/Users/23755118/OneDrive - UWA/Documents/PhD_Varshani/CODING/chl_time\plots\chlorophyll_timeseries_interactive.html
+2025-11-03 08:52:39,427  INFO: 
+============================================================
+2025-11-03 08:52:39,427  INFO: GIT COMMIT AND PUSH
+2025-11-03 08:52:39,427  INFO: ============================================================
+2025-11-03 08:52:41,486  INFO: Git commit successful: Auto-update chlorophyll data: 2025-11-02
+2025-11-03 08:52:41,584  INFO: Current branch: main
+2025-11-03 08:52:44,317  INFO: \u2713 Git push successful to main
+2025-11-03 08:52:44,317  INFO: \u2713 Git commit and push completed successfully
+2025-11-03 08:52:44,326  INFO: Cleanup done. Removed 0 files (excluding .nc)
+2025-11-03 08:52:44,326  INFO: 
+============================================================
+2025-11-03 08:52:44,326  INFO: === PIPELINE FINISHED SUCCESSFULLY ===
+2025-11-03 08:52:44,326  INFO: ============================================================
