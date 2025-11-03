@@ -21030,3 +21030,133 @@ Gaps checked in last 24 hours: 5
 ============================================================
 2025-11-03 08:52:44,326  INFO: === PIPELINE FINISHED SUCCESSFULLY ===
 2025-11-03 08:52:44,326  INFO: ============================================================
+2025-11-03 08:56:09,444  INFO: === Starting dual-location chlorophyll pipeline ===
+2025-11-03 08:56:09,444  INFO: Location 1: PSDP (-32.20085, 115.77047)
+2025-11-03 08:56:09,444  INFO: Location 2: Mullaloo (-31.782, 115.721)
+2025-11-03 08:56:09,489  WARNING: ============================================================
+2025-11-03 08:56:09,489  WARNING: WARNING: INITIAL_BULK_DOWNLOAD is still True!
+2025-11-03 08:56:09,489  WARNING: Data already exists but bulk download mode is enabled.
+2025-11-03 08:56:09,489  WARNING: Set INITIAL_BULK_DOWNLOAD = False to enable daily updates
+2025-11-03 08:56:09,489  WARNING: Skipping download to prevent duplicate processing
+2025-11-03 08:56:09,489  WARNING: ============================================================
+2025-11-03 08:56:09,489  INFO: 
+============================================================
+2025-11-03 08:56:09,489  INFO: STARTING GAP DETECTION
+2025-11-03 08:56:09,489  INFO: ============================================================
+2025-11-03 08:56:09,489  INFO: === Starting gap detection and filling ===
+2025-11-03 08:56:09,501  INFO: Found 1 missing days in timeseries
+2025-11-03 08:56:09,521  INFO: 
+--- Checking gap for 2025-11-03 ---
+2025-11-03 08:56:09,523  INFO:   Skipping 2025-11-03 - checked recently, no data
+2025-11-03 08:56:09,524  INFO: 
+=== Gap filling complete: 0 filled, 0 checked ===
+2025-11-03 08:56:09,524  INFO: Gap detection complete: 0 gaps filled
+2025-11-03 08:56:09,528  INFO: 
+============================================================
+2025-11-03 08:56:09,528  INFO: GAP SUMMARY REPORT
+2025-11-03 08:56:09,528  INFO: ============================================================
+2025-11-03 08:56:09,528  INFO: 
+Gap Status Distribution:
+2025-11-03 08:56:09,529  INFO:   filled: 10
+2025-11-03 08:56:09,529  INFO:   no_extraction: 9
+2025-11-03 08:56:09,529  INFO:   unavailable: 4
+2025-11-03 08:56:09,529  INFO: 
+Unfilled gaps: 4
+2025-11-03 08:56:09,530  INFO:   Date range: 2025-10-31 to 2025-11-03
+2025-11-03 08:56:09,532  INFO: 
+Gaps checked in last 24 hours: 5
+2025-11-03 08:56:09,532  INFO: ============================================================
+
+2025-11-03 08:56:09,532  INFO: 
+============================================================
+2025-11-03 08:56:09,532  INFO: GENERATING INTERACTIVE LEAFLET MAP WITH LOLLIPOP PLOTS
+2025-11-03 08:56:09,533  INFO: ============================================================
+2025-11-03 08:56:09,977  INFO: \u2713 Interactive Leaflet map with lollipop plots saved to: C:/Users/23755118/OneDrive - UWA/Documents/PhD_Varshani/CODING/chl_time\plots\chlorophyll_map_interactive.html
+2025-11-03 08:56:09,978  INFO: 
+============================================================
+2025-11-03 08:56:09,978  INFO: GENERATING COMPARISON PLOTS
+2025-11-03 08:56:09,978  INFO: ============================================================
+2025-11-03 08:56:09,993  INFO: Loaded PSDP data: 1326 records
+2025-11-03 08:56:10,004  INFO: Loaded Mullaloo data: 1525 records
+2025-11-03 08:56:11,571  INFO: 5-day comparison plot saved: C:/Users/23755118/OneDrive - UWA/Documents/PhD_Varshani/CODING/chl_time\plots\chl_5day_comparison_2025-10-30.html
+2025-11-03 08:56:11,706  INFO: Monthly comparison plot saved: C:/Users/23755118/OneDrive - UWA/Documents/PhD_Varshani/CODING/chl_time\plots\chl_month_comparison_2025-10.html
+2025-11-03 08:56:14,095  INFO: Full interactive plot saved: C:/Users/23755118/OneDrive - UWA/Documents/PhD_Varshani/CODING/chl_time\plots\chlorophyll_timeseries_interactive.html
+2025-11-03 08:56:14,095  INFO: Generated 3 plot files
+2025-11-03 08:56:14,095  INFO:   5day_html: C:/Users/23755118/OneDrive - UWA/Documents/PhD_Varshani/CODING/chl_time\plots\chl_5day_comparison_2025-10-30.html
+2025-11-03 08:56:14,095  INFO:   month_html: C:/Users/23755118/OneDrive - UWA/Documents/PhD_Varshani/CODING/chl_time\plots\chl_month_comparison_2025-10.html
+2025-11-03 08:56:14,095  INFO:   full_interactive: C:/Users/23755118/OneDrive - UWA/Documents/PhD_Varshani/CODING/chl_time\plots\chlorophyll_timeseries_interactive.html
+2025-11-03 08:56:14,096  INFO: 
+============================================================
+2025-11-03 08:56:14,096  INFO: GIT COMMIT AND PUSH
+2025-11-03 08:56:14,096  INFO: ============================================================
+2025-11-03 08:56:16,033  INFO: Git commit successful: Auto-update chlorophyll data: 2025-11-02
+2025-11-03 08:56:16,172  INFO: Current branch: main
+2025-11-03 08:56:18,869  INFO: \u2713 Git push successful to main
+2025-11-03 08:56:18,870  INFO: \u2713 Git commit and push completed successfully
+2025-11-03 08:56:18,876  INFO: Cleanup done. Removed 0 files (excluding .nc)
+2025-11-03 08:56:18,876  INFO: 
+============================================================
+2025-11-03 08:56:18,876  INFO: === PIPELINE FINISHED SUCCESSFULLY ===
+2025-11-03 08:56:18,876  INFO: ============================================================
+2025-11-03 08:58:00,997  INFO: === Starting dual-location chlorophyll pipeline ===
+2025-11-03 08:58:00,997  INFO: Location 1: PSDP (-32.20085, 115.77047)
+2025-11-03 08:58:00,998  INFO: Location 2: Mullaloo (-31.782, 115.721)
+2025-11-03 08:58:01,012  INFO: Daily mode: Searching for data for 2025-11-02
+2025-11-03 08:58:01,012  INFO: Logging in to Earthdata via earthaccess...
+2025-11-03 08:58:02,344  INFO: You're now authenticated with NASA Earthdata Login
+2025-11-03 08:58:07,308  INFO: Earthdata login OK.
+2025-11-03 08:58:07,308  INFO: Searching OLCIS3A_L2_EFR_OC_NRT for 2025-11-02...
+2025-11-03 08:58:08,292  INFO: Granules found: 0
+2025-11-03 08:58:09,032  INFO: No results for OLCIS3A_L2_EFR_OC_NRT
+2025-11-03 08:58:09,032  INFO: Searching OLCIS3B_L2_EFR_OC_NRT for 2025-11-02...
+2025-11-03 08:58:09,784  INFO: Granules found: 0
+2025-11-03 08:58:10,607  INFO: No results for OLCIS3B_L2_EFR_OC_NRT
+2025-11-03 08:58:10,607  INFO: No files downloaded for yesterday. Checking availability...
+2025-11-03 08:58:10,607  INFO: Logging in to Earthdata via earthaccess...
+2025-11-03 08:58:13,117  INFO: Earthdata login OK.
+2025-11-03 08:58:13,847  INFO: Granules found: 0
+2025-11-03 08:58:14,578  INFO:   OLCIS3A_L2_EFR_OC_NRT: 0 granules found for 2025-11-02
+2025-11-03 08:58:15,319  INFO: Granules found: 0
+2025-11-03 08:58:16,034  INFO:   OLCIS3B_L2_EFR_OC_NRT: 0 granules found for 2025-11-02
+2025-11-03 08:58:16,035  INFO: No satellite data available for 2025-11-02
+2025-11-03 08:58:16,048  INFO: 
+============================================================
+2025-11-03 08:58:16,049  INFO: STARTING GAP DETECTION
+2025-11-03 08:58:16,049  INFO: ============================================================
+2025-11-03 08:58:16,049  INFO: === Starting gap detection and filling ===
+2025-11-03 08:58:16,056  INFO: Found 1 missing days in timeseries
+2025-11-03 08:58:16,071  INFO: 
+--- Checking gap for 2025-11-03 ---
+2025-11-03 08:58:16,074  INFO:   Skipping 2025-11-03 - checked recently, no data
+2025-11-03 08:58:16,074  INFO: 
+=== Gap filling complete: 0 filled, 0 checked ===
+2025-11-03 08:58:16,075  INFO: Gap detection complete: 0 gaps filled
+2025-11-03 08:58:16,078  INFO: 
+============================================================
+2025-11-03 08:58:16,078  INFO: GAP SUMMARY REPORT
+2025-11-03 08:58:16,078  INFO: ============================================================
+2025-11-03 08:58:16,079  INFO: 
+Gap Status Distribution:
+2025-11-03 08:58:16,079  INFO:   filled: 10
+2025-11-03 08:58:16,079  INFO:   no_extraction: 9
+2025-11-03 08:58:16,079  INFO:   unavailable: 4
+2025-11-03 08:58:16,079  INFO: 
+Unfilled gaps: 4
+2025-11-03 08:58:16,080  INFO:   Date range: 2025-10-31 to 2025-11-03
+2025-11-03 08:58:16,082  INFO: 
+Gaps checked in last 24 hours: 5
+2025-11-03 08:58:16,082  INFO: ============================================================
+
+2025-11-03 08:58:16,082  INFO: 
+============================================================
+2025-11-03 08:58:16,082  INFO: GENERATING INTERACTIVE LEAFLET MAP WITH LOLLIPOP PLOTS
+2025-11-03 08:58:16,082  INFO: ============================================================
+2025-11-03 08:58:16,393  INFO: \u2713 Interactive Leaflet map with lollipop plots saved to: C:/Users/23755118/OneDrive - UWA/Documents/PhD_Varshani/CODING/chl_time\plots\chlorophyll_map_interactive.html
+2025-11-03 08:58:16,394  INFO: 
+============================================================
+2025-11-03 08:58:16,394  INFO: GENERATING COMPARISON PLOTS
+2025-11-03 08:58:16,394  INFO: ============================================================
+2025-11-03 08:58:16,405  INFO: Loaded PSDP data: 1326 records
+2025-11-03 08:58:16,416  INFO: Loaded Mullaloo data: 1525 records
+2025-11-03 08:58:17,057  INFO: 5-day comparison plot saved: C:/Users/23755118/OneDrive - UWA/Documents/PhD_Varshani/CODING/chl_time\plots\chl_5day_comparison_2025-10-30.html
+2025-11-03 08:58:17,143  INFO: Monthly comparison plot saved: C:/Users/23755118/OneDrive - UWA/Documents/PhD_Varshani/CODING/chl_time\plots\chl_month_comparison_2025-10.html
