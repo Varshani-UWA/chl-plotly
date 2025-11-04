@@ -17,7 +17,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_fbcaab78970f02f2d0268691bdf4709c {
+                #map_fc6df9560eae28c0d8029c1ad9594928 {
                     position: relative;
                     width: 60.0%;
                     height: 400.0px;
@@ -129,34 +129,14 @@
             </script>
             
     
-            <script>
-            function attachMarkerClickHandlers() {
-                var markers = document.querySelectorAll('.leaflet-marker-icon');
-                if (markers.length >= 2) {
-                    markers[0].addEventListener('click', function() {
-                        showPlot('psdp');
-                        document.getElementById('plot-container').scrollIntoView({behavior: 'smooth'});
-                    });
-                    markers[1].addEventListener('click', function() {
-                        showPlot('mullaloo');
-                        document.getElementById('plot-container').scrollIntoView({behavior: 'smooth'});
-                    });
-                    clearInterval(window.markerInterval);
-                    console.log("✅ Marker click events attached.");
-                }
-            }
-            window.markerInterval = setInterval(attachMarkerClickHandlers, 300);
-            </script>
-            
-    
-            <div class="folium-map" id="map_fbcaab78970f02f2d0268691bdf4709c" ></div>
+            <div class="folium-map" id="map_fc6df9560eae28c0d8029c1ad9594928" ></div>
         
 </body>
 <script>
     
     
-            var map_fbcaab78970f02f2d0268691bdf4709c = L.map(
-                "map_fbcaab78970f02f2d0268691bdf4709c",
+            var map_fc6df9560eae28c0d8029c1ad9594928 = L.map(
+                "map_fc6df9560eae28c0d8029c1ad9594928",
                 {
                     center: [-31.991425, 115.745735],
                     crs: L.CRS.EPSG3857,
@@ -173,7 +153,7 @@
 
         
     
-            var tile_layer_f578735e0ec92a5576c0960a681dea7d = L.tileLayer(
+            var tile_layer_c3ea5eb4142c1f9d93fa595c771336d4 = L.tileLayer(
                 "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
                 {
   "minZoom": 0,
@@ -190,17 +170,17 @@
             );
         
     
-            tile_layer_f578735e0ec92a5576c0960a681dea7d.addTo(map_fbcaab78970f02f2d0268691bdf4709c);
+            tile_layer_c3ea5eb4142c1f9d93fa595c771336d4.addTo(map_fc6df9560eae28c0d8029c1ad9594928);
         
     
-            var marker_25b704008db9d2deba808618fe021e3c = L.marker(
+            var marker_a117310d7339d9425eca72dc300f1dbc = L.marker(
                 [-32.20085, 115.77047],
                 {
 }
-            ).addTo(map_fbcaab78970f02f2d0268691bdf4709c);
+            ).addTo(map_fc6df9560eae28c0d8029c1ad9594928);
         
     
-            var icon_aae8d3d4cc8323d63df04613c6a243ba = L.AwesomeMarkers.icon(
+            var icon_f63d1421876aa2aabbdf91db6fb82345 = L.AwesomeMarkers.icon(
                 {
   "markerColor": "green",
   "iconColor": "white",
@@ -211,24 +191,24 @@
             );
         
     
-        var popup_72fbd3688a46e7aaf4d61f12f071ab1e = L.popup({
-  "maxWidth": "100%",
+        var popup_4bdc75d393f349ee4d90c34c9918780a = L.popup({
+  "maxWidth": 250,
 });
 
         
             
-                var html_c72939d93a07aafa96ec8c8146a1c1f4 = $(`<div id="html_c72939d93a07aafa96ec8c8146a1c1f4" style="width: 100.0%; height: 100.0%;"><b>PSDP</b><br>Lat -32.2009<br>Lon 115.7705</div>`)[0];
-                popup_72fbd3688a46e7aaf4d61f12f071ab1e.setContent(html_c72939d93a07aafa96ec8c8146a1c1f4);
+                var html_e5458b1f6f5acba70ce1a1c65e17b7d7 = $(`<div id="html_e5458b1f6f5acba70ce1a1c65e17b7d7" style="width: 100.0%; height: 100.0%;"><b>PSDP</b><br>Lat -32.2009<br>Lon 115.7705<br><button onclick="showPlot('psdp');document.getElementById('plot-container').scrollIntoView({behavior:'smooth'});">Show Timeseries</button></div>`)[0];
+                popup_4bdc75d393f349ee4d90c34c9918780a.setContent(html_e5458b1f6f5acba70ce1a1c65e17b7d7);
             
         
 
-        marker_25b704008db9d2deba808618fe021e3c.bindPopup(popup_72fbd3688a46e7aaf4d61f12f071ab1e)
+        marker_a117310d7339d9425eca72dc300f1dbc.bindPopup(popup_4bdc75d393f349ee4d90c34c9918780a)
         ;
 
         
     
     
-            marker_25b704008db9d2deba808618fe021e3c.bindTooltip(
+            marker_a117310d7339d9425eca72dc300f1dbc.bindTooltip(
                 `<div>
                      PSDP - Click to view data
                  </div>`,
@@ -238,17 +218,17 @@
             );
         
     
-                marker_25b704008db9d2deba808618fe021e3c.setIcon(icon_aae8d3d4cc8323d63df04613c6a243ba);
+                marker_a117310d7339d9425eca72dc300f1dbc.setIcon(icon_f63d1421876aa2aabbdf91db6fb82345);
             
     
-            var marker_957307509f52814f60a9877cccd23b91 = L.marker(
+            var marker_31e8f326e57fae3e3d81e4fbde11f4bb = L.marker(
                 [-31.782, 115.721],
                 {
 }
-            ).addTo(map_fbcaab78970f02f2d0268691bdf4709c);
+            ).addTo(map_fc6df9560eae28c0d8029c1ad9594928);
         
     
-            var icon_5a79f6907b81ceea56ab3b0f4c186cde = L.AwesomeMarkers.icon(
+            var icon_0cf42eedd98231e7e31c548989ddd74a = L.AwesomeMarkers.icon(
                 {
   "markerColor": "blue",
   "iconColor": "white",
@@ -259,24 +239,24 @@
             );
         
     
-        var popup_6413c83d2ac3b120a45afc91754e23e9 = L.popup({
-  "maxWidth": "100%",
+        var popup_34c6272d17cf8695b97afba199f71402 = L.popup({
+  "maxWidth": 250,
 });
 
         
             
-                var html_286136a3a727a8981a12196926d650c3 = $(`<div id="html_286136a3a727a8981a12196926d650c3" style="width: 100.0%; height: 100.0%;"><b>Mullaloo</b><br>Lat -31.7820<br>Lon 115.7210</div>`)[0];
-                popup_6413c83d2ac3b120a45afc91754e23e9.setContent(html_286136a3a727a8981a12196926d650c3);
+                var html_dec8db942883b2be1e64f599a5c40555 = $(`<div id="html_dec8db942883b2be1e64f599a5c40555" style="width: 100.0%; height: 100.0%;"><b>Mullaloo</b><br>Lat -32.2009<br>Lon 115.7705<br><button onclick="showPlot('mullaloo');document.getElementById('plot-container').scrollIntoView({behavior:'smooth'});">Show Timeseries</button></div>`)[0];
+                popup_34c6272d17cf8695b97afba199f71402.setContent(html_dec8db942883b2be1e64f599a5c40555);
             
         
 
-        marker_957307509f52814f60a9877cccd23b91.bindPopup(popup_6413c83d2ac3b120a45afc91754e23e9)
+        marker_31e8f326e57fae3e3d81e4fbde11f4bb.bindPopup(popup_34c6272d17cf8695b97afba199f71402)
         ;
 
         
     
     
-            marker_957307509f52814f60a9877cccd23b91.bindTooltip(
+            marker_31e8f326e57fae3e3d81e4fbde11f4bb.bindTooltip(
                 `<div>
                      Mullaloo - Click to view data
                  </div>`,
@@ -286,7 +266,7 @@
             );
         
     
-                marker_957307509f52814f60a9877cccd23b91.setIcon(icon_5a79f6907b81ceea56ab3b0f4c186cde);
+                marker_31e8f326e57fae3e3d81e4fbde11f4bb.setIcon(icon_0cf42eedd98231e7e31c548989ddd74a);
             
 </script>
 </html>
