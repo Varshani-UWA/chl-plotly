@@ -17,7 +17,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_10437cb3628177213097c25b6b81cd92 {
+                #map_fbcaab78970f02f2d0268691bdf4709c {
                     position: relative;
                     width: 60.0%;
                     height: 400.0px;
@@ -130,31 +130,33 @@
             
     
             <script>
-            // Wait for map to load then add marker click listeners
-            setTimeout(function() {
+            function attachMarkerClickHandlers() {
                 var markers = document.querySelectorAll('.leaflet-marker-icon');
                 if (markers.length >= 2) {
-                markers[0].addEventListener('click', function() {
-                    showPlot('psdp');
-                    document.getElementById('plot-container').scrollIntoView({behavior: 'smooth'});
-                });
-                markers[1].addEventListener('click', function() {
-                    showPlot('mullaloo');
-                    document.getElementById('plot-container').scrollIntoView({behavior: 'smooth'});
-                });
+                    markers[0].addEventListener('click', function() {
+                        showPlot('psdp');
+                        document.getElementById('plot-container').scrollIntoView({behavior: 'smooth'});
+                    });
+                    markers[1].addEventListener('click', function() {
+                        showPlot('mullaloo');
+                        document.getElementById('plot-container').scrollIntoView({behavior: 'smooth'});
+                    });
+                    clearInterval(window.markerInterval);
+                    console.log("✅ Marker click events attached.");
                 }
-            }, 1000);
+            }
+            window.markerInterval = setInterval(attachMarkerClickHandlers, 300);
             </script>
             
     
-            <div class="folium-map" id="map_10437cb3628177213097c25b6b81cd92" ></div>
+            <div class="folium-map" id="map_fbcaab78970f02f2d0268691bdf4709c" ></div>
         
 </body>
 <script>
     
     
-            var map_10437cb3628177213097c25b6b81cd92 = L.map(
-                "map_10437cb3628177213097c25b6b81cd92",
+            var map_fbcaab78970f02f2d0268691bdf4709c = L.map(
+                "map_fbcaab78970f02f2d0268691bdf4709c",
                 {
                     center: [-31.991425, 115.745735],
                     crs: L.CRS.EPSG3857,
@@ -171,7 +173,7 @@
 
         
     
-            var tile_layer_974d7bb095e88e696be5364d81db7380 = L.tileLayer(
+            var tile_layer_f578735e0ec92a5576c0960a681dea7d = L.tileLayer(
                 "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
                 {
   "minZoom": 0,
@@ -188,17 +190,17 @@
             );
         
     
-            tile_layer_974d7bb095e88e696be5364d81db7380.addTo(map_10437cb3628177213097c25b6b81cd92);
+            tile_layer_f578735e0ec92a5576c0960a681dea7d.addTo(map_fbcaab78970f02f2d0268691bdf4709c);
         
     
-            var marker_a8a0bc12c6519d7eddb6aefb22de48c3 = L.marker(
+            var marker_25b704008db9d2deba808618fe021e3c = L.marker(
                 [-32.20085, 115.77047],
                 {
 }
-            ).addTo(map_10437cb3628177213097c25b6b81cd92);
+            ).addTo(map_fbcaab78970f02f2d0268691bdf4709c);
         
     
-            var icon_8069cd6e5201a6a4d3d12ad5c9e9f22c = L.AwesomeMarkers.icon(
+            var icon_aae8d3d4cc8323d63df04613c6a243ba = L.AwesomeMarkers.icon(
                 {
   "markerColor": "green",
   "iconColor": "white",
@@ -209,24 +211,24 @@
             );
         
     
-        var popup_4514815580849306c2db03e4bbf9c4b4 = L.popup({
+        var popup_72fbd3688a46e7aaf4d61f12f071ab1e = L.popup({
   "maxWidth": "100%",
 });
 
         
             
-                var html_14b509420129fe79f08b86c46f982860 = $(`<div id="html_14b509420129fe79f08b86c46f982860" style="width: 100.0%; height: 100.0%;"><b>PSDP</b><br>Lat -32.2009<br>Lon 115.7705</div>`)[0];
-                popup_4514815580849306c2db03e4bbf9c4b4.setContent(html_14b509420129fe79f08b86c46f982860);
+                var html_c72939d93a07aafa96ec8c8146a1c1f4 = $(`<div id="html_c72939d93a07aafa96ec8c8146a1c1f4" style="width: 100.0%; height: 100.0%;"><b>PSDP</b><br>Lat -32.2009<br>Lon 115.7705</div>`)[0];
+                popup_72fbd3688a46e7aaf4d61f12f071ab1e.setContent(html_c72939d93a07aafa96ec8c8146a1c1f4);
             
         
 
-        marker_a8a0bc12c6519d7eddb6aefb22de48c3.bindPopup(popup_4514815580849306c2db03e4bbf9c4b4)
+        marker_25b704008db9d2deba808618fe021e3c.bindPopup(popup_72fbd3688a46e7aaf4d61f12f071ab1e)
         ;
 
         
     
     
-            marker_a8a0bc12c6519d7eddb6aefb22de48c3.bindTooltip(
+            marker_25b704008db9d2deba808618fe021e3c.bindTooltip(
                 `<div>
                      PSDP - Click to view data
                  </div>`,
@@ -236,17 +238,17 @@
             );
         
     
-                marker_a8a0bc12c6519d7eddb6aefb22de48c3.setIcon(icon_8069cd6e5201a6a4d3d12ad5c9e9f22c);
+                marker_25b704008db9d2deba808618fe021e3c.setIcon(icon_aae8d3d4cc8323d63df04613c6a243ba);
             
     
-            var marker_df5a4c15454c056e84987b86339ac69c = L.marker(
+            var marker_957307509f52814f60a9877cccd23b91 = L.marker(
                 [-31.782, 115.721],
                 {
 }
-            ).addTo(map_10437cb3628177213097c25b6b81cd92);
+            ).addTo(map_fbcaab78970f02f2d0268691bdf4709c);
         
     
-            var icon_55ca2dbb4aed4206cf57b3d7781afc40 = L.AwesomeMarkers.icon(
+            var icon_5a79f6907b81ceea56ab3b0f4c186cde = L.AwesomeMarkers.icon(
                 {
   "markerColor": "blue",
   "iconColor": "white",
@@ -257,24 +259,24 @@
             );
         
     
-        var popup_1d3ca187a6e63aae04d3d1261da98a53 = L.popup({
+        var popup_6413c83d2ac3b120a45afc91754e23e9 = L.popup({
   "maxWidth": "100%",
 });
 
         
             
-                var html_9733c050847460a1e75ae7a3d288da02 = $(`<div id="html_9733c050847460a1e75ae7a3d288da02" style="width: 100.0%; height: 100.0%;"><b>Mullaloo</b><br>Lat -31.7820<br>Lon 115.7210</div>`)[0];
-                popup_1d3ca187a6e63aae04d3d1261da98a53.setContent(html_9733c050847460a1e75ae7a3d288da02);
+                var html_286136a3a727a8981a12196926d650c3 = $(`<div id="html_286136a3a727a8981a12196926d650c3" style="width: 100.0%; height: 100.0%;"><b>Mullaloo</b><br>Lat -31.7820<br>Lon 115.7210</div>`)[0];
+                popup_6413c83d2ac3b120a45afc91754e23e9.setContent(html_286136a3a727a8981a12196926d650c3);
             
         
 
-        marker_df5a4c15454c056e84987b86339ac69c.bindPopup(popup_1d3ca187a6e63aae04d3d1261da98a53)
+        marker_957307509f52814f60a9877cccd23b91.bindPopup(popup_6413c83d2ac3b120a45afc91754e23e9)
         ;
 
         
     
     
-            marker_df5a4c15454c056e84987b86339ac69c.bindTooltip(
+            marker_957307509f52814f60a9877cccd23b91.bindTooltip(
                 `<div>
                      Mullaloo - Click to view data
                  </div>`,
@@ -284,7 +286,7 @@
             );
         
     
-                marker_df5a4c15454c056e84987b86339ac69c.setIcon(icon_55ca2dbb4aed4206cf57b3d7781afc40);
+                marker_957307509f52814f60a9877cccd23b91.setIcon(icon_5a79f6907b81ceea56ab3b0f4c186cde);
             
 </script>
 </html>
