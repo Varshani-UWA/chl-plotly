@@ -25882,3 +25882,23 @@ Gaps checked in last 24 hours: 3
 2025-11-04 10:15:51,780  INFO: ============================================================
 2025-11-04 10:15:51,811  INFO: Loaded PSDP data: 1316 records
 2025-11-04 10:15:51,846  INFO: Loaded Mullaloo data: 1525 records
+2025-11-04 10:15:56,201  INFO: 5-day comparison plot saved: C:/Users/23755118/OneDrive - UWA/Documents/PhD_Varshani/CODING/chl_time\plots\chl_5day_comparison_2025-11-02.html
+2025-11-04 10:15:56,478  INFO: Monthly comparison plot saved: C:/Users/23755118/OneDrive - UWA/Documents/PhD_Varshani/CODING/chl_time\plots\chl_month_comparison_2025-11.html
+2025-11-04 10:16:06,253  INFO: Full interactive plot saved: C:/Users/23755118/OneDrive - UWA/Documents/PhD_Varshani/CODING/chl_time\plots\chlorophyll_timeseries_interactive.html
+2025-11-04 10:16:06,256  INFO: Generated 3 plot files
+2025-11-04 10:16:06,258  INFO:   5day_html: C:/Users/23755118/OneDrive - UWA/Documents/PhD_Varshani/CODING/chl_time\plots\chl_5day_comparison_2025-11-02.html
+2025-11-04 10:16:06,258  INFO:   month_html: C:/Users/23755118/OneDrive - UWA/Documents/PhD_Varshani/CODING/chl_time\plots\chl_month_comparison_2025-11.html
+2025-11-04 10:16:06,258  INFO:   full_interactive: C:/Users/23755118/OneDrive - UWA/Documents/PhD_Varshani/CODING/chl_time\plots\chlorophyll_timeseries_interactive.html
+2025-11-04 10:16:06,259  INFO: 
+============================================================
+2025-11-04 10:16:06,259  INFO: GIT COMMIT AND PUSH
+2025-11-04 10:16:06,259  INFO: ============================================================
+2025-11-04 10:16:15,775  INFO: Git commit successful: Auto-update chlorophyll data: 2025-11-03
+2025-11-04 10:16:16,378  INFO: Current branch: main
+2025-11-04 10:16:21,889  INFO: \u2713 Git push successful to main
+2025-11-04 10:16:21,889  INFO: \u2713 Git commit and push completed successfully
+2025-11-04 10:16:21,907  INFO: Cleanup done. Removed 0 files (excluding .nc)
+2025-11-04 10:16:21,907  INFO: 
+============================================================
+2025-11-04 10:16:21,908  INFO: === PIPELINE FINISHED SUCCESSFULLY ===
+2025-11-04 10:16:21,908  INFO: ============================================================
