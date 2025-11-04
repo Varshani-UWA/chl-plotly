@@ -8,39 +8,6 @@ Running dual-location pipeline...
 ================================================ 
  
 ================================================ 
-SUCCESS: Task completed at: Mon 03/11/2025 14:57:55.40 
-Exit Code: 0 
- 
-Data Files Status: 
-  PSDP: 60088 bytes, modified 03/11/2025 02:56 PM 
-  Mullaloo: 63844 bytes, modified 03/11/2025 02:57 PM 
- 
-Generated Plots: 
-  - 5-day comparison plot 
-  - Monthly comparison plot 
-  - Full interactive timeseries 
-================================================ 
- 
- 
-================================================ 
-DUAL-LOCATION PIPELINE (PSDP + Mullaloo) 
-Task started at: Mon 03/11/2025 15:05:44.23 
-Directory: C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time 
-================================================ 
- 
-Checking Python... 
-Python 3.13.5
-Python found successfully 
-Verifying required packages... 
-All packages OK
-Checking for data files... 
-Found PSDP data file 
-Found Mullaloo data file 
- 
-Running dual-location pipeline... 
-================================================ 
- 
-================================================ 
 SUCCESS: Task completed at: Mon 03/11/2025 15:09:17.00 
 Exit Code: 0 
  
@@ -1001,6 +968,39 @@ Generated Plots:
 ================================================ 
 DUAL-LOCATION PIPELINE (PSDP + Mullaloo) 
 Task started at: Tue 04/11/2025 18:49:25.88 
+Directory: C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time 
+================================================ 
+ 
+Checking Python... 
+Python 3.13.5
+Python found successfully 
+Verifying required packages... 
+All packages OK
+Checking for data files... 
+Found PSDP data file 
+Found Mullaloo data file 
+ 
+Running dual-location pipeline... 
+================================================ 
+ 
+================================================ 
+SUCCESS: Task completed at: Tue 04/11/2025 18:49:59.56 
+Exit Code: 0 
+ 
+Data Files Status: 
+  PSDP: 60136 bytes, modified 04/11/2025 04:23 PM 
+  Mullaloo: 63865 bytes, modified 04/11/2025 04:24 PM 
+ 
+Generated Plots: 
+  - 5-day comparison plot 
+  - Monthly comparison plot 
+  - Full interactive timeseries 
+================================================ 
+ 
+ 
+================================================ 
+DUAL-LOCATION PIPELINE (PSDP + Mullaloo) 
+Task started at: Tue 04/11/2025 18:51:10.90 
 Directory: C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time 
 ================================================ 
  
