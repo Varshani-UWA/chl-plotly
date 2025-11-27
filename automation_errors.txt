@@ -60246,3 +60246,63 @@ Gaps checked in last 24 hours: 4
 2025-11-26 09:09:55,034  INFO: GENERATING INTERACTIVE LEAFLET MAP WITH LOLLIPOP PLOTS
 2025-11-26 09:09:55,034  INFO: ============================================================
 2025-11-26 09:09:55,853  INFO: \u2713 Interactive Leaflet map with lollipop plots saved to: C:/Users/23755118/OneDrive - UWA/Documents/PhD_Varshani/CODING/chl_time\plots\chlorophyll_timeseries_interactive.html
+2025-11-26 09:09:55,853  INFO: 
+============================================================
+2025-11-26 09:09:55,854  INFO: GENERATING COMPARISON PLOTS
+2025-11-26 09:09:55,854  INFO: ============================================================
+2025-11-26 09:09:55,854  INFO: 
+============================================================
+2025-11-26 09:09:55,854  INFO: GIT COMMIT AND PUSH
+2025-11-26 09:09:55,854  INFO: ============================================================
+2025-11-26 09:09:57,751  INFO: Git commit successful: Auto-update chlorophyll data: 2025-11-26
+2025-11-26 09:09:57,878  INFO: Current branch: main
+2025-11-26 09:11:20,011  ERROR: Git operation timed out
+2025-11-26 09:11:20,011  WARNING: \u2717 Git commit/push had issues - check logs above
+2025-11-26 09:11:20,020  INFO: Cleanup done. Removed 0 files (excluding .nc)
+2025-11-26 09:11:20,020  INFO: 
+============================================================
+2025-11-26 09:11:20,020  INFO: === PIPELINE FINISHED SUCCESSFULLY ===
+2025-11-26 09:11:20,020  INFO: ============================================================
+2025-11-27 09:55:06,820  INFO: === Starting dual-location chlorophyll pipeline ===
+2025-11-27 09:55:06,821  INFO: Location 1: PSDP (-32.20085, 115.77047)
+2025-11-27 09:55:06,821  INFO: Location 2: Mullaloo (-31.782, 115.721)
+2025-11-27 09:55:06,873  INFO: Daily mode: Searching for data for 2025-11-27
+2025-11-27 09:55:06,873  INFO: Logging in to Earthdata via earthaccess...
+2025-11-27 09:55:10,193  INFO: You're now authenticated with NASA Earthdata Login
+2025-11-27 09:55:19,153  INFO: Earthdata login OK.
+2025-11-27 09:55:19,153  INFO: Searching OLCIS3A_L2_EFR_OC_NRT for 2025-11-27...
+2025-11-27 09:55:20,331  INFO: Granules found: 0
+2025-11-27 09:55:21,047  INFO: No results for OLCIS3A_L2_EFR_OC_NRT
+2025-11-27 09:55:21,047  INFO: Searching OLCIS3B_L2_EFR_OC_NRT for 2025-11-27...
+2025-11-27 09:55:21,759  INFO: Granules found: 0
+2025-11-27 09:55:22,488  INFO: No results for OLCIS3B_L2_EFR_OC_NRT
+2025-11-27 09:55:22,489  INFO: No files downloaded for yesterday. Checking availability...
+2025-11-27 09:55:22,489  INFO: Logging in to Earthdata via earthaccess...
+2025-11-27 09:55:26,973  INFO: Earthdata login OK.
+2025-11-27 09:55:27,718  INFO: Granules found: 0
+2025-11-27 09:55:28,517  INFO:   OLCIS3A_L2_EFR_OC_NRT: 0 granules found for 2025-11-27
+2025-11-27 09:55:29,237  INFO: Granules found: 0
+2025-11-27 09:55:29,941  INFO:   OLCIS3B_L2_EFR_OC_NRT: 0 granules found for 2025-11-27
+2025-11-27 09:55:29,941  INFO: No satellite data available for 2025-11-27
+2025-11-27 09:55:29,972  INFO: 
+============================================================
+2025-11-27 09:55:29,973  INFO: STARTING GAP DETECTION
+2025-11-27 09:55:29,973  INFO: ============================================================
+2025-11-27 09:55:29,973  INFO: === Starting gap detection and filling ===
+2025-11-27 09:55:30,004  INFO: 
+--- Checking gap for 2025-11-24 ---
+2025-11-27 09:55:30,010  INFO: Logging in to Earthdata via earthaccess...
+2025-11-27 09:55:34,458  INFO: Earthdata login OK.
+2025-11-27 09:55:35,180  INFO: Granules found: 2
+2025-11-27 09:55:35,913  INFO:   OLCIS3A_L2_EFR_OC_NRT: 2 granules found for 2025-11-24
+2025-11-27 09:55:36,635  INFO: Granules found: 0
+2025-11-27 09:55:37,350  INFO:   OLCIS3B_L2_EFR_OC_NRT: 0 granules found for 2025-11-24
+2025-11-27 09:55:37,350  INFO:   Data available for 2025-11-24! Downloading...
+2025-11-27 09:55:37,362  INFO: Logging in to Earthdata via earthaccess...
+2025-11-27 09:55:41,807  INFO: Earthdata login OK.
+2025-11-27 09:55:41,807  INFO: Searching OLCIS3A_L2_EFR_OC_NRT for 2025-11-24...
+2025-11-27 09:55:42,532  INFO: Granules found: 2
+2025-11-27 09:55:43,350  INFO: Found 2 items. Downloading...
+2025-11-27 09:55:43,351  INFO:  Getting 2 granules, approx download size: 0.22 GB
+QUEUEING TASKS | :   0%|          | 0/2 [00:00<?, ?it/s]QUEUEING TASKS | : 100%|##########| 2/2 [00:00<00:00, 1393.92it/s]
+PROCESSING TASKS | :   0%|          | 0/2 [00:00<?, ?it/s]PROCESSING TASKS | :  50%|#####     | 1/2 [00:19<00:19, 19.68s/it]
