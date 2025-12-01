@@ -62523,3 +62523,135 @@ Gaps checked in last 24 hours: 4
 2025-11-29 20:03:36,243  INFO: === PIPELINE FINISHED SUCCESSFULLY ===
 2025-11-29 20:03:36,243  INFO: ============================================================
 2025-12-01 09:33:34,581  INFO: === Starting dual-location chlorophyll pipeline ===
+2025-12-01 09:33:34,584  INFO: Location 1: PSDP (-32.20085, 115.77047)
+2025-12-01 09:33:34,585  INFO: Location 2: Mullaloo (-31.782, 115.721)
+2025-12-01 09:33:34,689  INFO: Daily mode: Searching for data for 2025-12-01
+2025-12-01 09:33:34,690  INFO: Logging in to Earthdata via earthaccess...
+2025-12-01 09:33:37,980  INFO: You're now authenticated with NASA Earthdata Login
+2025-12-01 09:33:46,919  INFO: Earthdata login OK.
+2025-12-01 09:33:46,919  INFO: Searching OLCIS3A_L2_EFR_OC_NRT for 2025-12-01...
+2025-12-01 09:33:48,094  INFO: Granules found: 0
+2025-12-01 09:33:48,850  INFO: No results for OLCIS3A_L2_EFR_OC_NRT
+2025-12-01 09:33:48,850  INFO: Searching OLCIS3B_L2_EFR_OC_NRT for 2025-12-01...
+2025-12-01 09:33:49,606  INFO: Granules found: 0
+2025-12-01 09:33:50,393  INFO: No results for OLCIS3B_L2_EFR_OC_NRT
+2025-12-01 09:33:50,393  INFO: No files downloaded for yesterday. Checking availability...
+2025-12-01 09:33:50,393  INFO: Logging in to Earthdata via earthaccess...
+2025-12-01 09:33:54,884  INFO: Earthdata login OK.
+2025-12-01 09:33:55,651  INFO: Granules found: 0
+2025-12-01 09:33:56,379  INFO:   OLCIS3A_L2_EFR_OC_NRT: 0 granules found for 2025-12-01
+2025-12-01 09:33:57,136  INFO: Granules found: 0
+2025-12-01 09:33:57,861  INFO:   OLCIS3B_L2_EFR_OC_NRT: 0 granules found for 2025-12-01
+2025-12-01 09:33:57,861  INFO: No satellite data available for 2025-12-01
+2025-12-01 09:33:57,899  INFO: 
+============================================================
+2025-12-01 09:33:57,899  INFO: STARTING GAP DETECTION
+2025-12-01 09:33:57,899  INFO: ============================================================
+2025-12-01 09:33:57,899  INFO: === Starting gap detection and filling ===
+2025-12-01 09:33:57,958  INFO: 
+--- Checking gap for 2025-11-29 ---
+2025-12-01 09:33:57,967  INFO: Logging in to Earthdata via earthaccess...
+2025-12-01 09:34:02,458  INFO: Earthdata login OK.
+2025-12-01 09:34:03,181  INFO: Granules found: 0
+2025-12-01 09:34:03,895  INFO:   OLCIS3A_L2_EFR_OC_NRT: 0 granules found for 2025-11-29
+2025-12-01 09:34:04,611  INFO: Granules found: 0
+2025-12-01 09:34:05,493  INFO:   OLCIS3B_L2_EFR_OC_NRT: 0 granules found for 2025-11-29
+2025-12-01 09:34:05,493  INFO:   No data available for 2025-11-29
+2025-12-01 09:34:07,508  INFO: 
+--- Checking gap for 2025-11-30 ---
+2025-12-01 09:34:07,515  INFO: Logging in to Earthdata via earthaccess...
+2025-12-01 09:34:11,985  INFO: Earthdata login OK.
+2025-12-01 09:34:12,720  INFO: Granules found: 0
+2025-12-01 09:34:13,426  INFO:   OLCIS3A_L2_EFR_OC_NRT: 0 granules found for 2025-11-30
+2025-12-01 09:34:14,160  INFO: Granules found: 0
+2025-12-01 09:34:14,857  INFO:   OLCIS3B_L2_EFR_OC_NRT: 0 granules found for 2025-11-30
+2025-12-01 09:34:14,857  INFO:   No data available for 2025-11-30
+2025-12-01 09:34:16,890  INFO: 
+--- Checking gap for 2025-12-01 ---
+2025-12-01 09:34:16,896  INFO:   Skipping 2025-12-01 - checked recently, no data
+2025-12-01 09:34:16,897  INFO: 
+=== Gap filling complete: 0 filled, 2 checked ===
+2025-12-01 09:34:16,897  INFO: Gap detection complete: 0 gaps filled
+2025-12-01 09:34:16,921  INFO: 
+============================================================
+2025-12-01 09:34:16,921  INFO: GAP SUMMARY REPORT
+2025-12-01 09:34:16,921  INFO: ============================================================
+2025-12-01 09:34:16,922  INFO: 
+Gap Status Distribution:
+2025-12-01 09:34:16,922  INFO:   filled: 38
+2025-12-01 09:34:16,922  INFO:   no_extraction: 8
+2025-12-01 09:34:16,922  INFO:   unavailable: 3
+2025-12-01 09:34:16,923  INFO:   available: 2
+2025-12-01 09:34:16,924  INFO: 
+Unfilled gaps: 3
+2025-12-01 09:34:16,925  INFO:   Date range: 2025-11-29 to 2025-12-01
+2025-12-01 09:34:16,930  INFO: 
+Gaps checked in last 24 hours: 3
+2025-12-01 09:34:16,930  INFO: ============================================================
+
+2025-12-01 09:34:16,931  INFO: 
+============================================================
+2025-12-01 09:34:16,931  INFO: GENERATING INTERACTIVE LEAFLET MAP WITH LOLLIPOP PLOTS
+2025-12-01 09:34:16,931  INFO: ============================================================
+2025-12-01 09:34:17,866  INFO: \u2713 Interactive Leaflet map with lollipop plots saved to: C:/Users/23755118/OneDrive - UWA/Documents/PhD_Varshani/CODING/chl_time\plots\chlorophyll_timeseries_interactive.html
+2025-12-01 09:34:17,867  INFO: 
+============================================================
+2025-12-01 09:34:17,867  INFO: GENERATING COMPARISON PLOTS
+2025-12-01 09:34:17,867  INFO: ============================================================
+2025-12-01 09:34:17,867  INFO: 
+============================================================
+2025-12-01 09:34:17,867  INFO: GIT COMMIT AND PUSH
+2025-12-01 09:34:17,867  INFO: ============================================================
+2025-12-01 09:34:21,538  INFO: Git commit successful: Auto-update chlorophyll data: 2025-12-01
+2025-12-01 09:34:21,696  INFO: Current branch: main
+2025-12-01 09:36:30,375  ERROR: Git operation timed out
+2025-12-01 09:36:30,376  WARNING: \u2717 Git commit/push had issues - check logs above
+2025-12-01 09:36:30,404  INFO: Cleanup done. Removed 3 files (excluding .nc)
+2025-12-01 09:36:30,404  INFO: 
+============================================================
+2025-12-01 09:36:30,406  INFO: === PIPELINE FINISHED SUCCESSFULLY ===
+2025-12-01 09:36:30,407  INFO: ============================================================
+2025-12-01 09:45:54,059  INFO: === Starting dual-location chlorophyll pipeline ===
+2025-12-01 09:45:54,059  INFO: Location 1: PSDP (-32.20085, 115.77047)
+2025-12-01 09:45:54,060  INFO: Location 2: Mullaloo (-31.782, 115.721)
+2025-12-01 09:45:54,113  INFO: Daily mode: Searching for data for 2025-12-01
+2025-12-01 09:45:54,114  INFO: Logging in to Earthdata via earthaccess...
+2025-12-01 09:45:57,381  INFO: You're now authenticated with NASA Earthdata Login
+2025-12-01 09:46:06,263  INFO: Earthdata login OK.
+2025-12-01 09:46:06,264  INFO: Searching OLCIS3A_L2_EFR_OC_NRT for 2025-12-01...
+2025-12-01 09:46:07,080  INFO: Granules found: 0
+2025-12-01 09:46:07,844  INFO: No results for OLCIS3A_L2_EFR_OC_NRT
+2025-12-01 09:46:07,845  INFO: Searching OLCIS3B_L2_EFR_OC_NRT for 2025-12-01...
+2025-12-01 09:46:08,595  INFO: Granules found: 0
+2025-12-01 09:46:09,360  INFO: No results for OLCIS3B_L2_EFR_OC_NRT
+2025-12-01 09:46:09,360  INFO: No files downloaded for yesterday. Checking availability...
+2025-12-01 09:46:09,360  INFO: Logging in to Earthdata via earthaccess...
+2025-12-01 09:46:13,817  INFO: Earthdata login OK.
+2025-12-01 09:46:14,572  INFO: Granules found: 0
+2025-12-01 09:46:15,306  INFO:   OLCIS3A_L2_EFR_OC_NRT: 0 granules found for 2025-12-01
+2025-12-01 09:46:16,026  INFO: Granules found: 0
+2025-12-01 09:46:16,811  INFO:   OLCIS3B_L2_EFR_OC_NRT: 0 granules found for 2025-12-01
+2025-12-01 09:46:16,811  INFO: No satellite data available for 2025-12-01
+2025-12-01 09:46:16,842  INFO: 
+============================================================
+2025-12-01 09:46:16,842  INFO: STARTING GAP DETECTION
+2025-12-01 09:46:16,843  INFO: ============================================================
+2025-12-01 09:46:16,843  INFO: === Starting gap detection and filling ===
+2025-12-01 09:46:16,872  INFO: 
+--- Checking gap for 2025-11-29 ---
+2025-12-01 09:46:16,878  INFO:   Skipping 2025-11-29 - checked recently, no data
+2025-12-01 09:46:16,879  INFO: 
+--- Checking gap for 2025-11-30 ---
+2025-12-01 09:46:16,883  INFO:   Skipping 2025-11-30 - checked recently, no data
+2025-12-01 09:46:16,884  INFO: 
+--- Checking gap for 2025-12-01 ---
+2025-12-01 09:46:16,888  INFO:   Skipping 2025-12-01 - checked recently, no data
+2025-12-01 09:46:16,889  INFO: 
+=== Gap filling complete: 0 filled, 0 checked ===
+2025-12-01 09:46:16,889  INFO: Gap detection complete: 0 gaps filled
+2025-12-01 09:46:16,893  INFO: 
+============================================================
+2025-12-01 09:46:16,893  INFO: GAP SUMMARY REPORT
+2025-12-01 09:46:16,893  INFO: ============================================================
+2025-12-01 09:46:16,894  INFO: 
+Gap Status Distribution:
