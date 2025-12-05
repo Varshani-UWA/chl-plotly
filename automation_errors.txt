@@ -64482,3 +64482,23 @@ Gaps checked in last 24 hours: 4
 ============================================================
 2025-12-04 13:03:12,805  INFO: GENERATING INTERACTIVE LEAFLET MAP WITH LOLLIPOP PLOTS
 2025-12-04 13:03:12,805  INFO: ============================================================
+2025-12-04 13:03:13,332  INFO: \u2713 Interactive Leaflet map with lollipop plots saved to: C:/Users/23755118/OneDrive - UWA/Documents/PhD_Varshani/CODING/chl_time\plots\chlorophyll_timeseries_interactive.html
+2025-12-04 13:03:13,332  INFO: 
+============================================================
+2025-12-04 13:03:13,333  INFO: GENERATING COMPARISON PLOTS
+2025-12-04 13:03:13,333  INFO: ============================================================
+2025-12-04 13:03:13,333  INFO: 
+============================================================
+2025-12-04 13:03:13,333  INFO: GIT COMMIT AND PUSH
+2025-12-04 13:03:13,333  INFO: ============================================================
+2025-12-04 13:03:15,049  INFO: Git commit successful: Auto-update chlorophyll data: 2025-12-04
+2025-12-04 13:03:15,125  INFO: Current branch: main
+2025-12-04 13:03:18,842  INFO: \u2713 Git push successful to main
+2025-12-04 13:03:18,843  INFO: \u2713 Git commit and push completed successfully
+2025-12-04 13:03:18,848  INFO: Cleanup done. Removed 1 files (excluding .nc)
+2025-12-04 13:03:18,848  INFO: 
+============================================================
+2025-12-04 13:03:18,848  INFO: === PIPELINE FINISHED SUCCESSFULLY ===
+2025-12-04 13:03:18,849  INFO: ============================================================
+2025-12-05 08:08:16,477  INFO: === Starting dual-location chlorophyll pipeline ===
+2025-12-05 08:08:16,478  INFO: Location 1: PSDP (-32.20085, 115.77047)
