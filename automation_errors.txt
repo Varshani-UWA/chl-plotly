@@ -67151,3 +67151,66 @@ Gaps checked in last 24 hours: 3
 2025-12-10 08:08:01,343  INFO: Granules found: 0
 2025-12-10 08:08:02,399  INFO: No results for OLCIS3B_L2_EFR_OC_NRT
 2025-12-10 08:08:02,399  INFO: No files downloaded for yesterday. Checking availability...
+2025-12-10 08:08:02,399  INFO: Logging in to Earthdata via earthaccess...
+2025-12-10 08:08:06,951  INFO: Earthdata login OK.
+2025-12-10 08:08:07,696  INFO: Granules found: 0
+2025-12-10 08:08:08,408  INFO:   OLCIS3A_L2_EFR_OC_NRT: 0 granules found for 2025-12-10
+2025-12-10 08:08:09,329  INFO: Granules found: 0
+2025-12-10 08:08:10,546  INFO:   OLCIS3B_L2_EFR_OC_NRT: 0 granules found for 2025-12-10
+2025-12-10 08:08:10,546  INFO: No satellite data available for 2025-12-10
+2025-12-10 08:08:10,611  INFO: 
+============================================================
+2025-12-10 08:08:10,611  INFO: STARTING GAP DETECTION
+2025-12-10 08:08:10,611  INFO: ============================================================
+2025-12-10 08:08:10,611  INFO: === Starting gap detection and filling ===
+2025-12-10 08:08:10,685  INFO: 
+--- Checking gap for 2025-12-08 ---
+2025-12-10 08:08:10,695  INFO:   Skipping 2025-12-08 - checked recently, no data
+2025-12-10 08:08:10,696  INFO: 
+--- Checking gap for 2025-12-09 ---
+2025-12-10 08:08:10,703  INFO:   Skipping 2025-12-09 - checked recently, no data
+2025-12-10 08:08:10,704  INFO: 
+--- Checking gap for 2025-12-10 ---
+2025-12-10 08:08:10,711  INFO:   Skipping 2025-12-10 - checked recently, no data
+2025-12-10 08:08:10,712  INFO: 
+=== Gap filling complete: 0 filled, 0 checked ===
+2025-12-10 08:08:10,712  INFO: Gap detection complete: 0 gaps filled
+2025-12-10 08:08:10,719  INFO: 
+============================================================
+2025-12-10 08:08:10,720  INFO: GAP SUMMARY REPORT
+2025-12-10 08:08:10,720  INFO: ============================================================
+2025-12-10 08:08:10,721  INFO: 
+Gap Status Distribution:
+2025-12-10 08:08:10,721  INFO:   filled: 47
+2025-12-10 08:08:10,721  INFO:   no_extraction: 8
+2025-12-10 08:08:10,721  INFO:   unavailable: 3
+2025-12-10 08:08:10,721  INFO:   available: 2
+2025-12-10 08:08:10,723  INFO: 
+Unfilled gaps: 3
+2025-12-10 08:08:10,724  INFO:   Date range: 2025-12-08 to 2025-12-10
+2025-12-10 08:08:10,730  INFO: 
+Gaps checked in last 24 hours: 4
+2025-12-10 08:08:10,730  INFO: ============================================================
+
+2025-12-10 08:08:10,731  INFO: 
+============================================================
+2025-12-10 08:08:10,731  INFO: GENERATING INTERACTIVE LEAFLET MAP WITH LOLLIPOP PLOTS
+2025-12-10 08:08:10,731  INFO: ============================================================
+2025-12-10 08:08:11,896  INFO: \u2713 Interactive Leaflet map with lollipop plots saved to: C:/Users/23755118/OneDrive - UWA/Documents/PhD_Varshani/CODING/chl_time\plots\chlorophyll_timeseries_interactive.html
+2025-12-10 08:08:11,896  INFO: 
+============================================================
+2025-12-10 08:08:11,897  INFO: GENERATING COMPARISON PLOTS
+2025-12-10 08:08:11,897  INFO: ============================================================
+2025-12-10 08:08:11,897  INFO: 
+============================================================
+2025-12-10 08:08:11,897  INFO: GIT COMMIT AND PUSH
+2025-12-10 08:08:11,897  INFO: ============================================================
+2025-12-10 08:08:15,122  INFO: Git commit successful: Auto-update chlorophyll data: 2025-12-10
+2025-12-10 08:08:15,303  INFO: Current branch: main
+2025-12-10 08:08:20,951  INFO: \u2713 Git push successful to main
+2025-12-10 08:08:20,951  INFO: \u2713 Git commit and push completed successfully
+2025-12-10 08:08:20,962  INFO: Cleanup done. Removed 0 files (excluding .nc)
+2025-12-10 08:08:20,962  INFO: 
+============================================================
+2025-12-10 08:08:20,962  INFO: === PIPELINE FINISHED SUCCESSFULLY ===
+2025-12-10 08:08:20,962  INFO: ============================================================
