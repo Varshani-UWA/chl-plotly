@@ -69913,3 +69913,68 @@ Gaps checked in last 24 hours: 5
 2025-12-15 08:14:57,715  INFO: 
 --- Checking gap for 2025-12-14 ---
 2025-12-15 08:14:57,727  INFO:   Skipping 2025-12-14 - checked recently, no data
+2025-12-15 08:14:57,730  INFO: 
+--- Checking gap for 2025-12-15 ---
+2025-12-15 08:14:57,764  INFO:   Skipping 2025-12-15 - checked recently, no data
+2025-12-15 08:14:57,766  INFO: 
+=== Gap filling complete: 0 filled, 0 checked ===
+2025-12-15 08:14:57,766  INFO: Gap detection complete: 0 gaps filled
+2025-12-15 08:14:57,786  INFO: 
+============================================================
+2025-12-15 08:14:57,786  INFO: GAP SUMMARY REPORT
+2025-12-15 08:14:57,787  INFO: ============================================================
+2025-12-15 08:14:57,791  INFO: 
+Gap Status Distribution:
+2025-12-15 08:14:57,791  INFO:   filled: 52
+2025-12-15 08:14:57,791  INFO:   no_extraction: 8
+2025-12-15 08:14:57,791  INFO:   unavailable: 3
+2025-12-15 08:14:57,791  INFO:   available: 2
+2025-12-15 08:14:57,794  INFO: 
+Unfilled gaps: 3
+2025-12-15 08:14:57,795  INFO:   Date range: 2025-12-13 to 2025-12-15
+2025-12-15 08:14:57,802  INFO: 
+Gaps checked in last 24 hours: 6
+2025-12-15 08:14:57,803  INFO: ============================================================
+
+2025-12-15 08:14:57,803  INFO: 
+============================================================
+2025-12-15 08:14:57,803  INFO: GENERATING INTERACTIVE LEAFLET MAP WITH LOLLIPOP PLOTS
+2025-12-15 08:14:57,804  INFO: ============================================================
+2025-12-15 08:14:59,339  INFO: \u2713 Interactive Leaflet map with lollipop plots saved to: C:/Users/23755118/OneDrive - UWA/Documents/PhD_Varshani/CODING/chl_time\plots\chlorophyll_timeseries_interactive.html
+2025-12-15 08:14:59,341  INFO: 
+============================================================
+2025-12-15 08:14:59,341  INFO: GENERATING COMPARISON PLOTS
+2025-12-15 08:14:59,342  INFO: ============================================================
+2025-12-15 08:14:59,342  INFO: 
+============================================================
+2025-12-15 08:14:59,342  INFO: GIT COMMIT AND PUSH
+2025-12-15 08:14:59,342  INFO: ============================================================
+2025-12-15 08:15:03,548  INFO: Git commit successful: Auto-update chlorophyll data: 2025-12-15
+2025-12-15 08:15:04,081  INFO: Current branch: main
+2025-12-15 08:15:11,829  INFO: \u2713 Git push successful to main
+2025-12-15 08:15:11,829  INFO: \u2713 Git commit and push completed successfully
+2025-12-15 08:15:11,840  INFO: Cleanup done. Removed 0 files (excluding .nc)
+2025-12-15 08:15:11,840  INFO: 
+============================================================
+2025-12-15 08:15:11,841  INFO: === PIPELINE FINISHED SUCCESSFULLY ===
+2025-12-15 08:15:11,841  INFO: ============================================================
+2025-12-16 09:26:33,788  INFO: === Starting dual-location chlorophyll pipeline ===
+2025-12-16 09:26:33,792  INFO: Location 1: PSDP (-32.20085, 115.77047)
+2025-12-16 09:26:33,792  INFO: Location 2: Mullaloo (-31.782, 115.721)
+2025-12-16 09:26:33,906  INFO: Daily mode: Searching for data for 2025-12-16
+2025-12-16 09:26:33,907  INFO: Logging in to Earthdata via earthaccess...
+2025-12-16 09:26:37,313  INFO: You're now authenticated with NASA Earthdata Login
+2025-12-16 09:26:46,204  INFO: Earthdata login OK.
+2025-12-16 09:26:46,205  INFO: Searching OLCIS3A_L2_EFR_OC_NRT for 2025-12-16...
+2025-12-16 09:26:47,424  INFO: Granules found: 0
+2025-12-16 09:26:50,464  INFO: No results for OLCIS3A_L2_EFR_OC_NRT
+2025-12-16 09:26:50,465  INFO: Searching OLCIS3B_L2_EFR_OC_NRT for 2025-12-16...
+2025-12-16 09:26:51,907  INFO: Granules found: 0
+2025-12-16 09:26:52,750  INFO: No results for OLCIS3B_L2_EFR_OC_NRT
+2025-12-16 09:26:52,750  INFO: No files downloaded for yesterday. Checking availability...
+2025-12-16 09:26:52,751  INFO: Logging in to Earthdata via earthaccess...
+2025-12-16 09:26:57,383  INFO: Earthdata login OK.
+2025-12-16 09:26:58,344  INFO: Granules found: 0
+2025-12-16 09:26:59,113  INFO:   OLCIS3A_L2_EFR_OC_NRT: 0 granules found for 2025-12-16
+2025-12-16 09:27:00,401  INFO: Granules found: 0
+2025-12-16 09:27:01,135  INFO:   OLCIS3B_L2_EFR_OC_NRT: 0 granules found for 2025-12-16
