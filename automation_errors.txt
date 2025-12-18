@@ -71187,3 +71187,61 @@ Gaps checked in last 24 hours: 5
 2025-12-17 09:03:14,064  INFO: ============================================================
 2025-12-17 09:03:14,065  INFO: 
 ============================================================
+2025-12-17 09:03:14,065  INFO: GIT COMMIT AND PUSH
+2025-12-17 09:03:14,067  INFO: ============================================================
+2025-12-17 09:03:16,254  INFO: Git commit successful: Auto-update chlorophyll data: 2025-12-17
+2025-12-17 09:03:16,355  INFO: Current branch: main
+2025-12-17 09:03:21,226  INFO: \u2713 Git push successful to main
+2025-12-17 09:03:21,227  INFO: \u2713 Git commit and push completed successfully
+2025-12-17 09:03:21,236  INFO: Cleanup done. Removed 0 files (excluding .nc)
+2025-12-17 09:03:21,236  INFO: 
+============================================================
+2025-12-17 09:03:21,236  INFO: === PIPELINE FINISHED SUCCESSFULLY ===
+2025-12-17 09:03:21,236  INFO: ============================================================
+2025-12-18 09:18:45,967  INFO: === Starting dual-location chlorophyll pipeline ===
+2025-12-18 09:18:45,969  INFO: Location 1: PSDP (-32.20085, 115.77047)
+2025-12-18 09:18:45,970  INFO: Location 2: Mullaloo (-31.782, 115.721)
+2025-12-18 09:18:46,056  INFO: Daily mode: Searching for data for 2025-12-18
+2025-12-18 09:18:46,057  INFO: Logging in to Earthdata via earthaccess...
+2025-12-18 09:18:49,421  INFO: You're now authenticated with NASA Earthdata Login
+2025-12-18 09:18:58,333  INFO: Earthdata login OK.
+2025-12-18 09:18:58,334  INFO: Searching OLCIS3A_L2_EFR_OC_NRT for 2025-12-18...
+2025-12-18 09:18:59,558  INFO: Granules found: 0
+2025-12-18 09:19:00,301  INFO: No results for OLCIS3A_L2_EFR_OC_NRT
+2025-12-18 09:19:00,302  INFO: Searching OLCIS3B_L2_EFR_OC_NRT for 2025-12-18...
+2025-12-18 09:19:01,031  INFO: Granules found: 0
+2025-12-18 09:19:01,734  INFO: No results for OLCIS3B_L2_EFR_OC_NRT
+2025-12-18 09:19:01,734  INFO: No files downloaded for yesterday. Checking availability...
+2025-12-18 09:19:01,735  INFO: Logging in to Earthdata via earthaccess...
+2025-12-18 09:19:06,313  INFO: Earthdata login OK.
+2025-12-18 09:19:07,044  INFO: Granules found: 0
+2025-12-18 09:19:07,742  INFO:   OLCIS3A_L2_EFR_OC_NRT: 0 granules found for 2025-12-18
+2025-12-18 09:19:08,475  INFO: Granules found: 0
+2025-12-18 09:19:09,230  INFO:   OLCIS3B_L2_EFR_OC_NRT: 0 granules found for 2025-12-18
+2025-12-18 09:19:09,230  INFO: No satellite data available for 2025-12-18
+2025-12-18 09:19:09,332  INFO: 
+============================================================
+2025-12-18 09:19:09,333  INFO: STARTING GAP DETECTION
+2025-12-18 09:19:09,333  INFO: ============================================================
+2025-12-18 09:19:09,333  INFO: === Starting gap detection and filling ===
+2025-12-18 09:19:09,417  INFO: 
+--- Checking gap for 2025-12-15 ---
+2025-12-18 09:19:09,430  INFO: Logging in to Earthdata via earthaccess...
+2025-12-18 09:19:13,876  INFO: Earthdata login OK.
+2025-12-18 09:19:14,581  INFO: Granules found: 0
+2025-12-18 09:19:15,289  INFO:   OLCIS3A_L2_EFR_OC_NRT: 0 granules found for 2025-12-15
+2025-12-18 09:19:17,996  INFO: Granules found: 1
+2025-12-18 09:19:18,708  INFO:   OLCIS3B_L2_EFR_OC_NRT: 1 granules found for 2025-12-15
+2025-12-18 09:19:18,708  INFO:   Data available for 2025-12-15! Downloading...
+2025-12-18 09:19:18,723  INFO: Logging in to Earthdata via earthaccess...
+2025-12-18 09:19:23,182  INFO: Earthdata login OK.
+2025-12-18 09:19:23,182  INFO: Searching OLCIS3A_L2_EFR_OC_NRT for 2025-12-15...
+2025-12-18 09:19:23,912  INFO: Granules found: 0
+2025-12-18 09:19:24,643  INFO: No results for OLCIS3A_L2_EFR_OC_NRT
+2025-12-18 09:19:24,643  INFO: Searching OLCIS3B_L2_EFR_OC_NRT for 2025-12-15...
+2025-12-18 09:19:25,349  INFO: Granules found: 1
+2025-12-18 09:19:26,072  INFO: Found 1 items. Downloading...
+2025-12-18 09:19:26,073  INFO:  Getting 1 granules, approx download size: 0.11 GB
+QUEUEING TASKS | :   0%|          | 0/1 [00:00<?, ?it/s]QUEUEING TASKS | : 100%|##########| 1/1 [00:00<00:00, 940.85it/s]
+PROCESSING TASKS | :   0%|          | 0/1 [00:00<?, ?it/s]PROCESSING TASKS | : 100%|##########| 1/1 [00:14<00:00, 14.33s/it]PROCESSING TASKS | : 100%|##########| 1/1 [00:14<00:00, 14.33s/it]
+COLLECTING RESULTS | :   0%|          | 0/1 [00:00<?, ?it/s]
