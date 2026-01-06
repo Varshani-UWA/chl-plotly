@@ -83018,3 +83018,156 @@ PermissionError: [WinError 5] Access is denied: 'C:/Users/23755118/OneDrive - UW
 2026-01-05 10:08:18,155  INFO: === PIPELINE FINISHED SUCCESSFULLY ===
 2026-01-05 10:08:18,155  INFO: ============================================================
 ERROR: Script daily_chl_pipeline.py not found in C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time 
+2026-01-06 08:50:51,043  INFO: === Starting dual-location chlorophyll pipeline ===
+2026-01-06 08:50:51,043  INFO: Location 1: PSDP (-32.20085, 115.77047)
+2026-01-06 08:50:51,043  INFO: Location 2: Mullaloo (-31.782, 115.721)
+2026-01-06 08:50:51,089  INFO: Daily mode: Searching for data for 2026-01-06
+2026-01-06 08:50:51,090  INFO: Logging in to Earthdata via earthaccess...
+2026-01-06 08:50:54,366  INFO: You're now authenticated with NASA Earthdata Login
+2026-01-06 08:51:03,302  INFO: Earthdata login OK.
+2026-01-06 08:51:03,303  INFO: Searching OLCIS3A_L2_EFR_OC_NRT for 2026-01-06...
+2026-01-06 08:51:04,270  INFO: Granules found: 0
+2026-01-06 08:51:05,067  INFO: No results for OLCIS3A_L2_EFR_OC_NRT
+2026-01-06 08:51:05,067  INFO: Searching OLCIS3B_L2_EFR_OC_NRT for 2026-01-06...
+2026-01-06 08:51:05,835  INFO: Granules found: 0
+2026-01-06 08:51:06,603  INFO: No results for OLCIS3B_L2_EFR_OC_NRT
+2026-01-06 08:51:06,604  INFO: No files downloaded for yesterday. Checking availability...
+2026-01-06 08:51:06,604  INFO: Logging in to Earthdata via earthaccess...
+2026-01-06 08:51:11,220  INFO: Earthdata login OK.
+2026-01-06 08:51:11,961  INFO: Granules found: 0
+2026-01-06 08:51:12,696  INFO:   OLCIS3A_L2_EFR_OC_NRT: 0 granules found for 2026-01-06
+2026-01-06 08:51:13,480  INFO: Granules found: 0
+2026-01-06 08:51:14,221  INFO:   OLCIS3B_L2_EFR_OC_NRT: 0 granules found for 2026-01-06
+2026-01-06 08:51:14,221  INFO: No satellite data available for 2026-01-06
+2026-01-06 08:51:14,304  INFO: 
+============================================================
+2026-01-06 08:51:14,305  INFO: STARTING GAP DETECTION
+2026-01-06 08:51:14,305  INFO: ============================================================
+2026-01-06 08:51:14,305  INFO: === Starting gap detection and filling ===
+2026-01-06 08:51:14,426  INFO: 
+--- Checking gap for 2026-01-04 ---
+2026-01-06 08:51:14,465  INFO:   Skipping 2026-01-04 - checked recently, no data
+2026-01-06 08:51:14,467  INFO: 
+--- Checking gap for 2026-01-05 ---
+2026-01-06 08:51:14,481  INFO:   Skipping 2026-01-05 - checked recently, no data
+2026-01-06 08:51:14,483  INFO: 
+--- Checking gap for 2026-01-06 ---
+2026-01-06 08:51:14,496  INFO:   Skipping 2026-01-06 - checked recently, no data
+2026-01-06 08:51:14,498  INFO: 
+=== Gap filling complete: 0 filled, 0 checked ===
+2026-01-06 08:51:14,498  INFO: Gap detection complete: 0 gaps filled
+2026-01-06 08:51:14,512  INFO: 
+============================================================
+2026-01-06 08:51:14,512  INFO: GAP SUMMARY REPORT
+2026-01-06 08:51:14,513  INFO: ============================================================
+2026-01-06 08:51:14,518  INFO: 
+Gap Status Distribution:
+2026-01-06 08:51:14,519  INFO:   filled: 74
+2026-01-06 08:51:14,519  INFO:   no_extraction: 8
+2026-01-06 08:51:14,519  INFO:   unavailable: 3
+2026-01-06 08:51:14,519  INFO:   available: 2
+2026-01-06 08:51:14,525  INFO: 
+Unfilled gaps: 3
+2026-01-06 08:51:14,530  INFO:   Date range: 2026-01-04 to 2026-01-06
+2026-01-06 08:51:14,538  INFO: 
+Gaps checked in last 24 hours: 17
+2026-01-06 08:51:14,539  INFO: ============================================================
+
+2026-01-06 08:51:14,539  INFO: 
+============================================================
+2026-01-06 08:51:14,540  INFO: GENERATING INTERACTIVE LEAFLET MAP WITH LOLLIPOP PLOTS
+2026-01-06 08:51:14,540  INFO: ============================================================
+2026-01-06 08:51:16,429  INFO: \u2713 Interactive Leaflet map with lollipop plots saved to: C:/Users/23755118/OneDrive - UWA/Documents/PhD_Varshani/CODING/chl_time\plots\chlorophyll_timeseries_interactive.html
+2026-01-06 08:51:16,430  INFO: 
+============================================================
+2026-01-06 08:51:16,430  INFO: GENERATING COMPARISON PLOTS
+2026-01-06 08:51:16,430  INFO: ============================================================
+2026-01-06 08:51:16,430  INFO: 
+============================================================
+2026-01-06 08:51:16,430  INFO: GIT COMMIT AND PUSH
+2026-01-06 08:51:16,430  INFO: ============================================================
+2026-01-06 08:51:21,042  INFO: Git commit successful: Auto-update chlorophyll data: 2026-01-06
+2026-01-06 08:51:21,307  INFO: Current branch: main
+2026-01-06 08:51:28,187  INFO: \u2713 Git push successful to main
+2026-01-06 08:51:28,188  INFO: \u2713 Git commit and push completed successfully
+2026-01-06 08:51:28,197  ERROR: Failed cleaning C:/Users/23755118/OneDrive - UWA/Documents/PhD_Varshani/CODING/chl_time\__pycache__
+Traceback (most recent call last):
+  File "C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py", line 1475, in cleanup_old_files
+  File "C:\Users\23755118\AppData\Local\miniconda3\envs\py3_13\Lib\shutil.py", line 790, in rmtree
+    return _rmtree_unsafe(path, onexc)
+  File "C:\Users\23755118\AppData\Local\miniconda3\envs\py3_13\Lib\shutil.py", line 635, in _rmtree_unsafe
+    onexc(os.rmdir, path, err)
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\23755118\AppData\Local\miniconda3\envs\py3_13\Lib\shutil.py", line 631, in _rmtree_unsafe
+    os.rmdir(path)
+    ~~~~~~~~^^^^^^
+PermissionError: [WinError 5] Access is denied: 'C:/Users/23755118/OneDrive - UWA/Documents/PhD_Varshani/CODING/chl_time\\__pycache__'
+2026-01-06 08:51:28,249  INFO: Cleanup done. Removed 2 files (excluding .nc)
+2026-01-06 08:51:28,249  INFO: 
+============================================================
+2026-01-06 08:51:28,249  INFO: === PIPELINE FINISHED SUCCESSFULLY ===
+2026-01-06 08:51:28,249  INFO: ============================================================
+2026-01-06 09:37:11,728  INFO: === Starting dual-location chlorophyll pipeline ===
+2026-01-06 09:37:11,729  INFO: Location 1: PSDP (-32.20085, 115.77047)
+2026-01-06 09:37:11,729  INFO: Location 2: Mullaloo (-31.782, 115.721)
+2026-01-06 09:37:11,785  INFO: Daily mode: Searching for data for 2026-01-06
+2026-01-06 09:37:11,785  INFO: Logging in to Earthdata via earthaccess...
+2026-01-06 09:37:15,206  INFO: You're now authenticated with NASA Earthdata Login
+2026-01-06 09:37:24,100  INFO: Earthdata login OK.
+2026-01-06 09:37:24,101  INFO: Searching OLCIS3A_L2_EFR_OC_NRT for 2026-01-06...
+2026-01-06 09:37:25,273  INFO: Granules found: 0
+2026-01-06 09:37:26,016  INFO: No results for OLCIS3A_L2_EFR_OC_NRT
+2026-01-06 09:37:26,016  INFO: Searching OLCIS3B_L2_EFR_OC_NRT for 2026-01-06...
+2026-01-06 09:37:26,770  INFO: Granules found: 0
+2026-01-06 09:37:27,508  INFO: No results for OLCIS3B_L2_EFR_OC_NRT
+2026-01-06 09:37:27,508  INFO: No files downloaded for yesterday. Checking availability...
+2026-01-06 09:37:27,508  INFO: Logging in to Earthdata via earthaccess...
+2026-01-06 09:37:31,970  INFO: Earthdata login OK.
+2026-01-06 09:37:32,720  INFO: Granules found: 0
+2026-01-06 09:37:33,489  INFO:   OLCIS3A_L2_EFR_OC_NRT: 0 granules found for 2026-01-06
+2026-01-06 09:37:34,234  INFO: Granules found: 0
+2026-01-06 09:37:34,972  INFO:   OLCIS3B_L2_EFR_OC_NRT: 0 granules found for 2026-01-06
+2026-01-06 09:37:34,972  INFO: No satellite data available for 2026-01-06
+2026-01-06 09:37:34,990  INFO: 
+============================================================
+2026-01-06 09:37:34,990  INFO: STARTING GAP DETECTION
+2026-01-06 09:37:34,991  INFO: ============================================================
+2026-01-06 09:37:34,991  INFO: === Starting gap detection and filling ===
+2026-01-06 09:37:35,024  INFO: 
+--- Checking gap for 2026-01-04 ---
+2026-01-06 09:37:35,029  INFO:   Skipping 2026-01-04 - checked recently, no data
+2026-01-06 09:37:35,030  INFO: 
+--- Checking gap for 2026-01-05 ---
+2026-01-06 09:37:35,034  INFO:   Skipping 2026-01-05 - checked recently, no data
+2026-01-06 09:37:35,035  INFO: 
+--- Checking gap for 2026-01-06 ---
+2026-01-06 09:37:35,039  INFO:   Skipping 2026-01-06 - checked recently, no data
+2026-01-06 09:37:35,040  INFO: 
+=== Gap filling complete: 0 filled, 0 checked ===
+2026-01-06 09:37:35,040  INFO: Gap detection complete: 0 gaps filled
+2026-01-06 09:37:35,044  INFO: 
+============================================================
+2026-01-06 09:37:35,044  INFO: GAP SUMMARY REPORT
+2026-01-06 09:37:35,044  INFO: ============================================================
+2026-01-06 09:37:35,045  INFO: 
+Gap Status Distribution:
+2026-01-06 09:37:35,045  INFO:   filled: 74
+2026-01-06 09:37:35,045  INFO:   no_extraction: 8
+2026-01-06 09:37:35,045  INFO:   unavailable: 3
+2026-01-06 09:37:35,046  INFO:   available: 2
+2026-01-06 09:37:35,046  INFO: 
+Unfilled gaps: 3
+2026-01-06 09:37:35,047  INFO:   Date range: 2026-01-04 to 2026-01-06
+2026-01-06 09:37:35,049  INFO: 
+Gaps checked in last 24 hours: 12
+2026-01-06 09:37:35,049  INFO: ============================================================
+
+2026-01-06 09:37:35,050  INFO: 
+============================================================
+2026-01-06 09:37:35,050  INFO: GENERATING INTERACTIVE LEAFLET MAP WITH LOLLIPOP PLOTS
+2026-01-06 09:37:35,050  INFO: ============================================================
+2026-01-06 09:37:35,555  INFO: \u2713 Interactive Leaflet map with lollipop plots saved to: C:/Users/23755118/OneDrive - UWA/Documents/PhD_Varshani/CODING/chl_time\plots\chlorophyll_timeseries_interactive.html
+2026-01-06 09:37:35,556  INFO: 
+============================================================
+2026-01-06 09:37:35,556  INFO: GENERATING COMPARISON PLOTS
+2026-01-06 09:37:35,557  INFO: ============================================================
