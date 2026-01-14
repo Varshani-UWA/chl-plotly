@@ -1,147 +1,3 @@
-  - Full interactive timeseries 
-================================================ 
- 
- 
-================================================ 
-DUAL-LOCATION PIPELINE (PSDP + Mullaloo) 
-Task started at: Thu 20/11/2025  9:19:24.87 
-Directory: C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time 
-================================================ 
- 
-Checking Python... 
-Python 3.13.5
-Python found successfully 
-Verifying required packages... 
-All packages OK
-Checking for data files... 
-Found PSDP data file 
-Found Mullaloo data file 
- 
-Running dual-location pipeline... 
-================================================ 
- 
-================================================ 
-SUCCESS: Task completed at: Thu 20/11/2025  9:38:36.04 
-Exit Code: 0 
- 
-Data Files Status: 
-  PSDP: 91739 bytes, modified 20/11/2025 09:20 AM 
-  Mullaloo: 94145 bytes, modified 20/11/2025 09:20 AM 
- 
-Generated Plots: 
-  - 5-day comparison plot 
-  - Monthly comparison plot 
-  - Full interactive timeseries 
-================================================ 
- 
- 
-================================================ 
-DUAL-LOCATION PIPELINE (PSDP + Mullaloo) 
-Task started at: Fri 21/11/2025  9:15:30.20 
-Directory: C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time 
-================================================ 
- 
-Checking Python... 
-Python 3.13.5
-Python found successfully 
-Verifying required packages... 
-All packages OK
-Checking for data files... 
-Found PSDP data file 
-Found Mullaloo data file 
- 
-Running dual-location pipeline... 
-================================================ 
- 
-================================================ 
-SUCCESS: Task completed at: Fri 21/11/2025  9:16:41.34 
-Exit Code: 0 
- 
-Data Files Status: 
-  PSDP: 91739 bytes, modified 20/11/2025 09:20 AM 
-  Mullaloo: 94145 bytes, modified 20/11/2025 09:20 AM 
- 
-Generated Plots: 
-  - 5-day comparison plot 
-  - Monthly comparison plot 
-  - Full interactive timeseries 
-================================================ 
- 
- 
-================================================ 
-DUAL-LOCATION PIPELINE (PSDP + Mullaloo) 
-Task started at: Mon 24/11/2025  9:04:10.29 
-Directory: C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time 
-================================================ 
- 
-Checking Python... 
-Python 3.13.5
-Python found successfully 
-Verifying required packages... 
-All packages OK
-Checking for data files... 
-Found PSDP data file 
-Found Mullaloo data file 
- 
-Running dual-location pipeline... 
-================================================ 
- 
-================================================ 
-SUCCESS: Task completed at: Mon 24/11/2025  9:10:20.44 
-Exit Code: 0 
- 
-Data Files Status: 
-  PSDP: 92031 bytes, modified 24/11/2025 09:08 AM 
-  Mullaloo: 94436 bytes, modified 24/11/2025 09:08 AM 
- 
-Generated Plots: 
-  - 5-day comparison plot 
-  - Monthly comparison plot 
-  - Full interactive timeseries 
-================================================ 
- 
- 
-================================================ 
-DUAL-LOCATION PIPELINE (PSDP + Mullaloo) 
-Task started at: Tue 25/11/2025  9:24:01.44 
-Directory: C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time 
-================================================ 
- 
-Checking Python... 
-Python 3.13.5
-Python found successfully 
-Verifying required packages... 
-All packages OK
-Checking for data files... 
-Found PSDP data file 
-Found Mullaloo data file 
- 
-Running dual-location pipeline... 
-================================================ 
- 
-================================================ 
-SUCCESS: Task completed at: Tue 25/11/2025  9:30:02.00 
-Exit Code: 0 
- 
-Data Files Status: 
-  PSDP: 92111 bytes, modified 25/11/2025 09:25 AM 
-  Mullaloo: 94518 bytes, modified 25/11/2025 09:25 AM 
- 
-Generated Plots: 
-  - 5-day comparison plot 
-  - Monthly comparison plot 
-  - Full interactive timeseries 
-================================================ 
- 
- 
-================================================ 
-DUAL-LOCATION PIPELINE (PSDP + Mullaloo) 
-Task started at: Wed 26/11/2025  9:09:26.61 
-Directory: C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time 
-================================================ 
- 
-Checking Python... 
-Python 3.13.5
 Python found successfully 
 Verifying required packages... 
 All packages OK
@@ -1034,7 +890,7 @@ Running dual-location pipeline...
 ================================================ 
 ================================================ 
 DUAL-LOCATION PIPELINE (PSDP + Mullaloo) 
-Task started at: Wed 14/01/2026 10:04:32.30 
+Task started at: Fri 09/01/2026  9:29:50.88 
 Directory: C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time 
 ================================================ 
  
@@ -1049,3 +905,116 @@ Found Mullaloo data file
  
 Running dual-location pipeline... 
 ================================================ 
+================================================ 
+DUAL-LOCATION PIPELINE (PSDP + Mullaloo) 
+Task started at: Fri 09/01/2026  9:33:24.70 
+Directory: C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time 
+================================================ 
+ 
+Checking Python... 
+Python 3.13.5
+Python found successfully 
+Verifying required packages... 
+All packages OK
+Checking for data files... 
+Found PSDP data file 
+Found Mullaloo data file 
+ 
+Running dual-location pipeline... 
+================================================ 
+ 
+================================================ 
+SUCCESS: Task completed at: Fri 09/01/2026  9:34:08.46 
+Exit Code: 0 
+ 
+Data Files Status: 
+  PSDP: 95508 bytes, modified 08/01/2026 09:48 AM 
+  Mullaloo: 97938 bytes, modified 08/01/2026 09:48 AM 
+ 
+Generated Plots: 
+  - Full interactive timeseries 
+================================================ 
+ 
+ 
+================================================ 
+DUAL-LOCATION PIPELINE (PSDP + Mullaloo) 
+Task started at: Mon 12/01/2026  9:00:58.70 
+Directory: C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time 
+================================================ 
+ 
+Checking Python... 
+Python 3.13.5
+Python found successfully 
+Verifying required packages... 
+All packages OK
+Checking for data files... 
+Found PSDP data file 
+Found Mullaloo data file 
+ 
+Running dual-location pipeline... 
+================================================ 
+ 
+================================================ 
+SUCCESS: Task completed at: Mon 12/01/2026  9:04:32.61 
+Exit Code: 0 
+ 
+Data Files Status: 
+  PSDP: 95810 bytes, modified 12/01/2026 09:04 AM 
+  Mullaloo: 98241 bytes, modified 12/01/2026 09:04 AM 
+ 
+Generated Plots: 
+  - Full interactive timeseries 
+================================================ 
+ 
+ 
+================================================ 
+DUAL-LOCATION PIPELINE (PSDP + Mullaloo) 
+Task started at: Tue 13/01/2026  9:30:37.19 
+Directory: C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time 
+================================================ 
+ 
+Checking Python... 
+Python 3.13.5
+Python found successfully 
+Verifying required packages... 
+All packages OK
+Checking for data files... 
+Found PSDP data file 
+Found Mullaloo data file 
+ 
+Running dual-location pipeline... 
+================================================ 
+ 
+================================================ 
+SUCCESS: Task completed at: Tue 13/01/2026  9:32:19.35 
+Exit Code: 0 
+ 
+Data Files Status: 
+  PSDP: 95891 bytes, modified 13/01/2026 09:31 AM 
+  Mullaloo: 98322 bytes, modified 13/01/2026 09:31 AM 
+ 
+Generated Plots: 
+  - Full interactive timeseries 
+================================================ 
+ 
+ 
+================================================ 
+DUAL-LOCATION PIPELINE (PSDP + Mullaloo) 
+Task started at: Tue 13/01/2026  9:50:02.87 
+Directory: C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time 
+================================================ 
+ 
+Checking Python... 
+Python 3.13.5
+Python found successfully 
+ERROR: Script not found at: Tue 13/01/2026  9:50:03.10 
+================================================ 
+DUAL-LOCATION PIPELINE (PSDP + Mullaloo) 
+Task started at: Tue 13/01/2026  9:50:06.59 
+Directory: C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time 
+================================================ 
+ 
+Checking Python... 
+Python 3.13.5
+Python found successfully 
+ERROR: Script not found at: Tue 13/01/2026  9:50:06.91 
