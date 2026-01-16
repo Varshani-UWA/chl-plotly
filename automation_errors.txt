@@ -90214,3 +90214,88 @@ Gaps checked in last 24 hours: 9
 ============================================================
 2026-01-15 09:31:32,839  INFO: GIT COMMIT AND PUSH
 2026-01-15 09:31:32,839  INFO: ============================================================
+2026-01-15 09:31:34,796  INFO: Git commit successful: Auto-update chlorophyll data: 2026-01-15
+2026-01-15 09:31:34,883  INFO: Current branch: main
+2026-01-15 09:31:37,618  WARNING: Push failed, trying with -u: To https://github.com/Varshani-UWA/chl-plotly.git
+ ! [rejected]        main -> main (non-fast-forward)
+error: failed to push some refs to 'https://github.com/Varshani-UWA/chl-plotly.git'
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. If you want to integrate the remote changes,
+hint: use 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+2026-01-15 09:31:39,610  ERROR: Git push failed: To https://github.com/Varshani-UWA/chl-plotly.git
+ ! [rejected]        main -> main (non-fast-forward)
+error: failed to push some refs to 'https://github.com/Varshani-UWA/chl-plotly.git'
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. If you want to integrate the remote changes,
+hint: use 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+2026-01-15 09:31:39,611  WARNING: Committed locally but push failed
+2026-01-15 09:31:39,611  INFO: \u2713 Git commit and push completed successfully
+2026-01-15 09:31:39,623  ERROR: Failed cleaning C:/Users/23755118/OneDrive - UWA/Documents/PhD_Varshani/CODING/chl_time\__pycache__
+Traceback (most recent call last):
+  File "C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py", line 1475, in cleanup_old_files
+  File "C:\Users\23755118\AppData\Local\miniconda3\envs\py3_13\Lib\shutil.py", line 790, in rmtree
+    return _rmtree_unsafe(path, onexc)
+  File "C:\Users\23755118\AppData\Local\miniconda3\envs\py3_13\Lib\shutil.py", line 635, in _rmtree_unsafe
+    onexc(os.rmdir, path, err)
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\23755118\AppData\Local\miniconda3\envs\py3_13\Lib\shutil.py", line 631, in _rmtree_unsafe
+    os.rmdir(path)
+    ~~~~~~~~^^^^^^
+PermissionError: [WinError 5] Access is denied: 'C:/Users/23755118/OneDrive - UWA/Documents/PhD_Varshani/CODING/chl_time\\__pycache__'
+2026-01-15 09:31:39,663  INFO: Cleanup done. Removed 1 files (excluding .nc)
+2026-01-15 09:31:39,663  INFO: 
+============================================================
+2026-01-15 09:31:39,663  INFO: === PIPELINE FINISHED SUCCESSFULLY ===
+2026-01-15 09:31:39,663  INFO: ============================================================
+2026-01-16 09:09:42,797  INFO: === Starting dual-location chlorophyll pipeline ===
+2026-01-16 09:09:42,797  INFO: Location 1: PSDP (-32.20085, 115.77047)
+2026-01-16 09:09:42,798  INFO: Location 2: Mullaloo (-31.782, 115.721)
+2026-01-16 09:09:42,844  INFO: Daily mode: Searching for data for 2026-01-16
+2026-01-16 09:09:42,844  INFO: Logging in to Earthdata via earthaccess...
+2026-01-16 09:09:46,272  INFO: You're now authenticated with NASA Earthdata Login
+2026-01-16 09:09:55,170  INFO: Earthdata login OK.
+2026-01-16 09:09:55,171  INFO: Searching OLCIS3A_L2_EFR_OC_NRT for 2026-01-16...
+2026-01-16 09:09:56,373  INFO: Granules found: 0
+2026-01-16 09:09:57,306  INFO: No results for OLCIS3A_L2_EFR_OC_NRT
+2026-01-16 09:09:57,306  INFO: Searching OLCIS3B_L2_EFR_OC_NRT for 2026-01-16...
+2026-01-16 09:09:58,143  INFO: Granules found: 0
+2026-01-16 09:09:58,987  INFO: No results for OLCIS3B_L2_EFR_OC_NRT
+2026-01-16 09:09:58,987  INFO: No files downloaded for yesterday. Checking availability...
+2026-01-16 09:09:58,987  INFO: Logging in to Earthdata via earthaccess...
+2026-01-16 09:10:03,512  INFO: Earthdata login OK.
+2026-01-16 09:10:04,243  INFO: Granules found: 0
+2026-01-16 09:10:04,927  INFO:   OLCIS3A_L2_EFR_OC_NRT: 0 granules found for 2026-01-16
+2026-01-16 09:10:05,642  INFO: Granules found: 0
+2026-01-16 09:10:06,353  INFO:   OLCIS3B_L2_EFR_OC_NRT: 0 granules found for 2026-01-16
+2026-01-16 09:10:06,353  INFO: No satellite data available for 2026-01-16
+2026-01-16 09:10:06,395  INFO: 
+============================================================
+2026-01-16 09:10:06,396  INFO: STARTING GAP DETECTION
+2026-01-16 09:10:06,396  INFO: ============================================================
+2026-01-16 09:10:06,397  INFO: === Starting gap detection and filling ===
+2026-01-16 09:10:06,455  INFO: 
+--- Checking gap for 2026-01-14 ---
+2026-01-16 09:10:06,470  INFO: Logging in to Earthdata via earthaccess...
+2026-01-16 09:10:10,887  INFO: Earthdata login OK.
+2026-01-16 09:10:11,595  INFO: Granules found: 0
+2026-01-16 09:10:12,293  INFO:   OLCIS3A_L2_EFR_OC_NRT: 0 granules found for 2026-01-14
+2026-01-16 09:10:13,092  INFO: Granules found: 1
+2026-01-16 09:10:13,925  INFO:   OLCIS3B_L2_EFR_OC_NRT: 1 granules found for 2026-01-14
+2026-01-16 09:10:13,926  INFO:   Data available for 2026-01-14! Downloading...
+2026-01-16 09:10:13,938  INFO: Logging in to Earthdata via earthaccess...
+2026-01-16 09:10:18,383  INFO: Earthdata login OK.
+2026-01-16 09:10:18,384  INFO: Searching OLCIS3A_L2_EFR_OC_NRT for 2026-01-14...
+2026-01-16 09:10:19,100  INFO: Granules found: 0
+2026-01-16 09:10:20,067  INFO: No results for OLCIS3A_L2_EFR_OC_NRT
+2026-01-16 09:10:20,067  INFO: Searching OLCIS3B_L2_EFR_OC_NRT for 2026-01-14...
+2026-01-16 09:10:21,006  INFO: Granules found: 1
+2026-01-16 09:10:21,687  INFO: Found 1 items. Downloading...
+2026-01-16 09:10:21,688  INFO:  Getting 1 granules, approx download size: 0.19 GB
+QUEUEING TASKS | :   0%|          | 0/1 [00:00<?, ?it/s]QUEUEING TASKS | : 100%|##########| 1/1 [00:00<00:00, 2302.03it/s]
+PROCESSING TASKS | :   0%|          | 0/1 [00:00<?, ?it/s]PROCESSING TASKS | : 100%|##########| 1/1 [00:12<00:00, 12.50s/it]PROCESSING TASKS | : 100%|##########| 1/1 [00:12<00:00, 12.50s/it]
+COLLECTING RESULTS | :   0%|          | 0/1 [00:00<?, ?it/s]COLLECTING RESULTS | : 100%|##########| 1/1 [00:00<00:00, 14463.12it/s]
+2026-01-16 09:10:35,205  INFO:   Downloaded 161 files
