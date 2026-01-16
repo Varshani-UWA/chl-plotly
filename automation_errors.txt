@@ -91084,3 +91084,58 @@ Gap Status Distribution:
 2026-01-16 09:24:05,087  INFO:   unavailable: 2
 2026-01-16 09:24:05,088  INFO: 
 Unfilled gaps: 2
+2026-01-16 09:24:05,089  INFO:   Date range: 2026-01-15 to 2026-01-16
+2026-01-16 09:24:05,093  INFO: 
+Gaps checked in last 24 hours: 5
+2026-01-16 09:24:05,094  INFO: ============================================================
+
+2026-01-16 09:24:05,094  INFO: 
+============================================================
+2026-01-16 09:24:05,094  INFO: GENERATING INTERACTIVE LEAFLET MAP WITH LOLLIPOP PLOTS
+2026-01-16 09:24:05,094  INFO: ============================================================
+2026-01-16 09:24:05,823  INFO: \u2713 Interactive Leaflet map with lollipop plots saved to: C:/Users/23755118/OneDrive - UWA/Documents/PhD_Varshani/CODING/chl_time\plots\chlorophyll_timeseries_interactive.html
+2026-01-16 09:24:05,823  INFO: 
+============================================================
+2026-01-16 09:24:05,823  INFO: GENERATING COMPARISON PLOTS
+2026-01-16 09:24:05,823  INFO: ============================================================
+2026-01-16 09:24:05,823  INFO: 
+============================================================
+2026-01-16 09:24:05,824  INFO: GIT COMMIT AND PUSH
+2026-01-16 09:24:05,824  INFO: ============================================================
+2026-01-16 09:24:07,903  INFO: Git commit successful: Auto-update chlorophyll data: 2026-01-16
+2026-01-16 09:24:08,014  INFO: Current branch: main
+2026-01-16 09:24:10,864  WARNING: Push failed, trying with -u: To https://github.com/Varshani-UWA/chl-plotly.git
+ ! [rejected]        main -> main (non-fast-forward)
+error: failed to push some refs to 'https://github.com/Varshani-UWA/chl-plotly.git'
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. If you want to integrate the remote changes,
+hint: use 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+2026-01-16 09:24:12,839  ERROR: Git push failed: To https://github.com/Varshani-UWA/chl-plotly.git
+ ! [rejected]        main -> main (non-fast-forward)
+error: failed to push some refs to 'https://github.com/Varshani-UWA/chl-plotly.git'
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. If you want to integrate the remote changes,
+hint: use 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+2026-01-16 09:24:12,839  WARNING: Committed locally but push failed
+2026-01-16 09:24:12,839  INFO: \u2713 Git commit and push completed successfully
+2026-01-16 09:24:12,844  ERROR: Failed cleaning C:/Users/23755118/OneDrive - UWA/Documents/PhD_Varshani/CODING/chl_time\__pycache__
+Traceback (most recent call last):
+  File "C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py", line 1475, in cleanup_old_files
+  File "C:\Users\23755118\AppData\Local\miniconda3\envs\py3_13\Lib\shutil.py", line 790, in rmtree
+    return _rmtree_unsafe(path, onexc)
+  File "C:\Users\23755118\AppData\Local\miniconda3\envs\py3_13\Lib\shutil.py", line 635, in _rmtree_unsafe
+    onexc(os.rmdir, path, err)
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\23755118\AppData\Local\miniconda3\envs\py3_13\Lib\shutil.py", line 631, in _rmtree_unsafe
+    os.rmdir(path)
+    ~~~~~~~~^^^^^^
+PermissionError: [WinError 5] Access is denied: 'C:/Users/23755118/OneDrive - UWA/Documents/PhD_Varshani/CODING/chl_time\\__pycache__'
+2026-01-16 09:24:12,872  INFO: Cleanup done. Removed 1 files (excluding .nc)
+2026-01-16 09:24:12,872  INFO: 
+============================================================
+2026-01-16 09:24:12,872  INFO: === PIPELINE FINISHED SUCCESSFULLY ===
+2026-01-16 09:24:12,872  INFO: ============================================================
