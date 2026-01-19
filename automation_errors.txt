@@ -91139,3 +91139,7 @@ PermissionError: [WinError 5] Access is denied: 'C:/Users/23755118/OneDrive - UW
 ============================================================
 2026-01-16 09:24:12,872  INFO: === PIPELINE FINISHED SUCCESSFULLY ===
 2026-01-16 09:24:12,872  INFO: ============================================================
+2026-01-19 09:33:56,036  INFO: === Starting dual-location chlorophyll pipeline ===
+2026-01-19 09:33:56,038  INFO: Location 1: PSDP (-32.20085, 115.77047)
+2026-01-19 09:33:56,039  INFO: Location 2: Mullaloo (-31.782, 115.721)
+2026-01-19 09:33:56,103  INFO: Daily mode: Searching for data for 2026-01-19
