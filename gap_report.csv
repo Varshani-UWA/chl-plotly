@@ -115,3 +115,4 @@ date,status,available,granule_count,last_checked
 2026-02-02,filled,True,1,2026-02-04 02:34:57.125684+00:00
 2026-02-03,unavailable,False,0,2026-02-04 02:35:07.050142+00:00
 2026-02-04,unavailable,False,0,2026-02-04 02:34:05.843231+00:00
+2026-02-05,unavailable,False,0,2026-02-05 01:19:03.852601+00:00
