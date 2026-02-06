@@ -98876,3 +98876,131 @@ PermissionError: [WinError 5] Access is denied: 'C:/Users/23755118/OneDrive - UW
 2026-02-05 09:18:40,091  INFO: === Starting dual-location chlorophyll pipeline ===
 2026-02-05 09:18:40,092  INFO: Location 1: PSDP (-32.20085, 115.77047)
 2026-02-05 09:18:40,093  INFO: Location 2: Mullaloo (-31.782, 115.721)
+2026-02-05 09:18:40,148  INFO: Daily mode: Searching for data for 2026-02-05
+2026-02-05 09:18:40,149  INFO: Logging in to Earthdata via earthaccess...
+2026-02-05 09:18:43,463  INFO: You're now authenticated with NASA Earthdata Login
+2026-02-05 09:18:52,567  INFO: Earthdata login OK.
+2026-02-05 09:18:52,567  INFO: Searching OLCIS3A_L2_EFR_OC_NRT for 2026-02-05...
+2026-02-05 09:18:53,639  INFO: Granules found: 0
+2026-02-05 09:18:54,421  INFO: No results for OLCIS3A_L2_EFR_OC_NRT
+2026-02-05 09:18:54,421  INFO: Searching OLCIS3B_L2_EFR_OC_NRT for 2026-02-05...
+2026-02-05 09:18:55,163  INFO: Granules found: 0
+2026-02-05 09:18:56,031  INFO: No results for OLCIS3B_L2_EFR_OC_NRT
+2026-02-05 09:18:56,031  INFO: No files downloaded for yesterday. Checking availability...
+2026-02-05 09:18:56,031  INFO: Logging in to Earthdata via earthaccess...
+2026-02-05 09:19:00,526  INFO: Earthdata login OK.
+2026-02-05 09:19:01,308  INFO: Granules found: 0
+2026-02-05 09:19:02,104  INFO:   OLCIS3A_L2_EFR_OC_NRT: 0 granules found for 2026-02-05
+2026-02-05 09:19:03,086  INFO: Granules found: 0
+2026-02-05 09:19:03,823  INFO:   OLCIS3B_L2_EFR_OC_NRT: 0 granules found for 2026-02-05
+2026-02-05 09:19:03,823  INFO: No satellite data available for 2026-02-05
+2026-02-05 09:19:03,864  INFO: 
+============================================================
+2026-02-05 09:19:03,864  INFO: STARTING GAP DETECTION
+2026-02-05 09:19:03,864  INFO: ============================================================
+2026-02-05 09:19:03,864  INFO: === Starting gap detection and filling ===
+2026-02-05 09:19:03,908  INFO: 
+--- Checking gap for 2026-01-26 ---
+2026-02-05 09:19:03,916  INFO:   Skipping 2026-01-26 - checked recently, no data
+2026-02-05 09:19:03,917  INFO: 
+--- Checking gap for 2026-02-03 ---
+2026-02-05 09:19:03,924  INFO:   Skipping 2026-02-03 - checked recently, no data
+2026-02-05 09:19:03,926  INFO: 
+--- Checking gap for 2026-02-04 ---
+2026-02-05 09:19:03,933  INFO:   Skipping 2026-02-04 - checked recently, no data
+2026-02-05 09:19:03,934  INFO: 
+--- Checking gap for 2026-02-05 ---
+2026-02-05 09:19:03,941  INFO:   Skipping 2026-02-05 - checked recently, no data
+2026-02-05 09:19:03,942  INFO: 
+=== Gap filling complete: 0 filled, 0 checked ===
+2026-02-05 09:19:03,942  INFO: Gap detection complete: 0 gaps filled
+2026-02-05 09:19:03,948  INFO: 
+============================================================
+2026-02-05 09:19:03,948  INFO: GAP SUMMARY REPORT
+2026-02-05 09:19:03,948  INFO: ============================================================
+2026-02-05 09:19:03,949  INFO: 
+Gap Status Distribution:
+2026-02-05 09:19:03,949  INFO:   filled: 103
+2026-02-05 09:19:03,949  INFO:   no_extraction: 8
+2026-02-05 09:19:03,949  INFO:   unavailable: 4
+2026-02-05 09:19:03,949  INFO:   available: 2
+2026-02-05 09:19:03,950  INFO: 
+Unfilled gaps: 4
+2026-02-05 09:19:03,951  INFO:   Date range: 2026-01-26 to 2026-02-05
+2026-02-05 09:19:03,955  INFO: 
+Gaps checked in last 24 hours: 5
+2026-02-05 09:19:03,955  INFO: ============================================================
+
+2026-02-05 09:19:03,956  INFO: 
+============================================================
+2026-02-05 09:19:03,956  INFO: GENERATING INTERACTIVE LEAFLET MAP WITH LOLLIPOP PLOTS
+2026-02-05 09:19:03,956  INFO: ============================================================
+2026-02-05 09:19:04,665  INFO: \u2713 Interactive Leaflet map with lollipop plots saved to: C:/Users/23755118/OneDrive - UWA/Documents/PhD_Varshani/CODING/chl_time\plots\chlorophyll_timeseries_interactive.html
+2026-02-05 09:19:04,665  INFO: 
+============================================================
+2026-02-05 09:19:04,665  INFO: GENERATING COMPARISON PLOTS
+2026-02-05 09:19:04,665  INFO: ============================================================
+2026-02-05 09:19:04,666  INFO: 
+============================================================
+2026-02-05 09:19:04,666  INFO: GIT COMMIT AND PUSH
+2026-02-05 09:19:04,666  INFO: ============================================================
+2026-02-05 09:19:06,615  INFO: Git commit successful: Auto-update chlorophyll data: 2026-02-05
+2026-02-05 09:19:06,717  INFO: Current branch: main
+2026-02-05 09:19:13,855  INFO: \u2713 Git push successful to main
+2026-02-05 09:19:13,856  INFO: \u2713 Git commit and push completed successfully
+2026-02-05 09:19:13,868  ERROR: Failed cleaning C:/Users/23755118/OneDrive - UWA/Documents/PhD_Varshani/CODING/chl_time\__pycache__
+Traceback (most recent call last):
+  File "C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py", line 1475, in cleanup_old_files
+  File "C:\Users\23755118\AppData\Local\miniconda3\envs\py3_13\Lib\shutil.py", line 790, in rmtree
+    return _rmtree_unsafe(path, onexc)
+  File "C:\Users\23755118\AppData\Local\miniconda3\envs\py3_13\Lib\shutil.py", line 635, in _rmtree_unsafe
+    onexc(os.rmdir, path, err)
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\23755118\AppData\Local\miniconda3\envs\py3_13\Lib\shutil.py", line 631, in _rmtree_unsafe
+    os.rmdir(path)
+    ~~~~~~~~^^^^^^
+PermissionError: [WinError 5] Access is denied: 'C:/Users/23755118/OneDrive - UWA/Documents/PhD_Varshani/CODING/chl_time\\__pycache__'
+2026-02-05 09:19:13,929  INFO: Cleanup done. Removed 2 files (excluding .nc)
+2026-02-05 09:19:13,929  INFO: 
+============================================================
+2026-02-05 09:19:13,929  INFO: === PIPELINE FINISHED SUCCESSFULLY ===
+2026-02-05 09:19:13,930  INFO: ============================================================
+2026-02-06 09:10:46,398  INFO: === Starting dual-location chlorophyll pipeline ===
+2026-02-06 09:10:46,400  INFO: Location 1: PSDP (-32.20085, 115.77047)
+2026-02-06 09:10:46,400  INFO: Location 2: Mullaloo (-31.782, 115.721)
+2026-02-06 09:10:46,490  INFO: Daily mode: Searching for data for 2026-02-06
+2026-02-06 09:10:46,491  INFO: Logging in to Earthdata via earthaccess...
+2026-02-06 09:10:50,038  INFO: You're now authenticated with NASA Earthdata Login
+2026-02-06 09:10:58,902  INFO: Earthdata login OK.
+2026-02-06 09:10:58,902  INFO: Searching OLCIS3A_L2_EFR_OC_NRT for 2026-02-06...
+2026-02-06 09:10:59,917  INFO: Granules found: 0
+2026-02-06 09:11:00,707  INFO: No results for OLCIS3A_L2_EFR_OC_NRT
+2026-02-06 09:11:00,708  INFO: Searching OLCIS3B_L2_EFR_OC_NRT for 2026-02-06...
+2026-02-06 09:11:01,447  INFO: Granules found: 0
+2026-02-06 09:11:02,226  INFO: No results for OLCIS3B_L2_EFR_OC_NRT
+2026-02-06 09:11:02,226  INFO: No files downloaded for yesterday. Checking availability...
+2026-02-06 09:11:02,226  INFO: Logging in to Earthdata via earthaccess...
+2026-02-06 09:11:06,774  INFO: Earthdata login OK.
+2026-02-06 09:11:07,500  INFO: Granules found: 0
+2026-02-06 09:11:08,224  INFO:   OLCIS3A_L2_EFR_OC_NRT: 0 granules found for 2026-02-06
+2026-02-06 09:11:08,990  INFO: Granules found: 0
+2026-02-06 09:11:09,908  INFO:   OLCIS3B_L2_EFR_OC_NRT: 0 granules found for 2026-02-06
+2026-02-06 09:11:09,908  INFO: No satellite data available for 2026-02-06
+2026-02-06 09:11:09,940  INFO: 
+============================================================
+2026-02-06 09:11:09,941  INFO: STARTING GAP DETECTION
+2026-02-06 09:11:09,941  INFO: ============================================================
+2026-02-06 09:11:09,941  INFO: === Starting gap detection and filling ===
+2026-02-06 09:11:09,975  INFO: 
+--- Checking gap for 2026-01-26 ---
+2026-02-06 09:11:09,980  INFO: Logging in to Earthdata via earthaccess...
+2026-02-06 09:11:14,416  INFO: Earthdata login OK.
+2026-02-06 09:11:15,149  INFO: Granules found: 0
+2026-02-06 09:11:16,069  INFO:   OLCIS3A_L2_EFR_OC_NRT: 0 granules found for 2026-01-26
+2026-02-06 09:11:16,804  INFO: Granules found: 1
+2026-02-06 09:11:17,665  INFO:   OLCIS3B_L2_EFR_OC_NRT: 1 granules found for 2026-01-26
+2026-02-06 09:11:17,665  INFO:   Data available for 2026-01-26! Downloading...
+2026-02-06 09:11:17,678  INFO: Logging in to Earthdata via earthaccess...
+2026-02-06 09:11:22,158  INFO: Earthdata login OK.
+2026-02-06 09:11:22,159  INFO: Searching OLCIS3A_L2_EFR_OC_NRT for 2026-01-26...
+2026-02-06 09:11:22,971  INFO: Granules found: 0
