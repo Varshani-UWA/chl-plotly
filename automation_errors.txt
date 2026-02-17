@@ -103357,3 +103357,24 @@ Gaps checked in last 24 hours: 4
 ============================================================
 2026-02-16 14:05:39,089  INFO: GIT COMMIT AND PUSH
 2026-02-16 14:05:39,089  INFO: ============================================================
+2026-02-16 14:05:41,257  INFO: Git commit successful: Auto-update chlorophyll data: 2026-02-16
+2026-02-16 14:05:41,413  INFO: Current branch: main
+2026-02-16 14:05:47,361  INFO: \u2713 Git push successful to main
+2026-02-16 14:05:47,361  INFO: \u2713 Git commit and push completed successfully
+2026-02-16 14:05:47,366  ERROR: Failed cleaning C:/Users/23755118/OneDrive - UWA/Documents/PhD_Varshani/CODING/chl_time\__pycache__
+Traceback (most recent call last):
+  File "C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py", line 1475, in cleanup_old_files
+  File "C:\Users\23755118\AppData\Local\miniconda3\envs\py3_13\Lib\shutil.py", line 790, in rmtree
+    return _rmtree_unsafe(path, onexc)
+  File "C:\Users\23755118\AppData\Local\miniconda3\envs\py3_13\Lib\shutil.py", line 635, in _rmtree_unsafe
+    onexc(os.rmdir, path, err)
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\23755118\AppData\Local\miniconda3\envs\py3_13\Lib\shutil.py", line 631, in _rmtree_unsafe
+    os.rmdir(path)
+    ~~~~~~~~^^^^^^
+PermissionError: [WinError 5] Access is denied: 'C:/Users/23755118/OneDrive - UWA/Documents/PhD_Varshani/CODING/chl_time\\__pycache__'
+2026-02-16 14:05:47,409  INFO: Cleanup done. Removed 2 files (excluding .nc)
+2026-02-16 14:05:47,409  INFO: 
+============================================================
+2026-02-16 14:05:47,409  INFO: === PIPELINE FINISHED SUCCESSFULLY ===
+2026-02-16 14:05:47,410  INFO: ============================================================
