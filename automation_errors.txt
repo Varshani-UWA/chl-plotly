@@ -106684,3 +106684,40 @@ Gaps checked in last 24 hours: 10
 ============================================================
 2026-02-25 13:11:52,717  INFO: === PIPELINE FINISHED SUCCESSFULLY ===
 2026-02-25 13:11:52,717  INFO: ============================================================
+2026-02-25 13:44:30,728  INFO: === Starting dual-location chlorophyll pipeline ===
+2026-02-25 13:44:30,730  INFO: Location 1: PSDP (-32.20085, 115.77047)
+2026-02-25 13:44:30,730  INFO: Location 2: Mullaloo (-31.782, 115.721)
+2026-02-25 13:44:30,787  INFO: Daily mode: Searching for data for 2026-02-25
+2026-02-25 13:44:30,788  INFO: Logging in to Earthdata via earthaccess...
+2026-02-25 13:48:27,138  INFO: You're now authenticated with NASA Earthdata Login
+2026-02-25 13:48:27,139  INFO: Using token with expiration date 04/26/2026
+2026-02-25 13:48:31,221  INFO: Earthdata login OK.
+2026-02-25 13:48:31,222  INFO: Searching OLCIS3A_L2_EFR_OC_NRT for 2026-02-25...
+2026-02-25 13:48:32,124  INFO: Granules found: 0
+2026-02-25 13:48:32,871  INFO: No results for OLCIS3A_L2_EFR_OC_NRT
+2026-02-25 13:48:32,871  INFO: Searching OLCIS3B_L2_EFR_OC_NRT for 2026-02-25...
+2026-02-25 13:48:33,626  INFO: Granules found: 0
+2026-02-25 13:48:34,340  INFO: No results for OLCIS3B_L2_EFR_OC_NRT
+2026-02-25 13:48:34,340  INFO: No files downloaded for yesterday. Checking availability...
+2026-02-25 13:48:34,340  INFO: Logging in to Earthdata via earthaccess...
+2026-02-25 13:48:38,423  INFO: Earthdata login OK.
+2026-02-25 13:48:39,182  INFO: Granules found: 0
+2026-02-25 13:48:39,892  INFO:   OLCIS3A_L2_EFR_OC_NRT: 0 granules found for 2026-02-25
+2026-02-25 13:48:40,629  INFO: Granules found: 0
+2026-02-25 13:48:41,312  INFO:   OLCIS3B_L2_EFR_OC_NRT: 0 granules found for 2026-02-25
+2026-02-25 13:48:41,313  INFO: No satellite data available for 2026-02-25
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:207: Pandas4Warning: Timestamp.utcnow is deprecated and will be removed in a future version. Use Timestamp.now('UTC') instead.
+  now_naive = pd.Timestamp.utcnow().tz_localize(None)  # <-- key line
+2026-02-25 13:48:41,354  INFO: 
+============================================================
+2026-02-25 13:48:41,354  INFO: STARTING GAP DETECTION
+2026-02-25 13:48:41,354  INFO: ============================================================
+2026-02-25 13:48:41,355  INFO: === Starting gap detection and filling ===
+2026-02-25 13:48:41,375  INFO: 
+--- Checking gap for 2026-02-25 ---
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:289: Pandas4Warning: Timestamp.utcnow is deprecated and will be removed in a future version. Use Timestamp.now('UTC') instead.
+  > (pd.Timestamp.utcnow().tz_localize(None) - timedelta(hours=24))
+2026-02-25 13:48:41,382  INFO:   Skipping 2026-02-25 - checked recently, no data
+2026-02-25 13:48:41,382  INFO: 
+=== Gap filling complete: 0 filled, 0 checked ===
+2026-02-25 13:48:41,383  INFO: Gap detection complete: 0 gaps filled
