@@ -11,37 +11,6 @@ Found Mullaloo data file
  
 Running dual-location pipeline... 
 ================================================ 
- 
-================================================ 
-SUCCESS: Task completed at: Mon 05/01/2026  9:55:23.26 
-Exit Code: 0 
- 
-Data Files Status: 
-  PSDP: 94972 bytes, modified 05/01/2026 09:55 AM 
-  Mullaloo: 97400 bytes, modified 05/01/2026 09:55 AM 
- 
-Generated Plots: 
-  - Full interactive timeseries 
-================================================ 
- 
- 
-================================================ 
-DUAL-LOCATION PIPELINE (PSDP + Mullaloo) 
-Task started at: Mon 05/01/2026 10:04:16.32 
-Directory: C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time 
-================================================ 
- 
-Checking Python... 
-Python 3.13.5
-Python found successfully 
-Verifying required packages... 
-All packages OK
-Checking for data files... 
-Found PSDP data file 
-Found Mullaloo data file 
- 
-Running dual-location pipeline... 
-================================================ 
 ================================================ 
 DUAL-LOCATION PIPELINE (PSDP + Mullaloo) 
 Task started at: Tue 06/01/2026  8:50:12.20 
@@ -1001,6 +970,37 @@ Check C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\au
 ================================================ 
 DUAL-LOCATION PIPELINE (PSDP + Mullaloo) 
 Task started at: Fri 06/03/2026 10:51:46.07 
+Directory: C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time 
+================================================ 
+ 
+Checking Python... 
+Python 3.14.2
+Python found successfully 
+Verifying required packages... 
+All packages OK
+Checking for data files... 
+Found PSDP data file 
+Found Mullaloo data file 
+ 
+Running dual-location pipeline... 
+================================================ 
+Enter your Earthdata Login username:  
+================================================ 
+SUCCESS: Task completed at: Fri 06/03/2026 10:57:48.42 
+Exit Code: 0 
+ 
+Data Files Status: 
+  PSDP: 99906 bytes, modified 06/03/2026 10:57 AM 
+  Mullaloo: 102431 bytes, modified 06/03/2026 10:57 AM 
+ 
+Generated Plots: 
+  - Full interactive timeseries 
+================================================ 
+ 
+ 
+================================================ 
+DUAL-LOCATION PIPELINE (PSDP + Mullaloo) 
+Task started at: Mon 09/03/2026 11:04:11.71 
 Directory: C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time 
 ================================================ 
  
