@@ -110617,3 +110617,306 @@ C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_ch
 2026-03-18 12:05:01,198  INFO: No results for OLCIS3B_L2_EFR_OC_NRT
 2026-03-18 12:05:01,199  INFO:   Downloaded 40 files
 2026-03-18 12:05:01,199  INFO: PSDP - Starting to process 40 files...
+2026-03-18 12:05:01,209  INFO: PSDP - Processing file 1/40: S3A_OLCI_EFRNT.20260216T014325.L2.OC.NRT.nc
+2026-03-18 12:05:01,211  INFO: PSDP - Skipping S3A_OLCI_EFRNT.20260216T014325.L2.OC.NRT.nc: date 2026-02-16 already in CSV
+2026-03-18 12:05:01,211  INFO: PSDP - Processing file 2/40: S3A_OLCI_EFRNT.20260217T011714.L2.OC.NRT.nc
+2026-03-18 12:05:01,211  INFO: PSDP - Skipping S3A_OLCI_EFRNT.20260217T011714.L2.OC.NRT.nc: date 2026-02-17 already in CSV
+2026-03-18 12:05:01,211  INFO: PSDP - Processing file 3/40: S3A_OLCI_EFRNT.20260217T012014.L2.OC.NRT.nc
+2026-03-18 12:05:01,212  INFO: PSDP - Skipping S3A_OLCI_EFRNT.20260217T012014.L2.OC.NRT.nc: date 2026-02-17 already in CSV
+2026-03-18 12:05:01,212  INFO: PSDP - Processing file 4/40: S3A_OLCI_EFRNT.20260219T020552.L2.OC.NRT.nc
+2026-03-18 12:05:01,212  INFO: PSDP - Skipping S3A_OLCI_EFRNT.20260219T020552.L2.OC.NRT.nc: date 2026-02-19 already in CSV
+2026-03-18 12:05:01,212  INFO: PSDP - Processing file 5/40: S3A_OLCI_EFRNT.20260220T013941.L2.OC.NRT.nc
+2026-03-18 12:05:01,213  INFO: PSDP - Skipping S3A_OLCI_EFRNT.20260220T013941.L2.OC.NRT.nc: date 2026-02-20 already in CSV
+2026-03-18 12:05:01,213  INFO: PSDP - Processing file 6/40: S3A_OLCI_EFRNT.20260221T011630.L2.OC.NRT.nc
+2026-03-18 12:05:01,213  INFO: PSDP - Skipping S3A_OLCI_EFRNT.20260221T011630.L2.OC.NRT.nc: date 2026-02-21 already in CSV
+2026-03-18 12:05:01,213  INFO: PSDP - Processing file 7/40: S3A_OLCI_EFRNT.20260223T020208.L2.OC.NRT.nc
+2026-03-18 12:05:01,214  INFO: PSDP - Skipping S3A_OLCI_EFRNT.20260223T020208.L2.OC.NRT.nc: date 2026-02-23 already in CSV
+2026-03-18 12:05:01,214  INFO: PSDP - Processing file 8/40: S3A_OLCI_EFRNT.20260224T013557.L2.OC.NRT.nc
+2026-03-18 12:05:01,214  INFO: PSDP - Skipping S3A_OLCI_EFRNT.20260224T013557.L2.OC.NRT.nc: date 2026-02-24 already in CSV
+2026-03-18 12:05:01,214  INFO: PSDP - Processing file 9/40: S3A_OLCI_EFRNT.20260225T011246.L2.OC.NRT.nc
+2026-03-18 12:05:01,215  INFO: PSDP - Skipping S3A_OLCI_EFRNT.20260225T011246.L2.OC.NRT.nc: date 2026-02-25 already in CSV
+2026-03-18 12:05:01,215  INFO: PSDP - Processing file 10/40: S3A_OLCI_EFRNT.20260227T015823.L2.OC.NRT.nc
+2026-03-18 12:05:01,215  INFO: PSDP - Skipping S3A_OLCI_EFRNT.20260227T015823.L2.OC.NRT.nc: date 2026-02-27 already in CSV
+2026-03-18 12:05:01,215  INFO: PSDP - Processing file 11/40: S3A_OLCI_EFRNT.20260228T013212.L2.OC.NRT.nc
+2026-03-18 12:05:01,216  INFO: PSDP - Skipping S3A_OLCI_EFRNT.20260228T013212.L2.OC.NRT.nc: date 2026-02-28 already in CSV
+2026-03-18 12:05:01,216  INFO: PSDP - Processing file 12/40: S3A_OLCI_EFRNT.20260303T015438.L2.OC.NRT.nc
+2026-03-18 12:05:01,216  INFO: PSDP - Skipping S3A_OLCI_EFRNT.20260303T015438.L2.OC.NRT.nc: date 2026-03-03 already in CSV
+2026-03-18 12:05:01,217  INFO: PSDP - Processing file 13/40: S3A_OLCI_EFRNT.20260304T012827.L2.OC.NRT.nc
+2026-03-18 12:05:01,217  INFO: PSDP - Skipping S3A_OLCI_EFRNT.20260304T012827.L2.OC.NRT.nc: date 2026-03-04 already in CSV
+2026-03-18 12:05:01,217  INFO: PSDP - Processing file 14/40: S3A_OLCI_EFRNT.20260304T013127.L2.OC.NRT.nc
+2026-03-18 12:05:01,217  INFO: PSDP - Skipping S3A_OLCI_EFRNT.20260304T013127.L2.OC.NRT.nc: date 2026-03-04 already in CSV
+2026-03-18 12:05:01,217  INFO: PSDP - Processing file 15/40: S3A_OLCI_EFRNT.20260308T012442.L2.OC.NRT.nc
+2026-03-18 12:05:01,218  INFO: PSDP - Skipping S3A_OLCI_EFRNT.20260308T012442.L2.OC.NRT.nc: date 2026-03-08 already in CSV
+2026-03-18 12:05:01,218  INFO: PSDP - Processing file 16/40: S3A_OLCI_EFRNT.20260308T012742.L2.OC.NRT.nc
+2026-03-18 12:05:01,219  INFO: PSDP - Skipping S3A_OLCI_EFRNT.20260308T012742.L2.OC.NRT.nc: date 2026-03-08 already in CSV
+2026-03-18 12:05:01,219  INFO: PSDP - Processing file 17/40: S3A_OLCI_EFRNT.20260311T014708.L2.OC.NRT.nc
+2026-03-18 12:05:01,219  INFO: PSDP - Skipping S3A_OLCI_EFRNT.20260311T014708.L2.OC.NRT.nc: date 2026-03-11 already in CSV
+2026-03-18 12:05:01,219  INFO: PSDP - Processing file 18/40: S3A_OLCI_EFRNT.20260312T012357.L2.OC.NRT.nc
+2026-03-18 12:05:01,219  INFO: PSDP - Skipping S3A_OLCI_EFRNT.20260312T012357.L2.OC.NRT.nc: date 2026-03-12 already in CSV
+2026-03-18 12:05:01,220  INFO: PSDP - Processing file 19/40: S3A_OLCI_EFRNT.20260314T020935.L2.OC.NRT.nc
+2026-03-18 12:05:01,220  INFO: PSDP - Skipping S3A_OLCI_EFRNT.20260314T020935.L2.OC.NRT.nc: date 2026-03-14 already in CSV
+2026-03-18 12:05:01,220  INFO: PSDP - Processing file 20/40: S3A_OLCI_EFRNT.20260315T014324.L2.OC.NRT.nc
+2026-03-18 12:05:01,220  INFO: PSDP - Skipping S3A_OLCI_EFRNT.20260315T014324.L2.OC.NRT.nc: date 2026-03-15 already in CSV
+2026-03-18 12:05:01,221  INFO: PSDP - Processing file 21/40: S3A_OLCI_EFRNT.20260316T011713.L2.OC.NRT.nc
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:592: FutureWarning: In a future version, xarray will not decode the variable 'day' into a timedelta64 dtype based on the presence of a timedelta-like 'units' attribute by default. Instead it will rely on the presence of a timedelta64 'dtype' attribute, which is now xarray's default way of encoding timedelta64 values.
+To continue decoding into a timedelta64 dtype, either set `decode_timedelta=True` when opening this dataset, or add the attribute `dtype='timedelta64[ns]'` to this variable on disk.
+To opt-in to future behavior, set `decode_timedelta=False`.
+  datatree = xr.open_datatree(fpath)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:592: FutureWarning: In a future version, xarray will not decode the variable 'msec' into a timedelta64 dtype based on the presence of a timedelta-like 'units' attribute by default. Instead it will rely on the presence of a timedelta64 'dtype' attribute, which is now xarray's default way of encoding timedelta64 values.
+To continue decoding into a timedelta64 dtype, either set `decode_timedelta=True` when opening this dataset, or add the attribute `dtype='timedelta64[ns]'` to this variable on disk.
+To opt-in to future behavior, set `decode_timedelta=False`.
+  datatree = xr.open_datatree(fpath)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:456: RuntimeWarning: Mean of empty slice
+  chl_mean_3x3 = np.nanmean(region_3x3)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:471: RuntimeWarning: Mean of empty slice
+  chl_mean_4x4 = np.nanmean(region_4x4)
+2026-03-18 12:05:02,948  WARNING: Both 3x3 and 4x4 extraction returned NaN
+2026-03-18 12:05:02,965  WARNING: PSDP - Processed S3A_OLCI_EFRNT.20260316T011713.L2.OC.NRT.nc -> 2026-03-16, chl=NaN (marked noextraction)
+2026-03-18 12:05:02,965  INFO: PSDP - Processing file 22/40: S3A_OLCI_EFRNT.20260316T012013.L2.OC.NRT.nc
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:592: FutureWarning: In a future version, xarray will not decode the variable 'day' into a timedelta64 dtype based on the presence of a timedelta-like 'units' attribute by default. Instead it will rely on the presence of a timedelta64 'dtype' attribute, which is now xarray's default way of encoding timedelta64 values.
+To continue decoding into a timedelta64 dtype, either set `decode_timedelta=True` when opening this dataset, or add the attribute `dtype='timedelta64[ns]'` to this variable on disk.
+To opt-in to future behavior, set `decode_timedelta=False`.
+  datatree = xr.open_datatree(fpath)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:592: FutureWarning: In a future version, xarray will not decode the variable 'msec' into a timedelta64 dtype based on the presence of a timedelta-like 'units' attribute by default. Instead it will rely on the presence of a timedelta64 'dtype' attribute, which is now xarray's default way of encoding timedelta64 values.
+To continue decoding into a timedelta64 dtype, either set `decode_timedelta=True` when opening this dataset, or add the attribute `dtype='timedelta64[ns]'` to this variable on disk.
+To opt-in to future behavior, set `decode_timedelta=False`.
+  datatree = xr.open_datatree(fpath)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:456: RuntimeWarning: Mean of empty slice
+  chl_mean_3x3 = np.nanmean(region_3x3)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:471: RuntimeWarning: Mean of empty slice
+  chl_mean_4x4 = np.nanmean(region_4x4)
+2026-03-18 12:05:04,353  WARNING: Both 3x3 and 4x4 extraction returned NaN
+2026-03-18 12:05:04,368  WARNING: PSDP - Processed S3A_OLCI_EFRNT.20260316T012013.L2.OC.NRT.nc -> 2026-03-16, chl=NaN (marked noextraction)
+2026-03-18 12:05:04,368  INFO: PSDP - Processing file 23/40: S3B_OLCI_EFRNT.20260218T015323.L2.OC.NRT.nc
+2026-03-18 12:05:04,369  INFO: PSDP - Skipping S3B_OLCI_EFRNT.20260218T015323.L2.OC.NRT.nc: date 2026-02-18 already in CSV
+2026-03-18 12:05:04,369  INFO: PSDP - Processing file 24/40: S3B_OLCI_EFRNT.20260219T012712.L2.OC.NRT.nc
+2026-03-18 12:05:04,369  INFO: PSDP - Skipping S3B_OLCI_EFRNT.20260219T012712.L2.OC.NRT.nc: date 2026-02-19 already in CSV
+2026-03-18 12:05:04,370  INFO: PSDP - Processing file 25/40: S3B_OLCI_EFRNT.20260219T013012.L2.OC.NRT.nc
+2026-03-18 12:05:04,370  INFO: PSDP - Skipping S3B_OLCI_EFRNT.20260219T013012.L2.OC.NRT.nc: date 2026-02-19 already in CSV
+2026-03-18 12:05:04,370  INFO: PSDP - Processing file 26/40: S3B_OLCI_EFRNT.20260222T014938.L2.OC.NRT.nc
+2026-03-18 12:05:04,371  INFO: PSDP - Skipping S3B_OLCI_EFRNT.20260222T014938.L2.OC.NRT.nc: date 2026-02-22 already in CSV
+2026-03-18 12:05:04,371  INFO: PSDP - Processing file 27/40: S3B_OLCI_EFRNT.20260226T014553.L2.OC.NRT.nc
+2026-03-18 12:05:04,371  INFO: PSDP - Skipping S3B_OLCI_EFRNT.20260226T014553.L2.OC.NRT.nc: date 2026-02-26 already in CSV
+2026-03-18 12:05:04,371  INFO: PSDP - Processing file 28/40: S3B_OLCI_EFRNT.20260227T011942.L2.OC.NRT.nc
+2026-03-18 12:05:04,372  INFO: PSDP - Skipping S3B_OLCI_EFRNT.20260227T011942.L2.OC.NRT.nc: date 2026-02-27 already in CSV
+2026-03-18 12:05:04,372  INFO: PSDP - Processing file 29/40: S3B_OLCI_EFRNT.20260227T012242.L2.OC.NRT.nc
+2026-03-18 12:05:04,372  INFO: PSDP - Skipping S3B_OLCI_EFRNT.20260227T012242.L2.OC.NRT.nc: date 2026-02-27 already in CSV
+2026-03-18 12:05:04,372  INFO: PSDP - Processing file 30/40: S3B_OLCI_EFRNT.20260301T020819.L2.OC.NRT.nc
+2026-03-18 12:05:04,373  INFO: PSDP - Skipping S3B_OLCI_EFRNT.20260301T020819.L2.OC.NRT.nc: date 2026-03-01 already in CSV
+2026-03-18 12:05:04,373  INFO: PSDP - Processing file 31/40: S3B_OLCI_EFRNT.20260302T014208.L2.OC.NRT.nc
+2026-03-18 12:05:04,373  INFO: PSDP - Skipping S3B_OLCI_EFRNT.20260302T014208.L2.OC.NRT.nc: date 2026-03-02 already in CSV
+2026-03-18 12:05:04,373  INFO: PSDP - Processing file 32/40: S3B_OLCI_EFRNT.20260303T011856.L2.OC.NRT.nc
+2026-03-18 12:05:04,374  INFO: PSDP - Skipping S3B_OLCI_EFRNT.20260303T011856.L2.OC.NRT.nc: date 2026-03-03 already in CSV
+2026-03-18 12:05:04,374  INFO: PSDP - Processing file 33/40: S3B_OLCI_EFRNT.20260305T020433.L2.OC.NRT.nc
+2026-03-18 12:05:04,374  INFO: PSDP - Skipping S3B_OLCI_EFRNT.20260305T020433.L2.OC.NRT.nc: date 2026-03-05 already in CSV
+2026-03-18 12:05:04,374  INFO: PSDP - Processing file 34/40: S3B_OLCI_EFRNT.20260306T013822.L2.OC.NRT.nc
+2026-03-18 12:05:04,375  INFO: PSDP - Skipping S3B_OLCI_EFRNT.20260306T013822.L2.OC.NRT.nc: date 2026-03-06 already in CSV
+2026-03-18 12:05:04,375  INFO: PSDP - Processing file 35/40: S3B_OLCI_EFRNT.20260307T011511.L2.OC.NRT.nc
+2026-03-18 12:05:04,375  INFO: PSDP - Skipping S3B_OLCI_EFRNT.20260307T011511.L2.OC.NRT.nc: date 2026-03-07 already in CSV
+2026-03-18 12:05:04,375  INFO: PSDP - Processing file 36/40: S3B_OLCI_EFRNT.20260309T020049.L2.OC.NRT.nc
+2026-03-18 12:05:04,376  INFO: PSDP - Skipping S3B_OLCI_EFRNT.20260309T020049.L2.OC.NRT.nc: date 2026-03-09 already in CSV
+2026-03-18 12:05:04,376  INFO: PSDP - Processing file 37/40: S3B_OLCI_EFRNT.20260310T013438.L2.OC.NRT.nc
+2026-03-18 12:05:04,376  INFO: PSDP - Skipping S3B_OLCI_EFRNT.20260310T013438.L2.OC.NRT.nc: date 2026-03-10 already in CSV
+2026-03-18 12:05:04,376  INFO: PSDP - Processing file 38/40: S3B_OLCI_EFRNT.20260313T015705.L2.OC.NRT.nc
+2026-03-18 12:05:04,377  INFO: PSDP - Skipping S3B_OLCI_EFRNT.20260313T015705.L2.OC.NRT.nc: date 2026-03-13 already in CSV
+2026-03-18 12:05:04,377  INFO: PSDP - Processing file 39/40: S3B_OLCI_EFRNT.20260314T013054.L2.OC.NRT.nc
+2026-03-18 12:05:04,377  INFO: PSDP - Skipping S3B_OLCI_EFRNT.20260314T013054.L2.OC.NRT.nc: date 2026-03-14 already in CSV
+2026-03-18 12:05:04,377  INFO: PSDP - Processing file 40/40: S3B_OLCI_EFRNT.20260314T013354.L2.OC.NRT.nc
+2026-03-18 12:05:04,378  INFO: PSDP - Skipping S3B_OLCI_EFRNT.20260314T013354.L2.OC.NRT.nc: date 2026-03-14 already in CSV
+2026-03-18 12:05:04,381  INFO: PSDP - Extracted 1 valid records from 40 files
+2026-03-18 12:05:04,394  INFO: PSDP - Existing CSV has 2996 records
+2026-03-18 12:05:04,396  INFO: PSDP - After merge: 2997 total records (1 new)
+2026-03-18 12:05:04,415  INFO: \u2713 PSDP - CSV saved: C:/Users/23755118/OneDrive - UWA/Documents/PhD_Varshani/CODING/chl_time\chl_timeseries_psdp.csv (2997 rows)
+2026-03-18 12:05:04,442  INFO: \u2713 PSDP - CSV verified: 2997 rows on disk
+2026-03-18 12:05:04,456  INFO: Mullaloo - Starting to process 40 files...
+2026-03-18 12:05:04,466  INFO: Mullaloo - Processing file 1/40: S3A_OLCI_EFRNT.20260216T014325.L2.OC.NRT.nc
+2026-03-18 12:05:04,467  INFO: Mullaloo - Skipping S3A_OLCI_EFRNT.20260216T014325.L2.OC.NRT.nc: date 2026-02-16 already in CSV
+2026-03-18 12:05:04,467  INFO: Mullaloo - Processing file 2/40: S3A_OLCI_EFRNT.20260217T011714.L2.OC.NRT.nc
+2026-03-18 12:05:04,467  INFO: Mullaloo - Skipping S3A_OLCI_EFRNT.20260217T011714.L2.OC.NRT.nc: date 2026-02-17 already in CSV
+2026-03-18 12:05:04,467  INFO: Mullaloo - Processing file 3/40: S3A_OLCI_EFRNT.20260217T012014.L2.OC.NRT.nc
+2026-03-18 12:05:04,468  INFO: Mullaloo - Skipping S3A_OLCI_EFRNT.20260217T012014.L2.OC.NRT.nc: date 2026-02-17 already in CSV
+2026-03-18 12:05:04,468  INFO: Mullaloo - Processing file 4/40: S3A_OLCI_EFRNT.20260219T020552.L2.OC.NRT.nc
+2026-03-18 12:05:04,468  INFO: Mullaloo - Skipping S3A_OLCI_EFRNT.20260219T020552.L2.OC.NRT.nc: date 2026-02-19 already in CSV
+2026-03-18 12:05:04,468  INFO: Mullaloo - Processing file 5/40: S3A_OLCI_EFRNT.20260220T013941.L2.OC.NRT.nc
+2026-03-18 12:05:04,469  INFO: Mullaloo - Skipping S3A_OLCI_EFRNT.20260220T013941.L2.OC.NRT.nc: date 2026-02-20 already in CSV
+2026-03-18 12:05:04,469  INFO: Mullaloo - Processing file 6/40: S3A_OLCI_EFRNT.20260221T011630.L2.OC.NRT.nc
+2026-03-18 12:05:04,469  INFO: Mullaloo - Skipping S3A_OLCI_EFRNT.20260221T011630.L2.OC.NRT.nc: date 2026-02-21 already in CSV
+2026-03-18 12:05:04,469  INFO: Mullaloo - Processing file 7/40: S3A_OLCI_EFRNT.20260223T020208.L2.OC.NRT.nc
+2026-03-18 12:05:04,470  INFO: Mullaloo - Skipping S3A_OLCI_EFRNT.20260223T020208.L2.OC.NRT.nc: date 2026-02-23 already in CSV
+2026-03-18 12:05:04,470  INFO: Mullaloo - Processing file 8/40: S3A_OLCI_EFRNT.20260224T013557.L2.OC.NRT.nc
+2026-03-18 12:05:04,470  INFO: Mullaloo - Skipping S3A_OLCI_EFRNT.20260224T013557.L2.OC.NRT.nc: date 2026-02-24 already in CSV
+2026-03-18 12:05:04,470  INFO: Mullaloo - Processing file 9/40: S3A_OLCI_EFRNT.20260225T011246.L2.OC.NRT.nc
+2026-03-18 12:05:04,471  INFO: Mullaloo - Skipping S3A_OLCI_EFRNT.20260225T011246.L2.OC.NRT.nc: date 2026-02-25 already in CSV
+2026-03-18 12:05:04,471  INFO: Mullaloo - Processing file 10/40: S3A_OLCI_EFRNT.20260227T015823.L2.OC.NRT.nc
+2026-03-18 12:05:04,471  INFO: Mullaloo - Skipping S3A_OLCI_EFRNT.20260227T015823.L2.OC.NRT.nc: date 2026-02-27 already in CSV
+2026-03-18 12:05:04,471  INFO: Mullaloo - Processing file 11/40: S3A_OLCI_EFRNT.20260228T013212.L2.OC.NRT.nc
+2026-03-18 12:05:04,471  INFO: Mullaloo - Skipping S3A_OLCI_EFRNT.20260228T013212.L2.OC.NRT.nc: date 2026-02-28 already in CSV
+2026-03-18 12:05:04,472  INFO: Mullaloo - Processing file 12/40: S3A_OLCI_EFRNT.20260303T015438.L2.OC.NRT.nc
+2026-03-18 12:05:04,472  INFO: Mullaloo - Skipping S3A_OLCI_EFRNT.20260303T015438.L2.OC.NRT.nc: date 2026-03-03 already in CSV
+2026-03-18 12:05:04,472  INFO: Mullaloo - Processing file 13/40: S3A_OLCI_EFRNT.20260304T012827.L2.OC.NRT.nc
+2026-03-18 12:05:04,472  INFO: Mullaloo - Skipping S3A_OLCI_EFRNT.20260304T012827.L2.OC.NRT.nc: date 2026-03-04 already in CSV
+2026-03-18 12:05:04,472  INFO: Mullaloo - Processing file 14/40: S3A_OLCI_EFRNT.20260304T013127.L2.OC.NRT.nc
+2026-03-18 12:05:04,473  INFO: Mullaloo - Skipping S3A_OLCI_EFRNT.20260304T013127.L2.OC.NRT.nc: date 2026-03-04 already in CSV
+2026-03-18 12:05:04,473  INFO: Mullaloo - Processing file 15/40: S3A_OLCI_EFRNT.20260308T012442.L2.OC.NRT.nc
+2026-03-18 12:05:04,473  INFO: Mullaloo - Skipping S3A_OLCI_EFRNT.20260308T012442.L2.OC.NRT.nc: date 2026-03-08 already in CSV
+2026-03-18 12:05:04,473  INFO: Mullaloo - Processing file 16/40: S3A_OLCI_EFRNT.20260308T012742.L2.OC.NRT.nc
+2026-03-18 12:05:04,474  INFO: Mullaloo - Skipping S3A_OLCI_EFRNT.20260308T012742.L2.OC.NRT.nc: date 2026-03-08 already in CSV
+2026-03-18 12:05:04,474  INFO: Mullaloo - Processing file 17/40: S3A_OLCI_EFRNT.20260311T014708.L2.OC.NRT.nc
+2026-03-18 12:05:04,474  INFO: Mullaloo - Skipping S3A_OLCI_EFRNT.20260311T014708.L2.OC.NRT.nc: date 2026-03-11 already in CSV
+2026-03-18 12:05:04,474  INFO: Mullaloo - Processing file 18/40: S3A_OLCI_EFRNT.20260312T012357.L2.OC.NRT.nc
+2026-03-18 12:05:04,475  INFO: Mullaloo - Skipping S3A_OLCI_EFRNT.20260312T012357.L2.OC.NRT.nc: date 2026-03-12 already in CSV
+2026-03-18 12:05:04,475  INFO: Mullaloo - Processing file 19/40: S3A_OLCI_EFRNT.20260314T020935.L2.OC.NRT.nc
+2026-03-18 12:05:04,475  INFO: Mullaloo - Skipping S3A_OLCI_EFRNT.20260314T020935.L2.OC.NRT.nc: date 2026-03-14 already in CSV
+2026-03-18 12:05:04,475  INFO: Mullaloo - Processing file 20/40: S3A_OLCI_EFRNT.20260315T014324.L2.OC.NRT.nc
+2026-03-18 12:05:04,476  INFO: Mullaloo - Skipping S3A_OLCI_EFRNT.20260315T014324.L2.OC.NRT.nc: date 2026-03-15 already in CSV
+2026-03-18 12:05:04,476  INFO: Mullaloo - Processing file 21/40: S3A_OLCI_EFRNT.20260316T011713.L2.OC.NRT.nc
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:592: FutureWarning: In a future version, xarray will not decode the variable 'day' into a timedelta64 dtype based on the presence of a timedelta-like 'units' attribute by default. Instead it will rely on the presence of a timedelta64 'dtype' attribute, which is now xarray's default way of encoding timedelta64 values.
+To continue decoding into a timedelta64 dtype, either set `decode_timedelta=True` when opening this dataset, or add the attribute `dtype='timedelta64[ns]'` to this variable on disk.
+To opt-in to future behavior, set `decode_timedelta=False`.
+  datatree = xr.open_datatree(fpath)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:592: FutureWarning: In a future version, xarray will not decode the variable 'msec' into a timedelta64 dtype based on the presence of a timedelta-like 'units' attribute by default. Instead it will rely on the presence of a timedelta64 'dtype' attribute, which is now xarray's default way of encoding timedelta64 values.
+To continue decoding into a timedelta64 dtype, either set `decode_timedelta=True` when opening this dataset, or add the attribute `dtype='timedelta64[ns]'` to this variable on disk.
+To opt-in to future behavior, set `decode_timedelta=False`.
+  datatree = xr.open_datatree(fpath)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:456: RuntimeWarning: Mean of empty slice
+  chl_mean_3x3 = np.nanmean(region_3x3)
+2026-03-18 12:05:05,889  INFO: 4x4 extraction successful: 2.0668 (3x3 was all NaN)
+2026-03-18 12:05:05,907  INFO: Mullaloo - Processed S3A_OLCI_EFRNT.20260316T011713.L2.OC.NRT.nc -> 2026-03-16, chl=2.0668
+2026-03-18 12:05:05,907  INFO: Mullaloo - Processing file 22/40: S3A_OLCI_EFRNT.20260316T012013.L2.OC.NRT.nc
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:592: FutureWarning: In a future version, xarray will not decode the variable 'day' into a timedelta64 dtype based on the presence of a timedelta-like 'units' attribute by default. Instead it will rely on the presence of a timedelta64 'dtype' attribute, which is now xarray's default way of encoding timedelta64 values.
+To continue decoding into a timedelta64 dtype, either set `decode_timedelta=True` when opening this dataset, or add the attribute `dtype='timedelta64[ns]'` to this variable on disk.
+To opt-in to future behavior, set `decode_timedelta=False`.
+  datatree = xr.open_datatree(fpath)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:592: FutureWarning: In a future version, xarray will not decode the variable 'msec' into a timedelta64 dtype based on the presence of a timedelta-like 'units' attribute by default. Instead it will rely on the presence of a timedelta64 'dtype' attribute, which is now xarray's default way of encoding timedelta64 values.
+To continue decoding into a timedelta64 dtype, either set `decode_timedelta=True` when opening this dataset, or add the attribute `dtype='timedelta64[ns]'` to this variable on disk.
+To opt-in to future behavior, set `decode_timedelta=False`.
+  datatree = xr.open_datatree(fpath)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:456: RuntimeWarning: Mean of empty slice
+  chl_mean_3x3 = np.nanmean(region_3x3)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:471: RuntimeWarning: Mean of empty slice
+  chl_mean_4x4 = np.nanmean(region_4x4)
+2026-03-18 12:05:07,332  WARNING: Both 3x3 and 4x4 extraction returned NaN
+2026-03-18 12:05:07,354  WARNING: Mullaloo - Processed S3A_OLCI_EFRNT.20260316T012013.L2.OC.NRT.nc -> 2026-03-16, chl=NaN (marked noextraction)
+2026-03-18 12:05:07,354  INFO: Mullaloo - Processing file 23/40: S3B_OLCI_EFRNT.20260218T015323.L2.OC.NRT.nc
+2026-03-18 12:05:07,355  INFO: Mullaloo - Skipping S3B_OLCI_EFRNT.20260218T015323.L2.OC.NRT.nc: date 2026-02-18 already in CSV
+2026-03-18 12:05:07,355  INFO: Mullaloo - Processing file 24/40: S3B_OLCI_EFRNT.20260219T012712.L2.OC.NRT.nc
+2026-03-18 12:05:07,356  INFO: Mullaloo - Skipping S3B_OLCI_EFRNT.20260219T012712.L2.OC.NRT.nc: date 2026-02-19 already in CSV
+2026-03-18 12:05:07,356  INFO: Mullaloo - Processing file 25/40: S3B_OLCI_EFRNT.20260219T013012.L2.OC.NRT.nc
+2026-03-18 12:05:07,357  INFO: Mullaloo - Skipping S3B_OLCI_EFRNT.20260219T013012.L2.OC.NRT.nc: date 2026-02-19 already in CSV
+2026-03-18 12:05:07,357  INFO: Mullaloo - Processing file 26/40: S3B_OLCI_EFRNT.20260222T014938.L2.OC.NRT.nc
+2026-03-18 12:05:07,357  INFO: Mullaloo - Skipping S3B_OLCI_EFRNT.20260222T014938.L2.OC.NRT.nc: date 2026-02-22 already in CSV
+2026-03-18 12:05:07,357  INFO: Mullaloo - Processing file 27/40: S3B_OLCI_EFRNT.20260226T014553.L2.OC.NRT.nc
+2026-03-18 12:05:07,358  INFO: Mullaloo - Skipping S3B_OLCI_EFRNT.20260226T014553.L2.OC.NRT.nc: date 2026-02-26 already in CSV
+2026-03-18 12:05:07,358  INFO: Mullaloo - Processing file 28/40: S3B_OLCI_EFRNT.20260227T011942.L2.OC.NRT.nc
+2026-03-18 12:05:07,358  INFO: Mullaloo - Skipping S3B_OLCI_EFRNT.20260227T011942.L2.OC.NRT.nc: date 2026-02-27 already in CSV
+2026-03-18 12:05:07,358  INFO: Mullaloo - Processing file 29/40: S3B_OLCI_EFRNT.20260227T012242.L2.OC.NRT.nc
+2026-03-18 12:05:07,359  INFO: Mullaloo - Skipping S3B_OLCI_EFRNT.20260227T012242.L2.OC.NRT.nc: date 2026-02-27 already in CSV
+2026-03-18 12:05:07,359  INFO: Mullaloo - Processing file 30/40: S3B_OLCI_EFRNT.20260301T020819.L2.OC.NRT.nc
+2026-03-18 12:05:07,359  INFO: Mullaloo - Skipping S3B_OLCI_EFRNT.20260301T020819.L2.OC.NRT.nc: date 2026-03-01 already in CSV
+2026-03-18 12:05:07,359  INFO: Mullaloo - Processing file 31/40: S3B_OLCI_EFRNT.20260302T014208.L2.OC.NRT.nc
+2026-03-18 12:05:07,360  INFO: Mullaloo - Skipping S3B_OLCI_EFRNT.20260302T014208.L2.OC.NRT.nc: date 2026-03-02 already in CSV
+2026-03-18 12:05:07,360  INFO: Mullaloo - Processing file 32/40: S3B_OLCI_EFRNT.20260303T011856.L2.OC.NRT.nc
+2026-03-18 12:05:07,360  INFO: Mullaloo - Skipping S3B_OLCI_EFRNT.20260303T011856.L2.OC.NRT.nc: date 2026-03-03 already in CSV
+2026-03-18 12:05:07,361  INFO: Mullaloo - Processing file 33/40: S3B_OLCI_EFRNT.20260305T020433.L2.OC.NRT.nc
+2026-03-18 12:05:07,361  INFO: Mullaloo - Skipping S3B_OLCI_EFRNT.20260305T020433.L2.OC.NRT.nc: date 2026-03-05 already in CSV
+2026-03-18 12:05:07,361  INFO: Mullaloo - Processing file 34/40: S3B_OLCI_EFRNT.20260306T013822.L2.OC.NRT.nc
+2026-03-18 12:05:07,362  INFO: Mullaloo - Skipping S3B_OLCI_EFRNT.20260306T013822.L2.OC.NRT.nc: date 2026-03-06 already in CSV
+2026-03-18 12:05:07,362  INFO: Mullaloo - Processing file 35/40: S3B_OLCI_EFRNT.20260307T011511.L2.OC.NRT.nc
+2026-03-18 12:05:07,362  INFO: Mullaloo - Skipping S3B_OLCI_EFRNT.20260307T011511.L2.OC.NRT.nc: date 2026-03-07 already in CSV
+2026-03-18 12:05:07,362  INFO: Mullaloo - Processing file 36/40: S3B_OLCI_EFRNT.20260309T020049.L2.OC.NRT.nc
+2026-03-18 12:05:07,363  INFO: Mullaloo - Skipping S3B_OLCI_EFRNT.20260309T020049.L2.OC.NRT.nc: date 2026-03-09 already in CSV
+2026-03-18 12:05:07,363  INFO: Mullaloo - Processing file 37/40: S3B_OLCI_EFRNT.20260310T013438.L2.OC.NRT.nc
+2026-03-18 12:05:07,363  INFO: Mullaloo - Skipping S3B_OLCI_EFRNT.20260310T013438.L2.OC.NRT.nc: date 2026-03-10 already in CSV
+2026-03-18 12:05:07,363  INFO: Mullaloo - Processing file 38/40: S3B_OLCI_EFRNT.20260313T015705.L2.OC.NRT.nc
+2026-03-18 12:05:07,364  INFO: Mullaloo - Skipping S3B_OLCI_EFRNT.20260313T015705.L2.OC.NRT.nc: date 2026-03-13 already in CSV
+2026-03-18 12:05:07,364  INFO: Mullaloo - Processing file 39/40: S3B_OLCI_EFRNT.20260314T013054.L2.OC.NRT.nc
+2026-03-18 12:05:07,364  INFO: Mullaloo - Skipping S3B_OLCI_EFRNT.20260314T013054.L2.OC.NRT.nc: date 2026-03-14 already in CSV
+2026-03-18 12:05:07,365  INFO: Mullaloo - Processing file 40/40: S3B_OLCI_EFRNT.20260314T013354.L2.OC.NRT.nc
+2026-03-18 12:05:07,365  INFO: Mullaloo - Skipping S3B_OLCI_EFRNT.20260314T013354.L2.OC.NRT.nc: date 2026-03-14 already in CSV
+2026-03-18 12:05:07,368  INFO: Mullaloo - Extracted 1 valid records from 40 files
+2026-03-18 12:05:07,381  INFO: Mullaloo - Existing CSV has 2996 records
+2026-03-18 12:05:07,383  INFO: Mullaloo - After merge: 2997 total records (1 new)
+2026-03-18 12:05:07,391  INFO: \u2713 Mullaloo - CSV saved: C:/Users/23755118/OneDrive - UWA/Documents/PhD_Varshani/CODING/chl_time\chl_timeseries_mullaloo.csv (2997 rows)
+2026-03-18 12:05:07,427  INFO: \u2713 Mullaloo - CSV verified: 2997 rows on disk
+2026-03-18 12:05:07,445  INFO:   \u2713 Successfully filled gap for 2026-03-16
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:207: Pandas4Warning: Timestamp.utcnow is deprecated and will be removed in a future version. Use Timestamp.now('UTC') instead.
+  now_naive = pd.Timestamp.utcnow().tz_localize(None)  # <-- key line
+2026-03-18 12:05:09,483  INFO: 
+--- Checking gap for 2026-03-17 ---
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:289: Pandas4Warning: Timestamp.utcnow is deprecated and will be removed in a future version. Use Timestamp.now('UTC') instead.
+  > (pd.Timestamp.utcnow().tz_localize(None) - timedelta(hours=24))
+2026-03-18 12:05:09,490  INFO: Logging in to Earthdata via earthaccess...
+2026-03-18 12:05:14,670  INFO: Earthdata login OK.
+2026-03-18 12:05:17,342  INFO: Granules found: 0
+2026-03-18 12:05:18,068  INFO:   OLCIS3A_L2_EFR_OC_NRT: 0 granules found for 2026-03-17
+2026-03-18 12:05:18,780  INFO: Granules found: 0
+2026-03-18 12:05:23,211  INFO:   OLCIS3B_L2_EFR_OC_NRT: 0 granules found for 2026-03-17
+2026-03-18 12:05:23,211  INFO:   No data available for 2026-03-17
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:207: Pandas4Warning: Timestamp.utcnow is deprecated and will be removed in a future version. Use Timestamp.now('UTC') instead.
+  now_naive = pd.Timestamp.utcnow().tz_localize(None)  # <-- key line
+2026-03-18 12:05:25,236  INFO: 
+--- Checking gap for 2026-03-18 ---
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:289: Pandas4Warning: Timestamp.utcnow is deprecated and will be removed in a future version. Use Timestamp.now('UTC') instead.
+  > (pd.Timestamp.utcnow().tz_localize(None) - timedelta(hours=24))
+2026-03-18 12:05:25,242  INFO:   Skipping 2026-03-18 - checked recently, no data
+2026-03-18 12:05:25,242  INFO: 
+=== Gap filling complete: 1 filled, 2 checked ===
+2026-03-18 12:05:25,243  INFO: Gap detection complete: 1 gaps filled
+2026-03-18 12:05:25,277  INFO: 
+============================================================
+2026-03-18 12:05:25,277  INFO: GAP SUMMARY REPORT
+2026-03-18 12:05:25,277  INFO: ============================================================
+2026-03-18 12:05:25,278  INFO: 
+Gap Status Distribution:
+2026-03-18 12:05:25,278  INFO:   filled: 146
+2026-03-18 12:05:25,278  INFO:   no_extraction: 8
+2026-03-18 12:05:25,278  INFO:   available: 2
+2026-03-18 12:05:25,278  INFO:   unavailable: 2
+2026-03-18 12:05:25,279  INFO: 
+Unfilled gaps: 2
+2026-03-18 12:05:25,280  INFO:   Date range: 2026-03-17 to 2026-03-18
+2026-03-18 12:05:25,282  INFO: 
+Gaps checked in last 24 hours: 3
+2026-03-18 12:05:25,282  INFO: ============================================================
+
+2026-03-18 12:05:25,282  INFO: 
+============================================================
+2026-03-18 12:05:25,282  INFO: GENERATING INTERACTIVE LEAFLET MAP WITH LOLLIPOP PLOTS
+2026-03-18 12:05:25,282  INFO: ============================================================
+2026-03-18 12:05:26,290  INFO: \u2713 Interactive Leaflet map with lollipop plots saved to: C:/Users/23755118/OneDrive - UWA/Documents/PhD_Varshani/CODING/chl_time\plots\chlorophyll_timeseries_interactive.html
+2026-03-18 12:05:26,291  INFO: 
+============================================================
+2026-03-18 12:05:26,291  INFO: GENERATING COMPARISON PLOTS
+2026-03-18 12:05:26,291  INFO: ============================================================
+2026-03-18 12:05:26,292  INFO: 
+============================================================
+2026-03-18 12:05:26,292  INFO: GIT COMMIT AND PUSH
+2026-03-18 12:05:26,292  INFO: ============================================================
+2026-03-18 12:05:29,050  INFO: Git commit successful: Auto-update chlorophyll data: 2026-03-18
+2026-03-18 12:05:29,422  INFO: Current branch: main
+2026-03-18 12:05:34,261  INFO: \u2713 Git push successful to main
+2026-03-18 12:05:34,261  INFO: \u2713 Git commit and push completed successfully
+2026-03-18 12:05:34,264  INFO: Cleanup done. Removed 0 files (excluding .nc)
+2026-03-18 12:05:34,264  INFO: 
+============================================================
+2026-03-18 12:05:34,264  INFO: === PIPELINE FINISHED SUCCESSFULLY ===
+2026-03-18 12:05:34,264  INFO: ============================================================
+2026-03-19 13:15:26,989  INFO: === Starting dual-location chlorophyll pipeline ===
+2026-03-19 13:15:26,990  INFO: Location 1: PSDP (-32.20085, 115.77047)
+2026-03-19 13:15:26,990  INFO: Location 2: Mullaloo (-31.782, 115.721)
+2026-03-19 13:15:27,048  INFO: Daily mode: Searching for data for 2026-03-19
+2026-03-19 13:15:27,049  INFO: Logging in to Earthdata via earthaccess...
+2026-03-19 13:15:56,335  INFO: You're now authenticated with NASA Earthdata Login
+2026-03-19 13:15:56,335  INFO: Using token with expiration date 04/26/2026
+2026-03-19 13:16:01,423  INFO: Earthdata login OK.
+2026-03-19 13:16:01,424  INFO: Searching OLCIS3A_L2_EFR_OC_NRT for 2026-03-19...
+2026-03-19 13:16:02,429  INFO: Granules found: 0
+2026-03-19 13:16:03,148  INFO: No results for OLCIS3A_L2_EFR_OC_NRT
+2026-03-19 13:16:03,148  INFO: Searching OLCIS3B_L2_EFR_OC_NRT for 2026-03-19...
+2026-03-19 13:16:03,864  INFO: Granules found: 0
+2026-03-19 13:16:04,543  INFO: No results for OLCIS3B_L2_EFR_OC_NRT
+2026-03-19 13:16:04,543  INFO: No files downloaded for yesterday. Checking availability...
+2026-03-19 13:16:04,543  INFO: Logging in to Earthdata via earthaccess...
+2026-03-19 13:16:09,544  INFO: Earthdata login OK.
+2026-03-19 13:16:10,996  INFO: Granules found: 0
+2026-03-19 13:16:11,700  INFO:   OLCIS3A_L2_EFR_OC_NRT: 0 granules found for 2026-03-19
