@@ -111351,3 +111351,125 @@ C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_ch
 2026-03-20 11:10:32,832  INFO:   Skipping 2026-03-19 - checked recently, no data
 2026-03-20 11:10:32,833  INFO: 
 --- Checking gap for 2026-03-20 ---
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:289: Pandas4Warning: Timestamp.utcnow is deprecated and will be removed in a future version. Use Timestamp.now('UTC') instead.
+  > (pd.Timestamp.utcnow().tz_localize(None) - timedelta(hours=24))
+2026-03-20 11:10:32,841  INFO:   Skipping 2026-03-20 - checked recently, no data
+2026-03-20 11:10:32,842  INFO: 
+=== Gap filling complete: 0 filled, 0 checked ===
+2026-03-20 11:10:32,842  INFO: Gap detection complete: 0 gaps filled
+2026-03-20 11:10:32,848  INFO: 
+============================================================
+2026-03-20 11:10:32,848  INFO: GAP SUMMARY REPORT
+2026-03-20 11:10:32,848  INFO: ============================================================
+2026-03-20 11:10:32,852  INFO: 
+Gap Status Distribution:
+2026-03-20 11:10:32,852  INFO:   filled: 147
+2026-03-20 11:10:32,852  INFO:   no_extraction: 8
+2026-03-20 11:10:32,852  INFO:   unavailable: 3
+2026-03-20 11:10:32,852  INFO:   available: 2
+2026-03-20 11:10:32,853  INFO: 
+Unfilled gaps: 3
+2026-03-20 11:10:32,854  INFO:   Date range: 2026-03-18 to 2026-03-20
+2026-03-20 11:10:32,858  INFO: 
+Gaps checked in last 24 hours: 3
+2026-03-20 11:10:32,859  INFO: ============================================================
+
+2026-03-20 11:10:32,859  INFO: 
+============================================================
+2026-03-20 11:10:32,859  INFO: GENERATING INTERACTIVE LEAFLET MAP WITH LOLLIPOP PLOTS
+2026-03-20 11:10:32,859  INFO: ============================================================
+2026-03-20 11:10:33,352  INFO: \u2713 Interactive Leaflet map with lollipop plots saved to: C:/Users/23755118/OneDrive - UWA/Documents/PhD_Varshani/CODING/chl_time\plots\chlorophyll_timeseries_interactive.html
+2026-03-20 11:10:33,355  INFO: 
+============================================================
+2026-03-20 11:10:33,356  INFO: GENERATING COMPARISON PLOTS
+2026-03-20 11:10:33,356  INFO: ============================================================
+2026-03-20 11:10:33,356  INFO: 
+============================================================
+2026-03-20 11:10:33,357  INFO: GIT COMMIT AND PUSH
+2026-03-20 11:10:33,357  INFO: ============================================================
+2026-03-20 11:10:36,332  INFO: Git commit successful: Auto-update chlorophyll data: 2026-03-20
+2026-03-20 11:10:36,526  INFO: Current branch: main
+2026-03-20 11:10:41,862  INFO: \u2713 Git push successful to main
+2026-03-20 11:10:41,862  INFO: \u2713 Git commit and push completed successfully
+2026-03-20 11:10:41,864  INFO: Cleanup done. Removed 0 files (excluding .nc)
+2026-03-20 11:10:41,864  INFO: 
+============================================================
+2026-03-20 11:10:41,864  INFO: === PIPELINE FINISHED SUCCESSFULLY ===
+2026-03-20 11:10:41,864  INFO: ============================================================
+2026-03-20 11:15:35,367  INFO: === Starting dual-location chlorophyll pipeline ===
+2026-03-20 11:15:35,368  INFO: Location 1: PSDP (-32.20085, 115.77047)
+2026-03-20 11:15:35,368  INFO: Location 2: Mullaloo (-31.782, 115.721)
+2026-03-20 11:15:35,384  INFO: Daily mode: Searching for data for 2026-03-20
+2026-03-20 11:15:35,385  INFO: Logging in to Earthdata via earthaccess...
+2026-03-20 11:16:05,973  INFO: You're now authenticated with NASA Earthdata Login
+2026-03-20 11:16:05,974  INFO: Using token with expiration date 04/26/2026
+2026-03-20 11:16:11,055  INFO: Earthdata login OK.
+2026-03-20 11:16:11,056  INFO: Searching OLCIS3A_L2_EFR_OC_NRT for 2026-03-20...
+2026-03-20 11:16:14,804  INFO: Granules found: 0
+2026-03-20 11:16:17,069  INFO: No results for OLCIS3A_L2_EFR_OC_NRT
+2026-03-20 11:16:17,069  INFO: Searching OLCIS3B_L2_EFR_OC_NRT for 2026-03-20...
+2026-03-20 11:16:18,335  INFO: Granules found: 0
+2026-03-20 11:16:19,047  INFO: No results for OLCIS3B_L2_EFR_OC_NRT
+2026-03-20 11:16:19,047  INFO: No files downloaded for yesterday. Checking availability...
+2026-03-20 11:16:19,047  INFO: Logging in to Earthdata via earthaccess...
+2026-03-20 11:16:24,081  INFO: Earthdata login OK.
+2026-03-20 11:16:24,842  INFO: Granules found: 0
+2026-03-20 11:16:25,533  INFO:   OLCIS3A_L2_EFR_OC_NRT: 0 granules found for 2026-03-20
+2026-03-20 11:16:26,409  INFO: Granules found: 0
+2026-03-20 11:16:27,071  INFO:   OLCIS3B_L2_EFR_OC_NRT: 0 granules found for 2026-03-20
+2026-03-20 11:16:27,072  INFO: No satellite data available for 2026-03-20
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:207: Pandas4Warning: Timestamp.utcnow is deprecated and will be removed in a future version. Use Timestamp.now('UTC') instead.
+  now_naive = pd.Timestamp.utcnow().tz_localize(None)  # <-- key line
+2026-03-20 11:16:27,098  INFO: 
+============================================================
+2026-03-20 11:16:27,099  INFO: STARTING GAP DETECTION
+2026-03-20 11:16:27,099  INFO: ============================================================
+2026-03-20 11:16:27,099  INFO: === Starting gap detection and filling ===
+2026-03-20 11:16:27,133  INFO: 
+--- Checking gap for 2026-03-18 ---
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:289: Pandas4Warning: Timestamp.utcnow is deprecated and will be removed in a future version. Use Timestamp.now('UTC') instead.
+  > (pd.Timestamp.utcnow().tz_localize(None) - timedelta(hours=24))
+2026-03-20 11:16:27,143  INFO:   Skipping 2026-03-18 - checked recently, no data
+2026-03-20 11:16:27,144  INFO: 
+--- Checking gap for 2026-03-19 ---
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:289: Pandas4Warning: Timestamp.utcnow is deprecated and will be removed in a future version. Use Timestamp.now('UTC') instead.
+  > (pd.Timestamp.utcnow().tz_localize(None) - timedelta(hours=24))
+2026-03-20 11:16:27,154  INFO:   Skipping 2026-03-19 - checked recently, no data
+2026-03-20 11:16:27,156  INFO: 
+--- Checking gap for 2026-03-20 ---
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:289: Pandas4Warning: Timestamp.utcnow is deprecated and will be removed in a future version. Use Timestamp.now('UTC') instead.
+  > (pd.Timestamp.utcnow().tz_localize(None) - timedelta(hours=24))
+2026-03-20 11:16:27,166  INFO:   Skipping 2026-03-20 - checked recently, no data
+2026-03-20 11:16:27,167  INFO: 
+=== Gap filling complete: 0 filled, 0 checked ===
+2026-03-20 11:16:27,167  INFO: Gap detection complete: 0 gaps filled
+2026-03-20 11:16:27,175  INFO: 
+============================================================
+2026-03-20 11:16:27,175  INFO: GAP SUMMARY REPORT
+2026-03-20 11:16:27,175  INFO: ============================================================
+2026-03-20 11:16:27,177  INFO: 
+Gap Status Distribution:
+2026-03-20 11:16:27,177  INFO:   filled: 147
+2026-03-20 11:16:27,177  INFO:   no_extraction: 8
+2026-03-20 11:16:27,177  INFO:   unavailable: 3
+2026-03-20 11:16:27,178  INFO:   available: 2
+2026-03-20 11:16:27,179  INFO: 
+Unfilled gaps: 3
+2026-03-20 11:16:27,180  INFO:   Date range: 2026-03-18 to 2026-03-20
+2026-03-20 11:16:27,185  INFO: 
+Gaps checked in last 24 hours: 3
+2026-03-20 11:16:27,185  INFO: ============================================================
+
+2026-03-20 11:16:27,185  INFO: 
+============================================================
+2026-03-20 11:16:27,186  INFO: GENERATING INTERACTIVE LEAFLET MAP WITH LOLLIPOP PLOTS
+2026-03-20 11:16:27,186  INFO: ============================================================
+2026-03-20 11:16:27,749  INFO: \u2713 Interactive Leaflet map with lollipop plots saved to: C:/Users/23755118/OneDrive - UWA/Documents/PhD_Varshani/CODING/chl_time\plots\chlorophyll_timeseries_interactive.html
+2026-03-20 11:16:27,750  INFO: 
+============================================================
+2026-03-20 11:16:27,750  INFO: GENERATING COMPARISON PLOTS
+2026-03-20 11:16:27,750  INFO: ============================================================
+2026-03-20 11:16:27,751  INFO: 
+============================================================
+2026-03-20 11:16:27,751  INFO: GIT COMMIT AND PUSH
+2026-03-20 11:16:27,751  INFO: ============================================================
