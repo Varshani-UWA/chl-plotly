@@ -156,5 +156,6 @@ date,status,available,granule_count,last_checked
 2026-03-15,filled,True,1,2026-03-16
 2026-03-16,filled,True,2,2026-03-18
 2026-03-17,filled,True,1,2026-03-19
-2026-03-18,unavailable,False,0,2026-03-19
-2026-03-19,unavailable,False,0,2026-03-19
+2026-03-18,unavailable,False,0,2026-03-20
+2026-03-19,unavailable,False,0,2026-03-20
+2026-03-20,unavailable,False,0,2026-03-20
