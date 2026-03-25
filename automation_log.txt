@@ -1,34 +1,3 @@
-SUCCESS: Task completed at: Mon 19/01/2026  9:40:56.31 
-Exit Code: 0 
- 
-Data Files Status: 
-  PSDP: 96344 bytes, modified 19/01/2026 09:40 AM 
-  Mullaloo: 98799 bytes, modified 19/01/2026 09:40 AM 
- 
-Generated Plots: 
-  - Full interactive timeseries 
-================================================ 
- 
- 
-================================================ 
-DUAL-LOCATION PIPELINE (PSDP + Mullaloo) 
-Task started at: Tue 20/01/2026  9:26:27.38 
-Directory: C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time 
-================================================ 
- 
-Checking Python... 
-Python 3.13.5
-Python found successfully 
-Verifying required packages... 
-All packages OK
-Checking for data files... 
-Found PSDP data file 
-Found Mullaloo data file 
- 
-Running dual-location pipeline... 
-================================================ 
- 
-================================================ 
 SUCCESS: Task completed at: Tue 20/01/2026  9:27:45.72 
 Exit Code: 0 
  
@@ -1015,4 +984,34 @@ Found Mullaloo data file
  
 Running dual-location pipeline... 
 ================================================ 
-Enter your Earthdata Login username: 
+Enter your Earthdata Login username:  
+================================================ 
+SUCCESS: Task completed at: Mon 23/03/2026 10:57:48.02 
+Exit Code: 0 
+ 
+Data Files Status: 
+  PSDP: 100910 bytes, modified 19/03/2026 01:17 PM 
+  Mullaloo: 103455 bytes, modified 19/03/2026 01:17 PM 
+ 
+Generated Plots: 
+  - Full interactive timeseries 
+================================================ 
+ 
+ 
+================================================ 
+DUAL-LOCATION PIPELINE (PSDP + Mullaloo) 
+Task started at: Wed 25/03/2026  9:59:21.03 
+Directory: C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time 
+================================================ 
+ 
+Checking Python... 
+Python 3.14.2
+Python found successfully 
+Verifying required packages... 
+All packages OK
+Checking for data files... 
+Found PSDP data file 
+Found Mullaloo data file 
+ 
+Running dual-location pipeline... 
+================================================ 
