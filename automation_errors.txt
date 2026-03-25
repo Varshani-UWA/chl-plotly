@@ -111745,3 +111745,53 @@ Gaps checked in last 24 hours: 6
 ============================================================
 2026-03-25 10:01:16,695  INFO: GIT COMMIT AND PUSH
 2026-03-25 10:01:16,695  INFO: ============================================================
+2026-03-25 10:01:19,360  INFO: Git commit successful: Auto-update chlorophyll data: 2026-03-25
+2026-03-25 10:01:19,552  INFO: Current branch: main
+2026-03-25 10:01:25,187  INFO: \u2713 Git push successful to main
+2026-03-25 10:01:25,187  INFO: \u2713 Git commit and push completed successfully
+2026-03-25 10:01:25,191  INFO: Cleanup done. Removed 0 files (excluding .nc)
+2026-03-25 10:01:25,191  INFO: 
+============================================================
+2026-03-25 10:01:25,192  INFO: === PIPELINE FINISHED SUCCESSFULLY ===
+2026-03-25 10:01:25,192  INFO: ============================================================
+2026-03-25 13:23:50,673  INFO: === Starting dual-location chlorophyll pipeline ===
+2026-03-25 13:23:50,675  INFO: Location 1: PSDP (-32.20085, 115.77047)
+2026-03-25 13:23:50,676  INFO: Location 2: Mullaloo (-31.782, 115.721)
+2026-03-25 13:23:50,744  INFO: Daily mode: Searching for data for 2026-03-25
+2026-03-25 13:23:50,745  INFO: Logging in to Earthdata via earthaccess...
+2026-03-25 13:23:54,323  INFO: You're now authenticated with NASA Earthdata Login
+2026-03-25 13:23:54,324  INFO: Using token with expiration date 04/26/2026
+2026-03-25 13:23:59,408  INFO: Earthdata login OK.
+2026-03-25 13:23:59,409  INFO: Searching OLCIS3A_L2_EFR_OC_NRT for 2026-03-25...
+2026-03-25 13:24:04,787  INFO: Granules found: 0
+2026-03-25 13:24:05,743  INFO: No results for OLCIS3A_L2_EFR_OC_NRT
+2026-03-25 13:24:05,744  INFO: Searching OLCIS3B_L2_EFR_OC_NRT for 2026-03-25...
+2026-03-25 13:24:06,454  INFO: Granules found: 0
+2026-03-25 13:24:07,391  INFO: No results for OLCIS3B_L2_EFR_OC_NRT
+2026-03-25 13:24:07,391  INFO: No files downloaded for yesterday. Checking availability...
+2026-03-25 13:24:07,392  INFO: Logging in to Earthdata via earthaccess...
+2026-03-25 13:24:12,469  INFO: Earthdata login OK.
+2026-03-25 13:24:13,417  INFO: Granules found: 0
+2026-03-25 13:24:14,118  INFO:   OLCIS3A_L2_EFR_OC_NRT: 0 granules found for 2026-03-25
+2026-03-25 13:24:14,882  INFO: Granules found: 0
+2026-03-25 13:24:16,156  INFO:   OLCIS3B_L2_EFR_OC_NRT: 0 granules found for 2026-03-25
+2026-03-25 13:24:16,156  INFO: No satellite data available for 2026-03-25
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:207: Pandas4Warning: Timestamp.utcnow is deprecated and will be removed in a future version. Use Timestamp.now('UTC') instead.
+  now_naive = pd.Timestamp.utcnow().tz_localize(None)  # <-- key line
+2026-03-25 13:24:16,191  INFO: 
+============================================================
+2026-03-25 13:24:16,192  INFO: STARTING GAP DETECTION
+2026-03-25 13:24:16,192  INFO: ============================================================
+2026-03-25 13:24:16,192  INFO: === Starting gap detection and filling ===
+2026-03-25 13:24:16,209  INFO: 
+--- Checking gap for 2026-03-18 ---
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:289: Pandas4Warning: Timestamp.utcnow is deprecated and will be removed in a future version. Use Timestamp.now('UTC') instead.
+  > (pd.Timestamp.utcnow().tz_localize(None) - timedelta(hours=24))
+2026-03-25 13:24:16,216  INFO:   Skipping 2026-03-18 - checked recently, no data
+2026-03-25 13:24:16,217  INFO: 
+--- Checking gap for 2026-03-19 ---
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:289: Pandas4Warning: Timestamp.utcnow is deprecated and will be removed in a future version. Use Timestamp.now('UTC') instead.
+  > (pd.Timestamp.utcnow().tz_localize(None) - timedelta(hours=24))
+2026-03-25 13:24:16,222  INFO:   Skipping 2026-03-19 - checked recently, no data
+2026-03-25 13:24:16,223  INFO: 
+--- Checking gap for 2026-03-20 ---
