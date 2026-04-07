@@ -1,33 +1,3 @@
-================================================ 
-================================================ 
-DUAL-LOCATION PIPELINE (PSDP + Mullaloo) 
-Task started at: Tue 03/02/2026  8:38:49.94 
-Directory: C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time 
-================================================ 
- 
- 
-Checking Python... 
-Python 3.13.5
-Python found successfully 
-Verifying required packages... 
-All packages OK
-Checking for data files... 
-Found PSDP data file 
-Found Mullaloo data file 
- 
-Running dual-location pipeline... 
-================================================ 
-================================================ 
-DUAL-LOCATION PIPELINE (PSDP + Mullaloo) 
-Task started at: Wed 04/02/2026 10:33:32.03 
-Directory: C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time 
-================================================ 
- 
-Checking Python... 
-Python 3.13.5
-Python found successfully 
-Verifying required packages... 
-All packages OK
 Checking for data files... 
 Found PSDP data file 
 Found Mullaloo data file 
@@ -1001,6 +971,36 @@ Generated Plots:
 ================================================ 
 DUAL-LOCATION PIPELINE (PSDP + Mullaloo) 
 Task started at: Sun 05/04/2026 11:04:46.38 
+Directory: C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time 
+================================================ 
+ 
+Checking Python... 
+Python 3.14.2
+Python found successfully 
+Verifying required packages... 
+All packages OK
+Checking for data files... 
+Found PSDP data file 
+Found Mullaloo data file 
+ 
+Running dual-location pipeline... 
+================================================ 
+ 
+================================================ 
+SUCCESS: Task completed at: Sun 05/04/2026 11:06:42.65 
+Exit Code: 0 
+ 
+Data Files Status: 
+  PSDP: 101048 bytes, modified 26/03/2026 03:52 PM 
+  Mullaloo: 103524 bytes, modified 26/03/2026 03:51 PM 
+ 
+Generated Plots: 
+================================================ 
+ 
+ 
+================================================ 
+DUAL-LOCATION PIPELINE (PSDP + Mullaloo) 
+Task started at: Tue 07/04/2026 13:26:40.67 
 Directory: C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time 
 ================================================ 
  

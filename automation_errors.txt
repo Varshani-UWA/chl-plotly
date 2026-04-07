@@ -112476,3 +112476,140 @@ Gaps checked in last 24 hours: 5
 ============================================================
 2026-04-05 11:06:32,468  INFO: GIT COMMIT AND PUSH
 2026-04-05 11:06:32,468  INFO: ============================================================
+2026-04-05 11:06:35,514  INFO: Git commit successful: Auto-update chlorophyll data: 2026-04-05
+2026-04-05 11:06:35,703  INFO: Current branch: main
+2026-04-05 11:06:41,999  INFO: \u2713 Git push successful to main
+2026-04-05 11:06:41,999  INFO: \u2713 Git commit and push completed successfully
+2026-04-05 11:06:42,023  INFO: Cleanup done. Removed 1 files (excluding .nc)
+2026-04-05 11:06:42,023  INFO: 
+============================================================
+2026-04-05 11:06:42,024  INFO: === PIPELINE FINISHED SUCCESSFULLY ===
+2026-04-05 11:06:42,024  INFO: ============================================================
+2026-04-07 13:26:51,020  INFO: === Starting dual-location chlorophyll pipeline ===
+2026-04-07 13:26:51,021  INFO: Location 1: PSDP (-32.20085, 115.77047)
+2026-04-07 13:26:51,021  INFO: Location 2: Mullaloo (-31.782, 115.721)
+2026-04-07 13:26:51,079  INFO: Daily mode: Searching for data for 2026-04-07
+2026-04-07 13:26:51,080  INFO: Logging in to Earthdata via earthaccess...
+2026-04-07 13:26:54,746  INFO: You're now authenticated with NASA Earthdata Login
+2026-04-07 13:26:54,747  INFO: Using token with expiration date 04/26/2026
+2026-04-07 13:26:59,758  INFO: Earthdata login OK.
+2026-04-07 13:26:59,759  INFO: Searching OLCIS3A_L2_EFR_OC_NRT for 2026-04-07...
+2026-04-07 13:27:01,010  INFO: Granules found: 0
+2026-04-07 13:27:01,734  INFO: No results for OLCIS3A_L2_EFR_OC_NRT
+2026-04-07 13:27:01,734  INFO: Searching OLCIS3B_L2_EFR_OC_NRT for 2026-04-07...
+2026-04-07 13:27:08,770  INFO: Granules found: 0
+2026-04-07 13:27:11,696  INFO: No results for OLCIS3B_L2_EFR_OC_NRT
+2026-04-07 13:27:11,697  INFO: No files downloaded for yesterday. Checking availability...
+2026-04-07 13:27:11,697  INFO: Logging in to Earthdata via earthaccess...
+2026-04-07 13:27:16,884  INFO: Earthdata login OK.
+2026-04-07 13:27:18,293  INFO: Granules found: 0
+2026-04-07 13:27:19,096  INFO:   OLCIS3A_L2_ERR_OC_NRT: 0 granules found for 2026-04-07
+2026-04-07 13:27:19,800  INFO: Granules found: 0
+2026-04-07 13:27:20,442  INFO:   OLCIS3B_L2_ERR_OC_NRT: 0 granules found for 2026-04-07
+2026-04-07 13:27:20,443  INFO: No satellite data available for 2026-04-07
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:207: Pandas4Warning: Timestamp.utcnow is deprecated and will be removed in a future version. Use Timestamp.now('UTC') instead.
+  now_naive = pd.Timestamp.utcnow().tz_localize(None)  # <-- key line
+2026-04-07 13:27:20,574  INFO: 
+============================================================
+2026-04-07 13:27:20,575  INFO: STARTING GAP DETECTION
+2026-04-07 13:27:20,575  INFO: ============================================================
+2026-04-07 13:27:20,576  INFO: === Starting gap detection and filling ===
+2026-04-07 13:27:20,706  INFO: 
+--- Checking gap for 2026-03-18 ---
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:289: Pandas4Warning: Timestamp.utcnow is deprecated and will be removed in a future version. Use Timestamp.now('UTC') instead.
+  > (pd.Timestamp.utcnow().tz_localize(None) - timedelta(hours=24))
+2026-04-07 13:27:20,729  INFO: Logging in to Earthdata via earthaccess...
+2026-04-07 13:27:25,760  INFO: Earthdata login OK.
+2026-04-07 13:27:30,001  INFO: Granules found: 1
+2026-04-07 13:27:34,987  INFO:   OLCIS3A_L2_ERR_OC_NRT: 1 granules found for 2026-03-18
+2026-04-07 13:27:35,693  INFO: Granules found: 1
+2026-04-07 13:27:37,429  INFO:   OLCIS3B_L2_ERR_OC_NRT: 1 granules found for 2026-03-18
+2026-04-07 13:27:37,429  INFO:   Data available for 2026-03-18! Downloading...
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:207: Pandas4Warning: Timestamp.utcnow is deprecated and will be removed in a future version. Use Timestamp.now('UTC') instead.
+  now_naive = pd.Timestamp.utcnow().tz_localize(None)  # <-- key line
+2026-04-07 13:27:37,456  INFO: Logging in to Earthdata via earthaccess...
+2026-04-07 13:27:42,483  INFO: Earthdata login OK.
+2026-04-07 13:27:42,483  INFO: Searching OLCIS3A_L2_EFR_OC_NRT for 2026-03-18...
+2026-04-07 13:27:43,220  INFO: Granules found: 0
+2026-04-07 13:27:43,868  INFO: No results for OLCIS3A_L2_EFR_OC_NRT
+2026-04-07 13:27:43,868  INFO: Searching OLCIS3B_L2_EFR_OC_NRT for 2026-03-18...
+2026-04-07 13:27:44,600  INFO: Granules found: 0
+2026-04-07 13:27:45,234  INFO: No results for OLCIS3B_L2_EFR_OC_NRT
+2026-04-07 13:27:45,235  WARNING:   \u2717 Download failed for 2026-03-18
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:207: Pandas4Warning: Timestamp.utcnow is deprecated and will be removed in a future version. Use Timestamp.now('UTC') instead.
+  now_naive = pd.Timestamp.utcnow().tz_localize(None)  # <-- key line
+2026-04-07 13:27:47,290  INFO: 
+--- Checking gap for 2026-03-19 ---
+2026-04-07 13:27:47,290  INFO: Skipping 2026-03-19: currently processing or lock not released
+2026-04-07 13:27:47,291  INFO: 
+--- Checking gap for 2026-03-20 ---
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:289: Pandas4Warning: Timestamp.utcnow is deprecated and will be removed in a future version. Use Timestamp.now('UTC') instead.
+  > (pd.Timestamp.utcnow().tz_localize(None) - timedelta(hours=24))
+2026-04-07 13:27:47,303  INFO: Logging in to Earthdata via earthaccess...
+2026-04-07 13:27:52,418  INFO: Earthdata login OK.
+2026-04-07 13:27:54,067  INFO: Granules found: 1
+2026-04-07 13:27:56,023  INFO:   OLCIS3A_L2_ERR_OC_NRT: 1 granules found for 2026-03-20
+2026-04-07 13:27:56,761  INFO: Granules found: 0
+2026-04-07 13:27:57,414  INFO:   OLCIS3B_L2_ERR_OC_NRT: 0 granules found for 2026-03-20
+2026-04-07 13:27:57,414  INFO:   Data available for 2026-03-20! Downloading...
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:207: Pandas4Warning: Timestamp.utcnow is deprecated and will be removed in a future version. Use Timestamp.now('UTC') instead.
+  now_naive = pd.Timestamp.utcnow().tz_localize(None)  # <-- key line
+2026-04-07 13:27:57,463  INFO: Logging in to Earthdata via earthaccess...
+2026-04-07 13:28:02,592  INFO: Earthdata login OK.
+2026-04-07 13:28:02,592  INFO: Searching OLCIS3A_L2_EFR_OC_NRT for 2026-03-20...
+2026-04-07 13:28:12,669  INFO: Granules found: 0
+2026-04-07 13:28:14,658  INFO: No results for OLCIS3A_L2_EFR_OC_NRT
+2026-04-07 13:28:14,658  INFO: Searching OLCIS3B_L2_EFR_OC_NRT for 2026-03-20...
+2026-04-07 13:28:15,377  INFO: Granules found: 0
+2026-04-07 13:28:17,184  INFO: No results for OLCIS3B_L2_EFR_OC_NRT
+2026-04-07 13:28:17,184  WARNING:   \u2717 Download failed for 2026-03-20
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:207: Pandas4Warning: Timestamp.utcnow is deprecated and will be removed in a future version. Use Timestamp.now('UTC') instead.
+  now_naive = pd.Timestamp.utcnow().tz_localize(None)  # <-- key line
+2026-04-07 13:28:19,245  INFO: 
+--- Checking gap for 2026-03-21 ---
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:289: Pandas4Warning: Timestamp.utcnow is deprecated and will be removed in a future version. Use Timestamp.now('UTC') instead.
+  > (pd.Timestamp.utcnow().tz_localize(None) - timedelta(hours=24))
+2026-04-07 13:28:19,256  INFO: Logging in to Earthdata via earthaccess...
+2026-04-07 13:28:24,284  INFO: Earthdata login OK.
+2026-04-07 13:28:28,698  INFO: Granules found: 0
+2026-04-07 13:28:32,997  INFO:   OLCIS3A_L2_ERR_OC_NRT: 0 granules found for 2026-03-21
+2026-04-07 13:28:34,892  INFO: Granules found: 1
+2026-04-07 13:28:35,552  INFO:   OLCIS3B_L2_ERR_OC_NRT: 1 granules found for 2026-03-21
+2026-04-07 13:28:35,552  INFO:   Data available for 2026-03-21! Downloading...
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:207: Pandas4Warning: Timestamp.utcnow is deprecated and will be removed in a future version. Use Timestamp.now('UTC') instead.
+  now_naive = pd.Timestamp.utcnow().tz_localize(None)  # <-- key line
+2026-04-07 13:28:35,598  INFO: Logging in to Earthdata via earthaccess...
+2026-04-07 13:28:40,704  INFO: Earthdata login OK.
+2026-04-07 13:28:40,704  INFO: Searching OLCIS3A_L2_EFR_OC_NRT for 2026-03-21...
+2026-04-07 13:28:41,432  INFO: Granules found: 0
+2026-04-07 13:28:42,297  INFO: No results for OLCIS3A_L2_EFR_OC_NRT
+2026-04-07 13:28:42,297  INFO: Searching OLCIS3B_L2_EFR_OC_NRT for 2026-03-21...
+2026-04-07 13:28:43,072  INFO: Granules found: 0
+2026-04-07 13:28:43,703  INFO: No results for OLCIS3B_L2_EFR_OC_NRT
+2026-04-07 13:28:43,703  WARNING:   \u2717 Download failed for 2026-03-21
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:207: Pandas4Warning: Timestamp.utcnow is deprecated and will be removed in a future version. Use Timestamp.now('UTC') instead.
+  now_naive = pd.Timestamp.utcnow().tz_localize(None)  # <-- key line
+2026-04-07 13:28:45,727  INFO: 
+--- Checking gap for 2026-03-22 ---
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:289: Pandas4Warning: Timestamp.utcnow is deprecated and will be removed in a future version. Use Timestamp.now('UTC') instead.
+  > (pd.Timestamp.utcnow().tz_localize(None) - timedelta(hours=24))
+2026-04-07 13:28:45,739  INFO: Logging in to Earthdata via earthaccess...
+2026-04-07 13:28:50,829  INFO: Earthdata login OK.
+2026-04-07 13:28:52,749  INFO: Granules found: 1
+2026-04-07 13:28:53,406  INFO:   OLCIS3A_L2_ERR_OC_NRT: 1 granules found for 2026-03-22
+2026-04-07 13:28:54,541  INFO: Granules found: 1
+2026-04-07 13:28:55,974  INFO:   OLCIS3B_L2_ERR_OC_NRT: 1 granules found for 2026-03-22
+2026-04-07 13:28:55,975  INFO:   Data available for 2026-03-22! Downloading...
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:207: Pandas4Warning: Timestamp.utcnow is deprecated and will be removed in a future version. Use Timestamp.now('UTC') instead.
+  now_naive = pd.Timestamp.utcnow().tz_localize(None)  # <-- key line
+2026-04-07 13:28:56,031  INFO: Logging in to Earthdata via earthaccess...
+2026-04-07 13:29:01,134  INFO: Earthdata login OK.
+2026-04-07 13:29:01,134  INFO: Searching OLCIS3A_L2_EFR_OC_NRT for 2026-03-22...
+2026-04-07 13:29:01,899  INFO: Granules found: 0
+2026-04-07 13:29:02,769  INFO: No results for OLCIS3A_L2_EFR_OC_NRT
+2026-04-07 13:29:02,769  INFO: Searching OLCIS3B_L2_EFR_OC_NRT for 2026-03-22...
+2026-04-07 13:29:03,924  INFO: Granules found: 0
+2026-04-07 13:29:04,573  INFO: No results for OLCIS3B_L2_EFR_OC_NRT
+2026-04-07 13:29:04,574  WARNING:   \u2717 Download failed for 2026-03-22
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:207: Pandas4Warning: Timestamp.utcnow is deprecated and will be removed in a future version. Use Timestamp.now('UTC') instead.
+  now_naive = pd.Timestamp.utcnow().tz_localize(None)  # <-- key line
