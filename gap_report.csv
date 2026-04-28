@@ -188,7 +188,13 @@ date,status,available,granule_count,last_checked
 2026-04-16,no_extraction,True,1,2026-04-20
 2026-04-17,no_extraction,True,1,2026-04-20
 2026-04-18,filled,True,2,2026-04-20
-2026-04-19,no_extraction,True,81,2026-04-20
-2026-04-20,unavailable,False,0,2026-04-20
-2026-04-22,unavailable,False,0,2026-04-22
+2026-04-19,no_extraction,True,1,2026-04-28
+2026-04-20,no_extraction,True,1,2026-04-28
+2026-04-21,no_extraction,True,1,2026-04-28
+2026-04-22,filled,True,2,2026-04-28
+2026-04-23,no_extraction,True,1,2026-04-28
+2026-04-24,no_extraction,True,1,2026-04-28
+2026-04-25,filled,True,1,2026-04-28
+2026-04-26,filled,True,2,2026-04-28
+2026-04-27,no_extraction,True,1,2026-04-28
 2026-04-28,unavailable,False,0,2026-04-28
