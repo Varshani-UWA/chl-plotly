@@ -114574,3 +114574,278 @@ Gaps checked in last 24 hours: 12
 2026-06-04 15:36:00,099  INFO: No satellite data available for 2026-06-04
 2026-06-04 15:36:00,157  INFO: 
 ============================================================
+2026-06-04 15:36:00,157  INFO: STARTING GAP DETECTION
+2026-06-04 15:36:00,158  INFO: ============================================================
+2026-06-04 15:36:00,158  INFO: === Starting gap detection and filling ===
+2026-06-04 15:36:00,223  INFO: 
+--- Checking gap for 2026-03-18 ---
+2026-06-04 15:36:00,240  INFO: Logging in to Earthdata via earthaccess...
+2026-06-04 15:36:03,114  INFO: Earthdata login OK.
+2026-06-04 15:36:03,908  INFO: Granules found: 1
+C:\Users\23755118\AppData\Local\miniconda3\envs\py3_13\Lib\site-packages\earthaccess\results.py:343: FutureWarning: As of version 1.0, `DataGranule.size` will be accessed as an attribute; e.g. use `DataCollection.size` **not** `DataCollection.size()`
+  self["size"] = self.size()
+2026-06-04 15:36:04,558  INFO:   OLCIS3A_L2_ERR_OC_NRT: 1 granules found for 2026-03-18
+2026-06-04 15:36:05,373  INFO: Granules found: 1
+2026-06-04 15:36:06,048  INFO:   OLCIS3B_L2_ERR_OC_NRT: 1 granules found for 2026-03-18
+2026-06-04 15:36:06,048  INFO:   Data available for 2026-03-18! Downloading...
+2026-06-04 15:36:06,070  INFO: Logging in to Earthdata via earthaccess...
+2026-06-04 15:36:08,984  INFO: Earthdata login OK.
+2026-06-04 15:36:08,984  INFO: Searching OLCIS3A_L2_EFR_OC_NRT for 2026-03-18...
+2026-06-04 15:36:09,798  INFO: Granules found: 0
+2026-06-04 15:36:10,589  INFO: No results for OLCIS3A_L2_EFR_OC_NRT
+2026-06-04 15:36:10,589  INFO: Searching OLCIS3B_L2_EFR_OC_NRT for 2026-03-18...
+2026-06-04 15:36:11,782  INFO: Granules found: 0
+2026-06-04 15:36:12,411  INFO: No results for OLCIS3B_L2_EFR_OC_NRT
+2026-06-04 15:36:12,412  WARNING:   \u2717 Download failed for 2026-03-18
+2026-06-04 15:36:14,465  INFO: 
+--- Checking gap for 2026-03-19 ---
+2026-06-04 15:36:14,465  INFO: Skipping 2026-03-19: currently processing or lock not released
+2026-06-04 15:36:14,466  INFO: 
+--- Checking gap for 2026-03-20 ---
+2026-06-04 15:36:14,518  INFO: Logging in to Earthdata via earthaccess...
+2026-06-04 15:36:17,403  INFO: Earthdata login OK.
+2026-06-04 15:36:18,199  INFO: Granules found: 1
+C:\Users\23755118\AppData\Local\miniconda3\envs\py3_13\Lib\site-packages\earthaccess\results.py:343: FutureWarning: As of version 1.0, `DataGranule.size` will be accessed as an attribute; e.g. use `DataCollection.size` **not** `DataCollection.size()`
+  self["size"] = self.size()
+2026-06-04 15:36:18,830  INFO:   OLCIS3A_L2_ERR_OC_NRT: 1 granules found for 2026-03-20
+2026-06-04 15:36:19,621  INFO: Granules found: 0
+2026-06-04 15:36:20,223  INFO:   OLCIS3B_L2_ERR_OC_NRT: 0 granules found for 2026-03-20
+2026-06-04 15:36:20,223  INFO:   Data available for 2026-03-20! Downloading...
+2026-06-04 15:36:20,267  INFO: Logging in to Earthdata via earthaccess...
+2026-06-04 15:36:23,139  INFO: Earthdata login OK.
+2026-06-04 15:36:23,139  INFO: Searching OLCIS3A_L2_EFR_OC_NRT for 2026-03-20...
+2026-06-04 15:36:23,949  INFO: Granules found: 0
+2026-06-04 15:36:24,601  INFO: No results for OLCIS3A_L2_EFR_OC_NRT
+2026-06-04 15:36:24,601  INFO: Searching OLCIS3B_L2_EFR_OC_NRT for 2026-03-20...
+2026-06-04 15:36:25,446  INFO: Granules found: 0
+2026-06-04 15:36:26,199  INFO: No results for OLCIS3B_L2_EFR_OC_NRT
+2026-06-04 15:36:26,199  WARNING:   \u2717 Download failed for 2026-03-20
+2026-06-04 15:36:28,242  INFO: 
+--- Checking gap for 2026-03-21 ---
+2026-06-04 15:36:28,266  INFO: Logging in to Earthdata via earthaccess...
+2026-06-04 15:36:31,128  INFO: Earthdata login OK.
+2026-06-04 15:36:31,918  INFO: Granules found: 0
+2026-06-04 15:36:32,643  INFO:   OLCIS3A_L2_ERR_OC_NRT: 0 granules found for 2026-03-21
+2026-06-04 15:36:33,456  INFO: Granules found: 1
+C:\Users\23755118\AppData\Local\miniconda3\envs\py3_13\Lib\site-packages\earthaccess\results.py:343: FutureWarning: As of version 1.0, `DataGranule.size` will be accessed as an attribute; e.g. use `DataCollection.size` **not** `DataCollection.size()`
+  self["size"] = self.size()
+2026-06-04 15:36:34,071  INFO:   OLCIS3B_L2_ERR_OC_NRT: 1 granules found for 2026-03-21
+2026-06-04 15:36:34,071  INFO:   Data available for 2026-03-21! Downloading...
+2026-06-04 15:36:34,128  INFO: Logging in to Earthdata via earthaccess...
+2026-06-04 15:36:37,611  INFO: Earthdata login OK.
+2026-06-04 15:36:37,611  INFO: Searching OLCIS3A_L2_EFR_OC_NRT for 2026-03-21...
+2026-06-04 15:36:38,872  INFO: Granules found: 0
+2026-06-04 15:36:39,537  INFO: No results for OLCIS3A_L2_EFR_OC_NRT
+2026-06-04 15:36:39,537  INFO: Searching OLCIS3B_L2_EFR_OC_NRT for 2026-03-21...
+2026-06-04 15:36:40,351  INFO: Granules found: 0
+2026-06-04 15:36:41,221  INFO: No results for OLCIS3B_L2_EFR_OC_NRT
+2026-06-04 15:36:41,221  WARNING:   \u2717 Download failed for 2026-03-21
+2026-06-04 15:36:43,272  INFO: 
+--- Checking gap for 2026-03-22 ---
+2026-06-04 15:36:43,281  INFO: Logging in to Earthdata via earthaccess...
+2026-06-04 15:36:46,142  INFO: Earthdata login OK.
+2026-06-04 15:36:46,939  INFO: Granules found: 1
+C:\Users\23755118\AppData\Local\miniconda3\envs\py3_13\Lib\site-packages\earthaccess\results.py:343: FutureWarning: As of version 1.0, `DataGranule.size` will be accessed as an attribute; e.g. use `DataCollection.size` **not** `DataCollection.size()`
+  self["size"] = self.size()
+2026-06-04 15:36:47,573  INFO:   OLCIS3A_L2_ERR_OC_NRT: 1 granules found for 2026-03-22
+2026-06-04 15:36:48,363  INFO: Granules found: 1
+2026-06-04 15:36:48,982  INFO:   OLCIS3B_L2_ERR_OC_NRT: 1 granules found for 2026-03-22
+2026-06-04 15:36:48,982  INFO:   Data available for 2026-03-22! Downloading...
+2026-06-04 15:36:49,032  INFO: Logging in to Earthdata via earthaccess...
+2026-06-04 15:36:51,909  INFO: Earthdata login OK.
+2026-06-04 15:36:51,909  INFO: Searching OLCIS3A_L2_EFR_OC_NRT for 2026-03-22...
+2026-06-04 15:36:52,711  INFO: Granules found: 0
+2026-06-04 15:36:53,470  INFO: No results for OLCIS3A_L2_EFR_OC_NRT
+2026-06-04 15:36:53,470  INFO: Searching OLCIS3B_L2_EFR_OC_NRT for 2026-03-22...
+2026-06-04 15:36:54,295  INFO: Granules found: 0
+2026-06-04 15:36:54,920  INFO: No results for OLCIS3B_L2_EFR_OC_NRT
+2026-06-04 15:36:54,920  WARNING:   \u2717 Download failed for 2026-03-22
+2026-06-04 15:36:56,972  INFO: 
+=== Gap filling complete: 0 filled, 4 checked ===
+2026-06-04 15:36:56,972  INFO: Gap detection complete: 0 gaps filled
+2026-06-04 15:36:57,010  INFO: 
+============================================================
+2026-06-04 15:36:57,010  INFO: GAP SUMMARY REPORT
+2026-06-04 15:36:57,010  INFO: ============================================================
+2026-06-04 15:36:57,015  INFO: 
+Gap Status Distribution:
+2026-06-04 15:36:57,015  INFO:   filled: 181
+2026-06-04 15:36:57,015  INFO:   no_extraction: 44
+2026-06-04 15:36:57,015  INFO:   download_failed: 4
+2026-06-04 15:36:57,015  INFO:   missing: 3
+2026-06-04 15:36:57,016  INFO:   available: 2
+2026-06-04 15:36:57,016  INFO:   unavailable: 2
+2026-06-04 15:36:57,017  INFO: 
+Unfilled gaps: 9
+2026-06-04 15:36:57,018  INFO:   Date range: 2026-03-18 to 2026-06-04
+2026-06-04 15:36:57,027  INFO: 
+Gaps checked in last 24 hours: 13
+2026-06-04 15:36:57,027  INFO: ============================================================
+
+2026-06-04 15:36:57,027  INFO: 
+============================================================
+2026-06-04 15:36:57,028  INFO: GENERATING INTERACTIVE LEAFLET MAP WITH LOLLIPOP PLOTS
+2026-06-04 15:36:57,028  INFO: ============================================================
+2026-06-04 15:36:58,543  INFO: \u2713 Interactive Leaflet map with lollipop plots saved to: C:/Users/23755118/OneDrive - UWA/Documents/PhD_Varshani/CODING/chl_time\plots\chlorophyll_timeseries_interactive.html
+2026-06-04 15:36:58,543  INFO: 
+============================================================
+2026-06-04 15:36:58,543  INFO: GENERATING COMPARISON PLOTS
+2026-06-04 15:36:58,543  INFO: ============================================================
+2026-06-04 15:36:58,544  INFO: 
+============================================================
+2026-06-04 15:36:58,544  INFO: GIT COMMIT AND PUSH
+2026-06-04 15:36:58,544  INFO: ============================================================
+2026-06-04 15:37:01,448  INFO: Git commit successful: Auto-update chlorophyll data: 2026-06-04
+2026-06-04 15:37:01,676  INFO: Current branch: main
+2026-06-04 15:37:10,996  INFO: \u2713 Git push successful to main
+2026-06-04 15:37:10,997  INFO: \u2713 Git commit and push completed successfully
+2026-06-04 15:37:11,005  INFO: Cleanup done. Removed 2 files (excluding .nc)
+2026-06-04 15:37:11,005  INFO: 
+============================================================
+2026-06-04 15:37:11,005  INFO: === PIPELINE FINISHED SUCCESSFULLY ===
+2026-06-04 15:37:11,006  INFO: ============================================================
+2026-06-17 13:39:04,864  INFO: === Starting dual-location chlorophyll pipeline ===
+2026-06-17 13:39:04,865  INFO: Location 1: PSDP (-32.20085, 115.77047)
+2026-06-17 13:39:04,865  INFO: Location 2: Mullaloo (-31.782, 115.721)
+2026-06-17 13:39:04,884  INFO: Daily mode: Searching for data for 2026-06-17
+2026-06-17 13:39:04,885  INFO: Logging in to Earthdata via earthaccess...
+2026-06-17 13:39:06,242  INFO: You're now authenticated with NASA Earthdata Login
+2026-06-17 13:39:06,242  INFO: Using token with expiration date 06/23/2026
+2026-06-17 13:39:08,073  INFO: Earthdata login OK.
+2026-06-17 13:39:08,073  INFO: Searching OLCIS3A_L2_EFR_OC_NRT for 2026-06-17...
+2026-06-17 13:39:08,886  INFO: Granules found: 0
+2026-06-17 13:39:09,569  INFO: No results for OLCIS3A_L2_EFR_OC_NRT
+2026-06-17 13:39:09,569  INFO: Searching OLCIS3B_L2_EFR_OC_NRT for 2026-06-17...
+2026-06-17 13:39:20,396  INFO: Granules found: 0
+2026-06-17 13:39:21,054  INFO: No results for OLCIS3B_L2_EFR_OC_NRT
+2026-06-17 13:39:21,055  INFO: No files downloaded for yesterday. Checking availability...
+2026-06-17 13:39:21,055  INFO: Logging in to Earthdata via earthaccess...
+2026-06-17 13:39:22,848  INFO: Earthdata login OK.
+2026-06-17 13:39:23,652  INFO: Granules found: 0
+2026-06-17 13:39:24,400  INFO:   OLCIS3A_L2_ERR_OC_NRT: 0 granules found for 2026-06-17
+2026-06-17 13:39:33,334  INFO: Granules found: 0
+2026-06-17 13:39:34,501  INFO:   OLCIS3B_L2_ERR_OC_NRT: 0 granules found for 2026-06-17
+2026-06-17 13:39:34,502  INFO: No satellite data available for 2026-06-17
+2026-06-17 13:39:34,546  INFO: 
+============================================================
+2026-06-17 13:39:34,546  INFO: STARTING GAP DETECTION
+2026-06-17 13:39:34,547  INFO: ============================================================
+2026-06-17 13:39:34,547  INFO: === Starting gap detection and filling ===
+2026-06-17 13:39:34,601  INFO: 
+--- Checking gap for 2026-03-18 ---
+2026-06-17 13:39:34,610  INFO: Logging in to Earthdata via earthaccess...
+2026-06-17 13:39:36,422  INFO: Earthdata login OK.
+2026-06-17 13:39:43,755  INFO: Granules found: 1
+C:\Users\23755118\AppData\Local\miniconda3\envs\py3_13\Lib\site-packages\earthaccess\results.py:343: FutureWarning: As of version 1.0, `DataGranule.size` will be accessed as an attribute; e.g. use `DataCollection.size` **not** `DataCollection.size()`
+  self["size"] = self.size()
+2026-06-17 13:39:44,435  INFO:   OLCIS3A_L2_ERR_OC_NRT: 1 granules found for 2026-03-18
+2026-06-17 13:39:45,222  INFO: Granules found: 1
+2026-06-17 13:39:45,874  INFO:   OLCIS3B_L2_ERR_OC_NRT: 1 granules found for 2026-03-18
+2026-06-17 13:39:45,875  INFO:   Data available for 2026-03-18! Downloading...
+2026-06-17 13:39:45,894  INFO: Logging in to Earthdata via earthaccess...
+2026-06-17 13:39:47,695  INFO: Earthdata login OK.
+2026-06-17 13:39:47,695  INFO: Searching OLCIS3A_L2_EFR_OC_NRT for 2026-03-18...
+2026-06-17 13:39:52,876  INFO: Granules found: 0
+2026-06-17 13:39:53,523  INFO: No results for OLCIS3A_L2_EFR_OC_NRT
+2026-06-17 13:39:53,524  INFO: Searching OLCIS3B_L2_EFR_OC_NRT for 2026-03-18...
+2026-06-17 13:39:54,324  INFO: Granules found: 0
+2026-06-17 13:39:54,950  INFO: No results for OLCIS3B_L2_EFR_OC_NRT
+2026-06-17 13:39:54,951  WARNING:   \u2717 Download failed for 2026-03-18
+2026-06-17 13:39:56,977  INFO: 
+--- Checking gap for 2026-03-19 ---
+2026-06-17 13:39:56,978  INFO: Skipping 2026-03-19: currently processing or lock not released
+2026-06-17 13:39:56,979  INFO: 
+--- Checking gap for 2026-03-20 ---
+2026-06-17 13:39:56,987  INFO: Logging in to Earthdata via earthaccess...
+2026-06-17 13:39:58,825  INFO: Earthdata login OK.
+2026-06-17 13:39:59,736  INFO: Granules found: 1
+C:\Users\23755118\AppData\Local\miniconda3\envs\py3_13\Lib\site-packages\earthaccess\results.py:343: FutureWarning: As of version 1.0, `DataGranule.size` will be accessed as an attribute; e.g. use `DataCollection.size` **not** `DataCollection.size()`
+  self["size"] = self.size()
+2026-06-17 13:40:00,421  INFO:   OLCIS3A_L2_ERR_OC_NRT: 1 granules found for 2026-03-20
+2026-06-17 13:40:01,219  INFO: Granules found: 0
+2026-06-17 13:40:01,832  INFO:   OLCIS3B_L2_ERR_OC_NRT: 0 granules found for 2026-03-20
+2026-06-17 13:40:01,832  INFO:   Data available for 2026-03-20! Downloading...
+2026-06-17 13:40:01,858  INFO: Logging in to Earthdata via earthaccess...
+2026-06-17 13:40:03,673  INFO: Earthdata login OK.
+2026-06-17 13:40:03,674  INFO: Searching OLCIS3A_L2_EFR_OC_NRT for 2026-03-20...
+2026-06-17 13:40:04,470  INFO: Granules found: 0
+2026-06-17 13:40:05,161  INFO: No results for OLCIS3A_L2_EFR_OC_NRT
+2026-06-17 13:40:05,161  INFO: Searching OLCIS3B_L2_EFR_OC_NRT for 2026-03-20...
+2026-06-17 13:40:14,919  INFO: Granules found: 0
+2026-06-17 13:40:15,547  INFO: No results for OLCIS3B_L2_EFR_OC_NRT
+2026-06-17 13:40:15,547  WARNING:   \u2717 Download failed for 2026-03-20
+2026-06-17 13:40:17,575  INFO: 
+--- Checking gap for 2026-03-21 ---
+2026-06-17 13:40:17,591  INFO: Logging in to Earthdata via earthaccess...
+2026-06-17 13:40:19,417  INFO: Earthdata login OK.
+2026-06-17 13:40:21,695  INFO: Granules found: 0
+2026-06-17 13:40:22,304  INFO:   OLCIS3A_L2_ERR_OC_NRT: 0 granules found for 2026-03-21
+2026-06-17 13:40:23,084  INFO: Granules found: 1
+C:\Users\23755118\AppData\Local\miniconda3\envs\py3_13\Lib\site-packages\earthaccess\results.py:343: FutureWarning: As of version 1.0, `DataGranule.size` will be accessed as an attribute; e.g. use `DataCollection.size` **not** `DataCollection.size()`
+  self["size"] = self.size()
+2026-06-17 13:40:25,341  INFO:   OLCIS3B_L2_ERR_OC_NRT: 1 granules found for 2026-03-21
+2026-06-17 13:40:25,341  INFO:   Data available for 2026-03-21! Downloading...
+2026-06-17 13:40:25,371  INFO: Logging in to Earthdata via earthaccess...
+2026-06-17 13:40:27,212  INFO: Earthdata login OK.
+2026-06-17 13:40:27,212  INFO: Searching OLCIS3A_L2_EFR_OC_NRT for 2026-03-21...
+2026-06-17 13:40:28,021  INFO: Granules found: 0
+2026-06-17 13:40:28,661  INFO: No results for OLCIS3A_L2_EFR_OC_NRT
+2026-06-17 13:40:28,661  INFO: Searching OLCIS3B_L2_EFR_OC_NRT for 2026-03-21...
+2026-06-17 13:40:29,449  INFO: Granules found: 0
+2026-06-17 13:40:30,077  INFO: No results for OLCIS3B_L2_EFR_OC_NRT
+2026-06-17 13:40:30,077  WARNING:   \u2717 Download failed for 2026-03-21
+2026-06-17 13:40:32,106  INFO: 
+--- Checking gap for 2026-03-22 ---
+2026-06-17 13:40:32,111  INFO: Logging in to Earthdata via earthaccess...
+2026-06-17 13:40:33,906  INFO: Earthdata login OK.
+2026-06-17 13:40:37,944  INFO: Granules found: 1
+C:\Users\23755118\AppData\Local\miniconda3\envs\py3_13\Lib\site-packages\earthaccess\results.py:343: FutureWarning: As of version 1.0, `DataGranule.size` will be accessed as an attribute; e.g. use `DataCollection.size` **not** `DataCollection.size()`
+  self["size"] = self.size()
+2026-06-17 13:40:38,601  INFO:   OLCIS3A_L2_ERR_OC_NRT: 1 granules found for 2026-03-22
+2026-06-17 13:40:39,373  INFO: Granules found: 1
+2026-06-17 13:40:41,219  INFO:   OLCIS3B_L2_ERR_OC_NRT: 1 granules found for 2026-03-22
+2026-06-17 13:40:41,219  INFO:   Data available for 2026-03-22! Downloading...
+2026-06-17 13:40:41,248  INFO: Logging in to Earthdata via earthaccess...
+2026-06-17 13:40:43,087  INFO: Earthdata login OK.
+2026-06-17 13:40:43,087  INFO: Searching OLCIS3A_L2_EFR_OC_NRT for 2026-03-22...
+2026-06-17 13:40:43,882  INFO: Granules found: 0
+2026-06-17 13:40:44,641  INFO: No results for OLCIS3A_L2_EFR_OC_NRT
+2026-06-17 13:40:44,641  INFO: Searching OLCIS3B_L2_EFR_OC_NRT for 2026-03-22...
+2026-06-17 13:40:45,428  INFO: Granules found: 0
+2026-06-17 13:40:46,066  INFO: No results for OLCIS3B_L2_EFR_OC_NRT
+2026-06-17 13:40:46,066  WARNING:   \u2717 Download failed for 2026-03-22
+2026-06-17 13:40:48,098  INFO: 
+=== Gap filling complete: 0 filled, 4 checked ===
+2026-06-17 13:40:48,099  INFO: Gap detection complete: 0 gaps filled
+2026-06-17 13:40:48,136  INFO: 
+============================================================
+2026-06-17 13:40:48,136  INFO: GAP SUMMARY REPORT
+2026-06-17 13:40:48,136  INFO: ============================================================
+2026-06-17 13:40:48,137  INFO: 
+Gap Status Distribution:
+2026-06-17 13:40:48,137  INFO:   filled: 183
+2026-06-17 13:40:48,137  INFO:   no_extraction: 51
+2026-06-17 13:40:48,137  INFO:   download_failed: 4
+2026-06-17 13:40:48,137  INFO:   missing: 3
+2026-06-17 13:40:48,137  INFO:   available: 2
+2026-06-17 13:40:48,137  INFO:   unavailable: 2
+2026-06-17 13:40:48,138  INFO: 
+Unfilled gaps: 9
+2026-06-17 13:40:48,138  INFO:   Date range: 2026-03-18 to 2026-06-17
+2026-06-17 13:40:48,141  INFO: 
+Gaps checked in last 24 hours: 17
+2026-06-17 13:40:48,141  INFO: ============================================================
+
+2026-06-17 13:40:48,141  INFO: 
+============================================================
+2026-06-17 13:40:48,141  INFO: GENERATING INTERACTIVE LEAFLET MAP WITH LOLLIPOP PLOTS
+2026-06-17 13:40:48,141  INFO: ============================================================
+2026-06-17 13:40:48,902  INFO: \u2713 Interactive Leaflet map with lollipop plots saved to: C:/Users/23755118/OneDrive - UWA/Documents/PhD_Varshani/CODING/chl_time\plots\chlorophyll_timeseries_interactive.html
+2026-06-17 13:40:48,903  INFO: 
+============================================================
+2026-06-17 13:40:48,903  INFO: GENERATING COMPARISON PLOTS
+2026-06-17 13:40:48,903  INFO: ============================================================
+2026-06-17 13:40:48,903  INFO: 
+============================================================
+2026-06-17 13:40:48,903  INFO: GIT COMMIT AND PUSH
+2026-06-17 13:40:48,903  INFO: ============================================================
