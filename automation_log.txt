@@ -1120,3 +1120,20 @@ Found Mullaloo data file
  
 Running dual-location pipeline... 
 ================================================ 
+================================================ 
+DUAL-LOCATION PIPELINE (PSDP + Mullaloo) 
+Task started at: Thu 20/08/2026 10:48:36.31 
+Directory: C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time 
+================================================ 
+ 
+Checking Python... 
+Python 3.13.13
+Python found successfully 
+Verifying required packages... 
+All packages OK
+Checking for data files... 
+Found PSDP data file 
+Found Mullaloo data file 
+ 
+Running dual-location pipeline... 
+================================================ 
