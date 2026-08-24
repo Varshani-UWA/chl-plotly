@@ -16,11 +16,11 @@ date,status,available,granule_count,last_checked
 2025-10-26,no_extraction,True,1,
 2025-10-27,filled,True,1,
 2025-10-28,filled,True,2,
-2025-10-29,filled,True,1,2026-08-21
-2025-10-30,filled,True,2,2026-08-21
-2025-10-31,filled,True,1,2026-08-21
-2025-11-01,filled,True,1,2026-08-21
-2025-11-02,filled,True,1,2026-08-21
+2025-10-29,filled,True,1,2026-08-24
+2025-10-30,filled,True,2,2026-08-24
+2025-10-31,filled,True,1,2026-08-24
+2025-11-01,filled,True,1,2026-08-24
+2025-11-02,filled,True,1,2026-08-24
 2025-11-03,filled,True,3,2025-11-04
 2025-11-04,filled,True,1,2025-11-06
 2025-11-05,filled,True,1,2025-11-07
@@ -309,3 +309,4 @@ date,status,available,granule_count,last_checked
 2026-08-19,no_extraction,True,171,2026-08-19
 2026-08-20,unavailable,False,0,2026-08-20
 2026-08-21,unavailable,False,0,2026-08-21
+2026-08-24,unavailable,False,0,2026-08-24
