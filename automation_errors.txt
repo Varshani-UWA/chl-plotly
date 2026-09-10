@@ -170928,3 +170928,962 @@ Gaps checked in last 24 hours: 6
 ============================================================
 2026-09-08 14:08:39,098  INFO: GENERATING INTERACTIVE LEAFLET MAP WITH LOLLIPOP PLOTS
 2026-09-08 14:08:39,098  INFO: ============================================================
+2026-09-08 14:08:41,275  INFO: \u2713 Interactive Leaflet map with lollipop plots saved to: C:/Users/23755118/OneDrive - UWA/Documents/PhD_Varshani/CODING/chl_time\plots\chlorophyll_timeseries_interactive.html
+2026-09-08 14:08:41,278  INFO: 
+============================================================
+2026-09-08 14:08:41,278  INFO: GENERATING COMPARISON PLOTS
+2026-09-08 14:08:41,279  INFO: ============================================================
+2026-09-08 14:08:41,280  INFO: 
+============================================================
+2026-09-08 14:08:41,280  INFO: GIT COMMIT AND PUSH
+2026-09-08 14:08:41,280  INFO: ============================================================
+2026-09-08 14:08:48,025  INFO: Git commit successful: Auto-update chlorophyll data: 2026-09-08
+2026-09-08 14:08:48,446  INFO: Current branch: main
+2026-09-08 14:08:59,469  INFO: \u2713 Git push successful to main
+2026-09-08 14:08:59,469  INFO: \u2713 Git commit and push completed successfully
+2026-09-08 14:08:59,478  ERROR: Failed cleaning C:/Users/23755118/OneDrive - UWA/Documents/PhD_Varshani/CODING/chl_time\plots
+Traceback (most recent call last):
+  File "C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py", line 1497, in cleanup_old_files
+  File "C:\Users\23755118\AppData\Local\miniconda3\envs\py3_13\Lib\shutil.py", line 790, in rmtree
+    return _rmtree_unsafe(path, onexc)
+  File "C:\Users\23755118\AppData\Local\miniconda3\envs\py3_13\Lib\shutil.py", line 635, in _rmtree_unsafe
+    onexc(os.rmdir, path, err)
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\23755118\AppData\Local\miniconda3\envs\py3_13\Lib\shutil.py", line 631, in _rmtree_unsafe
+    os.rmdir(path)
+    ~~~~~~~~^^^^^^
+PermissionError: [WinError 5] Access is denied: 'C:/Users/23755118/OneDrive - UWA/Documents/PhD_Varshani/CODING/chl_time\\plots'
+2026-09-08 14:08:59,556  INFO: Cleanup done. Removed 2 files (excluding .nc)
+2026-09-08 14:08:59,556  INFO: 
+============================================================
+2026-09-08 14:08:59,556  INFO: === PIPELINE FINISHED SUCCESSFULLY ===
+2026-09-08 14:08:59,556  INFO: ============================================================
+2026-09-10 13:14:04,115  INFO: === Starting dual-location chlorophyll pipeline ===
+2026-09-10 13:14:04,118  INFO: Location 1: PSDP (-32.20085, 115.77047)
+2026-09-10 13:14:04,119  INFO: Location 2: Mullaloo (-31.782, 115.721)
+2026-09-10 13:14:04,176  INFO: Daily mode: Searching for data for 2026-09-10
+2026-09-10 13:14:04,177  INFO: Logging in to Earthdata via earthaccess...
+2026-09-10 13:14:05,730  INFO: You're now authenticated with NASA Earthdata Login
+2026-09-10 13:14:05,731  INFO: Using token with expiration date 10/02/2026
+2026-09-10 13:14:08,722  INFO: Earthdata login OK.
+2026-09-10 13:14:08,722  INFO: Searching OLCIS3A_L2_EFR_OC_NRT for 2026-09-10...
+2026-09-10 13:14:09,617  INFO: Granules found: 0
+2026-09-10 13:14:10,301  INFO: No results for OLCIS3A_L2_EFR_OC_NRT
+2026-09-10 13:14:10,302  INFO: Searching OLCIS3B_L2_EFR_OC_NRT for 2026-09-10...
+2026-09-10 13:14:11,156  INFO: Granules found: 0
+2026-09-10 13:14:11,852  INFO: No results for OLCIS3B_L2_EFR_OC_NRT
+2026-09-10 13:14:11,853  INFO: No files downloaded for yesterday. Checking availability...
+2026-09-10 13:14:11,853  INFO: Logging in to Earthdata via earthaccess...
+2026-09-10 13:14:14,845  INFO: Earthdata login OK.
+2026-09-10 13:14:15,682  INFO: Granules found: 0
+2026-09-10 13:14:16,336  INFO:   OLCIS3A_L2_ERR_OC_NRT: 0 granules found for 2026-09-10
+2026-09-10 13:14:17,205  INFO: Granules found: 0
+2026-09-10 13:14:17,919  INFO:   OLCIS3B_L2_ERR_OC_NRT: 0 granules found for 2026-09-10
+2026-09-10 13:14:17,920  INFO: No satellite data available for 2026-09-10
+2026-09-10 13:14:18,009  INFO: 
+============================================================
+2026-09-10 13:14:18,009  INFO: STARTING GAP DETECTION
+2026-09-10 13:14:18,010  INFO: ============================================================
+2026-09-10 13:14:18,011  INFO: === Starting gap detection and filling ===
+2026-09-10 13:14:18,075  INFO: 
+--- Checking gap for 2025-10-29 ---
+2026-09-10 13:14:18,089  INFO: Logging in to Earthdata via earthaccess...
+2026-09-10 13:14:21,043  INFO: Earthdata login OK.
+2026-09-10 13:14:21,866  INFO: Granules found: 0
+2026-09-10 13:14:22,515  INFO:   OLCIS3A_L2_ERR_OC_NRT: 0 granules found for 2025-10-29
+2026-09-10 13:14:23,343  INFO: Granules found: 1
+C:\Users\23755118\AppData\Local\miniconda3\envs\py3_13\Lib\site-packages\earthaccess\results.py:343: FutureWarning: As of version 1.0, `DataGranule.size` will be accessed as an attribute; e.g. use `DataCollection.size` **not** `DataCollection.size()`
+  self["size"] = self.size()
+2026-09-10 13:14:24,116  INFO:   OLCIS3B_L2_ERR_OC_NRT: 1 granules found for 2025-10-29
+2026-09-10 13:14:24,116  INFO:   Data available for 2025-10-29! Downloading...
+2026-09-10 13:14:24,140  INFO: Logging in to Earthdata via earthaccess...
+2026-09-10 13:14:27,105  INFO: Earthdata login OK.
+2026-09-10 13:14:27,105  INFO: Searching OLCIS3A_L2_EFR_OC_NRT for 2025-10-29...
+2026-09-10 13:14:27,927  INFO: Granules found: 0
+2026-09-10 13:14:28,612  INFO: No results for OLCIS3A_L2_EFR_OC_NRT
+2026-09-10 13:14:28,612  INFO: Searching OLCIS3B_L2_EFR_OC_NRT for 2025-10-29...
+2026-09-10 13:14:29,548  INFO: Granules found: 1
+C:\Users\23755118\AppData\Local\miniconda3\envs\py3_13\Lib\site-packages\earthaccess\results.py:343: FutureWarning: As of version 1.0, `DataGranule.size` will be accessed as an attribute; e.g. use `DataCollection.size` **not** `DataCollection.size()`
+  self["size"] = self.size()
+2026-09-10 13:14:30,246  INFO: Found 1 items. Downloading...
+C:\Users\23755118\AppData\Local\miniconda3\envs\py3_13\Lib\site-packages\earthaccess\store.py:832: FutureWarning: As of version 1.0, `DataGranule.size` will be accessed as an attribute; e.g. use `DataCollection.size` **not** `DataCollection.size()`
+  total_size = round(sum(granule.size() for granule in granules) / 1024, 2)
+2026-09-10 13:14:32,027  INFO:  Getting 1 granules, approx download size: 0.13 GB
+2026-09-10 13:14:32,033  INFO: File S3B_OLCI_EFRNT.20251029T015704.L2.OC.NRT.nc already downloaded
+2026-09-10 13:14:33,037  INFO:   Downloaded 25 files
+2026-09-10 13:14:33,037  INFO: PSDP - Starting to process 25 files...
+2026-09-10 13:14:33,068  INFO: PSDP - Processing file 1/25: S3A_OLCI_EFRNT.20251030T020934.L2.OC.NRT.nc
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:456: RuntimeWarning: Mean of empty slice
+  chl_mean_3x3 = np.nanmean(region_3x3)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:471: RuntimeWarning: Mean of empty slice
+  chl_mean_4x4 = np.nanmean(region_4x4)
+2026-09-10 13:14:37,267  WARNING: Both 3x3 and 4x4 extraction returned NaN
+2026-09-10 13:14:37,310  WARNING: PSDP - Processed S3A_OLCI_EFRNT.20251030T020934.L2.OC.NRT.nc -> 2025-10-30, chl=NaN (marked noextraction)
+2026-09-10 13:14:37,310  INFO: PSDP - Processing file 2/25: S3A_OLCI_EFRNT.20251031T014323.L2.OC.NRT.nc
+2026-09-10 13:14:40,318  INFO: PSDP - Processed S3A_OLCI_EFRNT.20251031T014323.L2.OC.NRT.nc -> 2025-10-31, chl=5.3658
+2026-09-10 13:14:40,318  INFO: PSDP - Processing file 3/25: S3A_OLCI_EFRNT.20251101T011712.L2.OC.NRT.nc
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:456: RuntimeWarning: Mean of empty slice
+  chl_mean_3x3 = np.nanmean(region_3x3)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:471: RuntimeWarning: Mean of empty slice
+  chl_mean_4x4 = np.nanmean(region_4x4)
+2026-09-10 13:14:43,541  WARNING: Both 3x3 and 4x4 extraction returned NaN
+2026-09-10 13:14:43,586  WARNING: PSDP - Processed S3A_OLCI_EFRNT.20251101T011712.L2.OC.NRT.nc -> 2025-11-01, chl=NaN (marked noextraction)
+2026-09-10 13:14:43,586  INFO: PSDP - Processing file 4/25: S3A_OLCI_EFRNT.20251101T012012.L2.OC.NRT.nc
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:456: RuntimeWarning: Mean of empty slice
+  chl_mean_3x3 = np.nanmean(region_3x3)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:471: RuntimeWarning: Mean of empty slice
+  chl_mean_4x4 = np.nanmean(region_4x4)
+2026-09-10 13:14:47,143  WARNING: Both 3x3 and 4x4 extraction returned NaN
+2026-09-10 13:14:47,190  WARNING: PSDP - Processed S3A_OLCI_EFRNT.20251101T012012.L2.OC.NRT.nc -> 2025-11-01, chl=NaN (marked noextraction)
+2026-09-10 13:14:47,191  INFO: PSDP - Processing file 5/25: S3A_OLCI_ERRNT.20260728T010723.L2.OC.NRT.nc
+2026-09-10 13:14:49,706  INFO: PSDP - Processed S3A_OLCI_ERRNT.20260728T010723.L2.OC.NRT.nc -> 2026-07-28, chl=3.4437
+2026-09-10 13:14:49,707  INFO: PSDP - Processing file 6/25: S3A_OLCI_ERRNT.20260806T003426.L2.OC.NRT.nc
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:456: RuntimeWarning: Mean of empty slice
+  chl_mean_3x3 = np.nanmean(region_3x3)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:471: RuntimeWarning: Mean of empty slice
+  chl_mean_4x4 = np.nanmean(region_4x4)
+2026-09-10 13:14:52,154  WARNING: Both 3x3 and 4x4 extraction returned NaN
+2026-09-10 13:14:52,197  WARNING: PSDP - Processed S3A_OLCI_ERRNT.20260806T003426.L2.OC.NRT.nc -> 2026-08-06, chl=NaN (marked noextraction)
+2026-09-10 13:14:52,197  INFO: PSDP - Processing file 7/25: S3A_OLCI_ERRNT.20260808T012314.L2.OC.NRT.nc
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:456: RuntimeWarning: Mean of empty slice
+  chl_mean_3x3 = np.nanmean(region_3x3)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:471: RuntimeWarning: Mean of empty slice
+  chl_mean_4x4 = np.nanmean(region_4x4)
+2026-09-10 13:14:54,494  WARNING: Both 3x3 and 4x4 extraction returned NaN
+2026-09-10 13:14:54,534  WARNING: PSDP - Processed S3A_OLCI_ERRNT.20260808T012314.L2.OC.NRT.nc -> 2026-08-08, chl=NaN (marked noextraction)
+2026-09-10 13:14:54,534  INFO: PSDP - Processing file 8/25: S3A_OLCI_ERRNT.20260809T005707.L2.OC.NRT.nc
+2026-09-10 13:14:56,794  INFO: PSDP - Processed S3A_OLCI_ERRNT.20260809T005707.L2.OC.NRT.nc -> 2026-08-09, chl=2.0837
+2026-09-10 13:14:56,794  INFO: PSDP - Processing file 9/25: S3A_OLCI_ERRNT.20260812T011951.L2.OC.NRT.nc
+2026-09-10 13:14:59,180  INFO: PSDP - Processed S3A_OLCI_ERRNT.20260812T011951.L2.OC.NRT.nc -> 2026-08-12, chl=4.4215
+2026-09-10 13:14:59,181  INFO: PSDP - Processing file 10/25: S3A_OLCI_ERRNT.20260813T005345.L2.OC.NRT.nc
+2026-09-10 13:15:01,356  INFO: PSDP - Processed S3A_OLCI_ERRNT.20260813T005345.L2.OC.NRT.nc -> 2026-08-13, chl=4.4144
+2026-09-10 13:15:01,356  INFO: PSDP - Processing file 11/25: S3A_OLCI_ERRNT.20260816T011630.L2.OC.NRT.nc
+2026-09-10 13:15:03,594  INFO: PSDP - Processed S3A_OLCI_ERRNT.20260816T011630.L2.OC.NRT.nc -> 2026-08-16, chl=4.0160
+2026-09-10 13:15:03,594  INFO: PSDP - Processing file 12/25: S3A_OLCI_ERRNT.20260817T005025.L2.OC.NRT.nc
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:456: RuntimeWarning: Mean of empty slice
+  chl_mean_3x3 = np.nanmean(region_3x3)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:471: RuntimeWarning: Mean of empty slice
+  chl_mean_4x4 = np.nanmean(region_4x4)
+2026-09-10 13:15:05,840  WARNING: Both 3x3 and 4x4 extraction returned NaN
+2026-09-10 13:15:05,882  WARNING: PSDP - Processed S3A_OLCI_ERRNT.20260817T005025.L2.OC.NRT.nc -> 2026-08-17, chl=NaN (marked noextraction)
+2026-09-10 13:15:05,883  INFO: PSDP - Processing file 13/25: S3B_OLCI_EFRNT.20251029T015704.L2.OC.NRT.nc
+2026-09-10 13:15:08,709  INFO: PSDP - Processed S3B_OLCI_EFRNT.20251029T015704.L2.OC.NRT.nc -> 2025-10-29, chl=3.3591
+2026-09-10 13:15:08,709  INFO: PSDP - Processing file 14/25: S3B_OLCI_EFRNT.20251030T013053.L2.OC.NRT.nc
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:456: RuntimeWarning: Mean of empty slice
+  chl_mean_3x3 = np.nanmean(region_3x3)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:471: RuntimeWarning: Mean of empty slice
+  chl_mean_4x4 = np.nanmean(region_4x4)
+2026-09-10 13:15:11,566  WARNING: Both 3x3 and 4x4 extraction returned NaN
+2026-09-10 13:15:11,613  WARNING: PSDP - Processed S3B_OLCI_EFRNT.20251030T013053.L2.OC.NRT.nc -> 2025-10-30, chl=NaN (marked noextraction)
+2026-09-10 13:15:11,613  INFO: PSDP - Processing file 15/25: S3B_OLCI_EFRNT.20251030T013353.L2.OC.NRT.nc
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:456: RuntimeWarning: Mean of empty slice
+  chl_mean_3x3 = np.nanmean(region_3x3)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:471: RuntimeWarning: Mean of empty slice
+  chl_mean_4x4 = np.nanmean(region_4x4)
+2026-09-10 13:15:14,916  WARNING: Both 3x3 and 4x4 extraction returned NaN
+2026-09-10 13:15:14,958  WARNING: PSDP - Processed S3B_OLCI_EFRNT.20251030T013353.L2.OC.NRT.nc -> 2025-10-30, chl=NaN (marked noextraction)
+2026-09-10 13:15:14,958  INFO: PSDP - Processing file 16/25: S3B_OLCI_EFRNT.20251102T015319.L2.OC.NRT.nc
+2026-09-10 13:15:18,207  INFO: PSDP - Processed S3B_OLCI_EFRNT.20251102T015319.L2.OC.NRT.nc -> 2025-11-02, chl=7.3044
+2026-09-10 13:15:18,207  INFO: PSDP - Processing file 17/25: S3B_OLCI_ERRNT.20260807T011039.L2.OC.NRT.nc
+2026-09-10 13:15:20,461  INFO: PSDP - Processed S3B_OLCI_ERRNT.20260807T011039.L2.OC.NRT.nc -> 2026-08-07, chl=1.2564
+2026-09-10 13:15:20,462  INFO: PSDP - Processing file 18/25: S3B_OLCI_ERRNT.20260808T004433.L2.OC.NRT.nc
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:456: RuntimeWarning: Mean of empty slice
+  chl_mean_3x3 = np.nanmean(region_3x3)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:471: RuntimeWarning: Mean of empty slice
+  chl_mean_4x4 = np.nanmean(region_4x4)
+2026-09-10 13:15:22,664  WARNING: Both 3x3 and 4x4 extraction returned NaN
+2026-09-10 13:15:22,692  WARNING: PSDP - Processed S3B_OLCI_ERRNT.20260808T004433.L2.OC.NRT.nc -> 2026-08-08, chl=NaN (marked noextraction)
+2026-09-10 13:15:22,693  INFO: PSDP - Processing file 19/25: S3B_OLCI_ERRNT.20260810T013321.L2.OC.NRT.nc
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:456: RuntimeWarning: Mean of empty slice
+  chl_mean_3x3 = np.nanmean(region_3x3)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:471: RuntimeWarning: Mean of empty slice
+  chl_mean_4x4 = np.nanmean(region_4x4)
+2026-09-10 13:15:24,907  WARNING: Both 3x3 and 4x4 extraction returned NaN
+2026-09-10 13:15:24,934  WARNING: PSDP - Processed S3B_OLCI_ERRNT.20260810T013321.L2.OC.NRT.nc -> 2026-08-10, chl=NaN (marked noextraction)
+2026-09-10 13:15:24,934  INFO: PSDP - Processing file 20/25: S3B_OLCI_ERRNT.20260811T010717.L2.OC.NRT.nc
+2026-09-10 13:15:27,261  INFO: PSDP - Processed S3B_OLCI_ERRNT.20260811T010717.L2.OC.NRT.nc -> 2026-08-11, chl=3.2078
+2026-09-10 13:15:27,261  INFO: PSDP - Processing file 21/25: S3B_OLCI_ERRNT.20260812T004111.L2.OC.NRT.nc
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:456: RuntimeWarning: Mean of empty slice
+  chl_mean_3x3 = np.nanmean(region_3x3)
+2026-09-10 13:15:29,681  INFO: 4x4 extraction successful: 4.1361 (3x3 was all NaN)
+2026-09-10 13:15:29,731  INFO: PSDP - Processed S3B_OLCI_ERRNT.20260812T004111.L2.OC.NRT.nc -> 2026-08-12, chl=4.1361
+2026-09-10 13:15:29,731  INFO: PSDP - Processing file 22/25: S3B_OLCI_ERRNT.20260814T012959.L2.OC.NRT.nc
+2026-09-10 13:15:32,076  INFO: PSDP - Processed S3B_OLCI_ERRNT.20260814T012959.L2.OC.NRT.nc -> 2026-08-14, chl=3.8839
+2026-09-10 13:15:32,077  INFO: PSDP - Processing file 23/25: S3B_OLCI_ERRNT.20260815T010354.L2.OC.NRT.nc
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:456: RuntimeWarning: Mean of empty slice
+  chl_mean_3x3 = np.nanmean(region_3x3)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:471: RuntimeWarning: Mean of empty slice
+  chl_mean_4x4 = np.nanmean(region_4x4)
+2026-09-10 13:15:34,316  WARNING: Both 3x3 and 4x4 extraction returned NaN
+2026-09-10 13:15:34,353  WARNING: PSDP - Processed S3B_OLCI_ERRNT.20260815T010354.L2.OC.NRT.nc -> 2026-08-15, chl=NaN (marked noextraction)
+2026-09-10 13:15:34,354  INFO: PSDP - Processing file 24/25: S3B_OLCI_ERRNT.20260816T003750.L2.OC.NRT.nc
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:456: RuntimeWarning: Mean of empty slice
+  chl_mean_3x3 = np.nanmean(region_3x3)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:471: RuntimeWarning: Mean of empty slice
+  chl_mean_4x4 = np.nanmean(region_4x4)
+2026-09-10 13:15:36,532  WARNING: Both 3x3 and 4x4 extraction returned NaN
+2026-09-10 13:15:36,566  WARNING: PSDP - Processed S3B_OLCI_ERRNT.20260816T003750.L2.OC.NRT.nc -> 2026-08-16, chl=NaN (marked noextraction)
+2026-09-10 13:15:36,566  INFO: PSDP - Processing file 25/25: S3B_OLCI_ERRNT.20260818T012639.L2.OC.NRT.nc
+2026-09-10 13:15:38,776  INFO: PSDP - Processed S3B_OLCI_ERRNT.20260818T012639.L2.OC.NRT.nc -> 2026-08-18, chl=1.3046
+2026-09-10 13:15:38,786  INFO: PSDP - Extracted 19 valid records from 25 files
+2026-09-10 13:15:38,817  INFO: PSDP - Existing CSV has 3158 records
+2026-09-10 13:15:38,823  INFO: PSDP - After merge: 3158 total records (0 new)
+2026-09-10 13:15:38,844  INFO: \u2713 PSDP - CSV saved: C:/Users/23755118/OneDrive - UWA/Documents/PhD_Varshani/CODING/chl_time\chl_timeseries_psdp.csv (3158 rows)
+2026-09-10 13:15:38,878  INFO: \u2713 PSDP - CSV verified: 3158 rows on disk
+2026-09-10 13:15:38,900  INFO: Mullaloo - Starting to process 25 files...
+2026-09-10 13:15:38,921  INFO: Mullaloo - Processing file 1/25: S3A_OLCI_EFRNT.20251030T020934.L2.OC.NRT.nc
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:456: RuntimeWarning: Mean of empty slice
+  chl_mean_3x3 = np.nanmean(region_3x3)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:471: RuntimeWarning: Mean of empty slice
+  chl_mean_4x4 = np.nanmean(region_4x4)
+2026-09-10 13:15:41,929  WARNING: Both 3x3 and 4x4 extraction returned NaN
+2026-09-10 13:15:41,969  WARNING: Mullaloo - Processed S3A_OLCI_EFRNT.20251030T020934.L2.OC.NRT.nc -> 2025-10-30, chl=NaN (marked noextraction)
+2026-09-10 13:15:41,970  INFO: Mullaloo - Processing file 2/25: S3A_OLCI_EFRNT.20251031T014323.L2.OC.NRT.nc
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:456: RuntimeWarning: Mean of empty slice
+  chl_mean_3x3 = np.nanmean(region_3x3)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:471: RuntimeWarning: Mean of empty slice
+  chl_mean_4x4 = np.nanmean(region_4x4)
+2026-09-10 13:15:44,865  WARNING: Both 3x3 and 4x4 extraction returned NaN
+2026-09-10 13:15:44,894  WARNING: Mullaloo - Processed S3A_OLCI_EFRNT.20251031T014323.L2.OC.NRT.nc -> 2025-10-31, chl=NaN (marked noextraction)
+2026-09-10 13:15:44,894  INFO: Mullaloo - Processing file 3/25: S3A_OLCI_EFRNT.20251101T011712.L2.OC.NRT.nc
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:456: RuntimeWarning: Mean of empty slice
+  chl_mean_3x3 = np.nanmean(region_3x3)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:471: RuntimeWarning: Mean of empty slice
+  chl_mean_4x4 = np.nanmean(region_4x4)
+2026-09-10 13:15:47,365  WARNING: Both 3x3 and 4x4 extraction returned NaN
+2026-09-10 13:15:47,406  WARNING: Mullaloo - Processed S3A_OLCI_EFRNT.20251101T011712.L2.OC.NRT.nc -> 2025-11-01, chl=NaN (marked noextraction)
+2026-09-10 13:15:47,407  INFO: Mullaloo - Processing file 4/25: S3A_OLCI_EFRNT.20251101T012012.L2.OC.NRT.nc
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:456: RuntimeWarning: Mean of empty slice
+  chl_mean_3x3 = np.nanmean(region_3x3)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:471: RuntimeWarning: Mean of empty slice
+  chl_mean_4x4 = np.nanmean(region_4x4)
+2026-09-10 13:15:50,268  WARNING: Both 3x3 and 4x4 extraction returned NaN
+2026-09-10 13:15:50,297  WARNING: Mullaloo - Processed S3A_OLCI_EFRNT.20251101T012012.L2.OC.NRT.nc -> 2025-11-01, chl=NaN (marked noextraction)
+2026-09-10 13:15:50,297  INFO: Mullaloo - Processing file 5/25: S3A_OLCI_ERRNT.20260728T010723.L2.OC.NRT.nc
+2026-09-10 13:15:52,575  INFO: Mullaloo - Processed S3A_OLCI_ERRNT.20260728T010723.L2.OC.NRT.nc -> 2026-07-28, chl=4.1702
+2026-09-10 13:15:52,575  INFO: Mullaloo - Processing file 6/25: S3A_OLCI_ERRNT.20260806T003426.L2.OC.NRT.nc
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:456: RuntimeWarning: Mean of empty slice
+  chl_mean_3x3 = np.nanmean(region_3x3)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:471: RuntimeWarning: Mean of empty slice
+  chl_mean_4x4 = np.nanmean(region_4x4)
+2026-09-10 13:15:54,788  WARNING: Both 3x3 and 4x4 extraction returned NaN
+2026-09-10 13:15:54,821  WARNING: Mullaloo - Processed S3A_OLCI_ERRNT.20260806T003426.L2.OC.NRT.nc -> 2026-08-06, chl=NaN (marked noextraction)
+2026-09-10 13:15:54,821  INFO: Mullaloo - Processing file 7/25: S3A_OLCI_ERRNT.20260808T012314.L2.OC.NRT.nc
+2026-09-10 13:15:57,250  INFO: Mullaloo - Processed S3A_OLCI_ERRNT.20260808T012314.L2.OC.NRT.nc -> 2026-08-08, chl=1.8230
+2026-09-10 13:15:57,250  INFO: Mullaloo - Processing file 8/25: S3A_OLCI_ERRNT.20260809T005707.L2.OC.NRT.nc
+2026-09-10 13:15:59,742  INFO: Mullaloo - Processed S3A_OLCI_ERRNT.20260809T005707.L2.OC.NRT.nc -> 2026-08-09, chl=3.6958
+2026-09-10 13:15:59,743  INFO: Mullaloo - Processing file 9/25: S3A_OLCI_ERRNT.20260812T011951.L2.OC.NRT.nc
+2026-09-10 13:16:02,160  INFO: Mullaloo - Processed S3A_OLCI_ERRNT.20260812T011951.L2.OC.NRT.nc -> 2026-08-12, chl=2.7176
+2026-09-10 13:16:02,160  INFO: Mullaloo - Processing file 10/25: S3A_OLCI_ERRNT.20260813T005345.L2.OC.NRT.nc
+2026-09-10 13:16:04,673  INFO: Mullaloo - Processed S3A_OLCI_ERRNT.20260813T005345.L2.OC.NRT.nc -> 2026-08-13, chl=3.4036
+2026-09-10 13:16:04,674  INFO: Mullaloo - Processing file 11/25: S3A_OLCI_ERRNT.20260816T011630.L2.OC.NRT.nc
+2026-09-10 13:16:06,963  INFO: Mullaloo - Processed S3A_OLCI_ERRNT.20260816T011630.L2.OC.NRT.nc -> 2026-08-16, chl=10.6628
+2026-09-10 13:16:06,963  INFO: Mullaloo - Processing file 12/25: S3A_OLCI_ERRNT.20260817T005025.L2.OC.NRT.nc
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:456: RuntimeWarning: Mean of empty slice
+  chl_mean_3x3 = np.nanmean(region_3x3)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:471: RuntimeWarning: Mean of empty slice
+  chl_mean_4x4 = np.nanmean(region_4x4)
+2026-09-10 13:16:09,169  WARNING: Both 3x3 and 4x4 extraction returned NaN
+2026-09-10 13:16:09,200  WARNING: Mullaloo - Processed S3A_OLCI_ERRNT.20260817T005025.L2.OC.NRT.nc -> 2026-08-17, chl=NaN (marked noextraction)
+2026-09-10 13:16:09,200  INFO: Mullaloo - Processing file 13/25: S3B_OLCI_EFRNT.20251029T015704.L2.OC.NRT.nc
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:456: RuntimeWarning: Mean of empty slice
+  chl_mean_3x3 = np.nanmean(region_3x3)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:471: RuntimeWarning: Mean of empty slice
+  chl_mean_4x4 = np.nanmean(region_4x4)
+2026-09-10 13:16:12,198  WARNING: Both 3x3 and 4x4 extraction returned NaN
+2026-09-10 13:16:12,241  WARNING: Mullaloo - Processed S3B_OLCI_EFRNT.20251029T015704.L2.OC.NRT.nc -> 2025-10-29, chl=NaN (marked noextraction)
+2026-09-10 13:16:12,241  INFO: Mullaloo - Processing file 14/25: S3B_OLCI_EFRNT.20251030T013053.L2.OC.NRT.nc
+2026-09-10 13:16:15,207  INFO: Mullaloo - Processed S3B_OLCI_EFRNT.20251030T013053.L2.OC.NRT.nc -> 2025-10-30, chl=1.9813
+2026-09-10 13:16:15,207  INFO: Mullaloo - Processing file 15/25: S3B_OLCI_EFRNT.20251030T013353.L2.OC.NRT.nc
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:456: RuntimeWarning: Mean of empty slice
+  chl_mean_3x3 = np.nanmean(region_3x3)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:471: RuntimeWarning: Mean of empty slice
+  chl_mean_4x4 = np.nanmean(region_4x4)
+2026-09-10 13:16:18,188  WARNING: Both 3x3 and 4x4 extraction returned NaN
+2026-09-10 13:16:18,219  WARNING: Mullaloo - Processed S3B_OLCI_EFRNT.20251030T013353.L2.OC.NRT.nc -> 2025-10-30, chl=NaN (marked noextraction)
+2026-09-10 13:16:18,219  INFO: Mullaloo - Processing file 16/25: S3B_OLCI_EFRNT.20251102T015319.L2.OC.NRT.nc
+2026-09-10 13:16:21,171  INFO: Mullaloo - Processed S3B_OLCI_EFRNT.20251102T015319.L2.OC.NRT.nc -> 2025-11-02, chl=2.6043
+2026-09-10 13:16:21,172  INFO: Mullaloo - Processing file 17/25: S3B_OLCI_ERRNT.20260807T011039.L2.OC.NRT.nc
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:456: RuntimeWarning: Mean of empty slice
+  chl_mean_3x3 = np.nanmean(region_3x3)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:471: RuntimeWarning: Mean of empty slice
+  chl_mean_4x4 = np.nanmean(region_4x4)
+2026-09-10 13:16:23,416  WARNING: Both 3x3 and 4x4 extraction returned NaN
+2026-09-10 13:16:23,444  WARNING: Mullaloo - Processed S3B_OLCI_ERRNT.20260807T011039.L2.OC.NRT.nc -> 2026-08-07, chl=NaN (marked noextraction)
+2026-09-10 13:16:23,444  INFO: Mullaloo - Processing file 18/25: S3B_OLCI_ERRNT.20260808T004433.L2.OC.NRT.nc
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:456: RuntimeWarning: Mean of empty slice
+  chl_mean_3x3 = np.nanmean(region_3x3)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:471: RuntimeWarning: Mean of empty slice
+  chl_mean_4x4 = np.nanmean(region_4x4)
+2026-09-10 13:16:25,652  WARNING: Both 3x3 and 4x4 extraction returned NaN
+2026-09-10 13:16:25,700  WARNING: Mullaloo - Processed S3B_OLCI_ERRNT.20260808T004433.L2.OC.NRT.nc -> 2026-08-08, chl=NaN (marked noextraction)
+2026-09-10 13:16:25,700  INFO: Mullaloo - Processing file 19/25: S3B_OLCI_ERRNT.20260810T013321.L2.OC.NRT.nc
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:456: RuntimeWarning: Mean of empty slice
+  chl_mean_3x3 = np.nanmean(region_3x3)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:471: RuntimeWarning: Mean of empty slice
+  chl_mean_4x4 = np.nanmean(region_4x4)
+2026-09-10 13:16:28,029  WARNING: Both 3x3 and 4x4 extraction returned NaN
+2026-09-10 13:16:28,058  WARNING: Mullaloo - Processed S3B_OLCI_ERRNT.20260810T013321.L2.OC.NRT.nc -> 2026-08-10, chl=NaN (marked noextraction)
+2026-09-10 13:16:28,058  INFO: Mullaloo - Processing file 20/25: S3B_OLCI_ERRNT.20260811T010717.L2.OC.NRT.nc
+2026-09-10 13:16:30,254  INFO: Mullaloo - Processed S3B_OLCI_ERRNT.20260811T010717.L2.OC.NRT.nc -> 2026-08-11, chl=2.2146
+2026-09-10 13:16:30,254  INFO: Mullaloo - Processing file 21/25: S3B_OLCI_ERRNT.20260812T004111.L2.OC.NRT.nc
+2026-09-10 13:16:32,440  INFO: Mullaloo - Processed S3B_OLCI_ERRNT.20260812T004111.L2.OC.NRT.nc -> 2026-08-12, chl=4.6703
+2026-09-10 13:16:32,440  INFO: Mullaloo - Processing file 22/25: S3B_OLCI_ERRNT.20260814T012959.L2.OC.NRT.nc
+2026-09-10 13:16:34,752  INFO: Mullaloo - Processed S3B_OLCI_ERRNT.20260814T012959.L2.OC.NRT.nc -> 2026-08-14, chl=2.9887
+2026-09-10 13:16:34,752  INFO: Mullaloo - Processing file 23/25: S3B_OLCI_ERRNT.20260815T010354.L2.OC.NRT.nc
+2026-09-10 13:16:37,157  INFO: Mullaloo - Processed S3B_OLCI_ERRNT.20260815T010354.L2.OC.NRT.nc -> 2026-08-15, chl=6.9100
+2026-09-10 13:16:37,157  INFO: Mullaloo - Processing file 24/25: S3B_OLCI_ERRNT.20260816T003750.L2.OC.NRT.nc
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:456: RuntimeWarning: Mean of empty slice
+  chl_mean_3x3 = np.nanmean(region_3x3)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:471: RuntimeWarning: Mean of empty slice
+  chl_mean_4x4 = np.nanmean(region_4x4)
+2026-09-10 13:16:39,328  WARNING: Both 3x3 and 4x4 extraction returned NaN
+2026-09-10 13:16:39,368  WARNING: Mullaloo - Processed S3B_OLCI_ERRNT.20260816T003750.L2.OC.NRT.nc -> 2026-08-16, chl=NaN (marked noextraction)
+2026-09-10 13:16:39,369  INFO: Mullaloo - Processing file 25/25: S3B_OLCI_ERRNT.20260818T012639.L2.OC.NRT.nc
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:456: RuntimeWarning: Mean of empty slice
+  chl_mean_3x3 = np.nanmean(region_3x3)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:471: RuntimeWarning: Mean of empty slice
+  chl_mean_4x4 = np.nanmean(region_4x4)
+2026-09-10 13:16:41,719  WARNING: Both 3x3 and 4x4 extraction returned NaN
+2026-09-10 13:16:41,760  WARNING: Mullaloo - Processed S3B_OLCI_ERRNT.20260818T012639.L2.OC.NRT.nc -> 2026-08-18, chl=NaN (marked noextraction)
+2026-09-10 13:16:41,769  INFO: Mullaloo - Extracted 19 valid records from 25 files
+2026-09-10 13:16:41,831  INFO: Mullaloo - Existing CSV has 3158 records
+2026-09-10 13:16:41,838  INFO: Mullaloo - After merge: 3158 total records (0 new)
+2026-09-10 13:16:41,858  INFO: \u2713 Mullaloo - CSV saved: C:/Users/23755118/OneDrive - UWA/Documents/PhD_Varshani/CODING/chl_time\chl_timeseries_mullaloo.csv (3158 rows)
+2026-09-10 13:16:41,897  INFO: \u2713 Mullaloo - CSV verified: 3158 rows on disk
+2026-09-10 13:16:41,965  INFO:   \u2713 Successfully filled gap for 2025-10-29
+2026-09-10 13:16:44,014  INFO: 
+--- Checking gap for 2025-10-30 ---
+2026-09-10 13:16:44,032  INFO: Logging in to Earthdata via earthaccess...
+2026-09-10 13:16:47,081  INFO: Earthdata login OK.
+2026-09-10 13:16:48,010  INFO: Granules found: 1
+C:\Users\23755118\AppData\Local\miniconda3\envs\py3_13\Lib\site-packages\earthaccess\results.py:343: FutureWarning: As of version 1.0, `DataGranule.size` will be accessed as an attribute; e.g. use `DataCollection.size` **not** `DataCollection.size()`
+  self["size"] = self.size()
+2026-09-10 13:16:48,679  INFO:   OLCIS3A_L2_ERR_OC_NRT: 1 granules found for 2025-10-30
+2026-09-10 13:16:49,494  INFO: Granules found: 1
+2026-09-10 13:16:50,306  INFO:   OLCIS3B_L2_ERR_OC_NRT: 1 granules found for 2025-10-30
+2026-09-10 13:16:50,306  INFO:   Data available for 2025-10-30! Downloading...
+2026-09-10 13:16:50,344  INFO: Logging in to Earthdata via earthaccess...
+2026-09-10 13:16:53,295  INFO: Earthdata login OK.
+2026-09-10 13:16:53,295  INFO: Searching OLCIS3A_L2_EFR_OC_NRT for 2025-10-30...
+2026-09-10 13:16:54,150  INFO: Granules found: 1
+C:\Users\23755118\AppData\Local\miniconda3\envs\py3_13\Lib\site-packages\earthaccess\results.py:343: FutureWarning: As of version 1.0, `DataGranule.size` will be accessed as an attribute; e.g. use `DataCollection.size` **not** `DataCollection.size()`
+  self["size"] = self.size()
+2026-09-10 13:16:54,828  INFO: Found 1 items. Downloading...
+C:\Users\23755118\AppData\Local\miniconda3\envs\py3_13\Lib\site-packages\earthaccess\store.py:832: FutureWarning: As of version 1.0, `DataGranule.size` will be accessed as an attribute; e.g. use `DataCollection.size` **not** `DataCollection.size()`
+  total_size = round(sum(granule.size() for granule in granules) / 1024, 2)
+2026-09-10 13:16:54,829  INFO:  Getting 1 granules, approx download size: 0.21 GB
+2026-09-10 13:16:54,833  INFO: File S3A_OLCI_EFRNT.20251030T020934.L2.OC.NRT.nc already downloaded
+2026-09-10 13:16:55,835  INFO: Searching OLCIS3B_L2_EFR_OC_NRT for 2025-10-30...
+2026-09-10 13:16:56,657  INFO: Granules found: 2
+2026-09-10 13:16:57,384  INFO: Found 2 items. Downloading...
+2026-09-10 13:16:57,385  INFO:  Getting 2 granules, approx download size: 0.3 GB
+2026-09-10 13:16:57,387  INFO: File S3B_OLCI_EFRNT.20251030T013053.L2.OC.NRT.nc already downloaded
+2026-09-10 13:16:57,388  INFO: File S3B_OLCI_EFRNT.20251030T013353.L2.OC.NRT.nc already downloaded
+2026-09-10 13:16:58,391  INFO:   Downloaded 25 files
+2026-09-10 13:16:58,391  INFO: PSDP - Starting to process 25 files...
+2026-09-10 13:16:58,420  INFO: PSDP - Processing file 1/25: S3A_OLCI_EFRNT.20251030T020934.L2.OC.NRT.nc
+2026-09-10 13:16:58,421  INFO: PSDP - Skipping S3A_OLCI_EFRNT.20251030T020934.L2.OC.NRT.nc: date 2025-10-30 already in CSV
+2026-09-10 13:16:58,422  INFO: PSDP - Processing file 2/25: S3A_OLCI_EFRNT.20251031T014323.L2.OC.NRT.nc
+2026-09-10 13:16:58,423  INFO: PSDP - Skipping S3A_OLCI_EFRNT.20251031T014323.L2.OC.NRT.nc: date 2025-10-31 already in CSV
+2026-09-10 13:16:58,423  INFO: PSDP - Processing file 3/25: S3A_OLCI_EFRNT.20251101T011712.L2.OC.NRT.nc
+2026-09-10 13:16:58,425  INFO: PSDP - Skipping S3A_OLCI_EFRNT.20251101T011712.L2.OC.NRT.nc: date 2025-11-01 already in CSV
+2026-09-10 13:16:58,425  INFO: PSDP - Processing file 4/25: S3A_OLCI_EFRNT.20251101T012012.L2.OC.NRT.nc
+2026-09-10 13:16:58,427  INFO: PSDP - Skipping S3A_OLCI_EFRNT.20251101T012012.L2.OC.NRT.nc: date 2025-11-01 already in CSV
+2026-09-10 13:16:58,427  INFO: PSDP - Processing file 5/25: S3A_OLCI_ERRNT.20260728T010723.L2.OC.NRT.nc
+2026-09-10 13:17:00,977  INFO: PSDP - Processed S3A_OLCI_ERRNT.20260728T010723.L2.OC.NRT.nc -> 2026-07-28, chl=3.4437
+2026-09-10 13:17:00,977  INFO: PSDP - Processing file 6/25: S3A_OLCI_ERRNT.20260806T003426.L2.OC.NRT.nc
+2026-09-10 13:17:00,979  INFO: PSDP - Skipping S3A_OLCI_ERRNT.20260806T003426.L2.OC.NRT.nc: date 2026-08-06 already in CSV
+2026-09-10 13:17:00,979  INFO: PSDP - Processing file 7/25: S3A_OLCI_ERRNT.20260808T012314.L2.OC.NRT.nc
+2026-09-10 13:17:00,980  INFO: PSDP - Skipping S3A_OLCI_ERRNT.20260808T012314.L2.OC.NRT.nc: date 2026-08-08 already in CSV
+2026-09-10 13:17:00,980  INFO: PSDP - Processing file 8/25: S3A_OLCI_ERRNT.20260809T005707.L2.OC.NRT.nc
+2026-09-10 13:17:03,406  INFO: PSDP - Processed S3A_OLCI_ERRNT.20260809T005707.L2.OC.NRT.nc -> 2026-08-09, chl=2.0837
+2026-09-10 13:17:03,407  INFO: PSDP - Processing file 9/25: S3A_OLCI_ERRNT.20260812T011951.L2.OC.NRT.nc
+2026-09-10 13:17:05,868  INFO: PSDP - Processed S3A_OLCI_ERRNT.20260812T011951.L2.OC.NRT.nc -> 2026-08-12, chl=4.4215
+2026-09-10 13:17:05,868  INFO: PSDP - Processing file 10/25: S3A_OLCI_ERRNT.20260813T005345.L2.OC.NRT.nc
+2026-09-10 13:17:08,187  INFO: PSDP - Processed S3A_OLCI_ERRNT.20260813T005345.L2.OC.NRT.nc -> 2026-08-13, chl=4.4144
+2026-09-10 13:17:08,188  INFO: PSDP - Processing file 11/25: S3A_OLCI_ERRNT.20260816T011630.L2.OC.NRT.nc
+2026-09-10 13:17:10,629  INFO: PSDP - Processed S3A_OLCI_ERRNT.20260816T011630.L2.OC.NRT.nc -> 2026-08-16, chl=4.0160
+2026-09-10 13:17:10,629  INFO: PSDP - Processing file 12/25: S3A_OLCI_ERRNT.20260817T005025.L2.OC.NRT.nc
+2026-09-10 13:17:10,631  INFO: PSDP - Skipping S3A_OLCI_ERRNT.20260817T005025.L2.OC.NRT.nc: date 2026-08-17 already in CSV
+2026-09-10 13:17:10,632  INFO: PSDP - Processing file 13/25: S3B_OLCI_EFRNT.20251029T015704.L2.OC.NRT.nc
+2026-09-10 13:17:10,633  INFO: PSDP - Skipping S3B_OLCI_EFRNT.20251029T015704.L2.OC.NRT.nc: date 2025-10-29 already in CSV
+2026-09-10 13:17:10,634  INFO: PSDP - Processing file 14/25: S3B_OLCI_EFRNT.20251030T013053.L2.OC.NRT.nc
+2026-09-10 13:17:10,635  INFO: PSDP - Skipping S3B_OLCI_EFRNT.20251030T013053.L2.OC.NRT.nc: date 2025-10-30 already in CSV
+2026-09-10 13:17:10,635  INFO: PSDP - Processing file 15/25: S3B_OLCI_EFRNT.20251030T013353.L2.OC.NRT.nc
+2026-09-10 13:17:10,636  INFO: PSDP - Skipping S3B_OLCI_EFRNT.20251030T013353.L2.OC.NRT.nc: date 2025-10-30 already in CSV
+2026-09-10 13:17:10,636  INFO: PSDP - Processing file 16/25: S3B_OLCI_EFRNT.20251102T015319.L2.OC.NRT.nc
+2026-09-10 13:17:10,637  INFO: PSDP - Skipping S3B_OLCI_EFRNT.20251102T015319.L2.OC.NRT.nc: date 2025-11-02 already in CSV
+2026-09-10 13:17:10,637  INFO: PSDP - Processing file 17/25: S3B_OLCI_ERRNT.20260807T011039.L2.OC.NRT.nc
+2026-09-10 13:17:12,966  INFO: PSDP - Processed S3B_OLCI_ERRNT.20260807T011039.L2.OC.NRT.nc -> 2026-08-07, chl=1.2564
+2026-09-10 13:17:12,967  INFO: PSDP - Processing file 18/25: S3B_OLCI_ERRNT.20260808T004433.L2.OC.NRT.nc
+2026-09-10 13:17:12,969  INFO: PSDP - Skipping S3B_OLCI_ERRNT.20260808T004433.L2.OC.NRT.nc: date 2026-08-08 already in CSV
+2026-09-10 13:17:12,969  INFO: PSDP - Processing file 19/25: S3B_OLCI_ERRNT.20260810T013321.L2.OC.NRT.nc
+2026-09-10 13:17:12,971  INFO: PSDP - Skipping S3B_OLCI_ERRNT.20260810T013321.L2.OC.NRT.nc: date 2026-08-10 already in CSV
+2026-09-10 13:17:12,971  INFO: PSDP - Processing file 20/25: S3B_OLCI_ERRNT.20260811T010717.L2.OC.NRT.nc
+2026-09-10 13:17:14,925  INFO: PSDP - Processed S3B_OLCI_ERRNT.20260811T010717.L2.OC.NRT.nc -> 2026-08-11, chl=3.2078
+2026-09-10 13:17:14,926  INFO: PSDP - Processing file 21/25: S3B_OLCI_ERRNT.20260812T004111.L2.OC.NRT.nc
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:456: RuntimeWarning: Mean of empty slice
+  chl_mean_3x3 = np.nanmean(region_3x3)
+2026-09-10 13:17:16,835  INFO: 4x4 extraction successful: 4.1361 (3x3 was all NaN)
+2026-09-10 13:17:16,869  INFO: PSDP - Processed S3B_OLCI_ERRNT.20260812T004111.L2.OC.NRT.nc -> 2026-08-12, chl=4.1361
+2026-09-10 13:17:16,869  INFO: PSDP - Processing file 22/25: S3B_OLCI_ERRNT.20260814T012959.L2.OC.NRT.nc
+2026-09-10 13:17:18,872  INFO: PSDP - Processed S3B_OLCI_ERRNT.20260814T012959.L2.OC.NRT.nc -> 2026-08-14, chl=3.8839
+2026-09-10 13:17:18,872  INFO: PSDP - Processing file 23/25: S3B_OLCI_ERRNT.20260815T010354.L2.OC.NRT.nc
+2026-09-10 13:17:18,874  INFO: PSDP - Skipping S3B_OLCI_ERRNT.20260815T010354.L2.OC.NRT.nc: date 2026-08-15 already in CSV
+2026-09-10 13:17:18,874  INFO: PSDP - Processing file 24/25: S3B_OLCI_ERRNT.20260816T003750.L2.OC.NRT.nc
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:456: RuntimeWarning: Mean of empty slice
+  chl_mean_3x3 = np.nanmean(region_3x3)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:471: RuntimeWarning: Mean of empty slice
+  chl_mean_4x4 = np.nanmean(region_4x4)
+2026-09-10 13:17:20,870  WARNING: Both 3x3 and 4x4 extraction returned NaN
+2026-09-10 13:17:20,904  WARNING: PSDP - Processed S3B_OLCI_ERRNT.20260816T003750.L2.OC.NRT.nc -> 2026-08-16, chl=NaN (marked noextraction)
+2026-09-10 13:17:20,905  INFO: PSDP - Processing file 25/25: S3B_OLCI_ERRNT.20260818T012639.L2.OC.NRT.nc
+2026-09-10 13:17:22,891  INFO: PSDP - Processed S3B_OLCI_ERRNT.20260818T012639.L2.OC.NRT.nc -> 2026-08-18, chl=1.3046
+2026-09-10 13:17:22,896  INFO: PSDP - Extracted 9 valid records from 25 files
+2026-09-10 13:17:22,917  INFO: PSDP - Existing CSV has 3158 records
+2026-09-10 13:17:22,922  INFO: PSDP - After merge: 3158 total records (0 new)
+2026-09-10 13:17:22,941  INFO: \u2713 PSDP - CSV saved: C:/Users/23755118/OneDrive - UWA/Documents/PhD_Varshani/CODING/chl_time\chl_timeseries_psdp.csv (3158 rows)
+2026-09-10 13:17:22,986  INFO: \u2713 PSDP - CSV verified: 3158 rows on disk
+2026-09-10 13:17:23,019  INFO: Mullaloo - Starting to process 25 files...
+2026-09-10 13:17:23,050  INFO: Mullaloo - Processing file 1/25: S3A_OLCI_EFRNT.20251030T020934.L2.OC.NRT.nc
+2026-09-10 13:17:23,052  INFO: Mullaloo - Skipping S3A_OLCI_EFRNT.20251030T020934.L2.OC.NRT.nc: date 2025-10-30 already in CSV
+2026-09-10 13:17:23,052  INFO: Mullaloo - Processing file 2/25: S3A_OLCI_EFRNT.20251031T014323.L2.OC.NRT.nc
+2026-09-10 13:17:23,054  INFO: Mullaloo - Skipping S3A_OLCI_EFRNT.20251031T014323.L2.OC.NRT.nc: date 2025-10-31 already in CSV
+2026-09-10 13:17:23,054  INFO: Mullaloo - Processing file 3/25: S3A_OLCI_EFRNT.20251101T011712.L2.OC.NRT.nc
+2026-09-10 13:17:23,056  INFO: Mullaloo - Skipping S3A_OLCI_EFRNT.20251101T011712.L2.OC.NRT.nc: date 2025-11-01 already in CSV
+2026-09-10 13:17:23,056  INFO: Mullaloo - Processing file 4/25: S3A_OLCI_EFRNT.20251101T012012.L2.OC.NRT.nc
+2026-09-10 13:17:23,058  INFO: Mullaloo - Skipping S3A_OLCI_EFRNT.20251101T012012.L2.OC.NRT.nc: date 2025-11-01 already in CSV
+2026-09-10 13:17:23,058  INFO: Mullaloo - Processing file 5/25: S3A_OLCI_ERRNT.20260728T010723.L2.OC.NRT.nc
+2026-09-10 13:17:25,215  INFO: Mullaloo - Processed S3A_OLCI_ERRNT.20260728T010723.L2.OC.NRT.nc -> 2026-07-28, chl=4.1702
+2026-09-10 13:17:25,215  INFO: Mullaloo - Processing file 6/25: S3A_OLCI_ERRNT.20260806T003426.L2.OC.NRT.nc
+2026-09-10 13:17:25,217  INFO: Mullaloo - Skipping S3A_OLCI_ERRNT.20260806T003426.L2.OC.NRT.nc: date 2026-08-06 already in CSV
+2026-09-10 13:17:25,217  INFO: Mullaloo - Processing file 7/25: S3A_OLCI_ERRNT.20260808T012314.L2.OC.NRT.nc
+2026-09-10 13:17:27,451  INFO: Mullaloo - Processed S3A_OLCI_ERRNT.20260808T012314.L2.OC.NRT.nc -> 2026-08-08, chl=1.8230
+2026-09-10 13:17:27,451  INFO: Mullaloo - Processing file 8/25: S3A_OLCI_ERRNT.20260809T005707.L2.OC.NRT.nc
+2026-09-10 13:17:29,463  INFO: Mullaloo - Processed S3A_OLCI_ERRNT.20260809T005707.L2.OC.NRT.nc -> 2026-08-09, chl=3.6958
+2026-09-10 13:17:29,463  INFO: Mullaloo - Processing file 9/25: S3A_OLCI_ERRNT.20260812T011951.L2.OC.NRT.nc
+2026-09-10 13:17:31,373  INFO: Mullaloo - Processed S3A_OLCI_ERRNT.20260812T011951.L2.OC.NRT.nc -> 2026-08-12, chl=2.7176
+2026-09-10 13:17:31,373  INFO: Mullaloo - Processing file 10/25: S3A_OLCI_ERRNT.20260813T005345.L2.OC.NRT.nc
+2026-09-10 13:17:33,453  INFO: Mullaloo - Processed S3A_OLCI_ERRNT.20260813T005345.L2.OC.NRT.nc -> 2026-08-13, chl=3.4036
+2026-09-10 13:17:33,454  INFO: Mullaloo - Processing file 11/25: S3A_OLCI_ERRNT.20260816T011630.L2.OC.NRT.nc
+2026-09-10 13:17:35,764  INFO: Mullaloo - Processed S3A_OLCI_ERRNT.20260816T011630.L2.OC.NRT.nc -> 2026-08-16, chl=10.6628
+2026-09-10 13:17:35,764  INFO: Mullaloo - Processing file 12/25: S3A_OLCI_ERRNT.20260817T005025.L2.OC.NRT.nc
+2026-09-10 13:17:35,765  INFO: Mullaloo - Skipping S3A_OLCI_ERRNT.20260817T005025.L2.OC.NRT.nc: date 2026-08-17 already in CSV
+2026-09-10 13:17:35,765  INFO: Mullaloo - Processing file 13/25: S3B_OLCI_EFRNT.20251029T015704.L2.OC.NRT.nc
+2026-09-10 13:17:35,766  INFO: Mullaloo - Skipping S3B_OLCI_EFRNT.20251029T015704.L2.OC.NRT.nc: date 2025-10-29 already in CSV
+2026-09-10 13:17:35,766  INFO: Mullaloo - Processing file 14/25: S3B_OLCI_EFRNT.20251030T013053.L2.OC.NRT.nc
+2026-09-10 13:17:35,767  INFO: Mullaloo - Skipping S3B_OLCI_EFRNT.20251030T013053.L2.OC.NRT.nc: date 2025-10-30 already in CSV
+2026-09-10 13:17:35,767  INFO: Mullaloo - Processing file 15/25: S3B_OLCI_EFRNT.20251030T013353.L2.OC.NRT.nc
+2026-09-10 13:17:35,768  INFO: Mullaloo - Skipping S3B_OLCI_EFRNT.20251030T013353.L2.OC.NRT.nc: date 2025-10-30 already in CSV
+2026-09-10 13:17:35,768  INFO: Mullaloo - Processing file 16/25: S3B_OLCI_EFRNT.20251102T015319.L2.OC.NRT.nc
+2026-09-10 13:17:35,769  INFO: Mullaloo - Skipping S3B_OLCI_EFRNT.20251102T015319.L2.OC.NRT.nc: date 2025-11-02 already in CSV
+2026-09-10 13:17:35,769  INFO: Mullaloo - Processing file 17/25: S3B_OLCI_ERRNT.20260807T011039.L2.OC.NRT.nc
+2026-09-10 13:17:35,769  INFO: Mullaloo - Skipping S3B_OLCI_ERRNT.20260807T011039.L2.OC.NRT.nc: date 2026-08-07 already in CSV
+2026-09-10 13:17:35,769  INFO: Mullaloo - Processing file 18/25: S3B_OLCI_ERRNT.20260808T004433.L2.OC.NRT.nc
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:456: RuntimeWarning: Mean of empty slice
+  chl_mean_3x3 = np.nanmean(region_3x3)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:471: RuntimeWarning: Mean of empty slice
+  chl_mean_4x4 = np.nanmean(region_4x4)
+2026-09-10 13:17:38,139  WARNING: Both 3x3 and 4x4 extraction returned NaN
+2026-09-10 13:17:38,184  WARNING: Mullaloo - Processed S3B_OLCI_ERRNT.20260808T004433.L2.OC.NRT.nc -> 2026-08-08, chl=NaN (marked noextraction)
+2026-09-10 13:17:38,185  INFO: Mullaloo - Processing file 19/25: S3B_OLCI_ERRNT.20260810T013321.L2.OC.NRT.nc
+2026-09-10 13:17:38,188  INFO: Mullaloo - Skipping S3B_OLCI_ERRNT.20260810T013321.L2.OC.NRT.nc: date 2026-08-10 already in CSV
+2026-09-10 13:17:38,188  INFO: Mullaloo - Processing file 20/25: S3B_OLCI_ERRNT.20260811T010717.L2.OC.NRT.nc
+2026-09-10 13:17:40,592  INFO: Mullaloo - Processed S3B_OLCI_ERRNT.20260811T010717.L2.OC.NRT.nc -> 2026-08-11, chl=2.2146
+2026-09-10 13:17:40,593  INFO: Mullaloo - Processing file 21/25: S3B_OLCI_ERRNT.20260812T004111.L2.OC.NRT.nc
+2026-09-10 13:17:43,033  INFO: Mullaloo - Processed S3B_OLCI_ERRNT.20260812T004111.L2.OC.NRT.nc -> 2026-08-12, chl=4.6703
+2026-09-10 13:17:43,033  INFO: Mullaloo - Processing file 22/25: S3B_OLCI_ERRNT.20260814T012959.L2.OC.NRT.nc
+2026-09-10 13:17:45,238  INFO: Mullaloo - Processed S3B_OLCI_ERRNT.20260814T012959.L2.OC.NRT.nc -> 2026-08-14, chl=2.9887
+2026-09-10 13:17:45,239  INFO: Mullaloo - Processing file 23/25: S3B_OLCI_ERRNT.20260815T010354.L2.OC.NRT.nc
+2026-09-10 13:17:47,446  INFO: Mullaloo - Processed S3B_OLCI_ERRNT.20260815T010354.L2.OC.NRT.nc -> 2026-08-15, chl=6.9100
+2026-09-10 13:17:47,447  INFO: Mullaloo - Processing file 24/25: S3B_OLCI_ERRNT.20260816T003750.L2.OC.NRT.nc
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:456: RuntimeWarning: Mean of empty slice
+  chl_mean_3x3 = np.nanmean(region_3x3)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:471: RuntimeWarning: Mean of empty slice
+  chl_mean_4x4 = np.nanmean(region_4x4)
+2026-09-10 13:17:49,431  WARNING: Both 3x3 and 4x4 extraction returned NaN
+2026-09-10 13:17:49,474  WARNING: Mullaloo - Processed S3B_OLCI_ERRNT.20260816T003750.L2.OC.NRT.nc -> 2026-08-16, chl=NaN (marked noextraction)
+2026-09-10 13:17:49,474  INFO: Mullaloo - Processing file 25/25: S3B_OLCI_ERRNT.20260818T012639.L2.OC.NRT.nc
+2026-09-10 13:17:49,475  INFO: Mullaloo - Skipping S3B_OLCI_ERRNT.20260818T012639.L2.OC.NRT.nc: date 2026-08-18 already in CSV
+2026-09-10 13:17:49,481  INFO: Mullaloo - Extracted 9 valid records from 25 files
+2026-09-10 13:17:49,510  INFO: Mullaloo - Existing CSV has 3158 records
+2026-09-10 13:17:49,515  INFO: Mullaloo - After merge: 3158 total records (0 new)
+2026-09-10 13:17:49,540  INFO: \u2713 Mullaloo - CSV saved: C:/Users/23755118/OneDrive - UWA/Documents/PhD_Varshani/CODING/chl_time\chl_timeseries_mullaloo.csv (3158 rows)
+2026-09-10 13:17:49,572  INFO: \u2713 Mullaloo - CSV verified: 3158 rows on disk
+2026-09-10 13:17:49,604  INFO:   \u2713 Successfully filled gap for 2025-10-30
+2026-09-10 13:17:51,657  INFO: 
+--- Checking gap for 2025-10-31 ---
+2026-09-10 13:17:51,666  INFO: Logging in to Earthdata via earthaccess...
+2026-09-10 13:17:54,668  INFO: Earthdata login OK.
+2026-09-10 13:17:55,521  INFO: Granules found: 1
+C:\Users\23755118\AppData\Local\miniconda3\envs\py3_13\Lib\site-packages\earthaccess\results.py:343: FutureWarning: As of version 1.0, `DataGranule.size` will be accessed as an attribute; e.g. use `DataCollection.size` **not** `DataCollection.size()`
+  self["size"] = self.size()
+2026-09-10 13:17:56,190  INFO:   OLCIS3A_L2_ERR_OC_NRT: 1 granules found for 2025-10-31
+2026-09-10 13:17:57,020  INFO: Granules found: 0
+2026-09-10 13:17:57,666  INFO:   OLCIS3B_L2_ERR_OC_NRT: 0 granules found for 2025-10-31
+2026-09-10 13:17:57,666  INFO:   Data available for 2025-10-31! Downloading...
+2026-09-10 13:17:57,705  INFO: Logging in to Earthdata via earthaccess...
+2026-09-10 13:18:00,674  INFO: Earthdata login OK.
+2026-09-10 13:18:00,675  INFO: Searching OLCIS3A_L2_EFR_OC_NRT for 2025-10-31...
+2026-09-10 13:18:01,498  INFO: Granules found: 1
+C:\Users\23755118\AppData\Local\miniconda3\envs\py3_13\Lib\site-packages\earthaccess\results.py:343: FutureWarning: As of version 1.0, `DataGranule.size` will be accessed as an attribute; e.g. use `DataCollection.size` **not** `DataCollection.size()`
+  self["size"] = self.size()
+2026-09-10 13:18:02,248  INFO: Found 1 items. Downloading...
+C:\Users\23755118\AppData\Local\miniconda3\envs\py3_13\Lib\site-packages\earthaccess\store.py:832: FutureWarning: As of version 1.0, `DataGranule.size` will be accessed as an attribute; e.g. use `DataCollection.size` **not** `DataCollection.size()`
+  total_size = round(sum(granule.size() for granule in granules) / 1024, 2)
+2026-09-10 13:18:02,249  INFO:  Getting 1 granules, approx download size: 0.13 GB
+2026-09-10 13:18:02,252  INFO: File S3A_OLCI_EFRNT.20251031T014323.L2.OC.NRT.nc already downloaded
+2026-09-10 13:18:03,253  INFO: Searching OLCIS3B_L2_EFR_OC_NRT for 2025-10-31...
+2026-09-10 13:18:04,167  INFO: Granules found: 0
+2026-09-10 13:18:04,837  INFO: No results for OLCIS3B_L2_EFR_OC_NRT
+2026-09-10 13:18:04,838  INFO:   Downloaded 25 files
+2026-09-10 13:18:04,838  INFO: PSDP - Starting to process 25 files...
+2026-09-10 13:18:04,865  INFO: PSDP - Processing file 1/25: S3A_OLCI_EFRNT.20251030T020934.L2.OC.NRT.nc
+2026-09-10 13:18:04,867  INFO: PSDP - Skipping S3A_OLCI_EFRNT.20251030T020934.L2.OC.NRT.nc: date 2025-10-30 already in CSV
+2026-09-10 13:18:04,868  INFO: PSDP - Processing file 2/25: S3A_OLCI_EFRNT.20251031T014323.L2.OC.NRT.nc
+2026-09-10 13:18:04,869  INFO: PSDP - Skipping S3A_OLCI_EFRNT.20251031T014323.L2.OC.NRT.nc: date 2025-10-31 already in CSV
+2026-09-10 13:18:04,870  INFO: PSDP - Processing file 3/25: S3A_OLCI_EFRNT.20251101T011712.L2.OC.NRT.nc
+2026-09-10 13:18:04,871  INFO: PSDP - Skipping S3A_OLCI_EFRNT.20251101T011712.L2.OC.NRT.nc: date 2025-11-01 already in CSV
+2026-09-10 13:18:04,871  INFO: PSDP - Processing file 4/25: S3A_OLCI_EFRNT.20251101T012012.L2.OC.NRT.nc
+2026-09-10 13:18:04,872  INFO: PSDP - Skipping S3A_OLCI_EFRNT.20251101T012012.L2.OC.NRT.nc: date 2025-11-01 already in CSV
+2026-09-10 13:18:04,873  INFO: PSDP - Processing file 5/25: S3A_OLCI_ERRNT.20260728T010723.L2.OC.NRT.nc
+2026-09-10 13:18:07,320  INFO: PSDP - Processed S3A_OLCI_ERRNT.20260728T010723.L2.OC.NRT.nc -> 2026-07-28, chl=3.4437
+2026-09-10 13:18:07,320  INFO: PSDP - Processing file 6/25: S3A_OLCI_ERRNT.20260806T003426.L2.OC.NRT.nc
+2026-09-10 13:18:07,322  INFO: PSDP - Skipping S3A_OLCI_ERRNT.20260806T003426.L2.OC.NRT.nc: date 2026-08-06 already in CSV
+2026-09-10 13:18:07,322  INFO: PSDP - Processing file 7/25: S3A_OLCI_ERRNT.20260808T012314.L2.OC.NRT.nc
+2026-09-10 13:18:07,324  INFO: PSDP - Skipping S3A_OLCI_ERRNT.20260808T012314.L2.OC.NRT.nc: date 2026-08-08 already in CSV
+2026-09-10 13:18:07,324  INFO: PSDP - Processing file 8/25: S3A_OLCI_ERRNT.20260809T005707.L2.OC.NRT.nc
+2026-09-10 13:18:09,771  INFO: PSDP - Processed S3A_OLCI_ERRNT.20260809T005707.L2.OC.NRT.nc -> 2026-08-09, chl=2.0837
+2026-09-10 13:18:09,771  INFO: PSDP - Processing file 9/25: S3A_OLCI_ERRNT.20260812T011951.L2.OC.NRT.nc
+2026-09-10 13:18:12,875  INFO: PSDP - Processed S3A_OLCI_ERRNT.20260812T011951.L2.OC.NRT.nc -> 2026-08-12, chl=4.4215
+2026-09-10 13:18:12,876  INFO: PSDP - Processing file 10/25: S3A_OLCI_ERRNT.20260813T005345.L2.OC.NRT.nc
+2026-09-10 13:18:15,445  INFO: PSDP - Processed S3A_OLCI_ERRNT.20260813T005345.L2.OC.NRT.nc -> 2026-08-13, chl=4.4144
+2026-09-10 13:18:15,445  INFO: PSDP - Processing file 11/25: S3A_OLCI_ERRNT.20260816T011630.L2.OC.NRT.nc
+2026-09-10 13:18:17,973  INFO: PSDP - Processed S3A_OLCI_ERRNT.20260816T011630.L2.OC.NRT.nc -> 2026-08-16, chl=4.0160
+2026-09-10 13:18:17,974  INFO: PSDP - Processing file 12/25: S3A_OLCI_ERRNT.20260817T005025.L2.OC.NRT.nc
+2026-09-10 13:18:17,975  INFO: PSDP - Skipping S3A_OLCI_ERRNT.20260817T005025.L2.OC.NRT.nc: date 2026-08-17 already in CSV
+2026-09-10 13:18:17,975  INFO: PSDP - Processing file 13/25: S3B_OLCI_EFRNT.20251029T015704.L2.OC.NRT.nc
+2026-09-10 13:18:17,976  INFO: PSDP - Skipping S3B_OLCI_EFRNT.20251029T015704.L2.OC.NRT.nc: date 2025-10-29 already in CSV
+2026-09-10 13:18:17,976  INFO: PSDP - Processing file 14/25: S3B_OLCI_EFRNT.20251030T013053.L2.OC.NRT.nc
+2026-09-10 13:18:17,978  INFO: PSDP - Skipping S3B_OLCI_EFRNT.20251030T013053.L2.OC.NRT.nc: date 2025-10-30 already in CSV
+2026-09-10 13:18:17,978  INFO: PSDP - Processing file 15/25: S3B_OLCI_EFRNT.20251030T013353.L2.OC.NRT.nc
+2026-09-10 13:18:17,979  INFO: PSDP - Skipping S3B_OLCI_EFRNT.20251030T013353.L2.OC.NRT.nc: date 2025-10-30 already in CSV
+2026-09-10 13:18:17,980  INFO: PSDP - Processing file 16/25: S3B_OLCI_EFRNT.20251102T015319.L2.OC.NRT.nc
+2026-09-10 13:18:17,981  INFO: PSDP - Skipping S3B_OLCI_EFRNT.20251102T015319.L2.OC.NRT.nc: date 2025-11-02 already in CSV
+2026-09-10 13:18:17,982  INFO: PSDP - Processing file 17/25: S3B_OLCI_ERRNT.20260807T011039.L2.OC.NRT.nc
+2026-09-10 13:18:20,283  INFO: PSDP - Processed S3B_OLCI_ERRNT.20260807T011039.L2.OC.NRT.nc -> 2026-08-07, chl=1.2564
+2026-09-10 13:18:20,283  INFO: PSDP - Processing file 18/25: S3B_OLCI_ERRNT.20260808T004433.L2.OC.NRT.nc
+2026-09-10 13:18:20,285  INFO: PSDP - Skipping S3B_OLCI_ERRNT.20260808T004433.L2.OC.NRT.nc: date 2026-08-08 already in CSV
+2026-09-10 13:18:20,285  INFO: PSDP - Processing file 19/25: S3B_OLCI_ERRNT.20260810T013321.L2.OC.NRT.nc
+2026-09-10 13:18:20,287  INFO: PSDP - Skipping S3B_OLCI_ERRNT.20260810T013321.L2.OC.NRT.nc: date 2026-08-10 already in CSV
+2026-09-10 13:18:20,287  INFO: PSDP - Processing file 20/25: S3B_OLCI_ERRNT.20260811T010717.L2.OC.NRT.nc
+2026-09-10 13:18:22,240  INFO: PSDP - Processed S3B_OLCI_ERRNT.20260811T010717.L2.OC.NRT.nc -> 2026-08-11, chl=3.2078
+2026-09-10 13:18:22,240  INFO: PSDP - Processing file 21/25: S3B_OLCI_ERRNT.20260812T004111.L2.OC.NRT.nc
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:456: RuntimeWarning: Mean of empty slice
+  chl_mean_3x3 = np.nanmean(region_3x3)
+2026-09-10 13:18:24,133  INFO: 4x4 extraction successful: 4.1361 (3x3 was all NaN)
+2026-09-10 13:18:24,165  INFO: PSDP - Processed S3B_OLCI_ERRNT.20260812T004111.L2.OC.NRT.nc -> 2026-08-12, chl=4.1361
+2026-09-10 13:18:24,165  INFO: PSDP - Processing file 22/25: S3B_OLCI_ERRNT.20260814T012959.L2.OC.NRT.nc
+2026-09-10 13:18:26,136  INFO: PSDP - Processed S3B_OLCI_ERRNT.20260814T012959.L2.OC.NRT.nc -> 2026-08-14, chl=3.8839
+2026-09-10 13:18:26,136  INFO: PSDP - Processing file 23/25: S3B_OLCI_ERRNT.20260815T010354.L2.OC.NRT.nc
+2026-09-10 13:18:26,137  INFO: PSDP - Skipping S3B_OLCI_ERRNT.20260815T010354.L2.OC.NRT.nc: date 2026-08-15 already in CSV
+2026-09-10 13:18:26,138  INFO: PSDP - Processing file 24/25: S3B_OLCI_ERRNT.20260816T003750.L2.OC.NRT.nc
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:456: RuntimeWarning: Mean of empty slice
+  chl_mean_3x3 = np.nanmean(region_3x3)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:471: RuntimeWarning: Mean of empty slice
+  chl_mean_4x4 = np.nanmean(region_4x4)
+2026-09-10 13:18:28,237  WARNING: Both 3x3 and 4x4 extraction returned NaN
+2026-09-10 13:18:28,283  WARNING: PSDP - Processed S3B_OLCI_ERRNT.20260816T003750.L2.OC.NRT.nc -> 2026-08-16, chl=NaN (marked noextraction)
+2026-09-10 13:18:28,283  INFO: PSDP - Processing file 25/25: S3B_OLCI_ERRNT.20260818T012639.L2.OC.NRT.nc
+2026-09-10 13:18:30,763  INFO: PSDP - Processed S3B_OLCI_ERRNT.20260818T012639.L2.OC.NRT.nc -> 2026-08-18, chl=1.3046
+2026-09-10 13:18:30,771  INFO: PSDP - Extracted 9 valid records from 25 files
+2026-09-10 13:18:30,805  INFO: PSDP - Existing CSV has 3158 records
+2026-09-10 13:18:30,812  INFO: PSDP - After merge: 3158 total records (0 new)
+2026-09-10 13:18:30,831  INFO: \u2713 PSDP - CSV saved: C:/Users/23755118/OneDrive - UWA/Documents/PhD_Varshani/CODING/chl_time\chl_timeseries_psdp.csv (3158 rows)
+2026-09-10 13:18:30,868  INFO: \u2713 PSDP - CSV verified: 3158 rows on disk
+2026-09-10 13:18:30,897  INFO: Mullaloo - Starting to process 25 files...
+2026-09-10 13:18:30,926  INFO: Mullaloo - Processing file 1/25: S3A_OLCI_EFRNT.20251030T020934.L2.OC.NRT.nc
+2026-09-10 13:18:30,929  INFO: Mullaloo - Skipping S3A_OLCI_EFRNT.20251030T020934.L2.OC.NRT.nc: date 2025-10-30 already in CSV
+2026-09-10 13:18:30,929  INFO: Mullaloo - Processing file 2/25: S3A_OLCI_EFRNT.20251031T014323.L2.OC.NRT.nc
+2026-09-10 13:18:30,931  INFO: Mullaloo - Skipping S3A_OLCI_EFRNT.20251031T014323.L2.OC.NRT.nc: date 2025-10-31 already in CSV
+2026-09-10 13:18:30,931  INFO: Mullaloo - Processing file 3/25: S3A_OLCI_EFRNT.20251101T011712.L2.OC.NRT.nc
+2026-09-10 13:18:30,933  INFO: Mullaloo - Skipping S3A_OLCI_EFRNT.20251101T011712.L2.OC.NRT.nc: date 2025-11-01 already in CSV
+2026-09-10 13:18:30,934  INFO: Mullaloo - Processing file 4/25: S3A_OLCI_EFRNT.20251101T012012.L2.OC.NRT.nc
+2026-09-10 13:18:30,935  INFO: Mullaloo - Skipping S3A_OLCI_EFRNT.20251101T012012.L2.OC.NRT.nc: date 2025-11-01 already in CSV
+2026-09-10 13:18:30,936  INFO: Mullaloo - Processing file 5/25: S3A_OLCI_ERRNT.20260728T010723.L2.OC.NRT.nc
+2026-09-10 13:18:33,058  INFO: Mullaloo - Processed S3A_OLCI_ERRNT.20260728T010723.L2.OC.NRT.nc -> 2026-07-28, chl=4.1702
+2026-09-10 13:18:33,059  INFO: Mullaloo - Processing file 6/25: S3A_OLCI_ERRNT.20260806T003426.L2.OC.NRT.nc
+2026-09-10 13:18:33,060  INFO: Mullaloo - Skipping S3A_OLCI_ERRNT.20260806T003426.L2.OC.NRT.nc: date 2026-08-06 already in CSV
+2026-09-10 13:18:33,060  INFO: Mullaloo - Processing file 7/25: S3A_OLCI_ERRNT.20260808T012314.L2.OC.NRT.nc
+2026-09-10 13:18:35,484  INFO: Mullaloo - Processed S3A_OLCI_ERRNT.20260808T012314.L2.OC.NRT.nc -> 2026-08-08, chl=1.8230
+2026-09-10 13:18:35,484  INFO: Mullaloo - Processing file 8/25: S3A_OLCI_ERRNT.20260809T005707.L2.OC.NRT.nc
+2026-09-10 13:18:37,644  INFO: Mullaloo - Processed S3A_OLCI_ERRNT.20260809T005707.L2.OC.NRT.nc -> 2026-08-09, chl=3.6958
+2026-09-10 13:18:37,644  INFO: Mullaloo - Processing file 9/25: S3A_OLCI_ERRNT.20260812T011951.L2.OC.NRT.nc
+2026-09-10 13:18:39,850  INFO: Mullaloo - Processed S3A_OLCI_ERRNT.20260812T011951.L2.OC.NRT.nc -> 2026-08-12, chl=2.7176
+2026-09-10 13:18:39,850  INFO: Mullaloo - Processing file 10/25: S3A_OLCI_ERRNT.20260813T005345.L2.OC.NRT.nc
+2026-09-10 13:18:42,187  INFO: Mullaloo - Processed S3A_OLCI_ERRNT.20260813T005345.L2.OC.NRT.nc -> 2026-08-13, chl=3.4036
+2026-09-10 13:18:42,187  INFO: Mullaloo - Processing file 11/25: S3A_OLCI_ERRNT.20260816T011630.L2.OC.NRT.nc
+2026-09-10 13:18:44,449  INFO: Mullaloo - Processed S3A_OLCI_ERRNT.20260816T011630.L2.OC.NRT.nc -> 2026-08-16, chl=10.6628
+2026-09-10 13:18:44,449  INFO: Mullaloo - Processing file 12/25: S3A_OLCI_ERRNT.20260817T005025.L2.OC.NRT.nc
+2026-09-10 13:18:44,451  INFO: Mullaloo - Skipping S3A_OLCI_ERRNT.20260817T005025.L2.OC.NRT.nc: date 2026-08-17 already in CSV
+2026-09-10 13:18:44,451  INFO: Mullaloo - Processing file 13/25: S3B_OLCI_EFRNT.20251029T015704.L2.OC.NRT.nc
+2026-09-10 13:18:44,452  INFO: Mullaloo - Skipping S3B_OLCI_EFRNT.20251029T015704.L2.OC.NRT.nc: date 2025-10-29 already in CSV
+2026-09-10 13:18:44,452  INFO: Mullaloo - Processing file 14/25: S3B_OLCI_EFRNT.20251030T013053.L2.OC.NRT.nc
+2026-09-10 13:18:44,453  INFO: Mullaloo - Skipping S3B_OLCI_EFRNT.20251030T013053.L2.OC.NRT.nc: date 2025-10-30 already in CSV
+2026-09-10 13:18:44,453  INFO: Mullaloo - Processing file 15/25: S3B_OLCI_EFRNT.20251030T013353.L2.OC.NRT.nc
+2026-09-10 13:18:44,455  INFO: Mullaloo - Skipping S3B_OLCI_EFRNT.20251030T013353.L2.OC.NRT.nc: date 2025-10-30 already in CSV
+2026-09-10 13:18:44,455  INFO: Mullaloo - Processing file 16/25: S3B_OLCI_EFRNT.20251102T015319.L2.OC.NRT.nc
+2026-09-10 13:18:44,457  INFO: Mullaloo - Skipping S3B_OLCI_EFRNT.20251102T015319.L2.OC.NRT.nc: date 2025-11-02 already in CSV
+2026-09-10 13:18:44,457  INFO: Mullaloo - Processing file 17/25: S3B_OLCI_ERRNT.20260807T011039.L2.OC.NRT.nc
+2026-09-10 13:18:44,458  INFO: Mullaloo - Skipping S3B_OLCI_ERRNT.20260807T011039.L2.OC.NRT.nc: date 2026-08-07 already in CSV
+2026-09-10 13:18:44,458  INFO: Mullaloo - Processing file 18/25: S3B_OLCI_ERRNT.20260808T004433.L2.OC.NRT.nc
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:456: RuntimeWarning: Mean of empty slice
+  chl_mean_3x3 = np.nanmean(region_3x3)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:471: RuntimeWarning: Mean of empty slice
+  chl_mean_4x4 = np.nanmean(region_4x4)
+2026-09-10 13:18:46,917  WARNING: Both 3x3 and 4x4 extraction returned NaN
+2026-09-10 13:18:46,957  WARNING: Mullaloo - Processed S3B_OLCI_ERRNT.20260808T004433.L2.OC.NRT.nc -> 2026-08-08, chl=NaN (marked noextraction)
+2026-09-10 13:18:46,957  INFO: Mullaloo - Processing file 19/25: S3B_OLCI_ERRNT.20260810T013321.L2.OC.NRT.nc
+2026-09-10 13:18:46,959  INFO: Mullaloo - Skipping S3B_OLCI_ERRNT.20260810T013321.L2.OC.NRT.nc: date 2026-08-10 already in CSV
+2026-09-10 13:18:46,959  INFO: Mullaloo - Processing file 20/25: S3B_OLCI_ERRNT.20260811T010717.L2.OC.NRT.nc
+2026-09-10 13:18:49,108  INFO: Mullaloo - Processed S3B_OLCI_ERRNT.20260811T010717.L2.OC.NRT.nc -> 2026-08-11, chl=2.2146
+2026-09-10 13:18:49,109  INFO: Mullaloo - Processing file 21/25: S3B_OLCI_ERRNT.20260812T004111.L2.OC.NRT.nc
+2026-09-10 13:18:51,384  INFO: Mullaloo - Processed S3B_OLCI_ERRNT.20260812T004111.L2.OC.NRT.nc -> 2026-08-12, chl=4.6703
+2026-09-10 13:18:51,385  INFO: Mullaloo - Processing file 22/25: S3B_OLCI_ERRNT.20260814T012959.L2.OC.NRT.nc
+2026-09-10 13:18:54,009  INFO: Mullaloo - Processed S3B_OLCI_ERRNT.20260814T012959.L2.OC.NRT.nc -> 2026-08-14, chl=2.9887
+2026-09-10 13:18:54,009  INFO: Mullaloo - Processing file 23/25: S3B_OLCI_ERRNT.20260815T010354.L2.OC.NRT.nc
+2026-09-10 13:18:56,587  INFO: Mullaloo - Processed S3B_OLCI_ERRNT.20260815T010354.L2.OC.NRT.nc -> 2026-08-15, chl=6.9100
+2026-09-10 13:18:56,587  INFO: Mullaloo - Processing file 24/25: S3B_OLCI_ERRNT.20260816T003750.L2.OC.NRT.nc
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:456: RuntimeWarning: Mean of empty slice
+  chl_mean_3x3 = np.nanmean(region_3x3)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:471: RuntimeWarning: Mean of empty slice
+  chl_mean_4x4 = np.nanmean(region_4x4)
+2026-09-10 13:19:06,739  WARNING: Both 3x3 and 4x4 extraction returned NaN
+2026-09-10 13:19:06,825  WARNING: Mullaloo - Processed S3B_OLCI_ERRNT.20260816T003750.L2.OC.NRT.nc -> 2026-08-16, chl=NaN (marked noextraction)
+2026-09-10 13:19:06,826  INFO: Mullaloo - Processing file 25/25: S3B_OLCI_ERRNT.20260818T012639.L2.OC.NRT.nc
+2026-09-10 13:19:06,828  INFO: Mullaloo - Skipping S3B_OLCI_ERRNT.20260818T012639.L2.OC.NRT.nc: date 2026-08-18 already in CSV
+2026-09-10 13:19:06,874  INFO: Mullaloo - Extracted 9 valid records from 25 files
+2026-09-10 13:19:06,958  INFO: Mullaloo - Existing CSV has 3158 records
+2026-09-10 13:19:06,973  INFO: Mullaloo - After merge: 3158 total records (0 new)
+2026-09-10 13:19:07,010  INFO: \u2713 Mullaloo - CSV saved: C:/Users/23755118/OneDrive - UWA/Documents/PhD_Varshani/CODING/chl_time\chl_timeseries_mullaloo.csv (3158 rows)
+2026-09-10 13:19:07,070  INFO: \u2713 Mullaloo - CSV verified: 3158 rows on disk
+2026-09-10 13:19:07,165  INFO:   \u2713 Successfully filled gap for 2025-10-31
+2026-09-10 13:19:09,417  INFO: 
+--- Checking gap for 2025-11-01 ---
+2026-09-10 13:19:09,616  INFO: Logging in to Earthdata via earthaccess...
+2026-09-10 13:19:12,770  INFO: Earthdata login OK.
+2026-09-10 13:19:13,608  INFO: Granules found: 1
+C:\Users\23755118\AppData\Local\miniconda3\envs\py3_13\Lib\site-packages\earthaccess\results.py:343: FutureWarning: As of version 1.0, `DataGranule.size` will be accessed as an attribute; e.g. use `DataCollection.size` **not** `DataCollection.size()`
+  self["size"] = self.size()
+2026-09-10 13:19:14,435  INFO:   OLCIS3A_L2_ERR_OC_NRT: 1 granules found for 2025-11-01
+2026-09-10 13:19:15,287  INFO: Granules found: 0
+2026-09-10 13:19:15,962  INFO:   OLCIS3B_L2_ERR_OC_NRT: 0 granules found for 2025-11-01
+2026-09-10 13:19:15,962  INFO:   Data available for 2025-11-01! Downloading...
+2026-09-10 13:19:16,015  INFO: Logging in to Earthdata via earthaccess...
+2026-09-10 13:19:18,959  INFO: Earthdata login OK.
+2026-09-10 13:19:18,960  INFO: Searching OLCIS3A_L2_EFR_OC_NRT for 2025-11-01...
+2026-09-10 13:19:19,801  INFO: Granules found: 2
+C:\Users\23755118\AppData\Local\miniconda3\envs\py3_13\Lib\site-packages\earthaccess\results.py:343: FutureWarning: As of version 1.0, `DataGranule.size` will be accessed as an attribute; e.g. use `DataCollection.size` **not** `DataCollection.size()`
+  self["size"] = self.size()
+2026-09-10 13:19:20,521  INFO: Found 2 items. Downloading...
+C:\Users\23755118\AppData\Local\miniconda3\envs\py3_13\Lib\site-packages\earthaccess\store.py:832: FutureWarning: As of version 1.0, `DataGranule.size` will be accessed as an attribute; e.g. use `DataCollection.size` **not** `DataCollection.size()`
+  total_size = round(sum(granule.size() for granule in granules) / 1024, 2)
+2026-09-10 13:19:20,522  INFO:  Getting 2 granules, approx download size: 0.29 GB
+2026-09-10 13:19:20,525  INFO: File S3A_OLCI_EFRNT.20251101T011712.L2.OC.NRT.nc already downloaded
+2026-09-10 13:19:20,526  INFO: File S3A_OLCI_EFRNT.20251101T012012.L2.OC.NRT.nc already downloaded
+2026-09-10 13:19:21,531  INFO: Searching OLCIS3B_L2_EFR_OC_NRT for 2025-11-01...
+2026-09-10 13:19:22,369  INFO: Granules found: 0
+2026-09-10 13:19:23,028  INFO: No results for OLCIS3B_L2_EFR_OC_NRT
+2026-09-10 13:19:23,028  INFO:   Downloaded 25 files
+2026-09-10 13:19:23,028  INFO: PSDP - Starting to process 25 files...
+2026-09-10 13:19:23,057  INFO: PSDP - Processing file 1/25: S3A_OLCI_EFRNT.20251030T020934.L2.OC.NRT.nc
+2026-09-10 13:19:23,058  INFO: PSDP - Skipping S3A_OLCI_EFRNT.20251030T020934.L2.OC.NRT.nc: date 2025-10-30 already in CSV
+2026-09-10 13:19:23,059  INFO: PSDP - Processing file 2/25: S3A_OLCI_EFRNT.20251031T014323.L2.OC.NRT.nc
+2026-09-10 13:19:23,061  INFO: PSDP - Skipping S3A_OLCI_EFRNT.20251031T014323.L2.OC.NRT.nc: date 2025-10-31 already in CSV
+2026-09-10 13:19:23,061  INFO: PSDP - Processing file 3/25: S3A_OLCI_EFRNT.20251101T011712.L2.OC.NRT.nc
+2026-09-10 13:19:23,063  INFO: PSDP - Skipping S3A_OLCI_EFRNT.20251101T011712.L2.OC.NRT.nc: date 2025-11-01 already in CSV
+2026-09-10 13:19:23,063  INFO: PSDP - Processing file 4/25: S3A_OLCI_EFRNT.20251101T012012.L2.OC.NRT.nc
+2026-09-10 13:19:23,064  INFO: PSDP - Skipping S3A_OLCI_EFRNT.20251101T012012.L2.OC.NRT.nc: date 2025-11-01 already in CSV
+2026-09-10 13:19:23,064  INFO: PSDP - Processing file 5/25: S3A_OLCI_ERRNT.20260728T010723.L2.OC.NRT.nc
+2026-09-10 13:19:25,396  INFO: PSDP - Processed S3A_OLCI_ERRNT.20260728T010723.L2.OC.NRT.nc -> 2026-07-28, chl=3.4437
+2026-09-10 13:19:25,397  INFO: PSDP - Processing file 6/25: S3A_OLCI_ERRNT.20260806T003426.L2.OC.NRT.nc
+2026-09-10 13:19:25,399  INFO: PSDP - Skipping S3A_OLCI_ERRNT.20260806T003426.L2.OC.NRT.nc: date 2026-08-06 already in CSV
+2026-09-10 13:19:25,399  INFO: PSDP - Processing file 7/25: S3A_OLCI_ERRNT.20260808T012314.L2.OC.NRT.nc
+2026-09-10 13:19:25,401  INFO: PSDP - Skipping S3A_OLCI_ERRNT.20260808T012314.L2.OC.NRT.nc: date 2026-08-08 already in CSV
+2026-09-10 13:19:25,401  INFO: PSDP - Processing file 8/25: S3A_OLCI_ERRNT.20260809T005707.L2.OC.NRT.nc
+2026-09-10 13:19:27,911  INFO: PSDP - Processed S3A_OLCI_ERRNT.20260809T005707.L2.OC.NRT.nc -> 2026-08-09, chl=2.0837
+2026-09-10 13:19:27,911  INFO: PSDP - Processing file 9/25: S3A_OLCI_ERRNT.20260812T011951.L2.OC.NRT.nc
+2026-09-10 13:19:30,604  INFO: PSDP - Processed S3A_OLCI_ERRNT.20260812T011951.L2.OC.NRT.nc -> 2026-08-12, chl=4.4215
+2026-09-10 13:19:30,604  INFO: PSDP - Processing file 10/25: S3A_OLCI_ERRNT.20260813T005345.L2.OC.NRT.nc
+2026-09-10 13:19:33,184  INFO: PSDP - Processed S3A_OLCI_ERRNT.20260813T005345.L2.OC.NRT.nc -> 2026-08-13, chl=4.4144
+2026-09-10 13:19:33,185  INFO: PSDP - Processing file 11/25: S3A_OLCI_ERRNT.20260816T011630.L2.OC.NRT.nc
+2026-09-10 13:19:35,762  INFO: PSDP - Processed S3A_OLCI_ERRNT.20260816T011630.L2.OC.NRT.nc -> 2026-08-16, chl=4.0160
+2026-09-10 13:19:35,762  INFO: PSDP - Processing file 12/25: S3A_OLCI_ERRNT.20260817T005025.L2.OC.NRT.nc
+2026-09-10 13:19:35,764  INFO: PSDP - Skipping S3A_OLCI_ERRNT.20260817T005025.L2.OC.NRT.nc: date 2026-08-17 already in CSV
+2026-09-10 13:19:35,764  INFO: PSDP - Processing file 13/25: S3B_OLCI_EFRNT.20251029T015704.L2.OC.NRT.nc
+2026-09-10 13:19:35,765  INFO: PSDP - Skipping S3B_OLCI_EFRNT.20251029T015704.L2.OC.NRT.nc: date 2025-10-29 already in CSV
+2026-09-10 13:19:35,766  INFO: PSDP - Processing file 14/25: S3B_OLCI_EFRNT.20251030T013053.L2.OC.NRT.nc
+2026-09-10 13:19:35,767  INFO: PSDP - Skipping S3B_OLCI_EFRNT.20251030T013053.L2.OC.NRT.nc: date 2025-10-30 already in CSV
+2026-09-10 13:19:35,767  INFO: PSDP - Processing file 15/25: S3B_OLCI_EFRNT.20251030T013353.L2.OC.NRT.nc
+2026-09-10 13:19:35,769  INFO: PSDP - Skipping S3B_OLCI_EFRNT.20251030T013353.L2.OC.NRT.nc: date 2025-10-30 already in CSV
+2026-09-10 13:19:35,769  INFO: PSDP - Processing file 16/25: S3B_OLCI_EFRNT.20251102T015319.L2.OC.NRT.nc
+2026-09-10 13:19:35,770  INFO: PSDP - Skipping S3B_OLCI_EFRNT.20251102T015319.L2.OC.NRT.nc: date 2025-11-02 already in CSV
+2026-09-10 13:19:35,770  INFO: PSDP - Processing file 17/25: S3B_OLCI_ERRNT.20260807T011039.L2.OC.NRT.nc
+2026-09-10 13:19:38,163  INFO: PSDP - Processed S3B_OLCI_ERRNT.20260807T011039.L2.OC.NRT.nc -> 2026-08-07, chl=1.2564
+2026-09-10 13:19:38,163  INFO: PSDP - Processing file 18/25: S3B_OLCI_ERRNT.20260808T004433.L2.OC.NRT.nc
+2026-09-10 13:19:38,165  INFO: PSDP - Skipping S3B_OLCI_ERRNT.20260808T004433.L2.OC.NRT.nc: date 2026-08-08 already in CSV
+2026-09-10 13:19:38,166  INFO: PSDP - Processing file 19/25: S3B_OLCI_ERRNT.20260810T013321.L2.OC.NRT.nc
+2026-09-10 13:19:38,167  INFO: PSDP - Skipping S3B_OLCI_ERRNT.20260810T013321.L2.OC.NRT.nc: date 2026-08-10 already in CSV
+2026-09-10 13:19:38,167  INFO: PSDP - Processing file 20/25: S3B_OLCI_ERRNT.20260811T010717.L2.OC.NRT.nc
+2026-09-10 13:19:40,562  INFO: PSDP - Processed S3B_OLCI_ERRNT.20260811T010717.L2.OC.NRT.nc -> 2026-08-11, chl=3.2078
+2026-09-10 13:19:40,562  INFO: PSDP - Processing file 21/25: S3B_OLCI_ERRNT.20260812T004111.L2.OC.NRT.nc
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:456: RuntimeWarning: Mean of empty slice
+  chl_mean_3x3 = np.nanmean(region_3x3)
+2026-09-10 13:19:42,842  INFO: 4x4 extraction successful: 4.1361 (3x3 was all NaN)
+2026-09-10 13:19:42,887  INFO: PSDP - Processed S3B_OLCI_ERRNT.20260812T004111.L2.OC.NRT.nc -> 2026-08-12, chl=4.1361
+2026-09-10 13:19:42,888  INFO: PSDP - Processing file 22/25: S3B_OLCI_ERRNT.20260814T012959.L2.OC.NRT.nc
+2026-09-10 13:19:44,982  INFO: PSDP - Processed S3B_OLCI_ERRNT.20260814T012959.L2.OC.NRT.nc -> 2026-08-14, chl=3.8839
+2026-09-10 13:19:44,982  INFO: PSDP - Processing file 23/25: S3B_OLCI_ERRNT.20260815T010354.L2.OC.NRT.nc
+2026-09-10 13:19:44,983  INFO: PSDP - Skipping S3B_OLCI_ERRNT.20260815T010354.L2.OC.NRT.nc: date 2026-08-15 already in CSV
+2026-09-10 13:19:44,983  INFO: PSDP - Processing file 24/25: S3B_OLCI_ERRNT.20260816T003750.L2.OC.NRT.nc
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:456: RuntimeWarning: Mean of empty slice
+  chl_mean_3x3 = np.nanmean(region_3x3)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:471: RuntimeWarning: Mean of empty slice
+  chl_mean_4x4 = np.nanmean(region_4x4)
+2026-09-10 13:19:47,270  WARNING: Both 3x3 and 4x4 extraction returned NaN
+2026-09-10 13:19:47,314  WARNING: PSDP - Processed S3B_OLCI_ERRNT.20260816T003750.L2.OC.NRT.nc -> 2026-08-16, chl=NaN (marked noextraction)
+2026-09-10 13:19:47,314  INFO: PSDP - Processing file 25/25: S3B_OLCI_ERRNT.20260818T012639.L2.OC.NRT.nc
+2026-09-10 13:19:50,010  INFO: PSDP - Processed S3B_OLCI_ERRNT.20260818T012639.L2.OC.NRT.nc -> 2026-08-18, chl=1.3046
+2026-09-10 13:19:50,014  INFO: PSDP - Extracted 9 valid records from 25 files
+2026-09-10 13:19:50,034  INFO: PSDP - Existing CSV has 3158 records
+2026-09-10 13:19:50,038  INFO: PSDP - After merge: 3158 total records (0 new)
+2026-09-10 13:19:50,052  INFO: \u2713 PSDP - CSV saved: C:/Users/23755118/OneDrive - UWA/Documents/PhD_Varshani/CODING/chl_time\chl_timeseries_psdp.csv (3158 rows)
+2026-09-10 13:19:50,088  INFO: \u2713 PSDP - CSV verified: 3158 rows on disk
+2026-09-10 13:19:50,109  INFO: Mullaloo - Starting to process 25 files...
+2026-09-10 13:19:50,126  INFO: Mullaloo - Processing file 1/25: S3A_OLCI_EFRNT.20251030T020934.L2.OC.NRT.nc
+2026-09-10 13:19:50,127  INFO: Mullaloo - Skipping S3A_OLCI_EFRNT.20251030T020934.L2.OC.NRT.nc: date 2025-10-30 already in CSV
+2026-09-10 13:19:50,127  INFO: Mullaloo - Processing file 2/25: S3A_OLCI_EFRNT.20251031T014323.L2.OC.NRT.nc
+2026-09-10 13:19:50,127  INFO: Mullaloo - Skipping S3A_OLCI_EFRNT.20251031T014323.L2.OC.NRT.nc: date 2025-10-31 already in CSV
+2026-09-10 13:19:50,127  INFO: Mullaloo - Processing file 3/25: S3A_OLCI_EFRNT.20251101T011712.L2.OC.NRT.nc
+2026-09-10 13:19:50,128  INFO: Mullaloo - Skipping S3A_OLCI_EFRNT.20251101T011712.L2.OC.NRT.nc: date 2025-11-01 already in CSV
+2026-09-10 13:19:50,128  INFO: Mullaloo - Processing file 4/25: S3A_OLCI_EFRNT.20251101T012012.L2.OC.NRT.nc
+2026-09-10 13:19:50,128  INFO: Mullaloo - Skipping S3A_OLCI_EFRNT.20251101T012012.L2.OC.NRT.nc: date 2025-11-01 already in CSV
+2026-09-10 13:19:50,129  INFO: Mullaloo - Processing file 5/25: S3A_OLCI_ERRNT.20260728T010723.L2.OC.NRT.nc
+2026-09-10 13:19:52,476  INFO: Mullaloo - Processed S3A_OLCI_ERRNT.20260728T010723.L2.OC.NRT.nc -> 2026-07-28, chl=4.1702
+2026-09-10 13:19:52,476  INFO: Mullaloo - Processing file 6/25: S3A_OLCI_ERRNT.20260806T003426.L2.OC.NRT.nc
+2026-09-10 13:19:52,477  INFO: Mullaloo - Skipping S3A_OLCI_ERRNT.20260806T003426.L2.OC.NRT.nc: date 2026-08-06 already in CSV
+2026-09-10 13:19:52,477  INFO: Mullaloo - Processing file 7/25: S3A_OLCI_ERRNT.20260808T012314.L2.OC.NRT.nc
+2026-09-10 13:19:55,007  INFO: Mullaloo - Processed S3A_OLCI_ERRNT.20260808T012314.L2.OC.NRT.nc -> 2026-08-08, chl=1.8230
+2026-09-10 13:19:55,007  INFO: Mullaloo - Processing file 8/25: S3A_OLCI_ERRNT.20260809T005707.L2.OC.NRT.nc
+2026-09-10 13:19:57,394  INFO: Mullaloo - Processed S3A_OLCI_ERRNT.20260809T005707.L2.OC.NRT.nc -> 2026-08-09, chl=3.6958
+2026-09-10 13:19:57,395  INFO: Mullaloo - Processing file 9/25: S3A_OLCI_ERRNT.20260812T011951.L2.OC.NRT.nc
+2026-09-10 13:20:00,079  INFO: Mullaloo - Processed S3A_OLCI_ERRNT.20260812T011951.L2.OC.NRT.nc -> 2026-08-12, chl=2.7176
+2026-09-10 13:20:00,079  INFO: Mullaloo - Processing file 10/25: S3A_OLCI_ERRNT.20260813T005345.L2.OC.NRT.nc
+2026-09-10 13:20:02,503  INFO: Mullaloo - Processed S3A_OLCI_ERRNT.20260813T005345.L2.OC.NRT.nc -> 2026-08-13, chl=3.4036
+2026-09-10 13:20:02,503  INFO: Mullaloo - Processing file 11/25: S3A_OLCI_ERRNT.20260816T011630.L2.OC.NRT.nc
+2026-09-10 13:20:05,142  INFO: Mullaloo - Processed S3A_OLCI_ERRNT.20260816T011630.L2.OC.NRT.nc -> 2026-08-16, chl=10.6628
+2026-09-10 13:20:05,143  INFO: Mullaloo - Processing file 12/25: S3A_OLCI_ERRNT.20260817T005025.L2.OC.NRT.nc
+2026-09-10 13:20:05,145  INFO: Mullaloo - Skipping S3A_OLCI_ERRNT.20260817T005025.L2.OC.NRT.nc: date 2026-08-17 already in CSV
+2026-09-10 13:20:05,145  INFO: Mullaloo - Processing file 13/25: S3B_OLCI_EFRNT.20251029T015704.L2.OC.NRT.nc
+2026-09-10 13:20:05,147  INFO: Mullaloo - Skipping S3B_OLCI_EFRNT.20251029T015704.L2.OC.NRT.nc: date 2025-10-29 already in CSV
+2026-09-10 13:20:05,148  INFO: Mullaloo - Processing file 14/25: S3B_OLCI_EFRNT.20251030T013053.L2.OC.NRT.nc
+2026-09-10 13:20:05,149  INFO: Mullaloo - Skipping S3B_OLCI_EFRNT.20251030T013053.L2.OC.NRT.nc: date 2025-10-30 already in CSV
+2026-09-10 13:20:05,150  INFO: Mullaloo - Processing file 15/25: S3B_OLCI_EFRNT.20251030T013353.L2.OC.NRT.nc
+2026-09-10 13:20:05,152  INFO: Mullaloo - Skipping S3B_OLCI_EFRNT.20251030T013353.L2.OC.NRT.nc: date 2025-10-30 already in CSV
+2026-09-10 13:20:05,152  INFO: Mullaloo - Processing file 16/25: S3B_OLCI_EFRNT.20251102T015319.L2.OC.NRT.nc
+2026-09-10 13:20:05,154  INFO: Mullaloo - Skipping S3B_OLCI_EFRNT.20251102T015319.L2.OC.NRT.nc: date 2025-11-02 already in CSV
+2026-09-10 13:20:05,155  INFO: Mullaloo - Processing file 17/25: S3B_OLCI_ERRNT.20260807T011039.L2.OC.NRT.nc
+2026-09-10 13:20:05,157  INFO: Mullaloo - Skipping S3B_OLCI_ERRNT.20260807T011039.L2.OC.NRT.nc: date 2026-08-07 already in CSV
+2026-09-10 13:20:05,157  INFO: Mullaloo - Processing file 18/25: S3B_OLCI_ERRNT.20260808T004433.L2.OC.NRT.nc
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:456: RuntimeWarning: Mean of empty slice
+  chl_mean_3x3 = np.nanmean(region_3x3)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:471: RuntimeWarning: Mean of empty slice
+  chl_mean_4x4 = np.nanmean(region_4x4)
+2026-09-10 13:20:17,152  WARNING: Both 3x3 and 4x4 extraction returned NaN
+2026-09-10 13:20:17,230  WARNING: Mullaloo - Processed S3B_OLCI_ERRNT.20260808T004433.L2.OC.NRT.nc -> 2026-08-08, chl=NaN (marked noextraction)
+2026-09-10 13:20:17,231  INFO: Mullaloo - Processing file 19/25: S3B_OLCI_ERRNT.20260810T013321.L2.OC.NRT.nc
+2026-09-10 13:20:17,235  INFO: Mullaloo - Skipping S3B_OLCI_ERRNT.20260810T013321.L2.OC.NRT.nc: date 2026-08-10 already in CSV
+2026-09-10 13:20:17,235  INFO: Mullaloo - Processing file 20/25: S3B_OLCI_ERRNT.20260811T010717.L2.OC.NRT.nc
+2026-09-10 13:20:22,298  INFO: Mullaloo - Processed S3B_OLCI_ERRNT.20260811T010717.L2.OC.NRT.nc -> 2026-08-11, chl=2.2146
+2026-09-10 13:20:22,299  INFO: Mullaloo - Processing file 21/25: S3B_OLCI_ERRNT.20260812T004111.L2.OC.NRT.nc
+2026-09-10 13:20:25,164  INFO: Mullaloo - Processed S3B_OLCI_ERRNT.20260812T004111.L2.OC.NRT.nc -> 2026-08-12, chl=4.6703
+2026-09-10 13:20:25,164  INFO: Mullaloo - Processing file 22/25: S3B_OLCI_ERRNT.20260814T012959.L2.OC.NRT.nc
+2026-09-10 13:20:27,782  INFO: Mullaloo - Processed S3B_OLCI_ERRNT.20260814T012959.L2.OC.NRT.nc -> 2026-08-14, chl=2.9887
+2026-09-10 13:20:27,782  INFO: Mullaloo - Processing file 23/25: S3B_OLCI_ERRNT.20260815T010354.L2.OC.NRT.nc
+2026-09-10 13:20:30,540  INFO: Mullaloo - Processed S3B_OLCI_ERRNT.20260815T010354.L2.OC.NRT.nc -> 2026-08-15, chl=6.9100
+2026-09-10 13:20:30,540  INFO: Mullaloo - Processing file 24/25: S3B_OLCI_ERRNT.20260816T003750.L2.OC.NRT.nc
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:456: RuntimeWarning: Mean of empty slice
+  chl_mean_3x3 = np.nanmean(region_3x3)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:471: RuntimeWarning: Mean of empty slice
+  chl_mean_4x4 = np.nanmean(region_4x4)
+2026-09-10 13:20:33,252  WARNING: Both 3x3 and 4x4 extraction returned NaN
+2026-09-10 13:20:33,295  WARNING: Mullaloo - Processed S3B_OLCI_ERRNT.20260816T003750.L2.OC.NRT.nc -> 2026-08-16, chl=NaN (marked noextraction)
+2026-09-10 13:20:33,295  INFO: Mullaloo - Processing file 25/25: S3B_OLCI_ERRNT.20260818T012639.L2.OC.NRT.nc
+2026-09-10 13:20:33,296  INFO: Mullaloo - Skipping S3B_OLCI_ERRNT.20260818T012639.L2.OC.NRT.nc: date 2026-08-18 already in CSV
+2026-09-10 13:20:33,310  INFO: Mullaloo - Extracted 9 valid records from 25 files
+2026-09-10 13:20:33,334  INFO: Mullaloo - Existing CSV has 3158 records
+2026-09-10 13:20:33,341  INFO: Mullaloo - After merge: 3158 total records (0 new)
+2026-09-10 13:20:33,365  INFO: \u2713 Mullaloo - CSV saved: C:/Users/23755118/OneDrive - UWA/Documents/PhD_Varshani/CODING/chl_time\chl_timeseries_mullaloo.csv (3158 rows)
+2026-09-10 13:20:33,403  INFO: \u2713 Mullaloo - CSV verified: 3158 rows on disk
+2026-09-10 13:20:33,463  INFO:   \u2713 Successfully filled gap for 2025-11-01
+2026-09-10 13:20:35,521  INFO: 
+--- Checking gap for 2025-11-02 ---
+2026-09-10 13:20:35,541  INFO: Logging in to Earthdata via earthaccess...
+2026-09-10 13:20:38,542  INFO: Earthdata login OK.
+2026-09-10 13:20:39,422  INFO: Granules found: 0
+2026-09-10 13:20:40,095  INFO:   OLCIS3A_L2_ERR_OC_NRT: 0 granules found for 2025-11-02
+2026-09-10 13:20:40,904  INFO: Granules found: 1
+C:\Users\23755118\AppData\Local\miniconda3\envs\py3_13\Lib\site-packages\earthaccess\results.py:343: FutureWarning: As of version 1.0, `DataGranule.size` will be accessed as an attribute; e.g. use `DataCollection.size` **not** `DataCollection.size()`
+  self["size"] = self.size()
+2026-09-10 13:20:41,587  INFO:   OLCIS3B_L2_ERR_OC_NRT: 1 granules found for 2025-11-02
+2026-09-10 13:20:41,587  INFO:   Data available for 2025-11-02! Downloading...
+2026-09-10 13:20:41,635  INFO: Logging in to Earthdata via earthaccess...
+2026-09-10 13:20:44,578  INFO: Earthdata login OK.
+2026-09-10 13:20:44,578  INFO: Searching OLCIS3A_L2_EFR_OC_NRT for 2025-11-02...
+2026-09-10 13:20:45,410  INFO: Granules found: 0
+2026-09-10 13:20:46,172  INFO: No results for OLCIS3A_L2_EFR_OC_NRT
+2026-09-10 13:20:46,172  INFO: Searching OLCIS3B_L2_EFR_OC_NRT for 2025-11-02...
+2026-09-10 13:20:47,029  INFO: Granules found: 1
+C:\Users\23755118\AppData\Local\miniconda3\envs\py3_13\Lib\site-packages\earthaccess\results.py:343: FutureWarning: As of version 1.0, `DataGranule.size` will be accessed as an attribute; e.g. use `DataCollection.size` **not** `DataCollection.size()`
+  self["size"] = self.size()
+2026-09-10 13:20:47,755  INFO: Found 1 items. Downloading...
+C:\Users\23755118\AppData\Local\miniconda3\envs\py3_13\Lib\site-packages\earthaccess\store.py:832: FutureWarning: As of version 1.0, `DataGranule.size` will be accessed as an attribute; e.g. use `DataCollection.size` **not** `DataCollection.size()`
+  total_size = round(sum(granule.size() for granule in granules) / 1024, 2)
+2026-09-10 13:20:47,756  INFO:  Getting 1 granules, approx download size: 0.15 GB
+2026-09-10 13:20:47,766  INFO: File S3B_OLCI_EFRNT.20251102T015319.L2.OC.NRT.nc already downloaded
+2026-09-10 13:20:48,769  INFO:   Downloaded 25 files
+2026-09-10 13:20:48,769  INFO: PSDP - Starting to process 25 files...
+2026-09-10 13:20:48,800  INFO: PSDP - Processing file 1/25: S3A_OLCI_EFRNT.20251030T020934.L2.OC.NRT.nc
+2026-09-10 13:20:48,801  INFO: PSDP - Skipping S3A_OLCI_EFRNT.20251030T020934.L2.OC.NRT.nc: date 2025-10-30 already in CSV
+2026-09-10 13:20:48,802  INFO: PSDP - Processing file 2/25: S3A_OLCI_EFRNT.20251031T014323.L2.OC.NRT.nc
+2026-09-10 13:20:48,803  INFO: PSDP - Skipping S3A_OLCI_EFRNT.20251031T014323.L2.OC.NRT.nc: date 2025-10-31 already in CSV
+2026-09-10 13:20:48,803  INFO: PSDP - Processing file 3/25: S3A_OLCI_EFRNT.20251101T011712.L2.OC.NRT.nc
+2026-09-10 13:20:48,804  INFO: PSDP - Skipping S3A_OLCI_EFRNT.20251101T011712.L2.OC.NRT.nc: date 2025-11-01 already in CSV
+2026-09-10 13:20:48,805  INFO: PSDP - Processing file 4/25: S3A_OLCI_EFRNT.20251101T012012.L2.OC.NRT.nc
+2026-09-10 13:20:48,806  INFO: PSDP - Skipping S3A_OLCI_EFRNT.20251101T012012.L2.OC.NRT.nc: date 2025-11-01 already in CSV
+2026-09-10 13:20:48,806  INFO: PSDP - Processing file 5/25: S3A_OLCI_ERRNT.20260728T010723.L2.OC.NRT.nc
+2026-09-10 13:20:51,385  INFO: PSDP - Processed S3A_OLCI_ERRNT.20260728T010723.L2.OC.NRT.nc -> 2026-07-28, chl=3.4437
+2026-09-10 13:20:51,385  INFO: PSDP - Processing file 6/25: S3A_OLCI_ERRNT.20260806T003426.L2.OC.NRT.nc
+2026-09-10 13:20:51,386  INFO: PSDP - Skipping S3A_OLCI_ERRNT.20260806T003426.L2.OC.NRT.nc: date 2026-08-06 already in CSV
+2026-09-10 13:20:51,386  INFO: PSDP - Processing file 7/25: S3A_OLCI_ERRNT.20260808T012314.L2.OC.NRT.nc
+2026-09-10 13:20:51,387  INFO: PSDP - Skipping S3A_OLCI_ERRNT.20260808T012314.L2.OC.NRT.nc: date 2026-08-08 already in CSV
+2026-09-10 13:20:51,387  INFO: PSDP - Processing file 8/25: S3A_OLCI_ERRNT.20260809T005707.L2.OC.NRT.nc
+2026-09-10 13:20:53,780  INFO: PSDP - Processed S3A_OLCI_ERRNT.20260809T005707.L2.OC.NRT.nc -> 2026-08-09, chl=2.0837
+2026-09-10 13:20:53,780  INFO: PSDP - Processing file 9/25: S3A_OLCI_ERRNT.20260812T011951.L2.OC.NRT.nc
+2026-09-10 13:20:56,151  INFO: PSDP - Processed S3A_OLCI_ERRNT.20260812T011951.L2.OC.NRT.nc -> 2026-08-12, chl=4.4215
+2026-09-10 13:20:56,151  INFO: PSDP - Processing file 10/25: S3A_OLCI_ERRNT.20260813T005345.L2.OC.NRT.nc
+2026-09-10 13:20:58,651  INFO: PSDP - Processed S3A_OLCI_ERRNT.20260813T005345.L2.OC.NRT.nc -> 2026-08-13, chl=4.4144
+2026-09-10 13:20:58,651  INFO: PSDP - Processing file 11/25: S3A_OLCI_ERRNT.20260816T011630.L2.OC.NRT.nc
+2026-09-10 13:21:00,936  INFO: PSDP - Processed S3A_OLCI_ERRNT.20260816T011630.L2.OC.NRT.nc -> 2026-08-16, chl=4.0160
+2026-09-10 13:21:00,936  INFO: PSDP - Processing file 12/25: S3A_OLCI_ERRNT.20260817T005025.L2.OC.NRT.nc
+2026-09-10 13:21:00,937  INFO: PSDP - Skipping S3A_OLCI_ERRNT.20260817T005025.L2.OC.NRT.nc: date 2026-08-17 already in CSV
+2026-09-10 13:21:00,937  INFO: PSDP - Processing file 13/25: S3B_OLCI_EFRNT.20251029T015704.L2.OC.NRT.nc
+2026-09-10 13:21:00,937  INFO: PSDP - Skipping S3B_OLCI_EFRNT.20251029T015704.L2.OC.NRT.nc: date 2025-10-29 already in CSV
+2026-09-10 13:21:00,937  INFO: PSDP - Processing file 14/25: S3B_OLCI_EFRNT.20251030T013053.L2.OC.NRT.nc
+2026-09-10 13:21:00,938  INFO: PSDP - Skipping S3B_OLCI_EFRNT.20251030T013053.L2.OC.NRT.nc: date 2025-10-30 already in CSV
+2026-09-10 13:21:00,938  INFO: PSDP - Processing file 15/25: S3B_OLCI_EFRNT.20251030T013353.L2.OC.NRT.nc
+2026-09-10 13:21:00,939  INFO: PSDP - Skipping S3B_OLCI_EFRNT.20251030T013353.L2.OC.NRT.nc: date 2025-10-30 already in CSV
+2026-09-10 13:21:00,939  INFO: PSDP - Processing file 16/25: S3B_OLCI_EFRNT.20251102T015319.L2.OC.NRT.nc
+2026-09-10 13:21:00,939  INFO: PSDP - Skipping S3B_OLCI_EFRNT.20251102T015319.L2.OC.NRT.nc: date 2025-11-02 already in CSV
+2026-09-10 13:21:00,940  INFO: PSDP - Processing file 17/25: S3B_OLCI_ERRNT.20260807T011039.L2.OC.NRT.nc
+2026-09-10 13:21:03,513  INFO: PSDP - Processed S3B_OLCI_ERRNT.20260807T011039.L2.OC.NRT.nc -> 2026-08-07, chl=1.2564
+2026-09-10 13:21:03,513  INFO: PSDP - Processing file 18/25: S3B_OLCI_ERRNT.20260808T004433.L2.OC.NRT.nc
+2026-09-10 13:21:03,515  INFO: PSDP - Skipping S3B_OLCI_ERRNT.20260808T004433.L2.OC.NRT.nc: date 2026-08-08 already in CSV
+2026-09-10 13:21:03,515  INFO: PSDP - Processing file 19/25: S3B_OLCI_ERRNT.20260810T013321.L2.OC.NRT.nc
+2026-09-10 13:21:03,518  INFO: PSDP - Skipping S3B_OLCI_ERRNT.20260810T013321.L2.OC.NRT.nc: date 2026-08-10 already in CSV
+2026-09-10 13:21:03,518  INFO: PSDP - Processing file 20/25: S3B_OLCI_ERRNT.20260811T010717.L2.OC.NRT.nc
+2026-09-10 13:21:06,457  INFO: PSDP - Processed S3B_OLCI_ERRNT.20260811T010717.L2.OC.NRT.nc -> 2026-08-11, chl=3.2078
+2026-09-10 13:21:06,458  INFO: PSDP - Processing file 21/25: S3B_OLCI_ERRNT.20260812T004111.L2.OC.NRT.nc
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:456: RuntimeWarning: Mean of empty slice
+  chl_mean_3x3 = np.nanmean(region_3x3)
+2026-09-10 13:21:09,426  INFO: 4x4 extraction successful: 4.1361 (3x3 was all NaN)
+2026-09-10 13:21:09,460  INFO: PSDP - Processed S3B_OLCI_ERRNT.20260812T004111.L2.OC.NRT.nc -> 2026-08-12, chl=4.1361
+2026-09-10 13:21:09,461  INFO: PSDP - Processing file 22/25: S3B_OLCI_ERRNT.20260814T012959.L2.OC.NRT.nc
+2026-09-10 13:21:11,780  INFO: PSDP - Processed S3B_OLCI_ERRNT.20260814T012959.L2.OC.NRT.nc -> 2026-08-14, chl=3.8839
+2026-09-10 13:21:11,780  INFO: PSDP - Processing file 23/25: S3B_OLCI_ERRNT.20260815T010354.L2.OC.NRT.nc
+2026-09-10 13:21:11,781  INFO: PSDP - Skipping S3B_OLCI_ERRNT.20260815T010354.L2.OC.NRT.nc: date 2026-08-15 already in CSV
+2026-09-10 13:21:11,781  INFO: PSDP - Processing file 24/25: S3B_OLCI_ERRNT.20260816T003750.L2.OC.NRT.nc
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:456: RuntimeWarning: Mean of empty slice
+  chl_mean_3x3 = np.nanmean(region_3x3)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:471: RuntimeWarning: Mean of empty slice
+  chl_mean_4x4 = np.nanmean(region_4x4)
+2026-09-10 13:21:14,226  WARNING: Both 3x3 and 4x4 extraction returned NaN
+2026-09-10 13:21:14,257  WARNING: PSDP - Processed S3B_OLCI_ERRNT.20260816T003750.L2.OC.NRT.nc -> 2026-08-16, chl=NaN (marked noextraction)
+2026-09-10 13:21:14,257  INFO: PSDP - Processing file 25/25: S3B_OLCI_ERRNT.20260818T012639.L2.OC.NRT.nc
+2026-09-10 13:21:16,457  INFO: PSDP - Processed S3B_OLCI_ERRNT.20260818T012639.L2.OC.NRT.nc -> 2026-08-18, chl=1.3046
+2026-09-10 13:21:16,463  INFO: PSDP - Extracted 9 valid records from 25 files
+2026-09-10 13:21:16,490  INFO: PSDP - Existing CSV has 3158 records
+2026-09-10 13:21:16,497  INFO: PSDP - After merge: 3158 total records (0 new)
+2026-09-10 13:21:16,512  INFO: \u2713 PSDP - CSV saved: C:/Users/23755118/OneDrive - UWA/Documents/PhD_Varshani/CODING/chl_time\chl_timeseries_psdp.csv (3158 rows)
+2026-09-10 13:21:16,548  INFO: \u2713 PSDP - CSV verified: 3158 rows on disk
+2026-09-10 13:21:16,578  INFO: Mullaloo - Starting to process 25 files...
+2026-09-10 13:21:16,609  INFO: Mullaloo - Processing file 1/25: S3A_OLCI_EFRNT.20251030T020934.L2.OC.NRT.nc
+2026-09-10 13:21:16,611  INFO: Mullaloo - Skipping S3A_OLCI_EFRNT.20251030T020934.L2.OC.NRT.nc: date 2025-10-30 already in CSV
+2026-09-10 13:21:16,611  INFO: Mullaloo - Processing file 2/25: S3A_OLCI_EFRNT.20251031T014323.L2.OC.NRT.nc
+2026-09-10 13:21:16,612  INFO: Mullaloo - Skipping S3A_OLCI_EFRNT.20251031T014323.L2.OC.NRT.nc: date 2025-10-31 already in CSV
+2026-09-10 13:21:16,613  INFO: Mullaloo - Processing file 3/25: S3A_OLCI_EFRNT.20251101T011712.L2.OC.NRT.nc
+2026-09-10 13:21:16,614  INFO: Mullaloo - Skipping S3A_OLCI_EFRNT.20251101T011712.L2.OC.NRT.nc: date 2025-11-01 already in CSV
+2026-09-10 13:21:16,614  INFO: Mullaloo - Processing file 4/25: S3A_OLCI_EFRNT.20251101T012012.L2.OC.NRT.nc
+2026-09-10 13:21:16,616  INFO: Mullaloo - Skipping S3A_OLCI_EFRNT.20251101T012012.L2.OC.NRT.nc: date 2025-11-01 already in CSV
+2026-09-10 13:21:16,616  INFO: Mullaloo - Processing file 5/25: S3A_OLCI_ERRNT.20260728T010723.L2.OC.NRT.nc
+2026-09-10 13:21:18,812  INFO: Mullaloo - Processed S3A_OLCI_ERRNT.20260728T010723.L2.OC.NRT.nc -> 2026-07-28, chl=4.1702
+2026-09-10 13:21:18,812  INFO: Mullaloo - Processing file 6/25: S3A_OLCI_ERRNT.20260806T003426.L2.OC.NRT.nc
+2026-09-10 13:21:18,813  INFO: Mullaloo - Skipping S3A_OLCI_ERRNT.20260806T003426.L2.OC.NRT.nc: date 2026-08-06 already in CSV
+2026-09-10 13:21:18,813  INFO: Mullaloo - Processing file 7/25: S3A_OLCI_ERRNT.20260808T012314.L2.OC.NRT.nc
+2026-09-10 13:21:21,135  INFO: Mullaloo - Processed S3A_OLCI_ERRNT.20260808T012314.L2.OC.NRT.nc -> 2026-08-08, chl=1.8230
+2026-09-10 13:21:21,136  INFO: Mullaloo - Processing file 8/25: S3A_OLCI_ERRNT.20260809T005707.L2.OC.NRT.nc
+2026-09-10 13:21:24,104  INFO: Mullaloo - Processed S3A_OLCI_ERRNT.20260809T005707.L2.OC.NRT.nc -> 2026-08-09, chl=3.6958
+2026-09-10 13:21:24,105  INFO: Mullaloo - Processing file 9/25: S3A_OLCI_ERRNT.20260812T011951.L2.OC.NRT.nc
+2026-09-10 13:21:26,676  INFO: Mullaloo - Processed S3A_OLCI_ERRNT.20260812T011951.L2.OC.NRT.nc -> 2026-08-12, chl=2.7176
+2026-09-10 13:21:26,677  INFO: Mullaloo - Processing file 10/25: S3A_OLCI_ERRNT.20260813T005345.L2.OC.NRT.nc
+2026-09-10 13:21:29,226  INFO: Mullaloo - Processed S3A_OLCI_ERRNT.20260813T005345.L2.OC.NRT.nc -> 2026-08-13, chl=3.4036
+2026-09-10 13:21:29,226  INFO: Mullaloo - Processing file 11/25: S3A_OLCI_ERRNT.20260816T011630.L2.OC.NRT.nc
+2026-09-10 13:21:31,565  INFO: Mullaloo - Processed S3A_OLCI_ERRNT.20260816T011630.L2.OC.NRT.nc -> 2026-08-16, chl=10.6628
+2026-09-10 13:21:31,565  INFO: Mullaloo - Processing file 12/25: S3A_OLCI_ERRNT.20260817T005025.L2.OC.NRT.nc
+2026-09-10 13:21:31,568  INFO: Mullaloo - Skipping S3A_OLCI_ERRNT.20260817T005025.L2.OC.NRT.nc: date 2026-08-17 already in CSV
+2026-09-10 13:21:31,569  INFO: Mullaloo - Processing file 13/25: S3B_OLCI_EFRNT.20251029T015704.L2.OC.NRT.nc
+2026-09-10 13:21:31,571  INFO: Mullaloo - Skipping S3B_OLCI_EFRNT.20251029T015704.L2.OC.NRT.nc: date 2025-10-29 already in CSV
+2026-09-10 13:21:31,571  INFO: Mullaloo - Processing file 14/25: S3B_OLCI_EFRNT.20251030T013053.L2.OC.NRT.nc
+2026-09-10 13:21:31,573  INFO: Mullaloo - Skipping S3B_OLCI_EFRNT.20251030T013053.L2.OC.NRT.nc: date 2025-10-30 already in CSV
+2026-09-10 13:21:31,573  INFO: Mullaloo - Processing file 15/25: S3B_OLCI_EFRNT.20251030T013353.L2.OC.NRT.nc
+2026-09-10 13:21:31,575  INFO: Mullaloo - Skipping S3B_OLCI_EFRNT.20251030T013353.L2.OC.NRT.nc: date 2025-10-30 already in CSV
+2026-09-10 13:21:31,576  INFO: Mullaloo - Processing file 16/25: S3B_OLCI_EFRNT.20251102T015319.L2.OC.NRT.nc
+2026-09-10 13:21:31,578  INFO: Mullaloo - Skipping S3B_OLCI_EFRNT.20251102T015319.L2.OC.NRT.nc: date 2025-11-02 already in CSV
+2026-09-10 13:21:31,578  INFO: Mullaloo - Processing file 17/25: S3B_OLCI_ERRNT.20260807T011039.L2.OC.NRT.nc
+2026-09-10 13:21:31,581  INFO: Mullaloo - Skipping S3B_OLCI_ERRNT.20260807T011039.L2.OC.NRT.nc: date 2026-08-07 already in CSV
+2026-09-10 13:21:31,582  INFO: Mullaloo - Processing file 18/25: S3B_OLCI_ERRNT.20260808T004433.L2.OC.NRT.nc
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:456: RuntimeWarning: Mean of empty slice
+  chl_mean_3x3 = np.nanmean(region_3x3)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:471: RuntimeWarning: Mean of empty slice
+  chl_mean_4x4 = np.nanmean(region_4x4)
+2026-09-10 13:21:33,885  WARNING: Both 3x3 and 4x4 extraction returned NaN
+2026-09-10 13:21:33,916  WARNING: Mullaloo - Processed S3B_OLCI_ERRNT.20260808T004433.L2.OC.NRT.nc -> 2026-08-08, chl=NaN (marked noextraction)
+2026-09-10 13:21:33,916  INFO: Mullaloo - Processing file 19/25: S3B_OLCI_ERRNT.20260810T013321.L2.OC.NRT.nc
+2026-09-10 13:21:33,917  INFO: Mullaloo - Skipping S3B_OLCI_ERRNT.20260810T013321.L2.OC.NRT.nc: date 2026-08-10 already in CSV
+2026-09-10 13:21:33,917  INFO: Mullaloo - Processing file 20/25: S3B_OLCI_ERRNT.20260811T010717.L2.OC.NRT.nc
+2026-09-10 13:21:36,164  INFO: Mullaloo - Processed S3B_OLCI_ERRNT.20260811T010717.L2.OC.NRT.nc -> 2026-08-11, chl=2.2146
+2026-09-10 13:21:36,164  INFO: Mullaloo - Processing file 21/25: S3B_OLCI_ERRNT.20260812T004111.L2.OC.NRT.nc
+2026-09-10 13:21:38,702  INFO: Mullaloo - Processed S3B_OLCI_ERRNT.20260812T004111.L2.OC.NRT.nc -> 2026-08-12, chl=4.6703
+2026-09-10 13:21:38,703  INFO: Mullaloo - Processing file 22/25: S3B_OLCI_ERRNT.20260814T012959.L2.OC.NRT.nc
+2026-09-10 13:21:41,016  INFO: Mullaloo - Processed S3B_OLCI_ERRNT.20260814T012959.L2.OC.NRT.nc -> 2026-08-14, chl=2.9887
+2026-09-10 13:21:41,016  INFO: Mullaloo - Processing file 23/25: S3B_OLCI_ERRNT.20260815T010354.L2.OC.NRT.nc
+2026-09-10 13:21:43,232  INFO: Mullaloo - Processed S3B_OLCI_ERRNT.20260815T010354.L2.OC.NRT.nc -> 2026-08-15, chl=6.9100
+2026-09-10 13:21:43,232  INFO: Mullaloo - Processing file 24/25: S3B_OLCI_ERRNT.20260816T003750.L2.OC.NRT.nc
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:456: RuntimeWarning: Mean of empty slice
+  chl_mean_3x3 = np.nanmean(region_3x3)
+C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py:471: RuntimeWarning: Mean of empty slice
+  chl_mean_4x4 = np.nanmean(region_4x4)
+2026-09-10 13:21:45,455  WARNING: Both 3x3 and 4x4 extraction returned NaN
+2026-09-10 13:21:45,497  WARNING: Mullaloo - Processed S3B_OLCI_ERRNT.20260816T003750.L2.OC.NRT.nc -> 2026-08-16, chl=NaN (marked noextraction)
+2026-09-10 13:21:45,497  INFO: Mullaloo - Processing file 25/25: S3B_OLCI_ERRNT.20260818T012639.L2.OC.NRT.nc
+2026-09-10 13:21:45,498  INFO: Mullaloo - Skipping S3B_OLCI_ERRNT.20260818T012639.L2.OC.NRT.nc: date 2026-08-18 already in CSV
+2026-09-10 13:21:45,502  INFO: Mullaloo - Extracted 9 valid records from 25 files
+2026-09-10 13:21:45,521  INFO: Mullaloo - Existing CSV has 3158 records
+2026-09-10 13:21:45,525  INFO: Mullaloo - After merge: 3158 total records (0 new)
+2026-09-10 13:21:45,539  INFO: \u2713 Mullaloo - CSV saved: C:/Users/23755118/OneDrive - UWA/Documents/PhD_Varshani/CODING/chl_time\chl_timeseries_mullaloo.csv (3158 rows)
+2026-09-10 13:21:45,568  INFO: \u2713 Mullaloo - CSV verified: 3158 rows on disk
+2026-09-10 13:21:45,612  INFO:   \u2713 Successfully filled gap for 2025-11-02
+2026-09-10 13:21:47,649  INFO: 
+=== Gap filling complete: 5 filled, 5 checked ===
+2026-09-10 13:21:47,650  INFO: Gap detection complete: 5 gaps filled
