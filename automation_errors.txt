@@ -174979,3 +174979,63 @@ C:\Users\23755118\AppData\Local\miniconda3\envs\py3_13\Lib\site-packages\earthac
 2026-10-13 17:01:16,315  INFO: Granules found: 0
 2026-10-13 17:01:16,950  INFO: No results for OLCIS3A_L2_EFR_OC_NRT
 2026-10-13 17:01:16,950  INFO: Searching OLCIS3B_L2_EFR_OC_NRT for 2026-03-22...
+2026-10-13 17:01:17,760  INFO: Granules found: 0
+2026-10-13 17:01:18,399  INFO: No results for OLCIS3B_L2_EFR_OC_NRT
+2026-10-13 17:01:18,400  WARNING:   \u2717 Download failed for 2026-03-22
+2026-10-13 17:01:20,450  INFO: 
+=== Gap filling complete: 0 filled, 4 checked ===
+2026-10-13 17:01:20,450  INFO: Gap detection complete: 0 gaps filled
+2026-10-13 17:01:20,480  INFO: 
+============================================================
+2026-10-13 17:01:20,481  INFO: GAP SUMMARY REPORT
+2026-10-13 17:01:20,481  INFO: ============================================================
+2026-10-13 17:01:20,485  INFO: 
+Gap Status Distribution:
+2026-10-13 17:01:20,485  INFO:   filled: 223
+2026-10-13 17:01:20,485  INFO:   no_extraction: 76
+2026-10-13 17:01:20,486  INFO:   unavailable: 12
+2026-10-13 17:01:20,486  INFO:   download_failed: 4
+2026-10-13 17:01:20,486  INFO:   missing: 3
+2026-10-13 17:01:20,486  INFO:   available: 1
+2026-10-13 17:01:20,488  INFO: 
+Unfilled gaps: 19
+2026-10-13 17:01:20,489  INFO:   Date range: 2026-03-18 to 2026-10-13
+2026-10-13 17:01:20,494  INFO: 
+Gaps checked in last 24 hours: 6
+2026-10-13 17:01:20,494  INFO: ============================================================
+
+2026-10-13 17:01:20,495  INFO: 
+============================================================
+2026-10-13 17:01:20,495  INFO: GENERATING INTERACTIVE LEAFLET MAP WITH LOLLIPOP PLOTS
+2026-10-13 17:01:20,495  INFO: ============================================================
+2026-10-13 17:01:20,898  ERROR: Error generating interactive map: 'str' object has no attribute 'strftime'
+Traceback (most recent call last):
+  File "C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py", line 1818, in main
+    mullaloo_plot_data = create_lollipop_plot_json(
+        df_mullaloo_map, "Mullaloo", "#87CEEB", "#FFA500"
+    )
+  File "C:\Users\23755118\OneDrive - UWA\Documents\PhD_Varshani\CODING\chl_time\daily_chl_pipeline.py", line 743, in create_lollipop_plot_json
+    date_fmt = row["date"].strftime("%Y-%m-%d")
+               ^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'strftime'
+2026-10-13 17:01:20,904  INFO: 
+============================================================
+2026-10-13 17:01:20,905  INFO: GENERATING COMPARISON PLOTS
+2026-10-13 17:01:20,905  INFO: ============================================================
+2026-10-13 17:01:20,905  INFO: 
+============================================================
+2026-10-13 17:01:20,905  INFO: GIT COMMIT AND PUSH
+2026-10-13 17:01:20,906  INFO: ============================================================
+2026-10-13 17:01:22,717  INFO: Git commit successful: Auto-update chlorophyll data: 2026-10-13
+2026-10-13 17:01:23,059  INFO: Current branch: main
+2026-10-13 17:01:32,007  INFO: \u2713 Git push successful to main
+2026-10-13 17:01:32,007  INFO: \u2713 Git commit and push completed successfully
+2026-10-13 17:01:32,011  INFO: Cleanup done. Removed 2 files (excluding .nc)
+2026-10-13 17:01:32,012  INFO: 
+============================================================
+2026-10-13 17:01:32,012  INFO: === PIPELINE FINISHED SUCCESSFULLY ===
+2026-10-13 17:01:32,012  INFO: ============================================================
+2026-10-13 17:03:20,518  INFO: === Starting dual-location chlorophyll pipeline ===
+2026-10-13 17:03:20,519  INFO: Location 1: PSDP (-32.20085, 115.77047)
+2026-10-13 17:03:20,519  INFO: Location 2: Mullaloo (-31.782, 115.721)
+2026-10-13 17:03:20,541  INFO: Daily mode: Searching for data for 2026-10-13
