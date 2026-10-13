@@ -93,7 +93,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_16e21a60628dc371e418db6abf48b5b6 {
+                #map_61196719fe828c8c1982bf5e396a2029 {
                     position: relative;
                     width: 100.0%;
                     height: 600.0px;
@@ -130,14 +130,14 @@
 <body>
     
     
-            <div class="folium-map" id="map_16e21a60628dc371e418db6abf48b5b6" ></div>
+            <div class="folium-map" id="map_61196719fe828c8c1982bf5e396a2029" ></div>
         
 </body>
 <script>
     
     
-            var map_16e21a60628dc371e418db6abf48b5b6 = L.map(
-                "map_16e21a60628dc371e418db6abf48b5b6",
+            var map_61196719fe828c8c1982bf5e396a2029 = L.map(
+                "map_61196719fe828c8c1982bf5e396a2029",
                 {
                     center: [-31.991425, 115.745735],
                     crs: L.CRS.EPSG3857,
@@ -154,15 +154,15 @@
 
         
     
-            var tile_layer_73dc2f91ff87f86b9ffd01f7188a58e1 = L.tileLayer(
-                "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
+            var tile_layer_4a3eac66e627519c648845a412f77e9e = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
                 {
   "minZoom": 0,
-  "maxZoom": 20,
-  "maxNativeZoom": 20,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
   "noWrap": false,
-  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e",
-  "subdomains": "abcd",
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
   "detectRetina": false,
   "tms": false,
   "opacity": 1,
@@ -171,17 +171,17 @@
             );
         
     
-            tile_layer_73dc2f91ff87f86b9ffd01f7188a58e1.addTo(map_16e21a60628dc371e418db6abf48b5b6);
+            tile_layer_4a3eac66e627519c648845a412f77e9e.addTo(map_61196719fe828c8c1982bf5e396a2029);
         
     
-            var marker_cc47d045ec3448f0b12fb12550518056 = L.marker(
+            var marker_74f8c4659456aa802d6c88ddb032df71 = L.marker(
                 [-32.20085, 115.77047],
                 {
 }
-            ).addTo(map_16e21a60628dc371e418db6abf48b5b6);
+            ).addTo(map_61196719fe828c8c1982bf5e396a2029);
         
     
-            var icon_be9f44dbbd4148e3d608798573869642 = L.AwesomeMarkers.icon(
+            var icon_5a4ca319d28e3e42c6e351cb6af29d21 = L.AwesomeMarkers.icon(
                 {
   "markerColor": "green",
   "iconColor": "white",
@@ -192,24 +192,24 @@
             );
         
     
-        var popup_9c1d7eaa77f9c92c9543aea814e9e0e4 = L.popup({
+        var popup_3c63c3ed792c5acf9d89804471c59f0f = L.popup({
   "maxWidth": 250,
 });
 
         
             
-                var html_c3940d3878e58be1d3d65aa1363e01c3 = $(`<div id="html_c3940d3878e58be1d3d65aa1363e01c3" style="width: 100.0%; height: 100.0%;"><b>PSDP</b><br>Lat -32.2009<br>Lon 115.7705<br><button onclick="showPlot('psdp');document.getElementById('plot-container').scrollIntoView({behavior:'smooth'});">Show Timeseries</button></div>`)[0];
-                popup_9c1d7eaa77f9c92c9543aea814e9e0e4.setContent(html_c3940d3878e58be1d3d65aa1363e01c3);
+                var html_81f8c90d9729295e80ad2ea71a5655cd = $(`<div id="html_81f8c90d9729295e80ad2ea71a5655cd" style="width: 100.0%; height: 100.0%;"><b>PSDP</b><br>Lat -32.2009<br>Lon 115.7705<br><button onclick="showPlot('psdp');document.getElementById('plot-container').scrollIntoView({behavior:'smooth'});">Show Timeseries</button></div>`)[0];
+                popup_3c63c3ed792c5acf9d89804471c59f0f.setContent(html_81f8c90d9729295e80ad2ea71a5655cd);
             
         
 
-        marker_cc47d045ec3448f0b12fb12550518056.bindPopup(popup_9c1d7eaa77f9c92c9543aea814e9e0e4)
+        marker_74f8c4659456aa802d6c88ddb032df71.bindPopup(popup_3c63c3ed792c5acf9d89804471c59f0f)
         ;
 
         
     
     
-            marker_cc47d045ec3448f0b12fb12550518056.bindTooltip(
+            marker_74f8c4659456aa802d6c88ddb032df71.bindTooltip(
                 `<div>
                      PSDP - Click to view data
                  </div>`,
@@ -219,17 +219,17 @@
             );
         
     
-                marker_cc47d045ec3448f0b12fb12550518056.setIcon(icon_be9f44dbbd4148e3d608798573869642);
+                marker_74f8c4659456aa802d6c88ddb032df71.setIcon(icon_5a4ca319d28e3e42c6e351cb6af29d21);
             
     
-            var marker_8c36e17b1b4604d5b83cef1bf9bde160 = L.marker(
+            var marker_c9317127bc546ffe34cbbc0c6269fcd1 = L.marker(
                 [-31.782, 115.721],
                 {
 }
-            ).addTo(map_16e21a60628dc371e418db6abf48b5b6);
+            ).addTo(map_61196719fe828c8c1982bf5e396a2029);
         
     
-            var icon_91cf14644e68d3163d2547d44a62ff0f = L.AwesomeMarkers.icon(
+            var icon_94ed49c0d9ff3b73835e3f2ae1bae632 = L.AwesomeMarkers.icon(
                 {
   "markerColor": "blue",
   "iconColor": "white",
@@ -240,24 +240,24 @@
             );
         
     
-        var popup_c617d84026163391ed250a1a596409a6 = L.popup({
+        var popup_c0f9ad0276e1ec0e00eaeb872a1524a4 = L.popup({
   "maxWidth": 250,
 });
 
         
             
-                var html_895d20d7ac7fb7d20a1b7b545e7d65f7 = $(`<div id="html_895d20d7ac7fb7d20a1b7b545e7d65f7" style="width: 100.0%; height: 100.0%;"><b>Mullaloo</b><br>Lat -31.7820<br>Lon 115.7210<br><button onclick="showPlot('mullaloo');document.getElementById('plot-container').scrollIntoView({behavior:'smooth'});">Show Timeseries</button></div>`)[0];
-                popup_c617d84026163391ed250a1a596409a6.setContent(html_895d20d7ac7fb7d20a1b7b545e7d65f7);
+                var html_de49d03db3df5cf4f10c2ac60d450edf = $(`<div id="html_de49d03db3df5cf4f10c2ac60d450edf" style="width: 100.0%; height: 100.0%;"><b>Mullaloo</b><br>Lat -31.7820<br>Lon 115.7210<br><button onclick="showPlot('mullaloo');document.getElementById('plot-container').scrollIntoView({behavior:'smooth'});">Show Timeseries</button></div>`)[0];
+                popup_c0f9ad0276e1ec0e00eaeb872a1524a4.setContent(html_de49d03db3df5cf4f10c2ac60d450edf);
             
         
 
-        marker_8c36e17b1b4604d5b83cef1bf9bde160.bindPopup(popup_c617d84026163391ed250a1a596409a6)
+        marker_c9317127bc546ffe34cbbc0c6269fcd1.bindPopup(popup_c0f9ad0276e1ec0e00eaeb872a1524a4)
         ;
 
         
     
     
-            marker_8c36e17b1b4604d5b83cef1bf9bde160.bindTooltip(
+            marker_c9317127bc546ffe34cbbc0c6269fcd1.bindTooltip(
                 `<div>
                      Mullaloo - Click to view data
                  </div>`,
@@ -267,7 +267,7 @@
             );
         
     
-                marker_8c36e17b1b4604d5b83cef1bf9bde160.setIcon(icon_91cf14644e68d3163d2547d44a62ff0f);
+                marker_c9317127bc546ffe34cbbc0c6269fcd1.setIcon(icon_94ed49c0d9ff3b73835e3f2ae1bae632);
             
 </script>
 </html>
